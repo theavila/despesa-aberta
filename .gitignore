@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+
+# Dados (amostras ficam em tests/fixtures)
+data/*
+!data/.gitkeep
+
+# Segredos
+.env
+
+# Site
+site/node_modules/
+site/dist/
+site/.astro/

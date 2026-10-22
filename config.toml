@@ -1,0 +1,14 @@
+# Configuração do Serenata. Os mesmos limites valem para todos os parlamentares.
+
+[coleta]
+user_agent = "SerenataBot/0.1 (+https://github.com/theavila/serenata)"
+timeout_segundos = 60
+tentativas = 5
+backoff_base_segundos = 2.0
+
+[coleta.urls]
+camara_cotas = "https://www.camara.leg.br/cotas/Ano-{ano}.csv.zip"
+camara_deputados = "https://dadosabertos.camara.leg.br/api/v2/deputados"
+senado_ceaps = "https://www.senado.leg.br/transparencia/LAI/verba/despesa_ceaps_{ano}.csv"
+senado_lista_atual = "https://legis.senado.leg.br/dadosabertos/senador/lista/atual"
+senado_lista_legislatura = "https://legis.senado.leg.br/dadosabertos/senador/lista/legislatura/{legislatura}"

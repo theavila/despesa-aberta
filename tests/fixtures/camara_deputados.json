@@ -1,0 +1,219 @@
+{
+ "dados": [
+  {
+   "id": 73579,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73579",
+   "nome": "Alberto Fraga",
+   "siglaPartido": "PL",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+   "siglaUf": "DF",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73579.jpg",
+   "email": "dep.albertofraga@camara.leg.br"
+  },
+  {
+   "id": 73433,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73433",
+   "nome": "Arlindo Chinaglia",
+   "siglaPartido": "PT",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+   "siglaUf": "SP",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73433.jpg",
+   "email": "dep.arlindochinaglia@camara.leg.br"
+  },
+  {
+   "id": 69871,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/69871",
+   "nome": "Bacelar",
+   "siglaPartido": "PV",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36851",
+   "siglaUf": "BA",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/69871.jpg",
+   "email": "dep.bacelar@camara.leg.br"
+  },
+  {
+   "id": 73701,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73701",
+   "nome": "Benedita da Silva",
+   "siglaPartido": "PT",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+   "siglaUf": "RJ",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73701.jpg",
+   "email": "dep.beneditadasilva@camara.leg.br"
+  },
+  {
+   "id": 73441,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73441",
+   "nome": "Celso Russomanno",
+   "siglaPartido": "REPUBLICANOS",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908",
+   "siglaUf": "SP",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73441.jpg",
+   "email": "dep.celsorussomanno@camara.leg.br"
+  },
+  {
+   "id": 62881,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/62881",
+   "nome": "Danilo Forte",
+   "siglaPartido": "PP",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+   "siglaUf": "CE",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/62881.jpg",
+   "email": "dep.daniloforte@camara.leg.br"
+  },
+  {
+   "id": 73768,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73768",
+   "nome": "Dilceu Sperafico",
+   "siglaPartido": "PP",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+   "siglaUf": "PR",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73768.jpg",
+   "email": "dep.dilceusperafico@camara.leg.br"
+  },
+  {
+   "id": 66828,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/66828",
+   "nome": "Fausto Pinato",
+   "siglaPartido": "UNIÃO",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009",
+   "siglaUf": "SP",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/66828.jpg",
+   "email": "dep.faustopinato@camara.leg.br"
+  },
+  {
+   "id": 72442,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/72442",
+   "nome": "Felipe Carreras",
+   "siglaPartido": "PSB",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36832",
+   "siglaUf": "PE",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/72442.jpg",
+   "email": "dep.felipecarreras@camara.leg.br"
+  },
+  {
+   "id": 66385,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/66385",
+   "nome": "Julio Arcoverde",
+   "siglaPartido": "PP",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+   "siglaUf": "PI",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/66385.jpg",
+   "email": "dep.julioarcoverde@camara.leg.br"
+  },
+  {
+   "id": 73778,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73778",
+   "nome": "Luiz Carlos Hauly",
+   "siglaPartido": "PODE",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36896",
+   "siglaUf": "PR",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73778.jpg",
+   "email": "dep.luizcarloshauly@camara.leg.br"
+  },
+  {
+   "id": 74041,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74041",
+   "nome": "Luiz Couto",
+   "siglaPartido": "PT",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+   "siglaUf": "PB",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/74041.jpg",
+   "email": "dep.luizcouto@camara.leg.br"
+  },
+  {
+   "id": 73692,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73692",
+   "nome": "Osmar Terra",
+   "siglaPartido": "PL",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+   "siglaUf": "RS",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73692.jpg",
+   "email": "dep.osmarterra@camara.leg.br"
+  },
+  {
+   "id": 73486,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73486",
+   "nome": "Pompeo de Mattos",
+   "siglaPartido": "PDT",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786",
+   "siglaUf": "RS",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73486.jpg",
+   "email": "dep.pompeodemattos@camara.leg.br"
+  },
+  {
+   "id": 73801,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73801",
+   "nome": "Renildo Calheiros",
+   "siglaPartido": "PCdoB",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36779",
+   "siglaUf": "PE",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73801.jpg",
+   "email": "dep.renildocalheiros@camara.leg.br"
+  },
+  {
+   "id": 73788,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73788",
+   "nome": "Ricardo Barros",
+   "siglaPartido": "PP",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+   "siglaUf": "PR",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73788.jpg",
+   "email": "dep.ricardobarros@camara.leg.br"
+  },
+  {
+   "id": 73604,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73604",
+   "nome": "Rui Falcão",
+   "siglaPartido": "PT",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+   "siglaUf": "SP",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73604.jpg",
+   "email": "dep.ruifalcao@camara.leg.br"
+  },
+  {
+   "id": 73808,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73808",
+   "nome": "Sérgio Brito",
+   "siglaPartido": "PSD",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834",
+   "siglaUf": "BA",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/73808.jpg",
+   "email": "dep.sergiobrito@camara.leg.br"
+  },
+  {
+   "id": 74043,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74043",
+   "nome": "Wellington Roberto",
+   "siglaPartido": "PSD",
+   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834",
+   "siglaUf": "PB",
+   "idLegislatura": 57,
+   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/74043.jpg",
+   "email": "dep.wellingtonroberto@camara.leg.br"
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "x"
+  }
+ ]
+}

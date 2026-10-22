@@ -1,0 +1,241 @@
+{
+ "ListaParlamentarLegislatura": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/ListaParlamentarLegislaturav4.xsd",
+  "Metadados": {
+   "Versao": "22/10/2026 16:25:09",
+   "VersaoServico": "4",
+   "DataVersaoServico": "2021-09-09",
+   "DescricaoDataSet": "Retorna a lista de Senadores de uma Legislatura."
+  },
+  "Parlamentares": {
+   "Parlamentar": [
+    {
+     "IdentificacaoParlamentar": {
+      "CodigoParlamentar": "5672",
+      "CodigoPublicoNaLegAtual": "800",
+      "NomeParlamentar": "Alan Rick",
+      "NomeCompletoParlamentar": "Alan Rick Miranda",
+      "SexoParlamentar": "Masculino",
+      "FormaTratamento": "Senador ",
+      "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg",
+      "UrlPaginaParlamentar": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5672",
+      "EmailParlamentar": "sen.alanrick@senado.leg.br",
+      "SiglaPartidoParlamentar": "REPUBLICANOS",
+      "UfParlamentar": "AC"
+     },
+     "Mandatos": {
+      "Mandato": [
+       {
+        "CodigoMandato": "596",
+        "UfParlamentar": "AC",
+        "PrimeiraLegislaturaDoMandato": {
+         "NumeroLegislatura": "57",
+         "DataInicio": "2023-02-01",
+         "DataFim": "2027-01-31"
+        },
+        "SegundaLegislaturaDoMandato": {
+         "NumeroLegislatura": "58",
+         "DataInicio": "2027-02-01",
+         "DataFim": "2031-01-31"
+        },
+        "DescricaoParticipacao": "Titular",
+        "Suplentes": {
+         "Suplente": [
+          {
+           "DescricaoParticipacao": "1º Suplente",
+           "CodigoParlamentar": "6343",
+           "NomeParlamentar": "Gemil Junior"
+          },
+          {
+           "DescricaoParticipacao": "2º Suplente",
+           "CodigoParlamentar": "6344",
+           "NomeParlamentar": "Coronel Casagrande"
+          }
+         ]
+        },
+        "Exercicios": {
+         "Exercicio": [
+          {
+           "CodigoExercicio": "3028",
+           "DataInicio": "2023-02-01"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "IdentificacaoParlamentar": {
+      "CodigoParlamentar": "5967",
+      "CodigoPublicoNaLegAtual": "832",
+      "NomeParlamentar": "Angelo Coronel",
+      "NomeCompletoParlamentar": "Angelo Mario Coronel de Azevedo Martins",
+      "SexoParlamentar": "Masculino",
+      "FormaTratamento": "Senador ",
+      "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5967.jpg",
+      "UrlPaginaParlamentar": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5967",
+      "EmailParlamentar": "sen.angelocoronel@senado.leg.br",
+      "SiglaPartidoParlamentar": "REPUBLICANOS",
+      "UfParlamentar": "BA"
+     },
+     "Mandatos": {
+      "Mandato": [
+       {
+        "CodigoMandato": "554",
+        "UfParlamentar": "BA",
+        "PrimeiraLegislaturaDoMandato": {
+         "NumeroLegislatura": "56",
+         "DataInicio": "2019-02-01",
+         "DataFim": "2023-01-31"
+        },
+        "SegundaLegislaturaDoMandato": {
+         "NumeroLegislatura": "57",
+         "DataInicio": "2023-02-01",
+         "DataFim": "2027-01-31"
+        },
+        "DescricaoParticipacao": "Titular",
+        "Suplentes": {
+         "Suplente": [
+          {
+           "DescricaoParticipacao": "1º Suplente",
+           "CodigoParlamentar": "5837",
+           "NomeParlamentar": "Davidson Magalhães"
+          },
+          {
+           "DescricaoParticipacao": "2º Suplente",
+           "CodigoParlamentar": "5056",
+           "NomeParlamentar": "Silvia Nascimento Cardoso dos Santos Cerqueira"
+          }
+         ]
+        },
+        "Exercicios": {
+         "Exercicio": [
+          {
+           "CodigoExercicio": "2889",
+           "DataInicio": "2019-02-01"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "IdentificacaoParlamentar": {
+      "CodigoParlamentar": "6335",
+      "CodigoPublicoNaLegAtual": "866",
+      "NomeParlamentar": "Damares Alves",
+      "NomeCompletoParlamentar": "Damares Regina Alves",
+      "SexoParlamentar": "Feminino",
+      "FormaTratamento": "Senadora ",
+      "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6335.jpg",
+      "UrlPaginaParlamentar": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/6335",
+      "EmailParlamentar": "sen.damaresalves@senado.leg.br",
+      "SiglaPartidoParlamentar": "REPUBLICANOS",
+      "UfParlamentar": "DF"
+     },
+     "Mandatos": {
+      "Mandato": [
+       {
+        "CodigoMandato": "599",
+        "UfParlamentar": "DF",
+        "PrimeiraLegislaturaDoMandato": {
+         "NumeroLegislatura": "57",
+         "DataInicio": "2023-02-01",
+         "DataFim": "2027-01-31"
+        },
+        "SegundaLegislaturaDoMandato": {
+         "NumeroLegislatura": "58",
+         "DataInicio": "2027-02-01",
+         "DataFim": "2031-01-31"
+        },
+        "DescricaoParticipacao": "Titular",
+        "Suplentes": {
+         "Suplente": [
+          {
+           "DescricaoParticipacao": "1º Suplente",
+           "CodigoParlamentar": "6352",
+           "NomeParlamentar": "Manoel Arruda"
+          },
+          {
+           "DescricaoParticipacao": "2º Suplente",
+           "CodigoParlamentar": "6353",
+           "NomeParlamentar": "Pastor Egmar"
+          }
+         ]
+        },
+        "Exercicios": {
+         "Exercicio": [
+          {
+           "CodigoExercicio": "3018",
+           "DataInicio": "2023-02-01"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "IdentificacaoParlamentar": {
+      "CodigoParlamentar": "5976",
+      "CodigoPublicoNaLegAtual": "826",
+      "NomeParlamentar": "Eduardo Girão",
+      "NomeCompletoParlamentar": "Luis Eduardo Grangeiro Girão",
+      "SexoParlamentar": "Masculino",
+      "FormaTratamento": "Senador ",
+      "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5976.jpg",
+      "UrlPaginaParlamentar": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5976",
+      "EmailParlamentar": "sen.eduardogirao@senado.leg.br",
+      "SiglaPartidoParlamentar": "NOVO"
+     },
+     "Mandatos": {
+      "Mandato": [
+       {
+        "CodigoMandato": "557",
+        "UfParlamentar": "CE",
+        "PrimeiraLegislaturaDoMandato": {
+         "NumeroLegislatura": "56",
+         "DataInicio": "2019-02-01",
+         "DataFim": "2023-01-31"
+        },
+        "SegundaLegislaturaDoMandato": {
+         "NumeroLegislatura": "57",
+         "DataInicio": "2023-02-01",
+         "DataFim": "2027-01-31"
+        },
+        "DescricaoParticipacao": "Titular",
+        "Suplentes": {
+         "Suplente": [
+          {
+           "DescricaoParticipacao": "1º Suplente",
+           "CodigoParlamentar": "5974",
+           "NomeParlamentar": "Sargento Reginauro"
+          },
+          {
+           "DescricaoParticipacao": "2º Suplente",
+           "CodigoParlamentar": "5975",
+           "NomeParlamentar": "Dr. Guimarães"
+          }
+         ]
+        },
+        "Exercicios": {
+         "Exercicio": [
+          {
+           "CodigoExercicio": "2920",
+           "DataInicio": "2019-02-01",
+           "DataFim": "2026-08-09",
+           "SiglaCausaAfastamento": "LCS",
+           "DescricaoCausaAfastamento": "Licença com convocação de suplente (sup 120 dias)"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
