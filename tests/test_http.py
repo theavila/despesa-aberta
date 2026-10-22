@@ -44,3 +44,12 @@ def test_cliente_identifica_o_projeto():
     cliente = criar_cliente({"user_agent": "SerenataBot/teste", "timeout_segundos": 7})
     assert cliente.headers["User-Agent"] == "SerenataBot/teste"
     assert cliente.timeout.read == 7
+
+
+def test_anos_padrao_da_coleta():
+    from datetime import date
+
+    from pipeline.cli import anos_padrao
+
+    assert anos_padrao(date(2026, 3, 31)) == [2025, 2026]
+    assert anos_padrao(date(2026, 4, 1)) == [2026]

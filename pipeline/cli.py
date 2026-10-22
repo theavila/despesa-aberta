@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 
 from pipeline import config as cfg
-from pipeline import db, publicacao
+from pipeline import db, estado, publicacao
 from pipeline import respostas as resp
 from pipeline.analise import analisar
 from pipeline.coletores import camara, cnpj, senado
@@ -18,6 +18,11 @@ from pipeline.normalizacao.normalizar import normalizar
 log = logging.getLogger("serenata")
 
 
+def anos_padrao(hoje: date) -> list[int]:
+    """Despesas podem ser apresentadas até 90 dias depois: até março, o ano anterior ainda muda."""
+    return [hoje.year - 1, hoje.year] if hoje.month <= 3 else [hoje.year]
+
+
 def cmd_coletar(args: argparse.Namespace) -> None:
     conf = cfg.carregar_config()
     coleta = conf["coleta"]
@@ -26,7 +31,7 @@ def cmd_coletar(args: argparse.Namespace) -> None:
     casas = ["camara", "senado"] if args.casa == "todas" else [args.casa]
     con = db.conectar(cfg.caminho_banco())
     with criar_cliente(coleta) as cliente:
-        for ano in args.ano:
+        for ano in args.ano or anos_padrao(date.today()):
             if "camara" in casas:
                 deputados = camara.buscar_deputados(
                     cliente, urls["camara_deputados"], senado.legislaturas_do_ano(ano), **retry
@@ -119,13 +124,26 @@ def cmd_resposta(args: argparse.Namespace) -> None:
     print(f"Resposta registrada em {resp.registrar(cfg.RAIZ / 'respostas', resposta)}")
 
 
+def cmd_estado(args: argparse.Namespace) -> None:
+    con = db.conectar(cfg.caminho_banco())
+    operacao = estado.salvar if args.operacao == "salvar" else estado.restaurar
+    contagem = operacao(con, Path(args.pasta))
+    con.close()
+    log.info("Estado (%s): %s", args.operacao, contagem)
+
+
 def criar_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="serenata", description=__doc__)
     parser.add_argument("-v", "--verbose", action="store_true", help="log detalhado")
     sub = parser.add_subparsers(dest="comando", required=True)
 
     p = sub.add_parser("coletar", help="baixa despesas da Câmara e do Senado")
-    p.add_argument("--ano", type=int, nargs="+", default=[date.today().year])
+    p.add_argument(
+        "--ano",
+        type=int,
+        nargs="+",
+        help="anos a coletar (padrão: o ano atual e, até março, também o anterior)",
+    )
     p.add_argument("--casa", choices=["camara", "senado", "todas"], default="todas")
     p.set_defaults(func=cmd_coletar)
 
@@ -156,6 +174,13 @@ def criar_parser() -> argparse.ArgumentParser:
     p.add_argument("--documento", help="link para documento enviado junto")
     p.add_argument("--recebida-em", type=date.fromisoformat, help="AAAA-MM-DD (padrão: hoje)")
     p.set_defaults(func=cmd_resposta)
+
+    p = sub.add_parser(
+        "estado", help="salva/restaura alertas, publicações e cache de CNPJ (Parquet)"
+    )
+    p.add_argument("operacao", choices=["salvar", "restaurar"])
+    p.add_argument("--pasta", default=str(cfg.RAIZ / "estado"))
+    p.set_defaults(func=cmd_estado)
 
     p = sub.add_parser("normalizar", help="refaz a tabela de despesas a partir dos dados brutos")
     p.set_defaults(func=cmd_normalizar)

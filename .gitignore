@@ -10,6 +10,9 @@ dist/
 data/*
 !data/.gitkeep
 
+# Estado persistido no branch `data` (ver .github/workflows)
+estado/
+
 # Segredos
 .env
 

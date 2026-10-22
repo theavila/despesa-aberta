@@ -19,7 +19,7 @@ body:
     id: autor
     attributes:
       label: Quem responde
-      description: Ex.: "Gabinete do Dep. Fulano", "Fornecedor X Ltda."
+      description: 'Ex.: "Gabinete do Dep. Fulano" ou "Fornecedor X Ltda."'
     validations:
       required: true
   - type: textarea

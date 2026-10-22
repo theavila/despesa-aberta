@@ -1,0 +1,64 @@
+name: Publicar alertas
+
+# A cada 3 horas em horário comercial (09h, 12h, 15h e 18h de Brasília, dias úteis).
+# Só publica de verdade se a variável de repositório PUBLICAR for "1";
+# caso contrário roda em dry-run e só mostra os posts no log.
+on:
+  schedule:
+    - cron: "0 12,15,18,21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Forçar dry-run"
+        type: boolean
+        default: true
+
+concurrency:
+  group: serenata-estado
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PUBLICAR: ${{ vars.PUBLICAR || '0' }}
+      X_API_KEY: ${{ secrets.X_API_KEY }}
+      X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+      BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+      BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+      MASTODON_API_BASE_URL: ${{ vars.MASTODON_API_BASE_URL }}
+      MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - run: uv sync --frozen
+      - name: Configura o autor dos commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Restaura despesas e estado
+        run: |
+          .github/scripts/estado.sh baixar
+          uv run serenata coletar
+          uv run serenata estado restaurar
+      - name: Publica
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            uv run serenata publicar --dry-run
+          else
+            uv run serenata publicar
+          fi
+      - name: Salva o log de publicações (branch data)
+        run: |
+          uv run serenata estado salvar
+          .github/scripts/estado.sh enviar "chore(dados): log de publicações de $(date -u +'%F %H:%M')"
