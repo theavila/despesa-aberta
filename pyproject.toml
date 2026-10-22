@@ -6,11 +6,14 @@ readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 dependencies = [
+    "atproto>=0.0.73",
     "duckdb>=1.1",
     "httpx>=0.27",
+    "mastodon-py>=2.3.3",
     "polars>=2.0",
     "pyarrow>=26.0.0",
     "pydantic>=2.8",
+    "tzdata>=2026.5",
 ]
 
 [project.scripts]

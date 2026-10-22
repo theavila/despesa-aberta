@@ -12,3 +12,58 @@ camara_deputados = "https://dadosabertos.camara.leg.br/api/v2/deputados"
 senado_ceaps = "https://www.senado.leg.br/transparencia/LAI/verba/despesa_ceaps_{ano}.csv"
 senado_lista_atual = "https://legis.senado.leg.br/dadosabertos/senador/lista/atual"
 senado_lista_legislatura = "https://legis.senado.leg.br/dadosabertos/senador/lista/legislatura/{legislatura}"
+
+[cnpj]
+url = "https://brasilapi.com.br/api/cnpj/v1/{cnpj}"
+intervalo_segundos = 1.0          # limite de taxa: no máximo 1 consulta por segundo
+max_consultas_por_execucao = 300  # prioridade: CNPJs com maior valor total pago
+validade_dias = 90                # depois disso o cadastro é consultado de novo
+
+# Regras de atipicidade. score = 100 × peso × intensidade (0 a 1).
+# Nomes de categoria são comparados sem acento e sem diferenciar maiúsculas.
+
+[regras.R01_refeicao_alta]
+peso = 0.6
+limite = 250.0
+categorias = ["Fornecimento de alimentação do parlamentar"]
+
+[regras.R02_duplicidade]
+peso = 1.0
+valor_minimo = 100.0
+# Várias diárias no mesmo hotel e na mesma noite (ex.: quartos da equipe) são comuns.
+categorias_excluidas = ["Hospedagem, exceto do parlamentar no Distrito Federal"]
+
+[regras.R03_outlier_categoria]
+peso = 0.8
+percentil = 0.99
+amostra_minima = 100
+
+[regras.R04_cnpj_situacao]
+peso = 1.0
+
+[regras.R05_fim_de_semana]
+peso = 0.4
+valor_minimo = 100.0
+categorias = [
+    "Manutenção de escritório de apoio à atividade parlamentar",
+    "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
+    "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
+    "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
+    "Consultorias, pesquisas e trabalhos técnicos",
+    "Divulgação da atividade parlamentar",
+    "Assinatura de publicações",
+    "Serviços postais",
+]
+
+[site]
+nome = "Serenata"
+url = "https://theavila.github.io/serenata"
+
+[publicacao]
+fuso = "America/Sao_Paulo"
+por_execucao = 2                  # posts por rede em cada disparo do workflow
+
+[publicacao.limite_diario]        # posts por rede por dia
+x = 4
+bluesky = 8
+mastodon = 8

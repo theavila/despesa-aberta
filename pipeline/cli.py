@@ -6,8 +6,9 @@ import sys
 from datetime import date
 
 from pipeline import config as cfg
-from pipeline import db
-from pipeline.coletores import camara, senado
+from pipeline import db, publicacao
+from pipeline.analise import analisar
+from pipeline.coletores import camara, cnpj, senado
 from pipeline.http import criar_cliente
 from pipeline.normalizacao.normalizar import normalizar
 
@@ -53,6 +54,41 @@ def cmd_normalizar(args: argparse.Namespace) -> None:
     con.close()
 
 
+def cmd_analisar(args: argparse.Namespace) -> None:
+    conf = cfg.carregar_config()
+    con = db.conectar(cfg.caminho_banco())
+    if not args.sem_cnpj:
+        coleta = conf["coleta"]
+        retry = {
+            "tentativas": coleta["tentativas"],
+            "backoff_base": coleta["backoff_base_segundos"],
+        }
+        with criar_cliente(coleta) as cliente:
+            consultados = cnpj.atualizar_cache(con, cliente, conf["cnpj"], **retry)
+        log.info("CNPJs consultados na BrasilAPI: %d", consultados)
+    resumo = analisar(con, conf["regras"])
+    log.info("Alertas: %(novos)d novos, %(ativos)d ativos, %(inativos)d inativos", resumo)
+    con.close()
+
+
+def cmd_publicar(args: argparse.Namespace) -> None:
+    conf = cfg.carregar_config()
+    dry_run = args.dry_run or not publicacao.publicacao_ativada()
+    publicadores = [
+        p
+        for p in publicacao.criar_publicadores(conf["site"]["nome"])
+        if args.rede in (None, p.rede)
+    ]
+    con = db.conectar(cfg.caminho_banco())
+    resultados = publicacao.publicar(con, publicadores, conf, dry_run=dry_run, limite=args.limite)
+    con.close()
+    modo = "DRY-RUN (nada foi enviado)" if dry_run else "PUBLICAÇÃO REAL"
+    print(f"== {modo}: {len(resultados)} post(s) ==\n")
+    for r in resultados:
+        situacao = "ok" if r.sucesso else f"ERRO: {r.erro}"
+        print(f"[{r.rede}] {r.codigo} ({situacao}) {r.url or ''}\n{r.texto}\n")
+
+
 def criar_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="serenata", description=__doc__)
     parser.add_argument("-v", "--verbose", action="store_true", help="log detalhado")
@@ -62,6 +98,20 @@ def criar_parser() -> argparse.ArgumentParser:
     p.add_argument("--ano", type=int, nargs="+", default=[date.today().year])
     p.add_argument("--casa", choices=["camara", "senado", "todas"], default="todas")
     p.set_defaults(func=cmd_coletar)
+
+    p = sub.add_parser("analisar", help="aplica as regras e atualiza a tabela de alertas")
+    p.add_argument(
+        "--sem-cnpj", action="store_true", help="não consulta a BrasilAPI (usa só o cache)"
+    )
+    p.set_defaults(func=cmd_analisar)
+
+    p = sub.add_parser("publicar", help="publica alertas nas redes (padrão: dry-run)")
+    p.add_argument(
+        "--dry-run", action="store_true", help="só mostra os posts (já é o padrão sem PUBLICAR=1)"
+    )
+    p.add_argument("--rede", choices=["x", "bluesky", "mastodon"], help="só esta rede")
+    p.add_argument("--limite", type=int, help="máximo de posts por rede nesta execução")
+    p.set_defaults(func=cmd_publicar)
 
     p = sub.add_parser("normalizar", help="refaz a tabela de despesas a partir dos dados brutos")
     p.set_defaults(func=cmd_normalizar)

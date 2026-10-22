@@ -26,6 +26,36 @@ CREATE TABLE IF NOT EXISTS parlamentares (
     atualizado_em TIMESTAMP NOT NULL,
     PRIMARY KEY (casa, id)
 );
+CREATE TABLE IF NOT EXISTS cnpj_cache (
+    cnpj VARCHAR PRIMARY KEY,
+    situacao VARCHAR,
+    data_situacao DATE,
+    data_inicio DATE,
+    razao_social VARCHAR,
+    erro VARCHAR,
+    consultado_em TIMESTAMP NOT NULL
+);
+CREATE TABLE IF NOT EXISTS alertas (
+    codigo VARCHAR PRIMARY KEY,
+    regra_id VARCHAR NOT NULL,
+    despesa_id VARCHAR NOT NULL,
+    score INTEGER NOT NULL,
+    detalhe VARCHAR NOT NULL,
+    ativo BOOLEAN NOT NULL,
+    criado_em TIMESTAMP NOT NULL,
+    atualizado_em TIMESTAMP NOT NULL,
+    UNIQUE (regra_id, despesa_id)
+);
+CREATE TABLE IF NOT EXISTS publicacoes (
+    rede VARCHAR NOT NULL,
+    codigo VARCHAR NOT NULL,
+    publicado_em TIMESTAMP NOT NULL,
+    sucesso BOOLEAN NOT NULL,
+    id_externo VARCHAR,
+    url VARCHAR,
+    texto VARCHAR NOT NULL,
+    erro VARCHAR
+);
 """
 
 
