@@ -1,4 +1,4 @@
-# Serenata
+# Despesa Aberta
 
 Transparência automatizada dos gastos de deputados e senadores federais.
 
@@ -30,16 +30,16 @@ Câmara (CEAP) ─┐                          ┌─► site (Astro, GitHub Pag
                ├─► coletar ─► normalizar ─► analisar ─► exportar
 Senado (CEAPS)─┘      │                        │
                       ▼                        ▼
-                  DuckDB (data/serenata.duckdb) ─► publicar ─► X, Bluesky, Mastodon
+                  DuckDB (data/despesa-aberta.duckdb) ─► publicar ─► X, Bluesky, Mastodon
 ```
 
 | Etapa | Comando | O que faz |
 |---|---|---|
-| Coleta | `serenata coletar` | Baixa os arquivos do ano, com retry e um hash por linha (idempotente). Liga deputados pelo `ideCadastro` e senadores pelo nome normalizado. |
+| Coleta | `despesa-aberta coletar` | Baixa os arquivos do ano, com retry e um hash por linha (idempotente). Liga deputados pelo `ideCadastro` e senadores pelo nome normalizado. |
 | Normalização | (ao fim da coleta) | Converte tudo para o esquema único `Despesa`. |
-| Análise | `serenata analisar` | Aplica as regras R01 a R05 e mantém a tabela `alertas` com códigos estáveis (`A-2026-00123`). |
-| Exportação | `serenata exportar` | Gera `site/src/data/*.json`. |
-| Publicação | `serenata publicar` | Posta os alertas de maior pontuação, respeitando um limite diário por rede. **Dry-run por padrão.** |
+| Análise | `despesa-aberta analisar` | Aplica as regras R01 a R05 e mantém a tabela `alertas` com códigos estáveis (`A-2026-00123`). |
+| Exportação | `despesa-aberta exportar` | Gera `site/src/data/*.json`. |
+| Publicação | `despesa-aberta publicar` | Posta os alertas de maior pontuação, respeitando um limite diário por rede. **Dry-run por padrão.** |
 
 A documentação técnica completa (arquitetura, modelo de dados, ciclo de vida dos alertas,
 operação) está em [docs/sistema.md](docs/sistema.md). As regras estão resumidas em
@@ -54,27 +54,27 @@ Requisitos: [uv](https://docs.astral.sh/uv/) (o Python 3.12 vem junto) e Node.js
 uv sync
 
 # v1: coleta 2026, analisa e exporta para o site
-uv run serenata coletar --ano 2026
-uv run serenata analisar
-uv run serenata exportar
+uv run despesa-aberta coletar --ano 2026
+uv run despesa-aberta analisar
+uv run despesa-aberta exportar
 
 # Mostra os posts que seriam enviados (nada é publicado)
-uv run serenata publicar --dry-run
+uv run despesa-aberta publicar --dry-run
 
 # Site
 cd site
 npm ci
 npm run build      # gera site/dist com o índice de busca (Pagefind)
-npm run preview    # http://localhost:4321/serenata/
+npm run preview    # http://localhost:4321/despesa-aberta/
 ```
 
 Outros comandos úteis:
 
 ```bash
-uv run serenata analisar --sem-cnpj        # não consulta a BrasilAPI (usa só o cache)
-uv run serenata publicar --rede bluesky --limite 1
-uv run serenata resposta --alerta A-2026-00123 --autor "Gabinete do parlamentar" --arquivo resposta.txt
-uv run serenata estado salvar|restaurar    # alertas, publicações e cache de CNPJ em Parquet
+uv run despesa-aberta analisar --sem-cnpj        # não consulta a BrasilAPI (usa só o cache)
+uv run despesa-aberta publicar --rede bluesky --limite 1
+uv run despesa-aberta resposta --alerta A-2026-00123 --autor "Gabinete do parlamentar" --arquivo resposta.txt
+uv run despesa-aberta estado salvar|restaurar    # alertas, publicações e cache de CNPJ em Parquet
 ```
 
 Testes e lint:
@@ -124,7 +124,7 @@ serve de trilha de auditoria do que foi publicado.
 ## Direito de resposta
 
 As justificativas chegam pelo formulário de issue "Direito de resposta" e são registradas
-com `serenata resposta`. O comando grava um arquivo em `respostas/<código>-<n>.toml`, e
+com `despesa-aberta resposta`. O comando grava um arquivo em `respostas/<código>-<n>.toml`, e
 ele entra no site na próxima execução do pipeline.
 
 ## Como contribuir

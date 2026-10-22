@@ -1,7 +1,7 @@
 [
  {
   "chave": "00000000000010",
-  "nome": "CANVA EQUIPES",
+  "nome": "ADOBE SYSTEMS SOFTWARE IRELAND LTD",
   "documento": "00.000.000/0000-10",
   "despesas": 403,
   "parlamentares": 14,
@@ -124,7 +124,7 @@
  },
  {
   "chave": "00100765000101",
-  "nome": "LELLO LOCACAO E VENDAS LTDA.",
+  "nome": "LELLO LOCAÇÃO E VENDAS LTDA",
   "documento": "00.100.765/0001-01",
   "despesas": 14,
   "parlamentares": 1,
@@ -171,7 +171,7 @@
  },
  {
   "chave": "00306597003112",
-  "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+  "nome": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0031-12",
   "despesas": 654,
   "parlamentares": 129,
@@ -194,7 +194,7 @@
  },
  {
   "chave": "00306597006995",
-  "nome": "PENISULA - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+  "nome": "069 - PENISULA - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0069-95",
   "despesas": 111,
   "parlamentares": 34,
@@ -253,7 +253,7 @@
  },
  {
   "chave": "00469171000326",
-  "nome": "HOTEL PHENICIA LTDA",
+  "nome": "00469171000326HOTEL PHENICIA LTDA",
   "documento": "00.469.171/0003-26",
   "despesas": 8,
   "parlamentares": 2,
@@ -276,7 +276,7 @@
  },
  {
   "chave": "00497373000110",
-  "nome": "SKY SERVICOS DE BANDA LARGA LTDA.",
+  "nome": "Sky Serviços de Banda Larga Ltda",
   "documento": "00.497.373/0001-10",
   "despesas": 9,
   "parlamentares": 1,
@@ -328,7 +328,7 @@
  },
  {
   "chave": "00586176000177",
-  "nome": "LOCARFLEX LOCAÇÕES DE VEÍCULOS EIRELI ME",
+  "nome": "LOCARFLEX LOCACOES DE VEICULOS LTDA",
   "documento": "00.586.176/0001-77",
   "despesas": 18,
   "parlamentares": 2,
@@ -345,7 +345,7 @@
  },
  {
   "chave": "00595058000125",
-  "nome": "posto 212 sul ltda",
+  "nome": "POSTO 212 SUL LTDA",
   "documento": "00.595.058/0001-25",
   "despesas": 14,
   "parlamentares": 11,
@@ -356,7 +356,7 @@
  },
  {
   "chave": "00666397000155",
-  "nome": "OPÇÃO IMÓVEIS.",
+  "nome": "ALMEIDA MIYASAKI & CIA LTDA",
   "documento": "00.666.397/0001-55",
   "despesas": 8,
   "parlamentares": 1,
@@ -428,7 +428,7 @@
  },
  {
   "chave": "00835552000110",
-  "nome": "Daniel Briano Patissier e Chocolatier",
+  "nome": "DANIEL BRIAND PATISSIER E CHOCOLATIER",
   "documento": "00.835.552/0001-10",
   "despesas": 22,
   "parlamentares": 2,
@@ -680,7 +680,7 @@
  },
  {
   "chave": "01511724000162",
-  "nome": "Hoteis Martins Ltda",
+  "nome": "HOTEIS MARTINS LTDA",
   "documento": "01.511.724/0001-62",
   "despesas": 20,
   "parlamentares": 4,
@@ -692,7 +692,7 @@
  },
  {
   "chave": "01512201000130",
-  "nome": "HOTEL BAHAMAS LTDA",
+  "nome": "HOTEL Bahamas Ltda-Epp",
   "documento": "01.512.201/0001-30",
   "despesas": 12,
   "parlamentares": 4,
@@ -714,7 +714,7 @@
  },
  {
   "chave": "01543032000104",
-  "nome": "EQUATORIAL GOIÁS DISTRIBUIDORA",
+  "nome": "EQUATORIAL GOIAS DISTRIBUIDORA DE ENERGIA S/A",
   "documento": "01.543.032/0001-04",
   "despesas": 76,
   "parlamentares": 10,
@@ -733,7 +733,7 @@
  },
  {
   "chave": "01552582000181",
-  "nome": "LAKES RESTAURANTE",
+  "nome": "GM RESTAURANTE LTDA",
   "documento": "01.552.582/0001-81",
   "despesas": 25,
   "parlamentares": 5,
@@ -760,7 +760,7 @@
  },
  {
   "chave": "01616929000102",
-  "nome": "SANEAMENTO DE GOIAS S/A",
+  "nome": "SANEAGO",
   "documento": "01.616.929/0001-02",
   "despesas": 77,
   "parlamentares": 8,
@@ -825,7 +825,7 @@
  },
  {
   "chave": "01634845000100",
-  "nome": "SERVIÇO DE ÁGUA E ESGOTO DE RIO BRANCO - SAERB",
+  "nome": "SERVICO DE AGUA E ESGOTO DE RIO BRANCO",
   "documento": "01.634.845/0001-00",
   "despesas": 7,
   "parlamentares": 1,
@@ -904,7 +904,7 @@
  },
  {
   "chave": "01834611000106",
-  "nome": "CONDOMINIO DO EDIFICIO EMPRESARIAL ILHA DO LEITE",
+  "nome": "COND. EMPRES. ILHA DO LEITE",
   "documento": "01.834.611/0001-06",
   "despesas": 40,
   "parlamentares": 1,
@@ -1056,7 +1056,7 @@
  },
  {
   "chave": "02012862000160",
-  "nome": "TAM LINHAS AEREAS S/A.",
+  "nome": "Latam Linhas Aéreas S.A",
   "documento": "02.012.862/0001-60",
   "despesas": 181,
   "parlamentares": 27,
@@ -1073,7 +1073,7 @@
  },
  {
   "chave": "02016440000162",
-  "nome": "RGE Sul Distribuidora de Energia S.A",
+  "nome": "RGE SUL DISTRIBUIDORA DE ENERGIA S.A.",
   "documento": "02.016.440/0001-62",
   "despesas": 30,
   "parlamentares": 3,
@@ -1163,7 +1163,7 @@
  },
  {
   "chave": "02223966011409",
-  "nome": "ATLANTICA HOTELS INTERNATIONAL BRASIL LTDA",
+  "nome": "ATLANTICA HOTELS INTERNACIONAL BRASIL LTDA",
   "documento": "02.223.966/0114-09",
   "despesas": 4,
   "parlamentares": 2,
@@ -1186,7 +1186,7 @@
  },
  {
   "chave": "02256882000186",
-  "nome": "JH Computadores Ltda",
+  "nome": "JH COMPUTADORES LTDA",
   "documento": "02.256.882/0001-86",
   "despesas": 62,
   "parlamentares": 1,
@@ -1241,7 +1241,7 @@
  },
  {
   "chave": "02341470000144",
-  "nome": "RORAIMA ENERGIA S.A",
+  "nome": "ELETROBRAS DISTRIBUIÇÃO RORAIMA",
   "documento": "02.341.470/0001-44",
   "despesas": 27,
   "parlamentares": 4,
@@ -1252,7 +1252,7 @@
  },
  {
   "chave": "02351877000152",
-  "nome": "LWSA S/A - Locaweb",
+  "nome": "LWSA S/A",
   "documento": "02.351.877/0001-52",
   "despesas": 56,
   "parlamentares": 3,
@@ -1304,7 +1304,7 @@
  },
  {
   "chave": "02418305000143",
-  "nome": "IMOBILIARIA ROCHA FILHO LTDA",
+  "nome": "ROCHA FILHO",
   "documento": "02.418.305/0001-43",
   "despesas": 13,
   "parlamentares": 2,
@@ -1318,7 +1318,7 @@
  },
  {
   "chave": "02421421000111",
-  "nome": "TIM S A",
+  "nome": "TIM S.A",
   "documento": "02.421.421/0001-11",
   "despesas": 193,
   "parlamentares": 27,
@@ -1336,7 +1336,7 @@
  },
  {
   "chave": "02421421000898",
-  "nome": "TIM S A",
+  "nome": "TIM S/A",
   "documento": "02.421.421/0008-98",
   "despesas": 10,
   "parlamentares": 2,
@@ -1422,7 +1422,7 @@
  },
  {
   "chave": "02507257000160",
-  "nome": "POSTO LUPUS ISABEL BUENO LTDA.",
+  "nome": "POSTO LUPUS ISABEL BUENO LTDA",
   "documento": "02.507.257/0001-60",
   "despesas": 16,
   "parlamentares": 3,
@@ -1455,7 +1455,7 @@
  },
  {
   "chave": "02558157000162",
-  "nome": "VIVO TELEFONICA BRASIL S.A",
+  "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0001-62",
   "despesas": 1891,
   "parlamentares": 183,
@@ -1589,7 +1589,7 @@
  },
  {
   "chave": "02558157000243",
-  "nome": "VIVO TELEFÔNICA BRASIL S/A",
+  "nome": "TELEFONIA BRASIL S.A - VIVO",
   "documento": "02.558.157/0002-43",
   "despesas": 8,
   "parlamentares": 3,
@@ -1611,7 +1611,7 @@
  },
  {
   "chave": "02558157000405",
-  "nome": "TELEFÔNICA BRASIL S.A. - VIVO",
+  "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0004-05",
   "despesas": 7,
   "parlamentares": 1,
@@ -1627,7 +1627,7 @@
  },
  {
   "chave": "02558157000839",
-  "nome": "TELEFONICA BRASIL S.A.",
+  "nome": "telefonica Brasil S A",
   "documento": "02.558.157/0008-39",
   "despesas": 23,
   "parlamentares": 4,
@@ -1653,7 +1653,7 @@
  },
  {
   "chave": "02558157001720",
-  "nome": "Telefonica Brasil S.A",
+  "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0017-20",
   "despesas": 46,
   "parlamentares": 7,
@@ -1678,7 +1678,7 @@
  },
  {
   "chave": "02558157002459",
-  "nome": "VIVO TELEFONICA BRASIL S.A.",
+  "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0024-59",
   "despesas": 48,
   "parlamentares": 7,
@@ -1710,7 +1710,7 @@
  },
  {
   "chave": "02559207000126",
-  "nome": "FMG EMPREENDIMENTOS IMOBILIARIOS LTDA",
+  "nome": "FMG EMPREENDIMENTOS E PARTICIPAÇÕES LTDA.",
   "documento": "02.559.207/0001-26",
   "despesas": 9,
   "parlamentares": 1,
@@ -1802,7 +1802,7 @@
  },
  {
   "chave": "02728914000107",
-  "nome": "GADELHA RENT A CAR UNIPESSOL LTDA",
+  "nome": "GADELHA RENT A CAR UNIPESSOAL LTDA",
   "documento": "02.728.914/0001-07",
   "despesas": 12,
   "parlamentares": 1,
@@ -1818,7 +1818,7 @@
  },
  {
   "chave": "02742111000107",
-  "nome": "J.B. RODRIGUES JUNIOR  CIA LTDA",
+  "nome": "J.B. RODRIGUES JUNIOR CIA LTDA",
   "documento": "02.742.111/0001-07",
   "despesas": 7,
   "parlamentares": 1,
@@ -1913,7 +1913,7 @@
  },
  {
   "chave": "02919415000199",
-  "nome": "TORQUE CONSTRUCOES LTDA",
+  "nome": "Ed. Torque Empresarial",
   "documento": "02.919.415/0001-99",
   "despesas": 11,
   "parlamentares": 2,
@@ -1953,7 +1953,7 @@
  },
  {
   "chave": "02952192000161",
-  "nome": "alares - Cabo Serviços de Telecomunicações Ltda",
+  "nome": "ALARES INTERNET S/A",
   "documento": "02.952.192/0001-61",
   "despesas": 32,
   "parlamentares": 3,
@@ -1975,7 +1975,7 @@
  },
  {
   "chave": "02952192000757",
-  "nome": "Alares Internet S/A",
+  "nome": "ALARES INTERNET S/A",
   "documento": "02.952.192/0007-57",
   "despesas": 8,
   "parlamentares": 1,
@@ -2000,7 +2000,7 @@
  },
  {
   "chave": "02964380000100",
-  "nome": "John Richard Locação de móveis Ltda",
+  "nome": "JOHN RICHARD LOCACAO DE MOVEIS LTDA.",
   "documento": "02.964.380/0001-00",
   "despesas": 31,
   "parlamentares": 3,
@@ -2028,7 +2028,7 @@
  },
  {
   "chave": "03017052000169",
-  "nome": "EUROBASE-SERVICOS AUXILIARES DOS TRANSPORTES AEREOS LTDA",
+  "nome": "EUROBASE",
   "documento": "03.017.052/0001-69",
   "despesas": 13,
   "parlamentares": 4,
@@ -2069,7 +2069,7 @@
  },
  {
   "chave": "03069059000477",
-  "nome": "BOURBON ADMINISTRADORA, COMERCIO E SERVICOS HOTELEIROS LTDA",
+  "nome": "BOURBON ADM COM E SERV HOTELEIROS LTDA",
   "documento": "03.069.059/0004-77",
   "despesas": 18,
   "parlamentares": 2,
@@ -2173,7 +2173,7 @@
  },
  {
   "chave": "03467321000199",
-  "nome": "Energiza Mato Grosso - Distribuidora de Energia S.A",
+  "nome": "Energisa Mato Grosso - Distribuidora de Energia S/A",
   "documento": "03.467.321/0001-99",
   "despesas": 72,
   "parlamentares": 4,
@@ -2184,7 +2184,7 @@
  },
  {
   "chave": "03501509000106",
-  "nome": "MUNICIPIO DE CAMPO GRANDE",
+  "nome": "Prefeitura Municipal de Campo Grande-MS.",
   "documento": "03.501.509/0001-06",
   "despesas": 12,
   "parlamentares": 1,
@@ -2251,7 +2251,7 @@
  },
  {
   "chave": "03623191000136",
-  "nome": "SOUZA & amp; MIRANDA LTDA",
+  "nome": "SOUZA &amp; MIRANDA LTDA",
   "documento": "03.623.191/0001-36",
   "despesas": 20,
   "parlamentares": 2,
@@ -2483,7 +2483,7 @@
  },
  {
   "chave": "04088208000165",
-  "nome": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA..",
+  "nome": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA.",
   "documento": "04.088.208/0001-65",
   "despesas": 546,
   "parlamentares": 78,
@@ -2587,7 +2587,7 @@
  },
  {
   "chave": "04089570000150",
-  "nome": "AGUAS GUARIROBA SA",
+  "nome": "AGUAS GUARIROBA / MS",
   "documento": "04.089.570/0001-50",
   "despesas": 52,
   "parlamentares": 6,
@@ -2748,7 +2748,7 @@
  },
  {
   "chave": "04368865000166",
-  "nome": "LIGGA TELECOMUNICACOES SA",
+  "nome": "LIGGA TELECOMUNICAÇÕES SA",
   "documento": "04.368.865/0001-66",
   "despesas": 11,
   "parlamentares": 2,
@@ -2761,7 +2761,7 @@
  },
  {
   "chave": "04368898000106",
-  "nome": "COPEL DISTRIBUICAO S.A.",
+  "nome": "COPEL DISTRIBUIÇÃO S.A.",
   "documento": "04.368.898/0001-06",
   "despesas": 154,
   "parlamentares": 19,
@@ -2795,7 +2795,7 @@
  },
  {
   "chave": "04420464000108",
-  "nome": "GRAÇA - ECOPOSTOS COMBUSTIVEIS E SERVIÇOS",
+  "nome": "GRACA  ECOPOSTOS COMBUSTIVEIS E SERVICOS LTDA",
   "documento": "04.420.464/0001-08",
   "despesas": 10,
   "parlamentares": 1,
@@ -2910,7 +2910,7 @@
  },
  {
   "chave": "04549702000180",
-  "nome": "CARPATI ADMINISTRACAO DE BENS LTDA",
+  "nome": "CARPATI ADMINISTRAÇÃO DE BENS LTDA",
   "documento": "04.549.702/0001-80",
   "despesas": 9,
   "parlamentares": 2,
@@ -2978,7 +2978,7 @@
  },
  {
   "chave": "04652253000109",
-  "nome": "POUSADA ENCONTRO DAS ÁGUAS EIRELI - ME",
+  "nome": "POUSADA ENCONTRO DAS AGUAS EIRELI - ME",
   "documento": "04.652.253/0001-09",
   "despesas": 6,
   "parlamentares": 2,
@@ -3053,7 +3053,7 @@
  },
  {
   "chave": "04871081000156",
-  "nome": "ALEXANDRE MORGADO - ME",
+  "nome": "LOCAÇÃOALEXANDRE MORGADO ME / MORGATEC INFORMATICA",
   "documento": "04.871.081/0001-56",
   "despesas": 9,
   "parlamentares": 1,
@@ -3064,7 +3064,7 @@
  },
  {
   "chave": "04891054000145",
-  "nome": "TROPICAL IMOBILIARIA E CIA LTDA",
+  "nome": "Tropical Corretora de Imóveis e Construções LTDA",
   "documento": "04.891.054/0001-45",
   "despesas": 8,
   "parlamentares": 1,
@@ -3135,7 +3135,7 @@
  },
  {
   "chave": "04984400000130",
-  "nome": "CTA - CLEITON TÁXI AÉREO LTDA",
+  "nome": "CTA - CLEITON TAXI AEREO LTDA",
   "documento": "04.984.400/0001-30",
   "despesas": 15,
   "parlamentares": 2,
@@ -3147,7 +3147,7 @@
  },
  {
   "chave": "04990440000194",
-  "nome": "ANCELMO PAULINO LTDA",
+  "nome": "ANCELMO E PAULINO LTDA",
   "documento": "04.990.440/0001-94",
   "despesas": 21,
   "parlamentares": 3,
@@ -3187,7 +3187,7 @@
  },
  {
   "chave": "05120923000109",
-  "nome": "AEROTUR SERVIÇO DE VIAGENS LTDA",
+  "nome": "AEROTUR SERVIÇOS",
   "documento": "05.120.923/0001-09",
   "despesas": 2162,
   "parlamentares": 44,
@@ -3447,7 +3447,7 @@
  },
  {
   "chave": "05245502000104",
-  "nome": "MHNET TELECOMUNICACOES EIRELI",
+  "nome": "MHNET TELECOMUNICACOES LTDA",
   "documento": "05.245.502/0001-04",
   "despesas": 9,
   "parlamentares": 1,
@@ -3664,7 +3664,7 @@
  },
  {
   "chave": "05825869000199",
-  "nome": "CHARAFEDDINE e CIA LTDA",
+  "nome": "AUTO POSTO VENTURINI LTDA",
   "documento": "05.825.869/0001-99",
   "despesas": 38,
   "parlamentares": 1,
@@ -3675,7 +3675,7 @@
  },
  {
   "chave": "05914650000166",
-  "nome": "ENERGISA RONDONIA - DISTRIBUIDORA DE ENERGIA S.A",
+  "nome": "Energisa Rondônia - Distribuidora de Energia SA.",
   "documento": "05.914.650/0001-66",
   "despesas": 46,
   "parlamentares": 3,
@@ -3686,7 +3686,7 @@
  },
  {
   "chave": "05939467000115",
-  "nome": "COMPANHIA DE ÁGUAS E ESGOTOS DE RORAIMA",
+  "nome": "COMPANHIA DE AGUAS E ESGOTOS DE RORAIMA CAER",
   "documento": "05.939.467/0001-15",
   "despesas": 26,
   "parlamentares": 4,
@@ -3732,7 +3732,7 @@
  },
  {
   "chave": "06003999000109",
-  "nome": "S&F SOLUCOES EM INFORMATICA LTDA",
+  "nome": "S&F SOLUÇÕES EM INFORMÁTICA LTDA",
   "documento": "06.003.999/0001-09",
   "despesas": 9,
   "parlamentares": 1,
@@ -3777,7 +3777,7 @@
  },
  {
   "chave": "06057934000146",
-  "nome": "FARHAT E PINHEIRO LTDA",
+  "nome": "FARHAT & FARHAT LTDA",
   "documento": "06.057.934/0001-46",
   "despesas": 4,
   "parlamentares": 2,
@@ -3922,7 +3922,7 @@
  },
  {
   "chave": "06272793000184",
-  "nome": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A",
+  "nome": "EQUATORIAL MARANHAO DISTRIBUIDORA DE ENERGIA S.A",
   "documento": "06.272.793/0001-84",
   "despesas": 28,
   "parlamentares": 4,
@@ -3936,7 +3936,7 @@
  },
  {
   "chave": "06274757000150",
-  "nome": "COMPANHIA DE SANEAMENTO AMBIENTAL DO MARANHAO-CAEMA",
+  "nome": "Companhia de Saneamento Ambiental do Maranhão - CAEMA",
   "documento": "06.274.757/0001-50",
   "despesas": 8,
   "parlamentares": 3,
@@ -3961,7 +3961,7 @@
  },
  {
   "chave": "06299249000126",
-  "nome": "MARCELO BAIOCCHI IMOVEIS LTDA",
+  "nome": "MBI Baiocchi Imoveis Condominios",
   "documento": "06.299.249/0001-26",
   "despesas": 7,
   "parlamentares": 1,
@@ -4020,7 +4020,7 @@
  },
  {
   "chave": "06534445000138",
-  "nome": "SJ ADMIMINSTRAÇÃO DE  IMOVEIS LTDA",
+  "nome": "SJ ADMINISTRACAO DE IMOVEIS LTDA",
   "documento": "06.534.445/0001-38",
   "despesas": 5,
   "parlamentares": 1,
@@ -4042,7 +4042,7 @@
  },
  {
   "chave": "06840748000189",
-  "nome": "EQUATORIAL PIAUÍ DISTRIBUIDORA DE ENERGIA S.A",
+  "nome": "Companhia Energética do Piauí",
   "documento": "06.840.748/0001-89",
   "despesas": 26,
   "parlamentares": 3,
@@ -4068,7 +4068,7 @@
  },
  {
   "chave": "06943488000177",
-  "nome": "UNINVEST CONSTRUCOES E INCORPORACOES LTDA",
+  "nome": "UNIVEST",
   "documento": "06.943.488/0001-77",
   "despesas": 9,
   "parlamentares": 1,
@@ -4081,7 +4081,7 @@
  },
  {
   "chave": "06981180000116",
-  "nome": "CEMIG DISTRIBUICAO S.A",
+  "nome": "CEMIG DISTRIBUIÇÃO S.A.",
   "documento": "06.981.180/0001-16",
   "despesas": 379,
   "parlamentares": 37,
@@ -4107,7 +4107,7 @@
  },
  {
   "chave": "06983735000169",
-  "nome": "PARIMA RENT A CAR",
+  "nome": "PARIMA LOCACAO BOA VISTA LTDA",
   "documento": "06.983.735/0001-69",
   "despesas": 30,
   "parlamentares": 3,
@@ -4160,7 +4160,7 @@
  },
  {
   "chave": "07047251000170",
-  "nome": "ENEL - Companhia Energética do Ceara",
+  "nome": "COMPANHIA ENERGÉTICA DO CEARÁ",
   "documento": "07.047.251/0001-70",
   "despesas": 73,
   "parlamentares": 6,
@@ -4299,7 +4299,7 @@
  },
  {
   "chave": "07295702000199",
-  "nome": "SERVI 100 COMERCIO DE COMBUSTVIES LTDA",
+  "nome": "Servi 100 comercio de combustíveis LTDA",
   "documento": "07.295.702/0001-99",
   "despesas": 16,
   "parlamentares": 2,
@@ -4331,7 +4331,7 @@
  },
  {
   "chave": "07319323000191",
-  "nome": "PANTANAL-VEICULOS LTDA",
+  "nome": "PANTANAL VEÍCULOS LTDA",
   "documento": "07.319.323/0001-91",
   "despesas": 576,
   "parlamentares": 58,
@@ -4410,7 +4410,7 @@
  },
  {
   "chave": "07465112000167",
-  "nome": "TOP TEC EQUIPAMENTOS DE INFORMATICA LTDA ME",
+  "nome": "TOP TEC EQUIPAMENTOS DE INFORMATICAS LTDA",
   "documento": "07.465.112/0001-67",
   "despesas": 12,
   "parlamentares": 1,
@@ -4468,7 +4468,7 @@
  },
  {
   "chave": "07522669000192",
-  "nome": "CEB DISTRIBUICAO S.A.",
+  "nome": "Neoenergia Distribuição Brasília S.A",
   "documento": "07.522.669/0001-92",
   "despesas": 94,
   "parlamentares": 2,
@@ -4556,7 +4556,7 @@
  },
  {
   "chave": "07768178000126",
-  "nome": "RETA AUTOMOVEIS LTDA",
+  "nome": "RETA AUTOMÓVEIS LTDA",
   "documento": "07.768.178/0001-26",
   "despesas": 6,
   "parlamentares": 1,
@@ -4589,7 +4589,7 @@
  },
  {
   "chave": "07783041000140",
-  "nome": "Carvalho Turismo Ltda",
+  "nome": "CARVALHO TURISMO EXPRESSO LTDA",
   "documento": "07.783.041/0001-40",
   "despesas": 6,
   "parlamentares": 1,
@@ -4686,7 +4686,7 @@
  },
  {
   "chave": "07954605000160",
-  "nome": "MUNICIPIO DE FORTALEZA",
+  "nome": "Prefeitura Municipal de Fortaleza",
   "documento": "07.954.605/0001-60",
   "despesas": 13,
   "parlamentares": 2,
@@ -4729,7 +4729,7 @@
  },
  {
   "chave": "08072308000588",
-  "nome": "Hotel Cruzeiro",
+  "nome": "J.A.D  ARAÚJO & CIA LTDA",
   "documento": "08.072.308/0005-88",
   "despesas": 11,
   "parlamentares": 1,
@@ -4740,7 +4740,7 @@
  },
  {
   "chave": "08072308000669",
-  "nome": "J A D ARAUJO E CIA LTDA",
+  "nome": "J A D ARAUJO E CIA LTDA - POSTO CRUZEIRO VII",
   "documento": "08.072.308/0006-69",
   "despesas": 52,
   "parlamentares": 11,
@@ -4823,7 +4823,7 @@
  },
  {
   "chave": "08324196000181",
-  "nome": "COMPANHIA ENERGETICA DO RIO GRANDE DO NORTE COSERN",
+  "nome": "COSERN",
   "documento": "08.324.196/0001-81",
   "despesas": 65,
   "parlamentares": 5,
@@ -4875,7 +4875,7 @@
  },
  {
   "chave": "08532429000131",
-  "nome": "AMORETTO CAFES EXPRESSO LTDA.",
+  "nome": "AMORETTO CAFES EXPRESSO LTDA",
   "documento": "08.532.429/0001-31",
   "despesas": 377,
   "parlamentares": 55,
@@ -4979,7 +4979,7 @@
  },
  {
   "chave": "08736011001118",
-  "nome": "GRAN COFFEE COMERCIO, LOCACAO E SERVICOS S.A.",
+  "nome": "Gran Coffee com. loc e serviços LTDA",
   "documento": "08.736.011/0011-18",
   "despesas": 24,
   "parlamentares": 4,
@@ -5006,7 +5006,7 @@
  },
  {
   "chave": "08772214000198",
-  "nome": "ITS TELECOMUNICAÇÕES LTDA",
+  "nome": "ITS TELECOMUNICACOES LTDA",
   "documento": "08.772.214/0001-98",
   "despesas": 23,
   "parlamentares": 3,
@@ -5063,7 +5063,7 @@
  },
  {
   "chave": "08865824000136",
-  "nome": "AUTO POSTO SAKURA LTDA",
+  "nome": "AUTO POSTO SAKURA LTDA.",
   "documento": "08.865.824/0001-36",
   "despesas": 27,
   "parlamentares": 1,
@@ -5238,7 +5238,7 @@
  },
  {
   "chave": "09126594000156",
-  "nome": "VERTIA EMPREENDIMENTOS IMOBILIARIOS S.A.",
+  "nome": "VERTIA EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
   "documento": "09.126.594/0001-56",
   "despesas": 9,
   "parlamentares": 1,
@@ -5301,7 +5301,7 @@
  },
  {
   "chave": "09275320000129",
-  "nome": "TTS SOLUCOES EM INFORMATICA LTDA",
+  "nome": "TTS SOLUÇÕES EM TI LTDA",
   "documento": "09.275.320/0001-29",
   "despesas": 9,
   "parlamentares": 2,
@@ -5323,7 +5323,7 @@
  },
  {
   "chave": "09315090000184",
-  "nome": "Visualiza Aluguel de Carros LTDA",
+  "nome": "Visualiza Aluguel de Carros",
   "documento": "09.315.090/0001-84",
   "despesas": 23,
   "parlamentares": 1,
@@ -5393,7 +5393,7 @@
  },
  {
   "chave": "09399877000171",
-  "nome": "Levare Transportes Ltda",
+  "nome": "LEVARE TRANSPORTES LTDA",
   "documento": "09.399.877/0001-71",
   "despesas": 8,
   "parlamentares": 1,
@@ -5418,7 +5418,7 @@
  },
  {
   "chave": "09425942000196",
-  "nome": "Golden Plaza Hotel Ltda",
+  "nome": "GOLDEN PLAZA HOTEL",
   "documento": "09.425.942/0001-96",
   "despesas": 36,
   "parlamentares": 4,
@@ -5441,7 +5441,7 @@
  },
  {
   "chave": "09507127000176",
-  "nome": "combustiveis ceu azul ltda",
+  "nome": "COMBUSTIVEIS CEU AZUL LTDA",
   "documento": "09.507.127/0001-76",
   "despesas": 3,
   "parlamentares": 2,
@@ -5503,7 +5503,7 @@
  },
  {
   "chave": "09813461000158",
-  "nome": "Sandro Rodrigues de Oliveira",
+  "nome": "SANDRO RODRIGUES DE OLIVEIRA - VILLA DOS PARECIS",
   "documento": "09.813.461/0001-58",
   "despesas": 4,
   "parlamentares": 1,
@@ -5538,7 +5538,7 @@
  },
  {
   "chave": "09967852016201",
-  "nome": "Hotelaria Accor Brasil S/A",
+  "nome": "HOTELARIA ACCOR BRASIL S/A",
   "documento": "09.967.852/0162-01",
   "despesas": 3,
   "parlamentares": 2,
@@ -5700,7 +5700,7 @@
  },
  {
   "chave": "10382277000180",
-  "nome": "BETEL YELLOW LOCADORA DE VEICULOS LTDA",
+  "nome": "BETEL LOCADORA DE VEICULOS EIRELI",
   "documento": "10.382.277/0001-80",
   "despesas": 18,
   "parlamentares": 1,
@@ -5794,7 +5794,7 @@
  },
  {
   "chave": "10473920000180",
-  "nome": "ALFA EMPREENDIMENTOS HOTELEIROS SA",
+  "nome": "ALFA EMPREENDIMENTOS HOTELEIROS S.A",
   "documento": "10.473.920/0001-80",
   "despesas": 3,
   "parlamentares": 1,
@@ -5805,7 +5805,7 @@
  },
  {
   "chave": "10476095000178",
-  "nome": "RM CONSULTORIA E ADMINISTRACAO DE MAO DE OBRA LTDA",
+  "nome": "RM - Consultoria e Administração de Mão de obra Lt",
   "documento": "10.476.095/0001-78",
   "despesas": 8,
   "parlamentares": 1,
@@ -5838,7 +5838,7 @@
  },
  {
   "chave": "10565000000192",
-  "nome": "PREFEITURA DA CIDADE DO RECIFE",
+  "nome": "Prefeitura do Recife",
   "documento": "10.565.000/0001-92",
   "despesas": 66,
   "parlamentares": 3,
@@ -5866,7 +5866,7 @@
  },
  {
   "chave": "10574866000160",
-  "nome": "ROTA LOCACAO DE VEICULOS LTDA",
+  "nome": "Rota Locação de Veículos Eirele",
   "documento": "10.574.866/0001-60",
   "despesas": 9,
   "parlamentares": 1,
@@ -5902,7 +5902,7 @@
  },
  {
   "chave": "10667670000110",
-  "nome": "Leleka Produções e Locações Eireli",
+  "nome": "LELEKA PRODUÇOES E LOCAÇOES EIRELI",
   "documento": "10.667.670/0001-10",
   "despesas": 13,
   "parlamentares": 2,
@@ -5917,7 +5917,7 @@
  },
  {
   "chave": "10748528000105",
-  "nome": "POUSADA IMPERIO DA SERRA LTDA-ME",
+  "nome": "POUSADA IMPERIO DA SERRA",
   "documento": "10.748.528/0001-05",
   "despesas": 8,
   "parlamentares": 1,
@@ -5929,7 +5929,7 @@
  },
  {
   "chave": "10773501000164",
-  "nome": "OSIRNET INFO TELECOM LTDA",
+  "nome": "OSIRNET INFO TELECOM LTDA.",
   "documento": "10.773.501/0001-64",
   "despesas": 17,
   "parlamentares": 2,
@@ -5951,7 +5951,7 @@
  },
  {
   "chave": "10816554000115",
-  "nome": "10.816.554 GERMANA MOTA DE MESQUITA",
+  "nome": "GERMANA MOTA DE MESQUITA",
   "documento": "10.816.554/0001-15",
   "despesas": 4,
   "parlamentares": 1,
@@ -5974,7 +5974,7 @@
  },
  {
   "chave": "10835932000108",
-  "nome": "Neoenergia - Companhia Energética de Pernambuco",
+  "nome": "COMPANHIA ENERGETICA DE PERNAMBUCO",
   "documento": "10.835.932/0001-08",
   "despesas": 263,
   "parlamentares": 14,
@@ -6020,7 +6020,7 @@
  },
  {
   "chave": "10913016000149",
-  "nome": "SEMPRETEC SOLUCOES EM TECNOLOGIA LTDA",
+  "nome": "SEMPRETEC SOLUÇÕES EM TECNOLOGIA LTDA",
   "documento": "10.913.016/0001-49",
   "despesas": 7,
   "parlamentares": 1,
@@ -6148,7 +6148,7 @@
  },
  {
   "chave": "11221984000157",
-  "nome": "REI DOS BLINDADOS LOCACAO DE VEICULOS LTDA BLINDADOS TRANSPORTES",
+  "nome": "REI DOS BLINDADOS LOCACAO DE VEICULOS LTDA",
   "documento": "11.221.984/0001-57",
   "despesas": 12,
   "parlamentares": 2,
@@ -6262,7 +6262,7 @@
  },
  {
   "chave": "11461993000115",
-  "nome": "LUIZ FIRMINO DA SILVA ME",
+  "nome": "COLINAS HOTEL",
   "documento": "11.461.993/0001-15",
   "despesas": 5,
   "parlamentares": 1,
@@ -6286,7 +6286,7 @@
  },
  {
   "chave": "11510659000104",
-  "nome": "SHELTON PALACE HOTEL LTDA.",
+  "nome": "SHELTON PALACE HOTEL LTDA",
   "documento": "11.510.659/0001-04",
   "despesas": 15,
   "parlamentares": 5,
@@ -6311,7 +6311,7 @@
  },
  {
   "chave": "11521613000190",
-  "nome": "TECNEGOCIOS SOLUCOES EM INFORMATICA LTDA",
+  "nome": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
   "documento": "11.521.613/0001-90",
   "despesas": 71,
   "parlamentares": 9,
@@ -6374,7 +6374,7 @@
  },
  {
   "chave": "11696026000132",
-  "nome": "FAL IMOBILIARIA LTDA",
+  "nome": "FAL IMOBILIÁRIA",
   "documento": "11.696.026/0001-32",
   "despesas": 7,
   "parlamentares": 1,
@@ -6396,7 +6396,7 @@
  },
  {
   "chave": "11786457000190",
-  "nome": "POSTO Z + Z NOSSA SENHORA MEDALHA MILAGROSA LTDA-ME",
+  "nome": "POSTO Z+Z NOSSA SENHORA MEDALHA MILAGROSA LTDA",
   "documento": "11.786.457/0001-90",
   "despesas": 10,
   "parlamentares": 1,
@@ -6409,7 +6409,7 @@
  },
  {
   "chave": "11823795000154",
-  "nome": "RAMON AGUILERA PARTICIPACOES E EMPREENDIMENTOS LTDA",
+  "nome": "RAMON AGUILERA CONSTRUTORA S/A",
   "documento": "11.823.795/0001-54",
   "despesas": 8,
   "parlamentares": 1,
@@ -6435,7 +6435,7 @@
  },
  {
   "chave": "11850861000185",
-  "nome": "GRAFICA NICODEMOS LTDA-EPP",
+  "nome": "GRAFICA NICODEMOS LTDA",
   "documento": "11.850.861/0001-85",
   "despesas": 2,
   "parlamentares": 1,
@@ -6475,7 +6475,7 @@
  },
  {
   "chave": "11921661000176",
-  "nome": "Barreto Barreto Imobiliaria Limitada",
+  "nome": "BARRETO BARRETO IMOBILIARIA LIMITADA",
   "documento": "11.921.661/0001-76",
   "despesas": 8,
   "parlamentares": 1,
@@ -6555,7 +6555,7 @@
  },
  {
   "chave": "12272084000100",
-  "nome": "EQUATORIAL ALAGOAS DISTRIBUIDORA DE ENERGIA S.A",
+  "nome": "EQUATORIAL ENERGIA ALAGOAS",
   "documento": "12.272.084/0001-00",
   "despesas": 32,
   "parlamentares": 3,
@@ -6571,7 +6571,7 @@
  },
  {
   "chave": "12291686000104",
-  "nome": "LOCAR INVESTIMENTOS E PARTICIPAÇÕES",
+  "nome": "LOCAR INVESTIMENTOS E PARTICIPACOES LTDA",
   "documento": "12.291.686/0001-04",
   "despesas": 7,
   "parlamentares": 1,
@@ -6600,7 +6600,7 @@
  },
  {
   "chave": "12308662000102",
-  "nome": "centro automotivo cruzada da barra",
+  "nome": "CENTRO AUTOMOTIVO CRUZADA DA BARRA LTDA",
   "documento": "12.308.662/0001-02",
   "despesas": 98,
   "parlamentares": 5,
@@ -6612,7 +6612,7 @@
  },
  {
   "chave": "12322658000107",
-  "nome": "CONSEG MONITORAMENTO DE ALARMES E COMÉRCIO LTDA",
+  "nome": "CONSEG MONITORAMENTO DE ALARMES E COMERCIO LTDA",
   "documento": "12.322.658/0001-07",
   "despesas": 7,
   "parlamentares": 2,
@@ -6623,7 +6623,7 @@
  },
  {
   "chave": "12455190000110",
-  "nome": "AUTO POSTO TOP GLORIA LTDA",
+  "nome": "AUTO POSTO TOP GLORIA LTDA.",
   "documento": "12.455.190/0001-10",
   "despesas": 123,
   "parlamentares": 7,
@@ -6710,7 +6710,7 @@
  },
  {
   "chave": "12609733000107",
-  "nome": "JMT CONSTRUCOES E EMPREENDIMENTOS LTDA",
+  "nome": "4804JMT CONSTRUÇÕES E EMPREENDIMENTOS LTDA",
   "documento": "12.609.733/0001-07",
   "despesas": 4,
   "parlamentares": 1,
@@ -6756,7 +6756,7 @@
  },
  {
   "chave": "12721565000147",
-  "nome": "CIA DO CACO SERVICOS AUTOMOTIVOS LTDA",
+  "nome": "CIA DO CACO SERVICOS AUTOMOTIVO LTDA",
   "documento": "12.721.565/0001-47",
   "despesas": 7,
   "parlamentares": 1,
@@ -6769,7 +6769,7 @@
  },
  {
   "chave": "12780547000136",
-  "nome": "SIN- SISTEMAS INTELIGENTES LTDA - ME.",
+  "nome": "SIN- SISTEMAS INTELIGENTES LTDA - ME",
   "documento": "12.780.547/0001-36",
   "despesas": 21,
   "parlamentares": 3,
@@ -6846,7 +6846,7 @@
  },
  {
   "chave": "13021784000186",
-  "nome": "RD GESTAO E SISTEMAS S.A.",
+  "nome": "RD GESTAO E SISTEMAS S.A",
   "documento": "13.021.784/0001-86",
   "despesas": 6,
   "parlamentares": 1,
@@ -6965,7 +6965,7 @@
  },
  {
   "chave": "13347016000117",
-  "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA",
+  "nome": "Facebook Serviços Online do Brasil Ltda.",
   "documento": "13.347.016/0001-17",
   "despesas": 416,
   "parlamentares": 120,
@@ -7116,7 +7116,7 @@
  },
  {
   "chave": "13452254000192",
-  "nome": "RR COMERCIO DE COMBUSTIVEIS LTDA",
+  "nome": "RR COMERCIO DE COMBUSTIVEIS LTDA  92",
   "documento": "13.452.254/0001-92",
   "despesas": 135,
   "parlamentares": 2,
@@ -7191,7 +7191,7 @@
  },
  {
   "chave": "13799101000892",
-  "nome": "J A SOBRAL & CIA LTDA",
+  "nome": "J A SOBRAL &amp; CIA LTDA - POSTO SETE",
   "documento": "13.799.101/0008-92",
   "despesas": 11,
   "parlamentares": 4,
@@ -7220,7 +7220,7 @@
  },
  {
   "chave": "13851859000156",
-  "nome": "SG NACOES LTDA ME",
+  "nome": "SG NACOES LTDA",
   "documento": "13.851.859/0001-56",
   "despesas": 6,
   "parlamentares": 1,
@@ -7231,7 +7231,7 @@
  },
  {
   "chave": "13927801000149",
-  "nome": "Prefeitura de Salvador BA",
+  "nome": "MUNICIPIO DE SALVADOR",
   "documento": "13.927.801/0001-49",
   "despesas": 25,
   "parlamentares": 2,
@@ -7247,7 +7247,7 @@
  },
  {
   "chave": "13927801000491",
-  "nome": "MUNICIPIO DE SALVADOR",
+  "nome": "SECRETARIA MUNICIPAL DA FAZENDA DE SALVADOR",
   "documento": "13.927.801/0004-91",
   "despesas": 45,
   "parlamentares": 3,
@@ -7336,7 +7336,7 @@
  },
  {
   "chave": "14038300000174",
-  "nome": "AGAPE EMPREENDIMENTOS HOTELEIRO E TURISTICO LTDA",
+  "nome": "AGAPE EMPREENDIMENTOS HOTELEIRO E TURISTICO EIRELI",
   "documento": "14.038.300/0001-74",
   "despesas": 3,
   "parlamentares": 1,
@@ -7347,7 +7347,7 @@
  },
  {
   "chave": "14047235000143",
-  "nome": "CATAVENTO DERIVADOS DE PETROLEO LTDA",
+  "nome": "CATAVENTO DERIVADOS DE PETROLEO LTDA - ME",
   "documento": "14.047.235/0001-43",
   "despesas": 7,
   "parlamentares": 1,
@@ -7423,7 +7423,7 @@
  },
  {
   "chave": "14242431000179",
-  "nome": "VALE IMÓVEIS - Sala 07",
+  "nome": "VALE IMOVEIS LTDA",
   "documento": "14.242.431/0001-79",
   "despesas": 37,
   "parlamentares": 2,
@@ -7469,7 +7469,7 @@
  },
  {
   "chave": "14291975000120",
-  "nome": "J W T DE MELLO",
+  "nome": "NOSSO HOTEL",
   "documento": "14.291.975/0001-20",
   "despesas": 9,
   "parlamentares": 2,
@@ -7503,7 +7503,7 @@
  },
  {
   "chave": "14374741000147",
-  "nome": "AM EMPREENDIMENTOS IMOBILIARIOS LTDA",
+  "nome": "AM EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
   "documento": "14.374.741/0001-47",
   "despesas": 5,
   "parlamentares": 1,
@@ -7517,7 +7517,7 @@
  },
  {
   "chave": "14379554000156",
-  "nome": "RS IMÓVEIS",
+  "nome": "RS IMOVEIS",
   "documento": "14.379.554/0001-56",
   "despesas": 9,
   "parlamentares": 1,
@@ -7652,7 +7652,7 @@
  },
  {
   "chave": "14668041000165",
-  "nome": "2WS Soluções em tecnologia e desenvolvimento profi",
+  "nome": "2WS SOLUCOES EM TECNOLOGIA E DESENVOLVIMENTO PROFISSIONAL LTDA",
   "documento": "14.668.041/0001-65",
   "despesas": 19,
   "parlamentares": 1,
@@ -7706,7 +7706,7 @@
  },
  {
   "chave": "14743677000124",
-  "nome": "Frederici & de Carvalho ltda (TAPAJOS PALACE HOTEL)",
+  "nome": "TAPAJÓS PALACE HOTEL",
   "documento": "14.743.677/0001-24",
   "despesas": 3,
   "parlamentares": 1,
@@ -7717,7 +7717,7 @@
  },
  {
   "chave": "14798740000120",
-  "nome": "ACESSOLINE TELECOMUNICACOES LTDA",
+  "nome": "ACESSOLINE TELECOMUNICAÇOES LTDA",
   "documento": "14.798.740/0001-20",
   "despesas": 3,
   "parlamentares": 1,
@@ -7873,7 +7873,7 @@
  },
  {
   "chave": "15139629000194",
-  "nome": "COELBA - COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
+  "nome": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
   "documento": "15.139.629/0001-94",
   "despesas": 196,
   "parlamentares": 20,
@@ -8027,7 +8027,7 @@
  },
  {
   "chave": "15536838000171",
-  "nome": "AYRON CARVALHO DE ARAUJO JUNIOR",
+  "nome": "AYRON CARVALHO DE ARAUJO JUNIOR E CIA LTDA",
   "documento": "15.536.838/0001-71",
   "despesas": 24,
   "parlamentares": 3,
@@ -8172,7 +8172,7 @@
  },
  {
   "chave": "15820203000100",
-  "nome": "ATELLA.NET LTDA",
+  "nome": "ATELLA INTERNET FIBRA OPTICA",
   "documento": "15.820.203/0001-00",
   "despesas": 6,
   "parlamentares": 1,
@@ -8275,7 +8275,7 @@
  },
  {
   "chave": "16670085009705",
-  "nome": "LOCALIZA RENT A CAR S.A",
+  "nome": "LOCALIZA RENT A CAR SA",
   "documento": "16.670.085/0097-05",
   "despesas": 19,
   "parlamentares": 3,
@@ -8395,7 +8395,7 @@
  },
  {
   "chave": "17148263000145",
-  "nome": "LOCAL LOCACAO CORRETAGEM E ADMINISTRACAO LTDA",
+  "nome": "Locação, Corretagem e Adm.LTDA",
   "documento": "17.148.263/0001-45",
   "despesas": 9,
   "parlamentares": 1,
@@ -8406,7 +8406,7 @@
  },
  {
   "chave": "17154933000136",
-  "nome": "ERAQUITO TAVARES DA SILVA 12879604800",
+  "nome": "ERÁQUITO TAVARES DA SILVA 12879604800",
   "documento": "17.154.933/0001-36",
   "despesas": 10,
   "parlamentares": 1,
@@ -8454,7 +8454,7 @@
  },
  {
   "chave": "17280185000138",
-  "nome": "NATIVA SERVICOS EIRELI - ME",
+  "nome": "NATIVA SERVICOS LTDA",
   "documento": "17.280.185/0001-38",
   "despesas": 25,
   "parlamentares": 2,
@@ -8466,7 +8466,7 @@
  },
  {
   "chave": "17281106000103",
-  "nome": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS COPASA MG",
+  "nome": "COPASA",
   "documento": "17.281.106/0001-03",
   "despesas": 100,
   "parlamentares": 14,
@@ -8503,7 +8503,7 @@
  },
  {
   "chave": "17414189000161",
-  "nome": "VALBERLINO S. MOTA",
+  "nome": "Valberlino Mota ME",
   "documento": "17.414.189/0001-61",
   "despesas": 9,
   "parlamentares": 1,
@@ -8528,7 +8528,7 @@
  },
  {
   "chave": "17465303000182",
-  "nome": "MAPAS DE IMOVEIS LTDA",
+  "nome": "MAPAS DE IMOVEIS LTDA.",
   "documento": "17.465.303/0001-82",
   "despesas": 9,
   "parlamentares": 1,
@@ -8550,7 +8550,7 @@
  },
  {
   "chave": "17555579000151",
-  "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
+  "nome": "Guerrero imóveis",
   "documento": "17.555.579/0001-51",
   "despesas": 19,
   "parlamentares": 1,
@@ -8643,7 +8643,7 @@
  },
  {
   "chave": "17895646000187",
-  "nome": "18062026UBER DO BRASIL TECNOLOGIA LTDA.",
+  "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
   "documento": "17.895.646/0001-87",
   "despesas": 5504,
   "parlamentares": 115,
@@ -8677,7 +8677,7 @@
  },
  {
   "chave": "18055554000151",
-  "nome": "POSTO Z+Z 314 SUL LTDA",
+  "nome": "POSTO Z + Z 314 SUL LTDA",
   "documento": "18.055.554/0001-51",
   "despesas": 45,
   "parlamentares": 17,
@@ -8736,7 +8736,7 @@
  },
  {
   "chave": "18186505000158",
-  "nome": "STILLUS TRANSPORTES",
+  "nome": "STILLUS TRANSPORTE SERVICE CAR LTDA",
   "documento": "18.186.505/0001-58",
   "despesas": 6,
   "parlamentares": 1,
@@ -8770,7 +8770,7 @@
  },
  {
   "chave": "18302933000107",
-  "nome": "THIAGO VASCONCELOS MORAES",
+  "nome": "THIAGO VASCONCELOS MORAIS ME",
   "documento": "18.302.933/0001-07",
   "despesas": 25,
   "parlamentares": 3,
@@ -8819,7 +8819,7 @@
  },
  {
   "chave": "18456569000121",
-  "nome": "WORLDNET SERVICOS DE TELECOMUNICACOES LTDA",
+  "nome": "WORLDNET / NBS ARIQUEMES",
   "documento": "18.456.569/0001-21",
   "despesas": 8,
   "parlamentares": 1,
@@ -8869,7 +8869,7 @@
  },
  {
   "chave": "18543379000141",
-  "nome": "JBR ADMINISTRACAO DE BENS IMOVEIS LTDA",
+  "nome": "JBR DDMINISTRAÇÃO DE BENS IMÓVEISLTDA",
   "documento": "18.543.379/0001-41",
   "despesas": 9,
   "parlamentares": 1,
@@ -8880,7 +8880,7 @@
  },
  {
   "chave": "18715383000140",
-  "nome": "PREFEITURA DE BELO HORIZONTE",
+  "nome": "MUNICÍPIO DE BELO HORIZONTE",
   "documento": "18.715.383/0001-40",
   "despesas": 116,
   "parlamentares": 10,
@@ -8911,7 +8911,7 @@
  },
  {
   "chave": "18867348000146",
-  "nome": "HOTEL DAS TORRES LTDA",
+  "nome": "Geraldo Rocha Teixeira - ME",
   "documento": "18.867.348/0001-46",
   "despesas": 18,
   "parlamentares": 2,
@@ -8958,7 +8958,7 @@
  },
  {
   "chave": "19079757000140",
-  "nome": "PRIME LOCACAO E SERVICOS LTDA",
+  "nome": "DIEGO DE M C ALVES COMERCIO DE VEICULOS NOVOS E US",
   "documento": "19.079.757/0001-40",
   "despesas": 13,
   "parlamentares": 1,
@@ -9100,7 +9100,7 @@
  },
  {
   "chave": "19364317000135",
-  "nome": "MX SERVICOS E CONSULTORIA",
+  "nome": "MAXCIMIANO DA SILVA/MX SERVIÇOS E CONSULTORIA",
   "documento": "19.364.317/0001-35",
   "despesas": 12,
   "parlamentares": 1,
@@ -9156,7 +9156,7 @@
  },
  {
   "chave": "19533015000143",
-  "nome": "NSF TRANSPORTES LTDA",
+  "nome": "NSF TRANSPORTES ME LTDA.",
   "documento": "19.533.015/0001-43",
   "despesas": 56,
   "parlamentares": 5,
@@ -9230,7 +9230,7 @@
  },
  {
   "chave": "19937057000140",
-  "nome": "LE PARC HOTEL LTDA - ME",
+  "nome": "LE PARC HOTEL LTDA",
   "documento": "19.937.057/0001-40",
   "despesas": 4,
   "parlamentares": 2,
@@ -9288,7 +9288,7 @@
  },
  {
   "chave": "20186268000177",
-  "nome": "PACTO ADMINISTRADORA & CONDOMÍNIO ED CEZANNE",
+  "nome": "CONDOMINIO EDIFICIO CEZANNE",
   "documento": "20.186.268/0001-77",
   "despesas": 6,
   "parlamentares": 1,
@@ -9334,7 +9334,7 @@
  },
  {
   "chave": "20328789000111",
-  "nome": "POTIGUAR CLIMATIZACAO LTDA",
+  "nome": "Potiguar Climatização",
   "documento": "20.328.789/0001-11",
   "despesas": 7,
   "parlamentares": 1,
@@ -9363,7 +9363,7 @@
  },
  {
   "chave": "20429476000150",
-  "nome": "CONDOMINIO MANHATTAN SQUARE WALL STREET",
+  "nome": "CONDOMÍNIO MANHATTAN SQUARE WALL STREET",
   "documento": "20.429.476/0001-50",
   "despesas": 16,
   "parlamentares": 2,
@@ -9473,7 +9473,7 @@
  },
  {
   "chave": "21314559007098",
-  "nome": "MOVIDA PARTICIPACOES S.A.",
+  "nome": "Movida Participações S.A.",
   "documento": "21.314.559/0070-98",
   "despesas": 9,
   "parlamentares": 1,
@@ -9626,7 +9626,7 @@
  },
  {
   "chave": "21691199000111",
-  "nome": "COMÉRCIO DE DERIVADOS DE PETRÓLEO JORGE TEIXEIRA LTDA",
+  "nome": "C D P JORGE TEIXEIRA LTDA",
   "documento": "21.691.199/0001-11",
   "despesas": 12,
   "parlamentares": 2,
@@ -9699,7 +9699,7 @@
  },
  {
   "chave": "21867903000144",
-  "nome": "SysCoin Tecnologia e Serviço LTDA",
+  "nome": "SYSCOIN TECNOLOGIA E SERVICO LTDA - ME",
   "documento": "21.867.903/0001-44",
   "despesas": 6,
   "parlamentares": 1,
@@ -9829,7 +9829,7 @@
  },
  {
   "chave": "22343287000195",
-  "nome": "TRES MARIAS AGROPECUARIA E EVENTOS LTDA",
+  "nome": "Três Marias Agropecuária e Eventos Eireli-EPP",
   "documento": "22.343.287/0001-95",
   "despesas": 9,
   "parlamentares": 1,
@@ -9889,7 +9889,7 @@
  },
  {
   "chave": "22507365000140",
-  "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+  "nome": "LETSROCKET COMUNICAÇÃO DIGITAL LTDA",
   "documento": "22.507.365/0001-40",
   "despesas": 34,
   "parlamentares": 6,
@@ -9925,7 +9925,7 @@
  },
  {
   "chave": "22709362000199",
-  "nome": "H D P N LOCACOES LTDA",
+  "nome": "COPYCENTER",
   "documento": "22.709.362/0001-99",
   "despesas": 3,
   "parlamentares": 1,
@@ -10031,7 +10031,7 @@
  },
  {
   "chave": "23253855000120",
-  "nome": "23.253.855 CRISTINA VIEIRA CARDOSO",
+  "nome": "maxipred-assessoria predial lt",
   "documento": "23.253.855/0001-20",
   "despesas": 9,
   "parlamentares": 1,
@@ -10088,7 +10088,7 @@
  },
  {
   "chave": "23504040000176",
-  "nome": "Buzzmonitor Tecnologia LTDA",
+  "nome": "BUZZMONITOR TECNOLOGIA LTDA",
   "documento": "23.504.040/0001-76",
   "despesas": 7,
   "parlamentares": 1,
@@ -10099,7 +10099,7 @@
  },
  {
   "chave": "23509441000119",
-  "nome": "J W Saraiva e Cia Ltda",
+  "nome": "J W SARAIVA E CIA LTDA",
   "documento": "23.509.441/0001-19",
   "despesas": 14,
   "parlamentares": 2,
@@ -10111,7 +10111,7 @@
  },
  {
   "chave": "23558127000126",
-  "nome": "CARNAUBA ASSESSORIA DE COMUNICACAO E PUBLICIDADE LTDA",
+  "nome": "CARNAUBA ASSESSORIA DE COM E PIBLICIDADE",
   "documento": "23.558.127/0001-26",
   "despesas": 9,
   "parlamentares": 1,
@@ -10152,7 +10152,7 @@
  },
  {
   "chave": "23612940000137",
-  "nome": "H. INDUSTRIA LTDA",
+  "nome": "H. INDÚSTRIA LTDA",
   "documento": "23.612.940/0001-37",
   "despesas": 9,
   "parlamentares": 1,
@@ -10163,7 +10163,7 @@
  },
  {
   "chave": "23647303000104",
-  "nome": "M S CAR ALUGUEL DE VEICULOS LTDA",
+  "nome": "MS CAR ALUGUEL DE VEICULOS LTDA",
   "documento": "23.647.303/0001-04",
   "despesas": 9,
   "parlamentares": 1,
@@ -10185,7 +10185,7 @@
  },
  {
   "chave": "23660569000189",
-  "nome": "Canaa imoveis Ltda.",
+  "nome": "CANAA IMÓVEIS LTDA",
   "documento": "23.660.569/0001-89",
   "despesas": 7,
   "parlamentares": 1,
@@ -10196,7 +10196,7 @@
  },
  {
   "chave": "23666703000159",
-  "nome": "ROBERTO F DOS SANTOS JUNIOR",
+  "nome": "TECNOTONNER & MSF LOCAÇÕES DE IMPRESSORAS",
   "documento": "23.666.703/0001-59",
   "despesas": 8,
   "parlamentares": 1,
@@ -10226,7 +10226,7 @@
  },
  {
   "chave": "23768930000195",
-  "nome": "SINDICATO DAS INDUSTRIAS SID DO OESTE DE MINAS SINDIGUS",
+  "nome": "SIND. DAS INDUSTRIAS SIDERÚGICAS DO OESTE DE MINAS - SINDIGUSA",
   "documento": "23.768.930/0001-95",
   "despesas": 8,
   "parlamentares": 1,
@@ -10238,7 +10238,7 @@
  },
  {
   "chave": "23770217000186",
-  "nome": "CONDOMINIO ED COSTA RANGEL",
+  "nome": "Condomínio do Edifício Costa Rangel",
   "documento": "23.770.217/0001-86",
   "despesas": 38,
   "parlamentares": 1,
@@ -10277,7 +10277,7 @@
  },
  {
   "chave": "23788744000118",
-  "nome": "HVA CASTRO",
+  "nome": "TROCAUTO VEICULOS",
   "documento": "23.788.744/0001-18",
   "despesas": 20,
   "parlamentares": 1,
@@ -10407,7 +10407,7 @@
  },
  {
   "chave": "24057495000153",
-  "nome": "JMP ADMINISTRACAO E PARTICIPACOES LTDA.",
+  "nome": "JMP ADMINISTRAÇÃO E PARTICIPAÇÃO LTDA",
   "documento": "24.057.495/0001-53",
   "despesas": 21,
   "parlamentares": 1,
@@ -10423,7 +10423,7 @@
  },
  {
   "chave": "24113180000186",
-  "nome": "GYN LOCADORA LTDA ME",
+  "nome": "GYN LOGÍSTICA LTDA",
   "documento": "24.113.180/0001-86",
   "despesas": 9,
   "parlamentares": 2,
@@ -10434,7 +10434,7 @@
  },
  {
   "chave": "24147290000169",
-  "nome": "Iracema Lourenço Santos Rodrigues Me",
+  "nome": "IRACEMA LOURENÇO SANTOS RODRIGUES - ME",
   "documento": "24.147.290/0001-69",
   "despesas": 23,
   "parlamentares": 3,
@@ -10610,7 +10610,7 @@
  },
  {
   "chave": "25003245000101",
-  "nome": "ADMINISTRADORA IMOBILIARIA ASSIS LTDA",
+  "nome": "Adm. Assis",
   "documento": "25.003.245/0001-01",
   "despesas": 8,
   "parlamentares": 1,
@@ -10629,7 +10629,7 @@
  },
  {
   "chave": "25012398000107",
-  "nome": "GOOGLE CLOUD BRASIL COMPUTACAO E SERVICOS DE DADOS LTDA.",
+  "nome": "GOOGLE CLOUD BRASIL COMPUTAÇÃO E SERVIÇOS DE DADOS LTDA",
   "documento": "25.012.398/0001-07",
   "despesas": 34,
   "parlamentares": 7,
@@ -10708,7 +10708,7 @@
  },
  {
   "chave": "25703828000137",
-  "nome": "CONDOMINIO DO EDIFICIO MONDRIAN TRADE CENTER",
+  "nome": "CONDOMINIO DO EDIFÍCIO MONDRIAN TRADE CENTER",
   "documento": "25.703.828/0001-37",
   "despesas": 30,
   "parlamentares": 1,
@@ -10785,7 +10785,7 @@
  },
  {
   "chave": "26147494000125",
-  "nome": "C. A. GOMES FILHO - COMERCIO E REPRESENTACOES COMERCIAIS LTDA",
+  "nome": "CESAR AUGUSTO GOMES FILHO",
   "documento": "26.147.494/0001-25",
   "despesas": 9,
   "parlamentares": 1,
@@ -10819,7 +10819,7 @@
  },
  {
   "chave": "26320603000164",
-  "nome": "INFORMA NA HORA SERVIÇOS DE PUBLICIDADE E PROPAGANDA",
+  "nome": "INFORMA NA HORA SERVIÇOS DE PUBLICIDADE E PROPAGAN",
   "documento": "26.320.603/0001-64",
   "despesas": 17,
   "parlamentares": 3,
@@ -10830,7 +10830,7 @@
  },
  {
   "chave": "26329734000102",
-  "nome": "LINQ TELECOM LTDA",
+  "nome": "Linq Telecomunicações LTDA.",
   "documento": "26.329.734/0001-02",
   "despesas": 6,
   "parlamentares": 1,
@@ -10909,7 +10909,7 @@
  },
  {
   "chave": "26480780000108",
-  "nome": "LM TURISMO",
+  "nome": "LM TURISMO LTDA",
   "documento": "26.480.780/0001-08",
   "despesas": 97,
   "parlamentares": 2,
@@ -10935,7 +10935,7 @@
  },
  {
   "chave": "26551610000177",
-  "nome": "Planalto Marketing & Publicidade Ltda",
+  "nome": "PLANALTO MARKETING & PUBLICIDADE LTDA",
   "documento": "26.551.610/0001-77",
   "despesas": 7,
   "parlamentares": 2,
@@ -10959,7 +10959,7 @@
  },
  {
   "chave": "26607888000119",
-  "nome": "NOBILE GESTÃO DE EMPREENDIMENTOS LTDA SCP 001",
+  "nome": "NOBILE SUITES DEL RIO PETROLINA",
   "documento": "26.607.888/0001-19",
   "despesas": 22,
   "parlamentares": 6,
@@ -10975,7 +10975,7 @@
  },
  {
   "chave": "26645405000170",
-  "nome": "Fausto e Manuel Pontão Restaurante e Choperia LT",
+  "nome": "FAUSTO E MANOEL PONTAO RESTAURANTE E CHOPPERIA LT",
   "documento": "26.645.405/0001-70",
   "despesas": 5,
   "parlamentares": 3,
@@ -11088,7 +11088,7 @@
  },
  {
   "chave": "27279876000175",
-  "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA",
+  "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA  MATRIZ",
   "documento": "27.279.876/0001-75",
   "despesas": 11,
   "parlamentares": 1,
@@ -11139,7 +11139,7 @@
  },
  {
   "chave": "27419142000144",
-  "nome": "POSTO IATE LTDA",
+  "nome": "Posto iate LTDA- 42838- venda / combustível e lubrificante",
   "documento": "27.419.142/0001-44",
   "despesas": 41,
   "parlamentares": 3,
@@ -11221,7 +11221,7 @@
  },
  {
   "chave": "28067410000179",
-  "nome": "ELEGIS GESTAO ESTRATEGICA, CONSULTORIA E TECNOLOGIA LTDA",
+  "nome": "Elegis Gestão Estratégica, Consultoria e Tecn...",
   "documento": "28.067.410/0001-79",
   "despesas": 45,
   "parlamentares": 7,
@@ -11254,7 +11254,7 @@
  },
  {
   "chave": "28186340000178",
-  "nome": "Cláudio Felipe da Costa Júnior - Me",
+  "nome": "CLAUDIO FELIPE DA COSTA JUNIOR",
   "documento": "28.186.340/0001-78",
   "despesas": 38,
   "parlamentares": 2,
@@ -11267,7 +11267,7 @@
  },
  {
   "chave": "28209256000122",
-  "nome": "JH NOTÍCIAS",
+  "nome": "JH COMUNICAÇÃO E ASSESSORIA LTDA",
   "documento": "28.209.256/0001-22",
   "despesas": 17,
   "parlamentares": 2,
@@ -11337,7 +11337,7 @@
  },
  {
   "chave": "28528176000130",
-  "nome": "SAIBA MAIS COMUNICACAO LTDA",
+  "nome": "RAFAEL F C DUARTE",
   "documento": "28.528.176/0001-30",
   "despesas": 4,
   "parlamentares": 1,
@@ -11443,7 +11443,7 @@
  },
  {
   "chave": "29032820000147",
-  "nome": "BELIZE COMPANY AUTO POSTO",
+  "nome": "BELIZE COMPANY AUTO POSTO LTDA.",
   "documento": "29.032.820/0001-47",
   "despesas": 191,
   "parlamentares": 43,
@@ -11499,7 +11499,7 @@
  },
  {
   "chave": "29139111000165",
-  "nome": "SMARTLOC AEROPORTO DE BRASILIA JK - MATRIZ",
+  "nome": "SMART VEICULOS LTDA",
   "documento": "29.139.111/0001-65",
   "despesas": 49,
   "parlamentares": 6,
@@ -11669,7 +11669,7 @@
  },
  {
   "chave": "30040195000164",
-  "nome": "JP BORGES AUTOMOVEIS DE LUXO LTDA",
+  "nome": "JP BORGES AUTOMOVEIS DE LUXO LTDA.",
   "documento": "30.040.195/0001-64",
   "despesas": 9,
   "parlamentares": 1,
@@ -11827,7 +11827,7 @@
  },
  {
   "chave": "31153081000193",
-  "nome": "INDIKEY SERVIÇOS DE COMUNICAÇÃO LTDA",
+  "nome": "INDIKEY SERVICOS DE COMUNICACAO LTDA",
   "documento": "31.153.081/0001-93",
   "despesas": 8,
   "parlamentares": 2,
@@ -11926,7 +11926,7 @@
  },
  {
   "chave": "31705692000105",
-  "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+  "nome": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
   "documento": "31.705.692/0001-05",
   "despesas": 8,
   "parlamentares": 1,
@@ -11938,7 +11938,7 @@
  },
  {
   "chave": "31775109000124",
-  "nome": "ARMANI HOTEL LTDA EPP",
+  "nome": "ARMANI HOTEL",
   "documento": "31.775.109/0001-24",
   "despesas": 8,
   "parlamentares": 1,
@@ -12029,7 +12029,7 @@
  },
  {
   "chave": "32083360000190",
-  "nome": "A DE LIMA CARDOSO LTDA",
+  "nome": "A DE LIMA CARDOSO",
   "documento": "32.083.360/0001-90",
   "despesas": 20,
   "parlamentares": 2,
@@ -12053,7 +12053,7 @@
  },
  {
   "chave": "32223966000184",
-  "nome": "MIDIA RONDONIENSE",
+  "nome": "ANDRÉ LUIZ SOARES MACHADO",
   "documento": "32.223.966/0001-84",
   "despesas": 4,
   "parlamentares": 1,
@@ -12064,7 +12064,7 @@
  },
  {
   "chave": "32245102000163",
-  "nome": "GMP EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
+  "nome": "G M P EMPREENDIMENTOS E PARTICIPACOES LTDA",
   "documento": "32.245.102/0001-63",
   "despesas": 8,
   "parlamentares": 1,
@@ -12076,7 +12076,7 @@
  },
  {
   "chave": "32373812000179",
-  "nome": "32.373.812 EDVALDO FRANCISCO DE OLIVEIRA",
+  "nome": "EDVALDO FRANCISCO DE OLIVEIRA 49191160120",
   "documento": "32.373.812/0001-79",
   "despesas": 36,
   "parlamentares": 19,
@@ -12160,7 +12160,7 @@
  },
  {
   "chave": "32634347000182",
-  "nome": "CONDOMINIO EDIFICIO EMPRESARIAL CONVENTION CENTER",
+  "nome": "CONDOMÍNIO ED. EMPRESARIAL",
   "documento": "32.634.347/0001-82",
   "despesas": 3,
   "parlamentares": 1,
@@ -12272,7 +12272,7 @@
  },
  {
   "chave": "32864795000504",
-  "nome": "Rede de Postos Presidente Ltda.",
+  "nome": "REDE DE POSTOS PRESIDENTE LTDA",
   "documento": "32.864.795/0005-04",
   "despesas": 17,
   "parlamentares": 2,
@@ -12284,7 +12284,7 @@
  },
  {
   "chave": "32865449000109",
-  "nome": "EDCHAFFE CORRETAGEM DE IMOVEIS LTDA",
+  "nome": "ED CHAFFE CORRETAGEM DE IMÓVEIS EIRELI",
   "documento": "32.865.449/0001-09",
   "despesas": 9,
   "parlamentares": 1,
@@ -12321,7 +12321,7 @@
  },
  {
   "chave": "33050071000158",
-  "nome": "AMPLA ENERGIA E SERVICOS S.A.",
+  "nome": "AMPLA ENERGIA E SERVIÇOS S.A",
   "documento": "33.050.071/0001-58",
   "despesas": 8,
   "parlamentares": 1,
@@ -12360,7 +12360,7 @@
  },
  {
   "chave": "33134012000168",
-  "nome": "SETH COMERCIO CONSTRUCOES LOCACOES E SERVICOS LTDA",
+  "nome": "SETH COMÉRCIO CONSTRUÇÕES LOCAÇÕES E SERVIÇOS LTDA",
   "documento": "33.134.012/0001-68",
   "despesas": 7,
   "parlamentares": 1,
@@ -12485,7 +12485,7 @@
  },
  {
   "chave": "33550944000191",
-  "nome": "GALOC SERVICOS LTDA",
+  "nome": "GALOC SERVIÇOS LTDA",
   "documento": "33.550.944/0001-91",
   "despesas": 4,
   "parlamentares": 1,
@@ -12518,7 +12518,7 @@
  },
  {
   "chave": "33626720000116",
-  "nome": "BSB LOCACAO E VENDA DE MAQUINAS E CAFES LTDA",
+  "nome": "BSB LOCAÇÃO E VENDA DE MÁQUINAS E CAFÉS LTDA",
   "documento": "33.626.720/0001-16",
   "despesas": 9,
   "parlamentares": 1,
@@ -12585,7 +12585,7 @@
  },
  {
   "chave": "33937681000178",
-  "nome": "Latam Airlines S.A",
+  "nome": "LATAM",
   "documento": "33.937.681/0001-78",
   "despesas": 191,
   "parlamentares": 16,
@@ -12640,7 +12640,7 @@
  },
  {
   "chave": "34028316499744",
-  "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+  "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
   "documento": "34.028.316/4997-44",
   "despesas": 127,
   "parlamentares": 46,
@@ -12681,7 +12681,7 @@
  },
  {
   "chave": "34058185000298",
-  "nome": "Vila de Goiana Comércio de Combustíveis Ltda",
+  "nome": "VILA DE GOIANA COMERCIO DE COMBUSTIVEIS LTDA",
   "documento": "34.058.185/0002-98",
   "despesas": 6,
   "parlamentares": 3,
@@ -12799,7 +12799,7 @@
  },
  {
   "chave": "34309267000187",
-  "nome": "COMERCIAL DE COMBUSTIVEIS CASA TUA EIRELI",
+  "nome": "COMERCIAL DE COMBUSTIVEIS CASA TUA LTDA",
   "documento": "34.309.267/0001-87",
   "despesas": 40,
   "parlamentares": 1,
@@ -13157,7 +13157,7 @@
  },
  {
   "chave": "36899824000192",
-  "nome": "36.899.824 ANDERSON DE JESUS VIEIRA",
+  "nome": "CK INFO DESIGN E MIDIA SOCIAIS",
   "documento": "36.899.824/0001-92",
   "despesas": 15,
   "parlamentares": 1,
@@ -13230,7 +13230,7 @@
  },
  {
   "chave": "37069853000190",
-  "nome": "PLAZA BRASILIA HOTEIS E TURISMO LTDA (MPH)",
+  "nome": "PLAZA BRASILIA HOTEIS E TURISMO LTDA.",
   "documento": "37.069.853/0001-90",
   "despesas": 11,
   "parlamentares": 1,
@@ -13241,7 +13241,7 @@
  },
  {
   "chave": "37111549000163",
-  "nome": "TRANSITO LIVRE TRANSPORTES E TURISMO LTDA",
+  "nome": "Trânsito Livre Transporte e Turismo",
   "documento": "37.111.549/0001-63",
   "despesas": 6,
   "parlamentares": 3,
@@ -13254,7 +13254,7 @@
  },
  {
   "chave": "37111549000597",
-  "nome": "CATEDRAL",
+  "nome": "TRANSITO LIVRE TRANSPORTES E TURISMO LTDA",
   "documento": "37.111.549/0005-97",
   "despesas": 4,
   "parlamentares": 2,
@@ -13370,7 +13370,7 @@
  },
  {
   "chave": "37462182000122",
-  "nome": "MARCA CLIMATIZACAO E TERCEIRIZACAO LTDA",
+  "nome": "MARCA CLIMATIZAÇÃO E TERCEIRIZAÇÃO",
   "documento": "37.462.182/0001-22",
   "despesas": 8,
   "parlamentares": 1,
@@ -13381,7 +13381,7 @@
  },
  {
   "chave": "37556135000300",
-  "nome": "COMERCIO E REPRESENTACOES H.O LTDA",
+  "nome": "Manoelzinho Portuga LTDA",
   "documento": "37.556.135/0003-00",
   "despesas": 4,
   "parlamentares": 2,
@@ -13448,7 +13448,7 @@
  },
  {
   "chave": "37731381000199",
-  "nome": "FREDERICO J B DE JESUS",
+  "nome": "Frederico Jose Barbosa de Jesus",
   "documento": "37.731.381/0001-99",
   "despesas": 9,
   "parlamentares": 1,
@@ -13460,7 +13460,7 @@
  },
  {
   "chave": "37856916000158",
-  "nome": "Progen Brasil Tecnologia Ltda",
+  "nome": "PROGEN BRASIL TECNOLOGIA LTDA",
   "documento": "37.856.916/0001-58",
   "despesas": 8,
   "parlamentares": 1,
@@ -13471,7 +13471,7 @@
  },
  {
   "chave": "37894749000130",
-  "nome": "ELDORADO COMUNICAÇÃO E JORNALISMO LTDA",
+  "nome": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
   "documento": "37.894.749/0001-30",
   "despesas": 76,
   "parlamentares": 17,
@@ -13485,7 +13485,7 @@
  },
  {
   "chave": "37900583000117",
-  "nome": "Hotel Confiance LTDA",
+  "nome": "HOTEL CONFIANCE LTDA",
   "documento": "37.900.583/0001-17",
   "despesas": 11,
   "parlamentares": 2,
@@ -13496,7 +13496,7 @@
  },
  {
   "chave": "37917856000136",
-  "nome": "CGCAR AGENCIAMENTO COMERCIO E LOCACAO DE VEICULOS LTDA",
+  "nome": "CGCAR Agenciamento Comércio e Locação de Veículo E",
   "documento": "37.917.856/0001-36",
   "despesas": 18,
   "parlamentares": 2,
@@ -13630,7 +13630,7 @@
  },
  {
   "chave": "38578600000104",
-  "nome": "38.578.600 ANDRESSA CANABRAVA RIBAS",
+  "nome": "Palazzo Espresso",
   "documento": "38.578.600/0001-04",
   "despesas": 7,
   "parlamentares": 1,
@@ -13698,7 +13698,7 @@
  },
  {
   "chave": "39321220000152",
-  "nome": "NOTICIA DO TOCANTINS",
+  "nome": "TERESA ROZILEIDE DE SOUZA 02792910194",
   "documento": "39.321.220/0001-52",
   "despesas": 7,
   "parlamentares": 1,
@@ -13720,7 +13720,7 @@
  },
  {
   "chave": "39427710000138",
-  "nome": "CONDOMINIO DO EDIFICIO CRISTAL CORPORATE",
+  "nome": "Condominio Edifício Cristal Corporate - GARAGEM 00053S",
   "documento": "39.427.710/0001-38",
   "despesas": 9,
   "parlamentares": 1,
@@ -13732,7 +13732,7 @@
  },
  {
   "chave": "39447751000196",
-  "nome": "Posto Cunha IV Comércio de Comb. E Derivados Ltda",
+  "nome": "POSTO CUNHA IV COMERCIO DE COMB. E DERIVADOS LTDA",
   "documento": "39.447.751/0001-96",
   "despesas": 27,
   "parlamentares": 1,
@@ -13765,7 +13765,7 @@
  },
  {
   "chave": "39565567000140",
-  "nome": "BTT TELECOMUNICAÇÕES LTDA",
+  "nome": "BTT TELECOMUNICACOES S.A.",
   "documento": "39.565.567/0001-40",
   "despesas": 6,
   "parlamentares": 1,
@@ -13787,7 +13787,7 @@
  },
  {
   "chave": "39681325000112",
-  "nome": "STAR DE ITAPERUNA HOTEL LTDA",
+  "nome": "STAR DE ITAPERUNA",
   "documento": "39.681.325/0001-12",
   "despesas": 22,
   "parlamentares": 2,
@@ -13822,7 +13822,7 @@
  },
  {
   "chave": "39825435000291",
-  "nome": "MARLIM AZUL COMERCIO E TRANSP DE PETROLEO E DERIVADOS LTDA",
+  "nome": "MARLIM AZUL COMERCIO E TRANSPORTE DE PETROLEO E DERIVADOS LTDA",
   "documento": "39.825.435/0002-91",
   "despesas": 3,
   "parlamentares": 1,
@@ -13867,7 +13867,7 @@
  },
  {
   "chave": "40134537000169",
-  "nome": "Suplymax Suprimentos de Informática LTDA",
+  "nome": "SUPLYMAX COMERCIO E SERVICOS DE EQUIPAMENTOS LTDA",
   "documento": "40.134.537/0001-69",
   "despesas": 9,
   "parlamentares": 1,
@@ -13878,7 +13878,7 @@
  },
  {
   "chave": "40147997000121",
-  "nome": "FRANCICLEIDE ARAUJO DA SILVA 02311043404",
+  "nome": "FRANCICLEIDE ARAÚJO DA SILVA",
   "documento": "40.147.997/0001-21",
   "despesas": 5,
   "parlamentares": 1,
@@ -13890,7 +13890,7 @@
  },
  {
   "chave": "40154884000153",
-  "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
+  "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA.",
   "documento": "40.154.884/0001-53",
   "despesas": 528,
   "parlamentares": 81,
@@ -14035,7 +14035,7 @@
  },
  {
   "chave": "40432544000147",
-  "nome": "EMBRATEL",
+  "nome": "CLARO S.A.",
   "documento": "40.432.544/0001-47",
   "despesas": 109,
   "parlamentares": 18,
@@ -14055,7 +14055,7 @@
  },
  {
   "chave": "40432544006269",
-  "nome": "Claro S.A",
+  "nome": "CLARO S/A",
   "documento": "40.432.544/0062-69",
   "despesas": 46,
   "parlamentares": 4,
@@ -14079,7 +14079,7 @@
  },
  {
   "chave": "40432544011262",
-  "nome": "CLARO S.A",
+  "nome": "CLARO S.A.",
   "documento": "40.432.544/0112-62",
   "despesas": 59,
   "parlamentares": 9,
@@ -14092,7 +14092,7 @@
  },
  {
   "chave": "40432544044004",
-  "nome": "CLARO S.A.",
+  "nome": "CLARO S/A",
   "documento": "40.432.544/0440-04",
   "despesas": 112,
   "parlamentares": 20,
@@ -14125,7 +14125,7 @@
  },
  {
   "chave": "40575110000104",
-  "nome": "SECRETARIA MUNICIPAL DA FAZENDA SALVADOR",
+  "nome": "MICRO & SOFT INFORMATICA LTDA",
   "documento": "40.575.110/0001-04",
   "despesas": 19,
   "parlamentares": 1,
@@ -14202,7 +14202,7 @@
  },
  {
   "chave": "40956726000117",
-  "nome": "JVX PATRIMONIAL LTDA.",
+  "nome": "JVX PATRIMONIAL LTDA",
   "documento": "40.956.726/0001-17",
   "despesas": 9,
   "parlamentares": 1,
@@ -14303,7 +14303,7 @@
  },
  {
   "chave": "41213268000199",
-  "nome": "MENEZESEGUEDELHASOCIEDADEDEADVOGADOS",
+  "nome": "MENEZES E GUEDELHA SOCIEDADE DE ADVOGADOS",
   "documento": "41.213.268/0001-99",
   "despesas": 7,
   "parlamentares": 1,
@@ -14314,7 +14314,7 @@
  },
  {
   "chave": "41233483000151",
-  "nome": "Alfa Comunicação e Marketingu Digital LTDA",
+  "nome": "ALFA COMUNICAÇÃO E MARKETING DIGITAL LTDA",
   "documento": "41.233.483/0001-51",
   "despesas": 25,
   "parlamentares": 5,
@@ -14479,7 +14479,7 @@
  },
  {
   "chave": "42498733000148",
-  "nome": "MUNICIPIO DE RIO DE JANEIRO",
+  "nome": "Prefeitura da Cidade do Rio de Janeiro",
   "documento": "42.498.733/0001-48",
   "despesas": 66,
   "parlamentares": 4,
@@ -14550,7 +14550,7 @@
  },
  {
   "chave": "43000360000104",
-  "nome": "Posto de Combustivel QL 09 LAGO SUL LTDA",
+  "nome": "POSTO DE COMBUSTIVEL QL 09 LAGO SUL LTDA",
   "documento": "43.000.360/0001-04",
   "despesas": 58,
   "parlamentares": 16,
@@ -14588,7 +14588,7 @@
  },
  {
   "chave": "43283811001202",
-  "nome": "Kalunga SA",
+  "nome": "KALUNGA SA",
   "documento": "43.283.811/0012-02",
   "despesas": 10,
   "parlamentares": 4,
@@ -14644,7 +14644,7 @@
  },
  {
   "chave": "43360308000150",
-  "nome": "FELIPE FRANCA DA SILVA",
+  "nome": "FF COMUNICAÇÕES",
   "documento": "43.360.308/0001-50",
   "despesas": 9,
   "parlamentares": 2,
@@ -14655,7 +14655,7 @@
  },
  {
   "chave": "43386903000165",
-  "nome": "BANANA BOAT BAR E LANCHES LT",
+  "nome": "BANANA BOAT BAR E LANCHES LTDA",
   "documento": "43.386.903/0001-65",
   "despesas": 4,
   "parlamentares": 1,
@@ -14667,7 +14667,7 @@
  },
  {
   "chave": "43513001000142",
-  "nome": "AUTO POSTO MONTANA LT",
+  "nome": "AUTO POSTO MONTANA LTDA",
   "documento": "43.513.001/0001-42",
   "despesas": 11,
   "parlamentares": 2,
@@ -14771,7 +14771,7 @@
  },
  {
   "chave": "43911106000150",
-  "nome": "POSTO DE SERVICOS CHICAJULIA LTDA",
+  "nome": "POSTO DE SERVICOS CHICAJULIA LT",
   "documento": "43.911.106/0001-50",
   "despesas": 9,
   "parlamentares": 1,
@@ -14877,7 +14877,7 @@
  },
  {
   "chave": "44318393000151",
-  "nome": "THE MACHINE G. LTDA",
+  "nome": "THM MAQUINAS SEMIAUTOMATICAS LTDA",
   "documento": "44.318.393/0001-51",
   "despesas": 25,
   "parlamentares": 3,
@@ -14934,7 +14934,7 @@
  },
  {
   "chave": "44662983000105",
-  "nome": "CLOUD SECURITY LTDA",
+  "nome": "Cloud Protection Security",
   "documento": "44.662.983/0001-05",
   "despesas": 21,
   "parlamentares": 1,
@@ -15039,7 +15039,7 @@
  },
  {
   "chave": "45542078000176",
-  "nome": "Posto Sao Benedito Petroleo LTDA",
+  "nome": "POSTO SAO BENEDITO PETROLEO LTDA",
   "documento": "45.542.078/0001-76",
   "despesas": 171,
   "parlamentares": 3,
@@ -15203,7 +15203,7 @@
  },
  {
   "chave": "46395000000139",
-  "nome": "Prefeitura Municipal de São Paulo",
+  "nome": "MUNICÍPIO DE SÃO PAULO",
   "documento": "46.395.000/0001-39",
   "despesas": 24,
   "parlamentares": 1,
@@ -15221,7 +15221,7 @@
  },
  {
   "chave": "46435239000195",
-  "nome": "VSP SOLUTION SERVICE LTDA",
+  "nome": "VSP PARTNER",
   "documento": "46.435.239/0001-95",
   "despesas": 16,
   "parlamentares": 2,
@@ -15260,7 +15260,7 @@
  },
  {
   "chave": "46556865000130",
-  "nome": "PINK PARTICIPACOES LTDA",
+  "nome": "CONSULT NEGOCIOS IMOBILIARIOS",
   "documento": "46.556.865/0001-30",
   "despesas": 7,
   "parlamentares": 1,
@@ -15417,7 +15417,7 @@
  },
  {
   "chave": "47406151000108",
-  "nome": "JRCA LOCACOES LTDA",
+  "nome": "JRCA Locações",
   "documento": "47.406.151/0001-08",
   "despesas": 18,
   "parlamentares": 1,
@@ -15553,7 +15553,7 @@
  },
  {
   "chave": "48423624000148",
-  "nome": "LOCATI SERVIÇOS E LOCAÇÃO DE EQUIPAMENTOS",
+  "nome": "LOCATI SERVICOS E LOCACAO DE EQUIPAMENTOS DE INFORMATICA LTDA",
   "documento": "48.423.624/0001-48",
   "despesas": 16,
   "parlamentares": 1,
@@ -15600,7 +15600,7 @@
  },
  {
   "chave": "48699702000131",
-  "nome": "MB CONSULTORIA E ASSESSORIA POLITICA LTDA",
+  "nome": "MB CONSULTORIA E ASSESSORIA POLÍTICA LTDA",
   "documento": "48.699.702/0001-31",
   "despesas": 9,
   "parlamentares": 1,
@@ -15624,7 +15624,7 @@
  },
  {
   "chave": "48949641000113",
-  "nome": "BROADBRASIL LTDA",
+  "nome": "BROAD BRASIL LTDA",
   "documento": "48.949.641/0001-13",
   "despesas": 320,
   "parlamentares": 39,
@@ -15670,7 +15670,7 @@
  },
  {
   "chave": "49000815000160",
-  "nome": "LEVVA MOBILIDADE LTDA",
+  "nome": "Nacional Rent a Car Locação de Veiculos LTDA",
   "documento": "49.000.815/0001-60",
   "despesas": 69,
   "parlamentares": 7,
@@ -15740,7 +15740,7 @@
  },
  {
   "chave": "49718085000137",
-  "nome": "PLAZA ADMINISTRACAO E SERVICOS LTDA",
+  "nome": "PLAZA ADMINISTRAÇAO E SERVIÇOS LTDA",
   "documento": "49.718.085/0001-37",
   "despesas": 48,
   "parlamentares": 8,
@@ -15860,7 +15860,7 @@
  },
  {
   "chave": "50306105000141",
-  "nome": "WOSLEY DANIEL DE SOUZA COSTA",
+  "nome": "IMAGEM SOLUCOES EM IMPRESSOES, FOTOS E INFORMATICA LTDA",
   "documento": "50.306.105/0001-41",
   "despesas": 6,
   "parlamentares": 1,
@@ -16170,7 +16170,7 @@
  },
  {
   "chave": "52345676000110",
-  "nome": "FLOR COMÉRCIO DE COMBUSTÍVEIS LTDA",
+  "nome": "FLOR COMERCIO DE COMBUSTIVEIS LTDA",
   "documento": "52.345.676/0001-10",
   "despesas": 43,
   "parlamentares": 3,
@@ -16269,7 +16269,7 @@
  },
  {
   "chave": "52999203000137",
-  "nome": "IMOVEIS BLUMENAU LTDA",
+  "nome": "PORTAL NEGOCIOS IMOBILIARIOS LTDA",
   "documento": "52.999.203/0001-37",
   "despesas": 8,
   "parlamentares": 1,
@@ -16280,7 +16280,7 @@
  },
  {
   "chave": "53088411000147",
-  "nome": "ASK TECNOLOGIA E COMUNICACAO LTDA",
+  "nome": "ASK TECNOLOGIA E COMUNICACAO",
   "documento": "53.088.411/0001-47",
   "despesas": 18,
   "parlamentares": 2,
@@ -16358,7 +16358,7 @@
  },
  {
   "chave": "53420564000140",
-  "nome": "Nio - Cliente co Servicos de Rede Nordeste S.A",
+  "nome": "OI SA - EM RECUPERAÇÃO JUDICIAL",
   "documento": "53.420.564/0001-40",
   "despesas": 66,
   "parlamentares": 6,
@@ -16439,7 +16439,7 @@
  },
  {
   "chave": "53660043000160",
-  "nome": ".COM LOCAÇÕES",
+  "nome": "LUIS EDUARDO S. SOARES LOCACOES LTDA.",
   "documento": "53.660.043/0001-60",
   "despesas": 9,
   "parlamentares": 1,
@@ -16524,7 +16524,7 @@
  },
  {
   "chave": "54926507000108",
-  "nome": "LAVOR NEGOCIOS E SERVICOS LTDA",
+  "nome": "LAVOR NEGOCIOS E SERVIÇOS LTDA",
   "documento": "54.926.507/0001-08",
   "despesas": 16,
   "parlamentares": 2,
@@ -16535,7 +16535,7 @@
  },
  {
   "chave": "55077411000177",
-  "nome": "DUODRIVE 2 COMERCIO DE COMBUSTIVEIS LTDA",
+  "nome": "DUODRIVE COMÉRCIO DE COMBUSTÍVEIS LTDA",
   "documento": "55.077.411/0001-77",
   "despesas": 11,
   "parlamentares": 2,
@@ -16612,7 +16612,7 @@
  },
  {
   "chave": "55822047000122",
-  "nome": "AAMJ EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
+  "nome": "AAMJ EMPREENDIMENTOS E PARTICIPACOES LTDA",
   "documento": "55.822.047/0001-22",
   "despesas": 10,
   "parlamentares": 2,
@@ -16634,7 +16634,7 @@
  },
  {
   "chave": "55898833000103",
-  "nome": "Sollus Portal Araripina Ltda",
+  "nome": "SOLLUS PORTAL ARARIPINA LTDA",
   "documento": "55.898.833/0001-03",
   "despesas": 8,
   "parlamentares": 3,
@@ -16815,7 +16815,7 @@
  },
  {
   "chave": "58339077000170",
-  "nome": "GM IMPRESSÕES E PUBLICIDADES LTDA",
+  "nome": "GA IMPRESSÕES E PUBLICIDADE LTDA",
   "documento": "58.339.077/0001-70",
   "despesas": 6,
   "parlamentares": 1,
@@ -17078,7 +17078,7 @@
  },
  {
   "chave": "60146375000196",
-  "nome": "60.146.375 MARIA MAYRLA DA SILVA",
+  "nome": "MARIA MAYRLA DA SILVA",
   "documento": "60.146.375/0001-96",
   "despesas": 4,
   "parlamentares": 1,
@@ -17185,7 +17185,7 @@
  },
  {
   "chave": "60444437000146",
-  "nome": "Light Serviços de Eletricidade SA",
+  "nome": "LIGHT SERVICOS DE ELETRICIDADE S A",
   "documento": "60.444.437/0001-46",
   "despesas": 160,
   "parlamentares": 15,
@@ -17198,7 +17198,7 @@
  },
  {
   "chave": "60498259000136",
-  "nome": "Falcon Hotéis Ibis Arcoverde Ltda",
+  "nome": "IBIS ARCOVERDE",
   "documento": "60.498.259/0001-36",
   "despesas": 14,
   "parlamentares": 1,
@@ -17211,7 +17211,7 @@
  },
  {
   "chave": "60537263144400",
-  "nome": "ALLPARK EMPREENDIMENTOS, PARTICIPACOES E SERVICOS S.A.",
+  "nome": "WELLPARK - ESTACIONAMENTOS E SERVICOS LTDA.",
   "documento": "60.537.263/1444-00",
   "despesas": 7,
   "parlamentares": 2,
@@ -17290,7 +17290,7 @@
  },
  {
   "chave": "61198164000160",
-  "nome": "Planeja Corretora de Seguros e Venda Ltda",
+  "nome": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
   "documento": "61.198.164/0001-60",
   "despesas": 6,
   "parlamentares": 4,
@@ -17335,7 +17335,7 @@
  },
  {
   "chave": "61533949000141",
-  "nome": "S/A O ESTADO DE S.PAULO",
+  "nome": "S.A O ESTADO DE S.PAULO",
   "documento": "61.533.949/0001-41",
   "despesas": 13,
   "parlamentares": 4,
@@ -17348,7 +17348,7 @@
  },
  {
   "chave": "61695227000193",
-  "nome": "ELETROPAULO METROPOLITANA ELETRICIDADE DE SÃO PAULO S/A",
+  "nome": "ELETROPAULO METROPOLITANA ELETRICIDADE DE SAO PAULO S.A.",
   "documento": "61.695.227/0001-93",
   "despesas": 216,
   "parlamentares": 18,
@@ -17499,7 +17499,7 @@
  },
  {
   "chave": "62805347000169",
-  "nome": "Blue Tree Towers Sorriso",
+  "nome": "BLUE TREE TOWERS SORRISO",
   "documento": "62.805.347/0001-69",
   "despesas": 5,
   "parlamentares": 2,
@@ -17522,7 +17522,7 @@
  },
  {
   "chave": "62908774000172",
-  "nome": "S7 Ltda",
+  "nome": "S7 LTDA",
   "documento": "62.908.774/0001-72",
   "despesas": 7,
   "parlamentares": 1,
@@ -17874,7 +17874,7 @@
  },
  {
   "chave": "66130824000194",
-  "nome": "AUTO POSTO DON PEPE LTDA",
+  "nome": "AUTO POSTO DON PEPE",
   "documento": "66.130.824/0001-94",
   "despesas": 10,
   "parlamentares": 1,
@@ -17983,7 +17983,7 @@
  },
  {
   "chave": "66970229000671",
-  "nome": "Claro NXT Telecomunicações S.A.",
+  "nome": "CLARO NXT TELECOMUNICAÇÕES S.A",
   "documento": "66.970.229/0006-71",
   "despesas": 76,
   "parlamentares": 11,
@@ -18006,7 +18006,7 @@
  },
  {
   "chave": "66970229000914",
-  "nome": "CLARO NXT TELECOMUNICACOES S/A",
+  "nome": "NEXTEL TELECOMUNICAÇÕES LTDA",
   "documento": "66.970.229/0009-14",
   "despesas": 73,
   "parlamentares": 7,
@@ -18067,7 +18067,7 @@
  },
  {
   "chave": "66970229001805",
-  "nome": "Claro NXT Telecomunicações S.A",
+  "nome": "CLARO NXT TELECOMUNICACOES S/A",
   "documento": "66.970.229/0018-05",
   "despesas": 696,
   "parlamentares": 105,
@@ -18107,7 +18107,7 @@
  },
  {
   "chave": "66970229003930",
-  "nome": "Claro NXT Telecomunicações S.A",
+  "nome": "NET Claro NXT",
   "documento": "66.970.229/0039-30",
   "despesas": 39,
   "parlamentares": 3,
@@ -18135,7 +18135,7 @@
  },
  {
   "chave": "66970229010472",
-  "nome": "CLARO NXT TELECOMUNICACOES S/A",
+  "nome": "Claro NXT Telecomunicações S.A",
   "documento": "66.970.229/0104-72",
   "despesas": 28,
   "parlamentares": 3,
@@ -18166,7 +18166,7 @@
  },
  {
   "chave": "66970229013579",
-  "nome": "CLARO NXT TELECOMUNICAÇÕES S. A.",
+  "nome": "Claro NXT Telecomunicações S.A",
   "documento": "66.970.229/0135-79",
   "despesas": 17,
   "parlamentares": 3,
@@ -18206,7 +18206,7 @@
  },
  {
   "chave": "66970229014621",
-  "nome": "CLARO NXT TELECOMUNICACOES S/A",
+  "nome": "Claro NXT Telecomunicações S.A",
   "documento": "66.970.229/0146-21",
   "despesas": 23,
   "parlamentares": 3,
@@ -18223,7 +18223,7 @@
  },
  {
   "chave": "66970229014974",
-  "nome": "CLARO NXT Telecomunicações",
+  "nome": "CLARO NXT TELECOMUNICACOES S/A",
   "documento": "66.970.229/0149-74",
   "despesas": 16,
   "parlamentares": 2,
@@ -18237,7 +18237,7 @@
  },
  {
   "chave": "66970229026395",
-  "nome": "CLARO NXT TELECOMUNICACOES S/A",
+  "nome": "Claro NXT Telecomunicações S.A",
   "documento": "66.970.229/0263-95",
   "despesas": 39,
   "parlamentares": 6,
@@ -18327,7 +18327,7 @@
  },
  {
   "chave": "68917061000151",
-  "nome": "Graffit Limeira Papelaria Ltda Me",
+  "nome": "GRAFFIT LIMEIRA PAPELARIA LTDA",
   "documento": "68.917.061/0001-51",
   "despesas": 8,
   "parlamentares": 1,
@@ -18349,7 +18349,7 @@
  },
  {
   "chave": "71208516000174",
-  "nome": "Algar Telecom S/A",
+  "nome": "ALGAR TELECOM S/A",
   "documento": "71.208.516/0001-74",
   "despesas": 41,
   "parlamentares": 5,
@@ -18369,7 +18369,7 @@
  },
  {
   "chave": "71480560000139",
-  "nome": "SERVIÇO DE ÁGUA E ESGOTO DE SOROCABA",
+  "nome": "SERVICO AUTONOMO DE AGUA E ESGOTO",
   "documento": "71.480.560/0001-39",
   "despesas": 14,
   "parlamentares": 2,
@@ -18395,7 +18395,7 @@
  },
  {
   "chave": "72500069000195",
-  "nome": "Auto Posto de Comustívies renascença Ltda",
+  "nome": "AUTO POSTO DE COMBUSTIVEIS RENASCENCA LTDA",
   "documento": "72.500.069/0001-95",
   "despesas": 138,
   "parlamentares": 6,
@@ -18531,7 +18531,7 @@
  },
  {
   "chave": "76417005000186",
-  "nome": "Município de Curitiba - PR",
+  "nome": "MUNICIPIO DE CURITIBA",
   "documento": "76.417.005/0001-86",
   "despesas": 24,
   "parlamentares": 2,
@@ -18550,7 +18550,7 @@
  },
  {
   "chave": "76454743000101",
-  "nome": "OLIVEIRA & RADECKI LTDA",
+  "nome": "OLIVEIRA E RADECKI LTDA",
   "documento": "76.454.743/0001-01",
   "despesas": 6,
   "parlamentares": 2,
@@ -18598,7 +18598,7 @@
  },
  {
   "chave": "77768943000606",
-  "nome": "HOTEL BOURBON DE FOZ DO IGUACU LTDA - FILIAL CAMBARA",
+  "nome": "HOTEL BOURBON DE FOZ DO IGUAÇU LTDA",
   "documento": "77.768.943/0006-06",
   "despesas": 5,
   "parlamentares": 1,
@@ -18708,7 +18708,7 @@
  },
  {
   "chave": "80678220000108",
-  "nome": "INVESTCITY INVESTIMENTOS E ADM DE IMÓVEIS LTDA",
+  "nome": "INVESTCITY INVESTIMENTOS E ADM DE IMOVEIS LTDA",
   "documento": "80.678.220/0001-08",
   "despesas": 19,
   "parlamentares": 4,
@@ -18745,7 +18745,7 @@
  },
  {
   "chave": "80732928006130",
-  "nome": "ATRIO HOTEIS S.A",
+  "nome": "ATRIO HOTEIS S/A",
   "documento": "80.732.928/0061-30",
   "despesas": 9,
   "parlamentares": 2,
@@ -18915,7 +18915,7 @@
  },
  {
   "chave": "85088078000162",
-  "nome": "IMOBILIARIA APLICAR LTDA",
+  "nome": "IMOBILIÁRIA APLICAR LTDA",
   "documento": "85.088.078/0001-62",
   "despesas": 9,
   "parlamentares": 1,
@@ -18987,7 +18987,7 @@
  },
  {
   "chave": "89176887000187",
-  "nome": "N P IMOVEIS LTDA",
+  "nome": "NP IMOVEIS LTDA",
   "documento": "89.176.887/0001-87",
   "despesas": 96,
   "parlamentares": 6,
@@ -19127,7 +19127,7 @@
  },
  {
   "chave": "92691336002029",
-  "nome": "CREDITO REAL IMOVEIS E CONDOMINIOS S A",
+  "nome": "Brognoli Imóveis + Crédito Real Imóveis e Condomínios S.A",
   "documento": "92.691.336/0020-29",
   "despesas": 9,
   "parlamentares": 1,
@@ -19164,7 +19164,7 @@
  },
  {
   "chave": "92802784000190",
-  "nome": "COMPANHIA RIOGRANDENSE DE SANEAMENTO",
+  "nome": "COMPANHIA RIOGRANDENSE DE SANEAMENTO - CORSAN",
   "documento": "92.802.784/0001-90",
   "despesas": 24,
   "parlamentares": 3,
@@ -19210,7 +19210,7 @@
  },
  {
   "chave": "92954106000142",
-  "nome": "VIACAO OURO E PRATA SA",
+  "nome": "VIACAO OURO E PRATA S A",
   "documento": "92.954.106/0001-42",
   "despesas": 63,
   "parlamentares": 8,
@@ -19275,7 +19275,7 @@
  },
  {
   "chave": "95592077000104",
-  "nome": "Planalto Transportes ltda",
+  "nome": "PLANALTO TRANSPORTES LTDA",
   "documento": "95.592.077/0001-04",
   "despesas": 49,
   "parlamentares": 7,

@@ -1,5 +1,5 @@
 [project]
-name = "serenata"
+name = "despesa-aberta"
 version = "0.1.0"
 description = "Transparência automatizada dos gastos de parlamentares federais"
 readme = "README.md"
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-serenata = "pipeline.cli:main"
+despesa-aberta = "pipeline.cli:main"
 
 [dependency-groups]
 dev = [

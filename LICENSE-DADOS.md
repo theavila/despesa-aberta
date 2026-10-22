@@ -10,7 +10,7 @@ O conteúdo individual de cada registro está sob a
 
 Você pode copiar, distribuir, usar e adaptar os dados, desde que:
 
-- **atribua** a origem ("Serenata", com link para o repositório) e as fontes oficiais
+- **atribua** a origem ("Despesa Aberta", com link para o repositório) e as fontes oficiais
   (Câmara dos Deputados e Senado Federal);
 - **compartilhe pela mesma licença** qualquer base de dados derivada que tornar pública;
 - **mantenha aberto** o acesso a ela, se aplicar restrições técnicas.

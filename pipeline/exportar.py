@@ -92,8 +92,12 @@ def exportar_parlamentares(
     resumo = db.consultar(
         con,
         """
-        SELECT d.casa, d.parlamentar_id, any_value(d.parlamentar_nome) AS nome,
-               mode(d.partido) AS partido, mode(d.uf) AS uf, any_value(p.url_foto) AS url_foto,
+        -- Agregações determinísticas (o export é commitado todo dia): nome, partido e UF
+        -- da despesa mais recente.
+        SELECT d.casa, d.parlamentar_id,
+               max_by(d.parlamentar_nome, d.competencia || d.id) AS nome,
+               max_by(d.partido, d.competencia || d.id) AS partido,
+               max_by(d.uf, d.competencia || d.id) AS uf, max(p.url_foto) AS url_foto,
                count(*) AS despesas, round(sum(d.valor), 2) AS total
         FROM despesas d
         LEFT JOIN parlamentares p ON p.casa = d.casa AND p.id = d.parlamentar_id
@@ -160,12 +164,14 @@ def exportar_fornecedores(
     totais = db.consultar(
         con,
         """
-        SELECT fornecedor_cnpj_cpf AS documento, any_value(fornecedor_nome) AS nome,
+        SELECT fornecedor_cnpj_cpf AS documento, min(fornecedor_nome) AS nome,
                upper(fornecedor_nome) AS nome_chave, count(*) AS despesas,
                count(DISTINCT casa || parlamentar_id) AS parlamentares,
                round(sum(valor), 2) AS total
         FROM despesas
         GROUP BY fornecedor_cnpj_cpf, upper(fornecedor_nome)
+        -- A grafia mais frequente de cada CNPJ vem primeiro e dá nome à página.
+        ORDER BY documento, despesas DESC, nome_chave
         """,
     )
     agregados: dict[str, dict[str, Any]] = {}

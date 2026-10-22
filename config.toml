@@ -1,7 +1,7 @@
-# Configuração do Serenata. Os mesmos limites valem para todos os parlamentares.
+# Configuração do Despesa Aberta. Os mesmos limites valem para todos os parlamentares.
 
 [coleta]
-user_agent = "SerenataBot/0.1 (+https://github.com/theavila/serenata)"
+user_agent = "DespesaAbertaBot/0.1 (+https://github.com/theavila/despesa-aberta)"
 timeout_segundos = 60
 tentativas = 5
 backoff_base_segundos = 2.0
@@ -56,8 +56,8 @@ categorias = [
 ]
 
 [site]
-nome = "Serenata"
-url = "https://theavila.github.io/serenata"
+nome = "Despesa Aberta"
+url = "https://theavila.github.io/despesa-aberta"
 
 [publicacao]
 fuso = "America/Sao_Paulo"

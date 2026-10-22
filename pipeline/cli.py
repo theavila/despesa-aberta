@@ -1,4 +1,4 @@
-"""Linha de comando: `serenata coletar|analisar|publicar|exportar`."""
+"""Linha de comando: `despesa-aberta coletar|analisar|publicar|exportar`."""
 
 import argparse
 import logging
@@ -15,7 +15,7 @@ from pipeline.exportar import exportar
 from pipeline.http import criar_cliente
 from pipeline.normalizacao.normalizar import normalizar
 
-log = logging.getLogger("serenata")
+log = logging.getLogger("despesa_aberta")
 
 
 def anos_padrao(hoje: date) -> list[int]:
@@ -133,7 +133,7 @@ def cmd_estado(args: argparse.Namespace) -> None:
 
 
 def criar_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="serenata", description=__doc__)
+    parser = argparse.ArgumentParser(prog="despesa-aberta", description=__doc__)
     parser.add_argument("-v", "--verbose", action="store_true", help="log detalhado")
     sub = parser.add_subparsers(dest="comando", required=True)
 

@@ -1,6 +1,6 @@
 # Documentação do sistema
 
-Este documento descreve como o Serenata funciona por dentro e como operá-lo. Para uma
+Este documento descreve como o sistema Despesa Aberta funciona por dentro e como operá-lo. Para uma
 visão geral, comece pelo [README](../README.md). Para as regras em detalhe, veja a
 [metodologia](metodologia.md).
 
@@ -20,7 +20,7 @@ visão geral, comece pelo [README](../README.md). Para as regras em detalhe, vej
 
 ## 1. Visão geral
 
-O Serenata é um pipeline em Python com cinco etapas:
+O Despesa Aberta é um pipeline em Python com cinco etapas:
 
 1. baixa as despesas oficiais da cota parlamentar da Câmara e do Senado;
 2. converte tudo para um esquema único;
@@ -53,8 +53,8 @@ flowchart LR
 
 | Caminho | Papel |
 |---|---|
-| `pipeline/cli.py` | Comando `serenata` com os subcomandos `coletar`, `normalizar`, `analisar`, `exportar`, `publicar`, `resposta` e `estado`. |
-| `pipeline/config.py` | Lê `config.toml` e os caminhos (`SERENATA_CONFIG`, `SERENATA_DB`). |
+| `pipeline/cli.py` | Comando `despesa-aberta` com os subcomandos `coletar`, `normalizar`, `analisar`, `exportar`, `publicar`, `resposta` e `estado`. |
+| `pipeline/config.py` | Lê `config.toml` e os caminhos (`DESPESA_ABERTA_CONFIG`, `DESPESA_ABERTA_DB`). |
 | `pipeline/http.py` | Cliente HTTP com User-Agent, timeout e retry com backoff exponencial. |
 | `pipeline/db.py` | Esquema do DuckDB e funções de acesso (`consultar`, `escalar`, inserções). |
 | `pipeline/coletores/` | `camara.py`, `senado.py` (fontes oficiais), `cnpj.py` (BrasilAPI) e `base.py` (hash e normalização de nomes). |
@@ -76,7 +76,7 @@ flowchart LR
 
 ```mermaid
 sequenceDiagram
-    participant CLI as serenata
+    participant CLI as despesa-aberta
     participant F as Fontes oficiais
     participant DB as DuckDB
     participant API as BrasilAPI
@@ -100,7 +100,7 @@ As etapas são independentes e podem ser rodadas de novo sem efeito colateral:
 
 ## 4. Modelo de dados (DuckDB)
 
-Arquivo padrão: `data/serenata.duckdb`. O esquema é criado por `db.conectar`.
+Arquivo padrão: `data/despesa-aberta.duckdb`. O esquema é criado por `db.conectar`.
 
 | Tabela | Chave | Conteúdo | Pode ser recriada? |
 |---|---|---|---|
@@ -219,7 +219,7 @@ O site é feito em Astro e gerado a partir de `site/src/data/*.json`:
 | `/metodologia/`, `/direito-de-resposta/`, `/sobre/`, `/dados/` | Páginas institucionais e downloads |
 | `/rss.xml`, `/atom.xml` | Os 50 alertas mais recentes |
 
-O site é servido sob um subcaminho (`/serenata`). Por isso todo link passa por `url()` em
+O site é servido sob um subcaminho (`/despesa-aberta`). Por isso todo link passa por `url()` em
 `src/lib/dados.ts`. Nas páginas de fornecedor, o CPF de pessoa física aparece parcialmente
 oculto e nunca entra na URL.
 
@@ -234,7 +234,7 @@ oculto e nunca entra na URL.
 **Branch `data`.** Guarda `alertas.parquet`, `publicacoes.parquet` e
 `cnpj_cache.parquet`. Cada execução faz um commit nele, que funciona como trilha de
 auditoria. Os dois workflows que escrevem no estado usam o grupo de concorrência
-`serenata-estado`, para nunca rodarem ao mesmo tempo.
+`despesa-aberta-estado`, para nunca rodarem ao mesmo tempo.
 
 ## 10. Configuração
 
@@ -248,7 +248,7 @@ Arquivo `config.toml`:
 | `[site]` | `nome`, `url` (usada nos links dos posts) |
 | `[publicacao]` | `fuso`, `por_execucao`, `[publicacao.limite_diario]` por rede |
 
-Variáveis de ambiente: `SERENATA_DB`, `SERENATA_CONFIG`, `PUBLICAR` e as credenciais das
+Variáveis de ambiente: `DESPESA_ABERTA_DB`, `DESPESA_ABERTA_CONFIG`, `PUBLICAR` e as credenciais das
 redes (veja `.env.example`). Para o build do site: `SITE_URL` e `BASE_PATH`.
 
 ## 11. Operação (passo a passo)
@@ -256,24 +256,24 @@ redes (veja `.env.example`). Para o build do site: `SITE_URL` e `BASE_PATH`.
 **Rodar tudo localmente e ver o site**
 
 ```bash
-uv run serenata coletar --ano 2026
-uv run serenata analisar          # use --sem-cnpj para pular a BrasilAPI
-uv run serenata exportar
+uv run despesa-aberta coletar --ano 2026
+uv run despesa-aberta analisar          # use --sem-cnpj para pular a BrasilAPI
+uv run despesa-aberta exportar
 cd site && npm ci && npm run build && npm run preview
-# abra http://localhost:4321/serenata/
+# abra http://localhost:4321/despesa-aberta/
 ```
 
 **Ver os posts sem publicar**
 
 ```bash
-uv run serenata publicar --dry-run
-uv run serenata publicar --dry-run --rede x --limite 5
+uv run despesa-aberta publicar --dry-run
+uv run despesa-aberta publicar --dry-run --rede x --limite 5
 ```
 
 **Registrar uma resposta recebida**
 
 ```bash
-uv run serenata resposta --alerta A-2026-00123 --autor "Gabinete do Dep. Fulano" --arquivo resposta.txt
+uv run despesa-aberta resposta --alerta A-2026-00123 --autor "Gabinete do Dep. Fulano" --arquivo resposta.txt
 git add respostas/ && git commit -m "docs(respostas): registra resposta ao alerta A-2026-00123"
 ```
 
@@ -300,7 +300,7 @@ repositório `PUBLICAR=1`. Para desligar, apague a variável ou mude o valor.
 
 ```bash
 bash .github/scripts/estado.sh baixar
-uv run serenata estado restaurar
+uv run despesa-aberta estado restaurar
 ```
 
 ## 12. Testes

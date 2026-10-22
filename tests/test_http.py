@@ -41,8 +41,8 @@ def test_erro_definitivo_nao_repete():
 
 
 def test_cliente_identifica_o_projeto():
-    cliente = criar_cliente({"user_agent": "SerenataBot/teste", "timeout_segundos": 7})
-    assert cliente.headers["User-Agent"] == "SerenataBot/teste"
+    cliente = criar_cliente({"user_agent": "DespesaAbertaBot/teste", "timeout_segundos": 7})
+    assert cliente.headers["User-Agent"] == "DespesaAbertaBot/teste"
     assert cliente.timeout.read == 7
 
 

@@ -1,4 +1,4 @@
-// Leitura dos JSONs exportados pelo pipeline (`serenata exportar`) e formatação.
+// Leitura dos JSONs exportados pelo pipeline (`despesa-aberta exportar`) e formatação.
 import fs from "node:fs";
 import path from "node:path";
 
@@ -103,7 +103,7 @@ export function alertasPorCodigo(): Map<string, Alerta> {
   return new Map(alertas().map((a) => [a.codigo, a]));
 }
 
-// ---- Endereços (o site é servido em um subcaminho, ex.: /serenata/) ----
+// ---- Endereços (o site é servido em um subcaminho, ex.: /despesa-aberta/) ----
 
 export function url(caminho = ""): string {
   const base = import.meta.env.BASE_URL.replace(/\/$/, "");

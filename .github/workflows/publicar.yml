@@ -14,7 +14,7 @@ on:
         default: true
 
 concurrency:
-  group: serenata-estado
+  group: despesa-aberta-estado
   cancel-in-progress: false
 
 permissions:
@@ -49,16 +49,16 @@ jobs:
       - name: Restaura despesas e estado
         run: |
           bash .github/scripts/estado.sh baixar
-          uv run serenata coletar
-          uv run serenata estado restaurar
+          uv run despesa-aberta coletar
+          uv run despesa-aberta estado restaurar
       - name: Publica
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            uv run serenata publicar --dry-run
+            uv run despesa-aberta publicar --dry-run
           else
-            uv run serenata publicar
+            uv run despesa-aberta publicar
           fi
       - name: Salva o log de publicações (branch data)
         run: |
-          uv run serenata estado salvar
+          uv run despesa-aberta estado salvar
           bash .github/scripts/estado.sh enviar "chore(dados): log de publicações de $(date -u +'%F %H:%M')"

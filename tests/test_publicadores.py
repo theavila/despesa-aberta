@@ -14,7 +14,7 @@ from pipeline.publicadores.mastodon import PublicadorMastodon
 from pipeline.publicadores.x import PublicadorX, assinatura_oauth1, cabecalho_oauth1, tamanho_x
 from tests.fabrica import despesa, despesas
 
-URL = "https://serenata.test/alerta/A-2026-00123/"
+URL = "https://despesa-aberta.test/alerta/A-2026-00123/"
 
 
 def _alerta(**campos) -> AlertaPublicavel:
@@ -61,16 +61,16 @@ def test_modelo_unico_de_texto():
 @pytest.mark.parametrize("texto", ["escândalo", "absurdo", "roubo", "desvio", "fraude", "corrup"])
 def test_linguagem_neutra(texto):
     for alerta in (_alerta(), SENADO_LONGO):
-        for publicador in (PublicadorX("Serenata"), PublicadorBluesky("Serenata")):
+        for publicador in (PublicadorX("Despesa Aberta"), PublicadorBluesky("Despesa Aberta")):
             assert texto not in publicador.texto(alerta).lower()
 
 
 def test_x_sem_link_e_dentro_do_limite():
-    px = PublicadorX("Serenata")
+    px = PublicadorX("Despesa Aberta")
     for alerta in (_alerta(), SENADO_LONGO):
         texto = px.texto(alerta)
         assert "http" not in texto
-        assert "A-2026-00123" in texto and texto.endswith("Busque o código no site Serenata.")
+        assert "A-2026-00123" in texto and texto.endswith("Busque o código no site Despesa Aberta.")
         assert tamanho_x(texto) <= 280
     assert "…" in px.texto(SENADO_LONGO)  # categoria e fornecedor encurtados
     assert "…." not in px.texto(SENADO_LONGO)
@@ -83,9 +83,9 @@ def test_tamanho_ponderado_do_x():
 
 
 def test_bluesky_e_mastodon_com_link():
-    bsky = PublicadorBluesky("Serenata").texto(SENADO_LONGO)
+    bsky = PublicadorBluesky("Despesa Aberta").texto(SENADO_LONGO)
     assert bsky.endswith(URL) and len(bsky) <= 300
-    masto = PublicadorMastodon("Serenata")
+    masto = PublicadorMastodon("Despesa Aberta")
     texto = masto.texto(SENADO_LONGO)
     assert AVISO in texto and texto.endswith(URL)
     assert masto.tamanho(texto) <= 500
@@ -122,7 +122,8 @@ def test_x_envia_post_assinado(monkeypatch):
         pedidos.append(request)
         return httpx.Response(201, json={"data": {"id": "999", "text": "..."}})
 
-    px = PublicadorX("Serenata", cliente=httpx.Client(transport=httpx.MockTransport(responder)))
+    cliente = httpx.Client(transport=httpx.MockTransport(responder))
+    px = PublicadorX("Despesa Aberta", cliente=cliente)
     assert px.configurado()
     r = px.publicar(_alerta(), dry_run=False)
     assert r.sucesso and r.id_externo == "999" and r.url.endswith("/999")
@@ -150,10 +151,10 @@ def test_mastodon_envia_com_biblioteca(monkeypatch):
 
         def status_post(self, texto, **kwargs):
             enviados.append((texto, kwargs))
-            return {"id": 42, "url": "https://masto.test/@serenata/42"}
+            return {"id": 42, "url": "https://masto.test/@despesaaberta/42"}
 
     monkeypatch.setitem(sys.modules, "mastodon", types.SimpleNamespace(Mastodon=FakeMastodon))
-    r = PublicadorMastodon("Serenata").publicar(_alerta(), dry_run=False)
+    r = PublicadorMastodon("Despesa Aberta").publicar(_alerta(), dry_run=False)
     assert (r.sucesso, r.id_externo) == (True, "42")
     assert enviados[0][1]["visibility"] == "public"
 
@@ -177,7 +178,7 @@ class PublicadorFalso(Publicador):
 
 
 CONFIG = {
-    "site": {"url": "https://serenata.test", "nome": "Serenata"},
+    "site": {"url": "https://despesa-aberta.test", "nome": "Despesa Aberta"},
     "publicacao": {"fuso": "America/Sao_Paulo", "por_execucao": 2, "limite_diario": {"x": 3}},
 }
 
@@ -208,7 +209,7 @@ def test_dry_run_e_o_padrao(monkeypatch):
 
 
 def test_fila_por_score_sem_inativos(con):
-    codigos = [a.codigo for a in publicacao.fila(con, "x", 10, "https://serenata.test")]
+    codigos = [a.codigo for a in publicacao.fila(con, "x", 10, "https://despesa-aberta.test")]
     # score 90 (valor 400) > 90 (valor 200) > 50 > 10; A-2026-00005 está inativo
     assert codigos == ["A-2026-00004", "A-2026-00002", "A-2026-00003", "A-2026-00001"]
     assert publicacao.fila(con, "x", 1, "https://s.test")[0].url == (
@@ -249,4 +250,4 @@ def test_falha_fica_registrada_e_volta_para_a_fila(con):
 def test_rede_sem_credenciais_e_ignorada_na_publicacao_real(con, monkeypatch):
     for var in ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET"):
         monkeypatch.delenv(var, raising=False)
-    assert publicacao.publicar(con, [PublicadorX("Serenata")], CONFIG, dry_run=False) == []
+    assert publicacao.publicar(con, [PublicadorX("Despesa Aberta")], CONFIG, dry_run=False) == []

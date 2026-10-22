@@ -16,7 +16,7 @@ on:
 
 # Um único job por vez mexe no estado (compartilhado com publicar.yml).
 concurrency:
-  group: serenata-estado
+  group: despesa-aberta-estado
   cancel-in-progress: false
 
 permissions:
@@ -43,13 +43,13 @@ jobs:
       - name: Restaura o estado (branch data)
         run: |
           bash .github/scripts/estado.sh baixar
-          uv run serenata estado restaurar
-      - run: uv run serenata coletar
-      - run: uv run serenata analisar
-      - run: uv run serenata exportar
+          uv run despesa-aberta estado restaurar
+      - run: uv run despesa-aberta coletar
+      - run: uv run despesa-aberta analisar
+      - run: uv run despesa-aberta exportar
       - name: Salva o estado (branch data)
         run: |
-          uv run serenata estado salvar
+          uv run despesa-aberta estado salvar
           bash .github/scripts/estado.sh enviar "chore(dados): estado após o pipeline de $(date -u +%F)"
       - name: Commit dos JSONs do site
         run: |

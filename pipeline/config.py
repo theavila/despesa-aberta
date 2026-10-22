@@ -9,11 +9,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 
 
 def caminho_config() -> Path:
-    return Path(os.environ.get("SERENATA_CONFIG", RAIZ / "config.toml"))
+    return Path(os.environ.get("DESPESA_ABERTA_CONFIG", RAIZ / "config.toml"))
 
 
 def caminho_banco() -> Path:
-    return Path(os.environ.get("SERENATA_DB", RAIZ / "data" / "serenata.duckdb"))
+    return Path(os.environ.get("DESPESA_ABERTA_DB", RAIZ / "data" / "despesa-aberta.duckdb"))
 
 
 def carregar_config(caminho: Path | None = None) -> dict[str, Any]:
