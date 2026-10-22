@@ -229,7 +229,7 @@ oculto e nunca entra na URL.
 |---|---|---|
 | `ci.yml` | Em todo push e PR | Ruff, pytest e build do site. |
 | `pipeline.yml` | Diariamente às 09:00 UTC (06:00 em Brasília), manualmente, ou em push que altere `pipeline/`, `config.toml`, `respostas/` ou `site/` | Restaura o estado, coleta, analisa, exporta, salva o estado, faz commit dos JSONs e faz build e deploy no Pages. |
-| `publicar.yml` | Dias úteis às 12, 15, 18 e 21 UTC, ou manualmente (dry-run por padrão) | Coleta (para ter as despesas), restaura o estado, publica e salva o log. |
+| `publicar.yml` | Dias úteis às 12, 15, 18 e 21 UTC, ou manualmente | Coleta (para ter as despesas), restaura o estado, publica e salva o log. Agendado: real só com `PUBLICAR=1`. Manual: escolha rede e limite; desmarcar "dry_run" publica de verdade (bom para testar uma rede com limite 1). |
 
 **Branch `data`.** Guarda `alertas.parquet`, `publicacoes.parquet` e
 `cnpj_cache.parquet`. Cada execução faz um commit nele, que funciona como trilha de
@@ -292,6 +292,13 @@ códigos novos.
 
 O teste de imparcialidade em `tests/test_analise.py` passa a cobrir a nova regra
 automaticamente.
+
+**Testar uma rede de verdade.** Rode o workflow "Publicar alertas" manualmente, escolha
+a rede, use limite `1` e desmarque "dry_run":
+
+```bash
+gh workflow run publicar.yml -f dry_run=false -f rede=bluesky -f limite=1
+```
 
 **Ligar a publicação real.** No GitHub, cadastre os secrets e defina a variável de
 repositório `PUBLICAR=1`. Para desligar, apague a variável ou mude o valor.
