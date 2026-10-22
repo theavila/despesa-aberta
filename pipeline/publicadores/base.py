@@ -52,6 +52,11 @@ def encurtar(texto: str, maximo: int) -> str:
     return corte + RETICENCIAS
 
 
+def _fim_de_frase(texto: str) -> str:
+    """Acrescenta ponto final, exceto depois de reticências ou de um ponto já existente."""
+    return texto if texto.endswith((RETICENCIAS, ".")) else texto + "."
+
+
 def texto_base(a: AlertaPublicavel, max_categoria: int = 50, max_fornecedor: int = 40) -> str:
     """Modelo único e neutro, igual para todos os parlamentares."""
     casa, tratamento = CASAS[a.casa]
@@ -60,7 +65,7 @@ def texto_base(a: AlertaPublicavel, max_categoria: int = 50, max_fornecedor: int
     return (
         f"[{casa}] {tratamento} {a.parlamentar_nome}{filiacao} — {fmt.reais(a.valor)} em "
         f"{encurtar(a.categoria, max_categoria)}, {fmt.data_curta(a.data)}, fornecedor "
-        f"{encurtar(a.fornecedor_nome, max_fornecedor)}. Regra: {a.regra_nome}. "
+        f"{_fim_de_frase(encurtar(a.fornecedor_nome, max_fornecedor))} Regra: {a.regra_nome}. "
         f"Atípico ≠ irregular. Cód. {a.codigo}"
     )
 

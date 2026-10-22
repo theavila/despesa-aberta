@@ -73,6 +73,8 @@ def test_x_sem_link_e_dentro_do_limite():
         assert "A-2026-00123" in texto and texto.endswith("Busque o código no site Serenata.")
         assert tamanho_x(texto) <= 280
     assert "…" in px.texto(SENADO_LONGO)  # categoria e fornecedor encurtados
+    assert "…." not in px.texto(SENADO_LONGO)
+    assert "LTDA.. Regra" not in texto_base(_alerta(fornecedor_nome="EXEMPLO LTDA."))
 
 
 def test_tamanho_ponderado_do_x():

@@ -42,7 +42,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Restaura o estado (branch data)
         run: |
-          .github/scripts/estado.sh baixar
+          bash .github/scripts/estado.sh baixar
           uv run serenata estado restaurar
       - run: uv run serenata coletar
       - run: uv run serenata analisar
@@ -50,7 +50,7 @@ jobs:
       - name: Salva o estado (branch data)
         run: |
           uv run serenata estado salvar
-          .github/scripts/estado.sh enviar "chore(dados): estado após o pipeline de $(date -u +%F)"
+          bash .github/scripts/estado.sh enviar "chore(dados): estado após o pipeline de $(date -u +%F)"
       - name: Commit dos JSONs do site
         run: |
           git add site/src/data

@@ -2,53 +2,48 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Estado atual
+Projeto **Serenata**: coleta despesas da cota parlamentar (Câmara e Senado), marca gastos atípicos com regras públicas, publica nas redes e gera um site estático com cara de jornal. A especificação original está em `PROMPT.md`; o README descreve uso e configuração.
 
-O repositório ainda está vazio: só há `PROMPT.md` (a especificação completa do projeto) e um `README.md` provisório. **`PROMPT.md` é a fonte da verdade** — leia-o antes de qualquer etapa. A raiz deste repositório corresponde à pasta `serenata-nova/` da estrutura descrita lá. Atualize este arquivo à medida que o código real substituir o planejado.
-
-Obs.: o `README.md` atual está em UTF-16 LE (o git o trata como binário); ao reescrevê-lo na Etapa 7, salve em UTF-8.
-
-## Fluxo de trabalho exigido
-
-- Trabalhar por etapas (1 Coleta → 2 Normalização → 3 Regras → 4 Publicadores → 5 Site → 6 Actions → 7 Docs).
-- Ao fim de cada etapa: rodar testes, commitar em **Conventional Commits em português** (ex.: `feat: adiciona coletor da Câmara`) e mostrar um resumo curto.
-- **Não avançar de etapa se os testes falharem.**
-- Testes nunca acessam a rede: usar fixtures pequenas (~20 linhas por fonte) em `tests/fixtures/`.
-
-## Comandos (planejados)
+## Comandos
 
 ```bash
-uv sync                                   # dependências Python 3.12
-uv run ruff check . && uv run ruff format .
-uv run pytest                             # todos os testes
-uv run pytest tests/caminho/test_x.py::test_nome   # um teste
-uv run serenata coletar --ano 2026
-uv run serenata analisar
-uv run serenata exportar                  # gera site/src/data/*.json
-uv run serenata publicar --dry-run
-cd site && npm run build                  # site Astro estático
-```
+uv sync
+uv run pytest                                   # todos os testes (sem rede)
+uv run pytest tests/regras/test_r01_refeicao_alta.py::test_marca_refeicao_acima_do_limite
+uv run ruff check . && uv run ruff format --check .
 
-Critério de "v1 funcional": a sequência coletar → analisar → exportar roda localmente, `npm run build` gera o site, `publicar --dry-run` mostra os posts e os workflows passam no GitHub.
+uv run serenata coletar [--ano 2026]            # baixa + normaliza (tabela despesas)
+uv run serenata analisar [--sem-cnpj]           # regras -> tabela alertas (consulta BrasilAPI sem a flag)
+uv run serenata exportar                        # site/src/data/*.json
+uv run serenata publicar --dry-run              # dry-run é o padrão; real só com PUBLICAR=1
+uv run serenata estado salvar|restaurar         # Parquet do estado persistente (pasta estado/)
+
+cd site && npm ci && npm run build              # astro build + pagefind; preview em /serenata/
+```
 
 ## Arquitetura
 
-Pipeline Python (`pipeline/`, CLI `serenata`) → DuckDB em arquivo (`data/serenata.duckdb`, fora do git) → JSONs exportados → site Astro estático (GitHub Pages). Publicadores em redes sociais leem a tabela `alertas`.
+Fluxo: `coletores/` → tabela `bruto` (JSON por linha, PK = hash) → `normalizacao/` reconstrói `despesas` inteira a partir de `bruto` → `regras/` + `analise.py` → `alertas` → `exportar.py` (JSONs do site) e `publicacao.py` (redes). Tudo em DuckDB (`data/serenata.duckdb`, fora do git); esquema em `pipeline/db.py`.
 
-- **Coletores** (`pipeline/coletores/`): coleta incremental e idempotente (hash por linha), retry com backoff exponencial, timeout e User-Agent do projeto.
-  - Câmara: `cotas/Ano-{ano}.csv.zip` (`;`, UTF-8); liga ao deputado via `ideCadastro` = id da API v2.
-  - Senado: CEAPS CSV em **Latin-1, `;`, vírgula decimal e primeira linha de metadado**; senador identificado só por nome → casar com a lista oficial por nome normalizado (maiúsculas, sem acento).
-- **Normalização**: esquema único `Despesa` (pydantic) com os campos listados na Etapa 2 do `PROMPT.md`; tudo a jusante consome só esse esquema.
-- **Regras** (`pipeline/regras/`): uma regra por arquivo, função pura e determinística, com id, nome, descrição em linguagem simples e teste próprio. Limites em `config.toml`. Saída: tabela `alertas` com score e referência à regra. R04 consulta a BrasilAPI com cache local e limite de taxa.
-- **Publicadores** (`pipeline/publicadores/`): interface `Publicador.publicar(alerta)`; **dry-run é o padrão**, só publica de verdade com `PUBLICAR=1`. Um único modelo de texto para todas as redes; X sem link no texto (usar código do alerta, ex. `A-2026-00123`); Bluesky e Mastodon com link. Limite diário por rede, nunca repetir alerta, fila por score, log no banco.
-- **Site** (`site/`): Astro gerado a partir de `site/src/data/*.json`; busca client-side com Pagefind; RSS/Atom e downloads CSV/JSON. Visual de jornal (serifada nos títulos, sans nos dados, papel creme, um único tom de destaque) — **sem cores associadas a partidos** (vermelho/azul/verde/amarelo).
-- **Automação**: `pipeline.yml` (diário 06:00 America/Sao_Paulo, cache do DuckDB entre execuções), `publicar.yml` (a cada 3h em horário comercial), `ci.yml` (ruff + pytest + build do site).
-- Segredos só via env / GitHub Secrets; manter `.env.example` atualizado.
+- **Ids estáveis são a espinha do sistema.** `despesas.id` é o hash SHA-256 da linha da fonte (`coletores/base.py:adicionar_hash`); os alertas referenciam esse id. Mudar a fórmula do hash ou as colunas lidas invalida todos os alertas e códigos.
+- **Códigos de alerta** (`A-{ano da competência}-{seq}`) são atribuídos em `analise.gravar_alertas` por (regra_id, despesa_id), nunca reutilizados; alertas que deixam de disparar viram `ativo = false`.
+- **Regras**: um arquivo por regra em `pipeline/regras/rNN_*.py`, exportando `REGRA` (id, nome, descrição em linguagem simples, `aplicar`). `aplicar(despesas, params, contexto)` é pura e devolve `despesa_id, intensidade (0–1), detalhe`; score = round(100 × peso × intensidade). Parâmetros em `config.toml` `[regras.<id>]` — `tests/test_analise.py` exige que config e registro (`regras/__init__.py:REGRAS`) batam. Categorias são comparadas via `normalizar_nome` (sem acento/caixa).
+- **Estado persistente no CI**: despesas são rebaixadas a cada execução; só `alertas`, `publicacoes` e `cnpj_cache` vão para o branch `data` em Parquet (`pipeline/estado.py` + `.github/scripts/estado.sh`). Os workflows `pipeline.yml` e `publicar.yml` compartilham o grupo de concorrência `serenata-estado`.
+- **Publicadores** (`pipeline/publicadores/`): subclasses de `Publicador` com `sufixo`, `tamanho`, `configurado`, `enviar`. O texto base é único (`base.texto_base`); X não pode ter link (OAuth 1.0a assinado à mão em `x.py`). `atproto` e `mastodon` são importados dentro de `enviar`.
+- **Site** (`site/`, Astro 7): lê os JSONs via `src/lib/dados.ts` (fs, a partir de `process.cwd()`). Sempre monte links com `url()`/`urlAlerta()` etc., pois o site roda sob `base` (`/serenata`, ou `BASE_PATH`). Downloads CSV/JSON são endpoints `*.json.ts`/`*.csv.ts`. Só páginas com `data-pagefind-body` (alerta, parlamentar, fornecedor) entram na busca.
+- **Direito de resposta**: arquivos `respostas/<código>-<n>.toml` (versionados), lidos no `exportar`.
 
-## Princípio editorial (inegociável — vale para código, textos e site)
+## Armadilhas
 
-- Mesmas regras, limites e modelo de texto para todos. **Nenhuma regra pode usar partido, ideologia ou nome como critério.**
-- Linguagem factual, sem adjetivos: um alerta é "gasto atípico segundo a regra X", nunca acusação ("escândalo", "absurdo", "roubo" são proibidos).
-- Todo alerta exibe valor, data, fornecedor (CNPJ), regra, explicação simples e link para o documento oficial.
-- Todo post e toda página trazem: "Atipicidade estatística não é prova de irregularidade. O parlamentar pode ter justificativa."
-- Manter páginas "Metodologia" (regras + código-fonte) e "Direito de resposta" (com registro de justificativas).
+- DuckDB 2.x: use `db.consultar()` (→ polars) e `db.escalar()`; `con.execute(...).fetchone()` deixa resultado pendente e quebra a próxima chamada, e `.pl()` não existe no resultado de `execute`.
+- polars 2.x: `read_csv(..., empty_string_is_null=False)`; leia CSV sempre como texto (`infer_schema=False`) e converta na normalização.
+- O CSV da Câmara é UTF-8 com BOM (não Latin-1); o do Senado é Latin-1 com uma linha de metadado antes do cabeçalho.
+- No Windows, saída do CLI precisa de UTF-8 (já tratado em `cli.main`); para scripts avulsos use `PYTHONIOENCODING=utf-8`.
+
+## Princípio editorial (inegociável)
+
+Mesmas regras, limites e texto para todos; nenhuma regra pode usar partido, ideologia ou nome (há teste que embaralha esses campos). Linguagem factual: "gasto atípico segundo a regra X", nunca acusação nem adjetivos como "escândalo". Todo alerta mostra valor, data, fornecedor (CNPJ), regra, explicação simples e link oficial; toda página e post trazem o aviso "Atipicidade estatística não é prova de irregularidade. O parlamentar pode ter justificativa." Visual sem cores partidárias (um único destaque café, `--destaque`).
+
+## Fluxo de trabalho
+
+Commits em Conventional Commits, em português. Rode testes e ruff antes de commitar; não avance etapas com testes falhando.
