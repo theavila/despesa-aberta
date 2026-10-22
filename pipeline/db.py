@@ -43,6 +43,13 @@ def escalar(con: duckdb.DuckDBPyConnection, sql: str, parametros: list | None = 
     return linhas[0][0] if linhas else None
 
 
+def consultar(
+    con: duckdb.DuckDBPyConnection, sql: str, parametros: list | None = None
+) -> pl.DataFrame:
+    """Executa uma consulta e devolve o resultado como DataFrame polars."""
+    return pl.from_arrow(con.sql(sql, params=parametros).to_arrow_table())
+
+
 def agora() -> datetime:
     return datetime.now(UTC).replace(tzinfo=None, microsecond=0)
 

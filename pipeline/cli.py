@@ -9,6 +9,7 @@ from pipeline import config as cfg
 from pipeline import db
 from pipeline.coletores import camara, senado
 from pipeline.http import criar_cliente
+from pipeline.normalizacao.normalizar import normalizar
 
 log = logging.getLogger("serenata")
 
@@ -42,6 +43,13 @@ def cmd_coletar(args: argparse.Namespace) -> None:
                 linhas = senado.coletar(cliente, urls["senado_ceaps"], ano, **retry)
                 novas = db.inserir_brutos(con, linhas, "senado", ano)
                 log.info("Senado %s: %d linhas, %d novas", ano, len(linhas), novas)
+    log.info("Despesas normalizadas: %d", normalizar(con, urls))
+    con.close()
+
+
+def cmd_normalizar(args: argparse.Namespace) -> None:
+    con = db.conectar(cfg.caminho_banco())
+    log.info("Despesas normalizadas: %d", normalizar(con, cfg.carregar_config()["coleta"]["urls"]))
     con.close()
 
 
@@ -54,6 +62,9 @@ def criar_parser() -> argparse.ArgumentParser:
     p.add_argument("--ano", type=int, nargs="+", default=[date.today().year])
     p.add_argument("--casa", choices=["camara", "senado", "todas"], default="todas")
     p.set_defaults(func=cmd_coletar)
+
+    p = sub.add_parser("normalizar", help="refaz a tabela de despesas a partir dos dados brutos")
+    p.set_defaults(func=cmd_normalizar)
     return parser
 
 
