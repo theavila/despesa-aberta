@@ -1,9 +1,8 @@
 """Mastodon via biblioteca `Mastodon.py`, com link e o aviso completo (cabe em 500)."""
 
-import os
 import re
 
-from pipeline.publicadores.base import AVISO, AlertaPublicavel, Publicador
+from pipeline.publicadores.base import AVISO, AlertaPublicavel, Publicador, credencial
 
 TAMANHO_LINK = 23  # o Mastodon conta qualquer URL como 23 caracteres
 
@@ -22,16 +21,14 @@ class PublicadorMastodon(Publicador):
         return len(re.sub(r"https?://\S+", "x" * TAMANHO_LINK, texto))
 
     def configurado(self) -> bool:
-        return bool(
-            os.environ.get("MASTODON_API_BASE_URL") and os.environ.get("MASTODON_ACCESS_TOKEN")
-        )
+        return bool(credencial("MASTODON_API_BASE_URL") and credencial("MASTODON_ACCESS_TOKEN"))
 
     def enviar(self, texto: str, alerta: AlertaPublicavel) -> tuple[str, str | None]:
         from mastodon import Mastodon
 
         cliente = Mastodon(
-            access_token=os.environ["MASTODON_ACCESS_TOKEN"],
-            api_base_url=os.environ["MASTODON_API_BASE_URL"],
+            access_token=credencial("MASTODON_ACCESS_TOKEN"),
+            api_base_url=credencial("MASTODON_API_BASE_URL"),
         )
         status = cliente.status_post(texto, visibility="public", language="pt")
         return str(status["id"]), status.get("url")

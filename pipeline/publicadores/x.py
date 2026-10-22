@@ -7,14 +7,13 @@ alerta para busca no site.
 import base64
 import hashlib
 import hmac
-import os
 import secrets
 import time
 from urllib.parse import quote
 
 import httpx
 
-from pipeline.publicadores.base import AlertaPublicavel, Publicador
+from pipeline.publicadores.base import AlertaPublicavel, Publicador, credencial
 
 URL_TWEETS = "https://api.x.com/2/tweets"
 VARIAVEIS = ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET")
@@ -79,10 +78,10 @@ class PublicadorX(Publicador):
         return tamanho_x(texto)
 
     def configurado(self) -> bool:
-        return all(os.environ.get(v) for v in VARIAVEIS)
+        return all(credencial(v) for v in VARIAVEIS)
 
     def enviar(self, texto: str, alerta: AlertaPublicavel) -> tuple[str, str | None]:
-        key, secret, token, token_secret = (os.environ[v] for v in VARIAVEIS)
+        key, secret, token, token_secret = (credencial(v) for v in VARIAVEIS)
         cabecalho = cabecalho_oauth1("POST", URL_TWEETS, key, secret, token, token_secret)
         cliente = self.cliente or httpx.Client(timeout=30)
         resposta = cliente.post(

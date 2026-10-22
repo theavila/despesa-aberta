@@ -1,6 +1,7 @@
 """Interface comum dos publicadores e o modelo único de texto dos posts."""
 
 import logging
+import os
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from datetime import date
@@ -14,6 +15,11 @@ AVISO = (
 )
 CASAS = {"camara": ("Câmara", "Dep."), "senado": ("Senado", "Sen.")}
 RETICENCIAS = "…"
+
+
+def credencial(nome: str) -> str:
+    """Lê uma credencial do ambiente sem espaços ou quebras de linha copiados por engano."""
+    return os.environ.get(nome, "").strip()
 
 
 @dataclass(frozen=True)

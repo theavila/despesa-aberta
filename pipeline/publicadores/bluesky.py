@@ -1,8 +1,6 @@
 """Bluesky via biblioteca `atproto`, com link clicável e card do alerta."""
 
-import os
-
-from pipeline.publicadores.base import AlertaPublicavel, Publicador
+from pipeline.publicadores.base import AlertaPublicavel, Publicador, credencial
 
 
 class PublicadorBluesky(Publicador):
@@ -17,14 +15,14 @@ class PublicadorBluesky(Publicador):
         return f" {alerta.url}"
 
     def configurado(self) -> bool:
-        return bool(os.environ.get("BLUESKY_HANDLE") and os.environ.get("BLUESKY_APP_PASSWORD"))
+        return bool(credencial("BLUESKY_HANDLE") and credencial("BLUESKY_APP_PASSWORD"))
 
     def _conectar(self):
         if self._cliente is None:
             from atproto import Client
 
             self._cliente = Client()
-            self._cliente.login(os.environ["BLUESKY_HANDLE"], os.environ["BLUESKY_APP_PASSWORD"])
+            self._cliente.login(credencial("BLUESKY_HANDLE"), credencial("BLUESKY_APP_PASSWORD"))
         return self._cliente
 
     def enviar(self, texto: str, alerta: AlertaPublicavel) -> tuple[str, str | None]:
