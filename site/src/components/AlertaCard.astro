@@ -1,0 +1,33 @@
+---
+// Resumo de um alerta. Sempre mostra valor, data, fornecedor (CNPJ), regra, explicação
+// e link para o documento oficial.
+import {
+  type Alerta, CASAS, dataCurta, filiacao, reais, TRATAMENTO, urlAlerta, urlFornecedor,
+  urlParlamentar,
+} from "../lib/dados";
+
+interface Props {
+  alerta: Alerta;
+  nivel?: "h2" | "h3";
+}
+const { alerta: a, nivel = "h3" } = Astro.props;
+const Titulo = nivel;
+const fil = filiacao(a.partido, a.uf);
+---
+<article class="alerta">
+  <p class="sobretitulo">{CASAS[a.casa]} · {a.regra_nome}</p>
+  <Titulo>
+    <a href={urlAlerta(a.codigo)}>{reais(a.valor)} em {a.categoria.toLowerCase()}</a>
+  </Titulo>
+  <p class="dados">
+    <a href={urlParlamentar(a.parlamentar)}>{TRATAMENTO[a.casa]} {a.parlamentar_nome}</a>{fil && ` (${fil})`}{" "}
+    · {dataCurta(a.data)} · <a href={urlFornecedor(a.fornecedor)}>{a.fornecedor_nome}</a>{" "}
+    ({a.fornecedor_documento})
+  </p>
+  <p>{a.detalhe}</p>
+  <p class="dados">
+    <span class="selo">{a.codigo}</span>{" "}
+    · <a href={a.url_documento} rel="noopener">Documento oficial</a>
+    {a.respostas.length > 0 && <> · <strong>Com resposta do parlamentar</strong></>}
+  </p>
+</article>

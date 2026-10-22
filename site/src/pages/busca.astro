@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/dados";
+---
+<Base titulo="Busca" atual="busca" descricao="Busque alertas por código, parlamentar, fornecedor, CNPJ, UF ou partido.">
+  <h1>Busca</h1>
+  <p class="linha-fina">
+    Procure por código do alerta (ex.: A-2026-00123), nome do parlamentar, fornecedor ou CNPJ.
+    Use os filtros para limitar por casa, UF, partido, regra ou tipo de página.
+  </p>
+  <link href={url("pagefind/pagefind-ui.css")} rel="stylesheet" />
+  <div id="busca"></div>
+  <noscript><p>A busca precisa de JavaScript. Os <a href={url("dados/")}>dados abertos</a> podem ser baixados sem ele.</p></noscript>
+  <script is:inline define:vars={{ base: url("pagefind/") }}>
+    const iniciar = () => {
+      const params = new URLSearchParams(location.search);
+      const ui = new PagefindUI({
+        element: "#busca",
+        bundlePath: base,
+        showSubResults: false,
+        showImages: false,
+        resetStyles: false,
+      });
+      if (params.get("q")) ui.triggerSearch(params.get("q"));
+    };
+    const s = document.createElement("script");
+    s.src = base + "pagefind-ui.js";
+    s.onload = iniciar;
+    document.head.appendChild(s);
+  </script>
+</Base>

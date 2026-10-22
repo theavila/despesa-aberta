@@ -1,0 +1,48 @@
+---
+import Base from "../../layouts/Base.astro";
+import AlertaCard from "../../components/AlertaCard.astro";
+import Barras from "../../components/Barras.astro";
+import ColunasMes from "../../components/ColunasMes.astro";
+import Downloads from "../../components/Downloads.astro";
+import {
+  alertasPorCodigo, CASAS, filiacao, numero, type Parlamentar, parlamentares, reais, TRATAMENTO,
+} from "../../lib/dados";
+
+export function getStaticPaths() {
+  return parlamentares().map((p) => ({ params: { chave: p.chave }, props: { p } }));
+}
+
+const { p } = Astro.props as { p: Parlamentar };
+const porCodigo = alertasPorCodigo();
+const lista = p.alertas.map((c) => porCodigo.get(c)!).filter(Boolean);
+const fil = filiacao(p.partido, p.uf);
+---
+<Base titulo={`${TRATAMENTO[p.casa]} ${p.nome}`} descricao={`Gastos da cota parlamentar de ${p.nome} e alertas de atipicidade.`}>
+  <div data-pagefind-body>
+    <p class="sobretitulo">{CASAS[p.casa]}</p>
+    <h1 data-pagefind-meta="title">{TRATAMENTO[p.casa]} {p.nome}{fil && ` (${fil})`}</h1>
+    <span data-pagefind-filter="casa" hidden>{CASAS[p.casa]}</span>
+    {p.uf && <span data-pagefind-filter="uf" hidden>{p.uf}</span>}
+    {p.partido && <span data-pagefind-filter="partido" hidden>{p.partido}</span>}
+    <span data-pagefind-filter="tipo" hidden>Parlamentar</span>
+    <p class="linha-fina">
+      {numero(p.despesas)} despesas da cota parlamentar, somando {reais(p.total)}.
+      {lista.length === 0 ? " Nenhuma marcada pelas regras." : ` ${numero(lista.length)} marcada(s) como atípica(s) pelas regras.`}
+    </p>
+  </div>
+
+  <ColunasMes titulo="Total gasto por mês" meses={p.por_mes} />
+  <Barras
+    titulo="Total gasto por categoria"
+    itens={p.por_categoria.map((c) => ({ rotulo: c.categoria, valor: c.total }))}
+  />
+
+  <hr class="filete" />
+  <h2>Alertas ({numero(lista.length)})</h2>
+  {lista.length === 0 ? (
+    <p>Nenhuma despesa deste parlamentar disparou as regras de atipicidade.</p>
+  ) : (
+    <div class="colunas">{lista.map((a) => <AlertaCard alerta={a} />)}</div>
+  )}
+  <Downloads base={`parlamentar/${p.chave}`} />
+</Base>

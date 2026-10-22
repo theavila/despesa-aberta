@@ -1,0 +1,72 @@
+---
+import Base from "../../layouts/Base.astro";
+import Downloads from "../../components/Downloads.astro";
+import {
+  type Alerta, alertas, CASAS, dataCurta, filiacao, reais, regras, TRATAMENTO, url,
+  urlFornecedor, urlParlamentar,
+} from "../../lib/dados";
+
+export function getStaticPaths() {
+  return alertas().map((a) => ({ params: { codigo: a.codigo }, props: { alerta: a } }));
+}
+
+const { alerta: a } = Astro.props as { alerta: Alerta };
+const regra = regras().find((r) => r.id === a.regra_id)!;
+const fil = filiacao(a.partido, a.uf);
+const digitos = a.fornecedor_documento.replace(/\D/g, "");
+const titulo = `${a.codigo}: ${reais(a.valor)} em ${a.categoria.toLowerCase()}`;
+---
+<Base titulo={titulo} descricao={`Gasto atípico segundo a regra “${regra.nome}”. ${a.detalhe}`}>
+  <article data-pagefind-body>
+    <p class="sobretitulo">{CASAS[a.casa]} · Alerta {a.codigo}</p>
+    <h1 data-pagefind-meta="title">
+      {TRATAMENTO[a.casa]} {a.parlamentar_nome}{fil && ` (${fil})`}: {reais(a.valor)} em {a.categoria.toLowerCase()}
+    </h1>
+    <p class="linha-fina">Gasto atípico segundo a regra “{regra.nome}”. {a.detalhe}</p>
+
+    <span data-pagefind-filter="casa" hidden>{CASAS[a.casa]}</span>
+    {a.uf && <span data-pagefind-filter="uf" hidden>{a.uf}</span>}
+    {a.partido && <span data-pagefind-filter="partido" hidden>{a.partido}</span>}
+    <span data-pagefind-filter="regra" hidden>{regra.nome}</span>
+    <span data-pagefind-filter="tipo" hidden>Alerta</span>
+
+    <h2>Ficha da despesa</h2>
+    <dl class="ficha">
+      <dt>Valor</dt><dd>{reais(a.valor)}</dd>
+      <dt>Data do documento</dt><dd>{dataCurta(a.data)}</dd>
+      <dt>Mês de referência</dt><dd>{a.competencia}</dd>
+      <dt>Categoria</dt><dd>{a.categoria}</dd>
+      <dt>Parlamentar</dt>
+      <dd><a href={urlParlamentar(a.parlamentar)}>{TRATAMENTO[a.casa]} {a.parlamentar_nome}</a>{fil && ` (${fil})`} — {CASAS[a.casa]}</dd>
+      <dt>Fornecedor</dt>
+      <dd><a href={urlFornecedor(a.fornecedor)}>{a.fornecedor_nome}</a></dd>
+      <dt>CNPJ/CPF</dt><dd>{a.fornecedor_documento}<span class="visualmente-oculto"> {digitos}</span></dd>
+      <dt>Documento oficial</dt><dd><a href={a.url_documento} rel="noopener">{a.url_documento}</a></dd>
+      <dt>Arquivo de origem</dt><dd><a href={a.fonte} rel="noopener">{a.fonte}</a></dd>
+      <dt>Código do alerta</dt><dd>{a.codigo}</dd>
+      <dt>Pontuação</dt><dd>{a.score} de 100 <a href={url("metodologia/#pontuacao")}>(como é calculada)</a></dd>
+    </dl>
+
+    <h2>A regra, em linguagem simples</h2>
+    <p><strong>{regra.nome}</strong> ({regra.id}). {regra.descricao}</p>
+    <p><a href={url(`metodologia/#${regra.id}`)}>Ver os parâmetros e o código-fonte da regra</a></p>
+
+    <h2 id="resposta">Direito de resposta</h2>
+    {a.respostas.length > 0 ? (
+      a.respostas.map((r) => (
+        <blockquote class="aviso">
+          <p><strong>{r.autor}</strong>, em {dataCurta(r.recebida_em)}:</p>
+          {r.texto.split(/\n{2,}/).map((p) => <p>{p}</p>)}
+          {r.documento && <p><a href={r.documento} rel="noopener">Documento enviado</a></p>}
+        </blockquote>
+      ))
+    ) : (
+      <p>Nenhuma justificativa foi recebida até agora para este alerta.</p>
+    )}
+    <p>
+      O parlamentar, seu gabinete ou o fornecedor podem enviar uma justificativa, que será
+      publicada aqui na íntegra. <a href={url("direito-de-resposta/")}>Saiba como enviar</a>.
+    </p>
+  </article>
+  <Downloads base={`alerta/${a.codigo}`} />
+</Base>

@@ -1,0 +1,73 @@
+---
+import Base from "../layouts/Base.astro";
+import AlertaCard from "../components/AlertaCard.astro";
+import {
+  alertas, CASAS, dataCurta, filiacao, meta, numero, reais, reaisCompacto, regras, TRATAMENTO,
+  url, urlAlerta, urlFornecedor, urlParlamentar,
+} from "../lib/dados";
+
+const m = meta();
+const todos = alertas();
+// Lote mais recente; dentro dele, o de maior score vira manchete.
+const ultimoDia = todos[0]?.criado_em.slice(0, 10);
+const recentes = todos
+  .filter((a) => a.criado_em.slice(0, 10) === ultimoDia)
+  .sort((a, b) => b.score - a.score || b.valor - a.valor || a.codigo.localeCompare(b.codigo));
+const manchete = recentes[0];
+const demais = (recentes.length > 1 ? recentes.slice(1) : todos.slice(1)).slice(0, 9);
+const nomesRegras = new Map(regras().map((r) => [r.id, r.nome]));
+---
+<Base titulo={m.site.nome} atual="inicio">
+  <div class="capa">
+    {manchete ? (
+      <section class="manchete" aria-labelledby="manchete">
+        <p class="sobretitulo">{CASAS[manchete.casa]} · {manchete.regra_nome}</p>
+        <h1 id="manchete">
+          <a href={urlAlerta(manchete.codigo)} style="text-decoration:none">
+            {TRATAMENTO[manchete.casa]} {manchete.parlamentar_nome} tem despesa de {reais(manchete.valor)} marcada pela regra “{manchete.regra_nome}”
+          </a>
+        </h1>
+        <p class="linha-fina">{manchete.detalhe}</p>
+        <dl class="ficha">
+          <dt>Parlamentar</dt>
+          <dd><a href={urlParlamentar(manchete.parlamentar)}>{manchete.parlamentar_nome}</a>{filiacao(manchete.partido, manchete.uf) && ` (${filiacao(manchete.partido, manchete.uf)})`}</dd>
+          <dt>Categoria</dt><dd>{manchete.categoria}</dd>
+          <dt>Data</dt><dd>{dataCurta(manchete.data)}</dd>
+          <dt>Fornecedor</dt>
+          <dd><a href={urlFornecedor(manchete.fornecedor)}>{manchete.fornecedor_nome}</a>{` (${manchete.fornecedor_documento})`}</dd>
+          <dt>Documento</dt><dd><a href={manchete.url_documento} rel="noopener">Fonte oficial</a></dd>
+          <dt>Código</dt><dd>{manchete.codigo}</dd>
+        </dl>
+        <a class="botao" href={urlAlerta(manchete.codigo)}>Ler o alerta completo</a>
+      </section>
+    ) : (
+      <section class="manchete"><h1>Nenhum alerta ativo</h1></section>
+    )}
+    <aside aria-labelledby="numeros">
+      <h2 id="numeros">Números do dia</h2>
+      <dl class="numeros">
+        <div><dt>Alertas novos hoje</dt><dd>{numero(m.alertas_hoje)}</dd></div>
+        <div><dt>Alertas ativos</dt><dd>{numero(m.alertas_ativos)}</dd></div>
+        <div><dt>Despesas analisadas</dt><dd>{numero(m.despesas)}</dd></div>
+        <div><dt>Valor analisado</dt><dd>{reaisCompacto(m.valor_total)}</dd></div>
+        <div><dt>Parlamentares</dt><dd>{numero(m.parlamentares)}</dd></div>
+        <div><dt>Respostas recebidas</dt><dd>{numero(m.respostas)}</dd></div>
+      </dl>
+      <h3 style="margin-top:1.25rem">Alertas por regra</h3>
+      <table>
+        <tbody>
+          {Object.entries(m.por_regra).map(([id, n]) => (
+            <tr><td><a href={url(`metodologia/#${id}`)}>{nomesRegras.get(id)}</a></td><td class="num">{numero(n)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </aside>
+  </div>
+
+  <hr class="filete filete--grosso" />
+  <h2>Mais alertas recentes</h2>
+  <div class="colunas">
+    {demais.map((a) => <AlertaCard alerta={a} />)}
+  </div>
+  <p style="margin-top:1.5rem"><a class="botao" href={url("alertas/")}>Todos os alertas</a></p>
+</Base>

@@ -1,0 +1,34 @@
+name: Direito de resposta
+description: Envie uma justificativa sobre um alerta. Ela será publicada na íntegra.
+title: "Resposta ao alerta A-AAAA-NNNNN"
+labels: ["direito-de-resposta"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta resposta é pública e será publicada na íntegra na página do alerta.
+        Não inclua dados pessoais que não queira tornar públicos.
+  - type: input
+    id: alerta
+    attributes:
+      label: Código do alerta
+      placeholder: A-2026-00123
+    validations:
+      required: true
+  - type: input
+    id: autor
+    attributes:
+      label: Quem responde
+      description: Ex.: "Gabinete do Dep. Fulano", "Fornecedor X Ltda."
+    validations:
+      required: true
+  - type: textarea
+    id: texto
+    attributes:
+      label: Justificativa
+    validations:
+      required: true
+  - type: input
+    id: documento
+    attributes:
+      label: Link para documento (opcional)

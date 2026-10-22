@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/dados";
+---
+<Base titulo="Sobre" atual="sobre">
+  <h1>Sobre o Serenata</h1>
+  <p class="linha-fina">
+    Um robô que lê, todos os dias, os gastos da cota parlamentar de deputados e senadores
+    federais e aponta despesas atípicas segundo regras públicas.
+  </p>
+  <p>
+    O projeto é inspirado na Operação Serenata de Amor, que em 2016 criou a robô Rosie e o
+    painel Jarbas para analisar reembolsos da Câmara. Esta versão coleta os dados oficiais da
+    Câmara e do Senado, aplica regras determinísticas e explicáveis, publica os alertas nas
+    redes sociais e mantém este site como arquivo público de tudo.
+  </p>
+  <h2>Princípios</h2>
+  <ul>
+    <li>As mesmas regras, os mesmos limites e o mesmo texto valem para todos. Nenhuma regra usa partido, ideologia ou nome.</li>
+    <li>Linguagem factual: um alerta é um gasto atípico segundo uma regra, nunca uma acusação.</li>
+    <li>Todo alerta traz valor, data, fornecedor, a regra, sua explicação e o link do documento oficial.</li>
+    <li>Quem é citado tem <a href={url("direito-de-resposta/")}>direito de resposta</a>, publicado na íntegra.</li>
+    <li>A <a href={url("metodologia/")}>metodologia</a> e o código-fonte são públicos.</li>
+  </ul>
+  <h2>Licenças</h2>
+  <p>
+    Código sob licença MIT. Dados derivados sob Open Database License (ODbL). Os dados
+    originais são publicados pela Câmara dos Deputados e pelo Senado Federal.
+  </p>
+  <p><a href="https://github.com/theavila/serenata">Código-fonte no GitHub</a></p>
+</Base>

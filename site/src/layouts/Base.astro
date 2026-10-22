@@ -1,0 +1,119 @@
+---
+import "../styles/global.css";
+import Aviso from "../components/Aviso.astro";
+import {
+  alertas, dataPorExtenso, horario, meta, reais, TRATAMENTO, url, urlAlerta,
+} from "../lib/dados";
+
+interface Props {
+  titulo: string;
+  descricao?: string;
+  atual?: string;
+}
+
+const { titulo, descricao, atual } = Astro.props;
+const m = meta();
+const nome = m.site.nome;
+const tituloCompleto = titulo === nome ? nome : `${titulo} — ${nome}`;
+const desc = descricao ?? "Gastos de deputados e senadores federais analisados por regras públicas e iguais para todos.";
+const ultimos = alertas().slice(0, 12);
+const menu = [
+  ["inicio", "", "Capa"],
+  ["alertas", "alertas/", "Alertas"],
+  ["busca", "busca/", "Busca"],
+  ["metodologia", "metodologia/", "Metodologia"],
+  ["resposta", "direito-de-resposta/", "Direito de resposta"],
+  ["dados", "dados/", "Dados abertos"],
+  ["sobre", "sobre/", "Sobre"],
+];
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloCompleto}</title>
+    <meta name="description" content={desc} />
+    <meta property="og:title" content={tituloCompleto} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" href={url("favicon.svg")} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${nome} (RSS)`} href={url("rss.xml")} />
+    <link rel="alternate" type="application/atom+xml" title={`${nome} (Atom)`} href={url("atom.xml")} />
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1b1916" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem("tema");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho pagina">
+      <div class="cabecalho__topo">
+        <span>{dataPorExtenso(m.atualizado_em)}</span>
+        <span>Última atualização: {horario(m.atualizado_em)}</span>
+        <button class="tema" type="button" id="tema" aria-label="Alternar modo claro ou escuro">Claro/escuro</button>
+      </div>
+      <a class="logotipo" href={url()}>{nome}</a>
+      <p class="lema">Os gastos de deputados e senadores federais, lidos por regras públicas e iguais para todos</p>
+      <nav class="menu" aria-label="Seções">
+        {menu.map(([chave, caminho, rotulo]) => (
+          <a href={url(caminho)} aria-current={atual === chave ? "page" : undefined}>{rotulo}</a>
+        ))}
+      </nav>
+    </header>
+    {ultimos.length > 0 && (
+      <section class="ticker pagina" aria-label="Últimos alertas">
+        <span class="ticker__rotulo">Últimos</span>
+        <div class="ticker__janela">
+          <ul class="ticker__lista">
+            {[...ultimos, ...ultimos].map((a, i) => (
+              <li aria-hidden={i >= ultimos.length ? "true" : undefined}>
+                <a href={urlAlerta(a.codigo)} tabindex={i >= ultimos.length ? -1 : undefined}>
+                  {a.codigo} · {TRATAMENTO[a.casa]} {a.parlamentar_nome} · {reais(a.valor)} · {a.regra_nome}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+    <main id="conteudo" class="pagina">
+      <slot />
+      <Aviso />
+    </main>
+    <footer class="rodape pagina">
+      <nav aria-label="Rodapé">
+        <a href={url("metodologia/")}>Metodologia</a>
+        <a href={url("direito-de-resposta/")}>Direito de resposta</a>
+        <a href={url("dados/")}>Dados abertos</a>
+        <a href={url("rss.xml")}>RSS</a>
+        <a href={url("atom.xml")}>Atom</a>
+        <a href="https://github.com/theavila/serenata">Código-fonte</a>
+        <a href={url("sobre/")}>Sobre</a>
+      </nav>
+      <p>
+        Fontes: Câmara dos Deputados (CEAP) e Senado Federal (CEAPS). Dados atualizados em
+        {" "}{dataPorExtenso(m.atualizado_em)}, às {horario(m.atualizado_em)}.
+        Código sob licença MIT; dados sob ODbL.
+      </p>
+    </footer>
+    <script>
+      const botao = document.getElementById("tema");
+      botao?.addEventListener("click", () => {
+        const raiz = document.documentElement;
+        const escuroAgora =
+          raiz.dataset.theme === "dark" ||
+          (!raiz.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+        const novo = escuroAgora ? "light" : "dark";
+        raiz.dataset.theme = novo;
+        try { localStorage.setItem("tema", novo); } catch {}
+      });
+    </script>
+  </body>
+</html>

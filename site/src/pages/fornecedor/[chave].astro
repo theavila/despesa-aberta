@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import AlertaCard from "../../components/AlertaCard.astro";
+import Downloads from "../../components/Downloads.astro";
+import { alertasPorCodigo, type Fornecedor, fornecedores, numero, reais } from "../../lib/dados";
+
+export function getStaticPaths() {
+  return fornecedores().map((f) => ({ params: { chave: f.chave }, props: { f } }));
+}
+
+const { f } = Astro.props as { f: Fornecedor };
+const porCodigo = alertasPorCodigo();
+const lista = f.alertas.map((c) => porCodigo.get(c)!).filter(Boolean);
+const digitos = f.documento.replace(/\D/g, "");
+---
+<Base titulo={f.nome} descricao={`Fornecedor ${f.nome}: pagamentos pela cota parlamentar e alertas.`}>
+  <div data-pagefind-body>
+    <p class="sobretitulo">Fornecedor</p>
+    <h1 data-pagefind-meta="title">{f.nome}</h1>
+    <span data-pagefind-filter="tipo" hidden>Fornecedor</span>
+    <dl class="ficha">
+      <dt>CNPJ/CPF</dt><dd>{f.documento}<span class="visualmente-oculto"> {digitos}</span></dd>
+      <dt>Recebido pela cota</dt><dd>{reais(f.total)}</dd>
+      <dt>Despesas</dt><dd>{numero(f.despesas)}</dd>
+      <dt>Parlamentares atendidos</dt><dd>{numero(f.parlamentares)}</dd>
+    </dl>
+    {f.documento.length === 18 && (
+      <p class="dados">
+        Consulte o cadastro na Receita Federal:{" "}
+        <a href={`https://brasilapi.com.br/api/cnpj/v1/${digitos}`} rel="noopener">BrasilAPI</a>
+      </p>
+    )}
+  </div>
+  <hr class="filete" />
+  <h2>Alertas envolvendo este fornecedor ({numero(lista.length)})</h2>
+  <div class="colunas">{lista.map((a) => <AlertaCard alerta={a} />)}</div>
+  <Downloads base={`fornecedor/${f.chave}`} />
+</Base>

@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import { alertasPorCodigo, dataCurta, respostas, url, urlAlerta } from "../lib/dados";
+
+const lista = [...respostas()].sort((a, b) => b.recebida_em.localeCompare(a.recebida_em));
+const porCodigo = alertasPorCodigo();
+const issue = "https://github.com/theavila/serenata/issues/new?template=direito-de-resposta.yml";
+---
+<Base titulo="Direito de resposta" atual="resposta" descricao="Como enviar uma justificativa e todas as respostas já recebidas.">
+  <h1>Direito de resposta</h1>
+  <p class="linha-fina">
+    Todo parlamentar, gabinete ou fornecedor citado em um alerta pode enviar uma
+    justificativa. Ela é publicada na íntegra, na página do alerta e aqui.
+  </p>
+
+  <h2>Como enviar</h2>
+  <ol>
+    <li>Anote o código do alerta (ex.: A-2026-00123), que aparece em cada página e em cada post.</li>
+    <li>
+      Envie o texto pelo <a href={issue}>formulário público de resposta</a>, informando quem
+      responde e, se houver, o link de um documento que comprove a justificativa.
+    </li>
+    <li>
+      A resposta é registrada no repositório (pasta <code>respostas/</code>) e aparece no site
+      na próxima atualização. O alerta continua visível; a resposta fica ao lado dele.
+    </li>
+  </ol>
+
+  <h2>Respostas recebidas ({lista.length})</h2>
+  {lista.length === 0 ? (
+    <p>Nenhuma resposta recebida até agora.</p>
+  ) : (
+    lista.map((r) => {
+      const a = porCodigo.get(r.alerta);
+      return (
+        <article class="alerta">
+          <hr class="filete" />
+          <p class="sobretitulo">{r.alerta} · recebida em {dataCurta(r.recebida_em)}</p>
+          <h3>{a ? <a href={urlAlerta(r.alerta)}>{a.parlamentar_nome}: {a.regra_nome}</a> : r.alerta}</h3>
+          <p><strong>{r.autor}:</strong></p>
+          {r.texto.split(/\n{2,}/).map((p) => <p>{p}</p>)}
+          {r.documento && <p><a href={r.documento} rel="noopener">Documento enviado</a></p>}
+        </article>
+      );
+    })
+  )}
+  <p class="dados"><a href={url("metodologia/")}>Como os alertas são gerados</a></p>
+</Base>

@@ -1,0 +1,25 @@
+{
+ "site": {
+  "nome": "Serenata",
+  "url": "https://theavila.github.io/serenata"
+ },
+ "atualizado_em": "2026-10-22T18:55:54-03:00",
+ "aviso": "Atipicidade estatística não é prova de irregularidade. O parlamentar pode ter justificativa.",
+ "despesas": 132338,
+ "valor_total": 167353531.18,
+ "periodo": {
+  "inicio": "2026-01",
+  "fim": "2026-10"
+ },
+ "alertas_ativos": 4958,
+ "alertas_hoje": 4958,
+ "por_regra": {
+  "R01_refeicao_alta": 90,
+  "R02_duplicidade": 1467,
+  "R03_outlier_categoria": 1309,
+  "R04_cnpj_situacao": 0,
+  "R05_fim_de_semana": 2092
+ },
+ "parlamentares": 653,
+ "respostas": 0
+}

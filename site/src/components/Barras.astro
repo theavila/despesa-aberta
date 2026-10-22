@@ -1,0 +1,27 @@
+---
+// Barras horizontais de uma única série (sem legenda: o título diz o que é).
+// Valor na ponta de cada barra; a tabela abaixo dá acesso aos números exatos.
+import { reais } from "../lib/dados";
+
+interface Props {
+  titulo: string;
+  itens: { rotulo: string; valor: number }[];
+}
+const { titulo, itens } = Astro.props;
+const maximo = Math.max(...itens.map((i) => i.valor), 0);
+const largura = (v: number) => (maximo > 0 ? Math.max((v / maximo) * 82, 0.3) : 0);
+---
+<figure class="grafico">
+  <figcaption><h3>{titulo}</h3></figcaption>
+  <ul class="barras">
+    {itens.map((i) => (
+      <li title={`${i.rotulo}: ${reais(i.valor)}`}>
+        <span class="barras__rotulo">{i.rotulo}</span>
+        <span class="barras__linha">
+          <span class="barras__barra" style={`width:${largura(i.valor)}%`} aria-hidden="true"></span>
+          <span class="barras__valor">{reais(i.valor)}</span>
+        </span>
+      </li>
+    ))}
+  </ul>
+</figure>

@@ -1,0 +1,25 @@
+---
+import Base from "../../layouts/Base.astro";
+import { meta, numero, url } from "../../lib/dados";
+const m = meta();
+---
+<Base titulo="Dados abertos" atual="dados" descricao="Baixe todos os alertas em CSV ou JSON.">
+  <h1>Dados abertos</h1>
+  <p class="linha-fina">
+    Todos os alertas ativos ({numero(m.alertas_ativos)}), atualizados diariamente, sob a
+    licença ODbL. Cada página de alerta, parlamentar e fornecedor também tem seus próprios
+    arquivos CSV e JSON.
+  </p>
+  <ul>
+    <li><a href={url("dados/alertas.csv")} download>alertas.csv</a></li>
+    <li><a href={url("dados/alertas.json")} download>alertas.json</a> (inclui as respostas recebidas)</li>
+    <li><a href={url("rss.xml")}>Feed RSS</a> · <a href={url("atom.xml")}>Feed Atom</a></li>
+  </ul>
+  <h2>Fontes originais</h2>
+  <ul>
+    <li><a href="https://www.camara.leg.br/cotas/">Câmara dos Deputados: arquivos anuais da CEAP</a></li>
+    <li><a href="https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps">Senado Federal: dados abertos da CEAPS</a></li>
+    <li><a href="https://dadosabertos.camara.leg.br/">API de dados abertos da Câmara</a></li>
+    <li><a href="https://legis.senado.leg.br/dadosabertos/">API de dados abertos do Senado</a></li>
+  </ul>
+</Base>

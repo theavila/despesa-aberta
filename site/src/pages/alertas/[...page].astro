@@ -1,0 +1,29 @@
+---
+import type { GetStaticPathsOptions, Page } from "astro";
+import Base from "../../layouts/Base.astro";
+import AlertaCard from "../../components/AlertaCard.astro";
+import { type Alerta, alertas, numero, url } from "../../lib/dados";
+
+export function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  return paginate(alertas(), { pageSize: 30 });
+}
+
+const { page } = Astro.props as { page: Page<Alerta> };
+const titulo = page.currentPage === 1 ? "Alertas" : `Alertas — página ${page.currentPage}`;
+---
+<Base titulo={titulo} atual="alertas">
+  <h1>Alertas</h1>
+  <p class="linha-fina">
+    {numero(page.total)} alertas ativos, do mais recente para o mais antigo. Página {page.currentPage} de {page.lastPage}.
+  </p>
+  <p class="dados">
+    Baixe todos: <a href={url("dados/alertas.csv")} download>CSV</a> · <a href={url("dados/alertas.json")} download>JSON</a>
+  </p>
+  <div class="colunas">
+    {page.data.map((a) => <AlertaCard alerta={a} />)}
+  </div>
+  <nav class="paginacao" aria-label="Paginação">
+    {page.url.prev ? <a href={page.url.prev}>← Mais recentes</a> : <span></span>}
+    {page.url.next ? <a href={page.url.next}>Mais antigos →</a> : <span></span>}
+  </nav>
+</Base>

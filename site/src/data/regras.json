@@ -1,0 +1,73 @@
+[
+ {
+  "id": "R01_refeicao_alta",
+  "nome": "Refeição acima do limite",
+  "descricao": "Marca refeições do próprio parlamentar com valor acima de um limite fixo, igual para todos. Só se aplica às categorias que identificam refeição (na Câmara, 'Fornecimento de alimentação do parlamentar'; o Senado publica alimentação junto com locomoção e hospedagem, por isso não há como separar).",
+  "parametros": {
+   "peso": 0.6,
+   "limite": 250.0,
+   "categorias": [
+    "Fornecimento de alimentação do parlamentar"
+   ]
+  },
+  "arquivo": "pipeline/regras/r01_refeicao_alta.py",
+  "codigo_fonte": "from typing import Any\n\nimport polars as pl\n\nfrom pipeline import formatacao as fmt\nfrom pipeline.regras.base import Contexto, Regra, intensidade_por_razao, na_lista, resultado\n\n\ndef aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) -> pl.DataFrame:\n    limite = params[\"limite\"]\n    df = despesas.filter(na_lista(\"categoria\", params[\"categorias\"]) & (pl.col(\"valor\") > limite))\n    return resultado(\n        df.select(\n            pl.col(\"id\").alias(\"despesa_id\"),\n            intensidade_por_razao(pl.col(\"valor\") / limite).alias(\"intensidade\"),\n            pl.col(\"valor\")\n            .map_elements(\n                lambda v: (\n                    f\"Refeição de {fmt.reais(v)}; o limite configurado é {fmt.reais(limite)} \"\n                    f\"({fmt.numero(v / limite)} vezes o limite).\"\n                ),\n                pl.String,\n            )\n            .alias(\"detalhe\"),\n        )\n    )\n\n\nREGRA = Regra(\n    id=\"R01_refeicao_alta\",\n    nome=\"Refeição acima do limite\",\n    descricao=(\n        \"Marca refeições do próprio parlamentar com valor acima de um limite fixo, igual \"\n        \"para todos. Só se aplica às categorias que identificam refeição (na Câmara, \"\n        \"'Fornecimento de alimentação do parlamentar'; o Senado publica alimentação junto \"\n        \"com locomoção e hospedagem, por isso não há como separar).\"\n    ),\n    aplicar=aplicar,\n    modulo=__name__,\n)\n"
+ },
+ {
+  "id": "R02_duplicidade",
+  "nome": "Possível duplicidade",
+  "descricao": "Marca despesas do mesmo parlamentar com o mesmo fornecedor, o mesmo valor e a mesma data de outra despesa já registrada. A primeira delas não é marcada; as repetições sim. Valores pequenos e categorias em que a repetição é comum (como várias diárias de hotel na mesma noite) ficam de fora, conforme a configuração.",
+  "parametros": {
+   "peso": 1.0,
+   "valor_minimo": 100.0,
+   "categorias_excluidas": [
+    "Hospedagem, exceto do parlamentar no Distrito Federal"
+   ]
+  },
+  "arquivo": "pipeline/regras/r02_duplicidade.py",
+  "codigo_fonte": "from typing import Any\n\nimport polars as pl\n\nfrom pipeline import formatacao as fmt\nfrom pipeline.regras.base import Contexto, Regra, na_lista, resultado\n\nCHAVE = [\"parlamentar_id\", \"fornecedor\", \"valor\", \"data\"]\n\n\ndef aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) -> pl.DataFrame:\n    df = despesas.filter(\n        pl.col(\"data\").is_not_null()\n        & (pl.col(\"valor\") >= params[\"valor_minimo\"])\n        & ~na_lista(\"categoria\", params.get(\"categorias_excluidas\", []))\n    ).with_columns(\n        pl.coalesce(\"fornecedor_cnpj_cpf\", pl.col(\"fornecedor_nome\").str.to_uppercase()).alias(\n            \"fornecedor\"\n        )\n    )\n    # A primeira despesa do grupo (pela ordem do id) é a referência; as demais disparam.\n    df = (\n        df.sort(\"id\")\n        .with_columns(\n            pl.len().over(CHAVE).alias(\"ocorrencias\"),\n            pl.int_range(1, pl.len() + 1).over(CHAVE).alias(\"ordem\"),\n        )\n        .filter(pl.col(\"ordem\") > 1)\n    )\n    return resultado(\n        df.select(\n            pl.col(\"id\").alias(\"despesa_id\"),\n            pl.lit(1.0).alias(\"intensidade\"),\n            pl.struct(\"ocorrencias\", \"valor\", \"data\")\n            .map_elements(\n                lambda s: (\n                    f\"Há {s['ocorrencias']} despesas deste parlamentar com o mesmo fornecedor, \"\n                    f\"o mesmo valor ({fmt.reais(s['valor'])}) e a mesma data \"\n                    f\"({fmt.data_curta(s['data'])}).\"\n                ),\n                pl.String,\n            )\n            .alias(\"detalhe\"),\n        )\n    )\n\n\nREGRA = Regra(\n    id=\"R02_duplicidade\",\n    nome=\"Possível duplicidade\",\n    descricao=(\n        \"Marca despesas do mesmo parlamentar com o mesmo fornecedor, o mesmo valor e a mesma \"\n        \"data de outra despesa já registrada. A primeira delas não é marcada; as repetições \"\n        \"sim. Valores pequenos e categorias em que a repetição é comum (como várias diárias \"\n        \"de hotel na mesma noite) ficam de fora, conforme a configuração.\"\n    ),\n    aplicar=aplicar,\n    modulo=__name__,\n)\n"
+ },
+ {
+  "id": "R03_outlier_categoria",
+  "nome": "Valor muito acima do comum na categoria",
+  "descricao": "Para cada categoria de despesa e cada ano, calcula o valor abaixo do qual estão 99% das despesas (percentil 99) de todos os parlamentares. Marca as despesas acima desse valor. Categorias com poucas despesas no ano não são avaliadas.",
+  "parametros": {
+   "peso": 0.8,
+   "percentil": 0.99,
+   "amostra_minima": 100
+  },
+  "arquivo": "pipeline/regras/r03_outlier_categoria.py",
+  "codigo_fonte": "from typing import Any\n\nimport polars as pl\n\nfrom pipeline import formatacao as fmt\nfrom pipeline.regras.base import Contexto, Regra, intensidade_por_razao, resultado\n\nGRUPO = [\"categoria\", \"ano\"]\n\n\ndef aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) -> pl.DataFrame:\n    percentil = params[\"percentil\"]\n    df = (\n        despesas.filter(pl.col(\"valor\") > 0)\n        .with_columns(pl.col(\"competencia\").str.slice(0, 4).alias(\"ano\"))\n        .with_columns(\n            pl.len().over(GRUPO).alias(\"amostra\"),\n            pl.col(\"valor\").quantile(percentil, \"linear\").over(GRUPO).alias(\"limiar\"),\n        )\n        .filter(\n            (pl.col(\"amostra\") >= params[\"amostra_minima\"]) & (pl.col(\"valor\") > pl.col(\"limiar\"))\n        )\n    )\n    rotulo = f\"percentil {fmt.numero(percentil * 100, 0)}\"\n    return resultado(\n        df.select(\n            pl.col(\"id\").alias(\"despesa_id\"),\n            intensidade_por_razao(pl.col(\"valor\") / pl.col(\"limiar\")).alias(\"intensidade\"),\n            pl.struct(\"valor\", \"limiar\", \"ano\", \"amostra\")\n            .map_elements(\n                lambda s: (\n                    f\"Valor de {fmt.reais(s['valor'])}, acima do {rotulo} da categoria em \"\n                    f\"{s['ano']} ({fmt.reais(s['limiar'])}, calculado sobre \"\n                    f\"{fmt.numero(s['amostra'], 0)} despesas).\"\n                ),\n                pl.String,\n            )\n            .alias(\"detalhe\"),\n        )\n    )\n\n\nREGRA = Regra(\n    id=\"R03_outlier_categoria\",\n    nome=\"Valor muito acima do comum na categoria\",\n    descricao=(\n        \"Para cada categoria de despesa e cada ano, calcula o valor abaixo do qual estão 99% \"\n        \"das despesas (percentil 99) de todos os parlamentares. Marca as despesas acima \"\n        \"desse valor. Categorias com poucas despesas no ano não são avaliadas.\"\n    ),\n    aplicar=aplicar,\n    modulo=__name__,\n)\n"
+ },
+ {
+  "id": "R04_cnpj_situacao",
+  "nome": "Fornecedor com CNPJ irregular na data",
+  "descricao": "Consulta o cadastro do CNPJ do fornecedor na Receita Federal (via BrasilAPI). Marca a despesa se, na data dela, a empresa ainda não tinha sido aberta ou já estava com situação diferente de 'ativa' (baixada, inapta, suspensa ou nula). Empresas que fecharam depois da despesa não são marcadas.",
+  "parametros": {
+   "peso": 1.0
+  },
+  "arquivo": "pipeline/regras/r04_cnpj_situacao.py",
+  "codigo_fonte": "from typing import Any\n\nimport polars as pl\n\nfrom pipeline import formatacao as fmt\nfrom pipeline.regras.base import Contexto, Regra, resultado\n\n\ndef _detalhe(s: dict[str, Any]) -> str:\n    if s[\"aberto_depois\"]:\n        return (\n            f\"Segundo a Receita Federal, o CNPJ do fornecedor começou a funcionar em \"\n            f\"{fmt.data_curta(s['data_inicio'])}, depois da data da despesa \"\n            f\"({fmt.data_curta(s['data'])}).\"\n        )\n    return (\n        f\"Segundo a Receita Federal, o CNPJ do fornecedor está com situação \"\n        f\"'{s['situacao']}' desde {fmt.data_curta(s['data_situacao'])}, antes da data da \"\n        f\"despesa ({fmt.data_curta(s['data'])}).\"\n    )\n\n\ndef aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) -> pl.DataFrame:\n    df = (\n        despesas.filter(\n            pl.col(\"data\").is_not_null() & (pl.col(\"fornecedor_cnpj_cpf\").str.len_chars() == 14)\n        )\n        .join(contexto.cnpjs, left_on=\"fornecedor_cnpj_cpf\", right_on=\"cnpj\", how=\"inner\")\n        .with_columns(\n            (pl.col(\"data_inicio\") > pl.col(\"data\")).fill_null(False).alias(\"aberto_depois\"),\n            (\n                pl.col(\"situacao\").is_not_null()\n                & (pl.col(\"situacao\").str.to_uppercase() != \"ATIVA\")\n                & (pl.col(\"data_situacao\") <= pl.col(\"data\"))\n            )\n            .fill_null(False)\n            .alias(\"inativo\"),\n        )\n        .filter(pl.col(\"aberto_depois\") | pl.col(\"inativo\"))\n    )\n    return resultado(\n        df.select(\n            pl.col(\"id\").alias(\"despesa_id\"),\n            pl.lit(1.0).alias(\"intensidade\"),\n            pl.struct(\"aberto_depois\", \"data_inicio\", \"data\", \"situacao\", \"data_situacao\")\n            .map_elements(_detalhe, pl.String)\n            .alias(\"detalhe\"),\n        )\n    )\n\n\nREGRA = Regra(\n    id=\"R04_cnpj_situacao\",\n    nome=\"Fornecedor com CNPJ irregular na data\",\n    descricao=(\n        \"Consulta o cadastro do CNPJ do fornecedor na Receita Federal (via BrasilAPI). Marca a \"\n        \"despesa se, na data dela, a empresa ainda não tinha sido aberta ou já estava com \"\n        \"situação diferente de 'ativa' (baixada, inapta, suspensa ou nula). Empresas que \"\n        \"fecharam depois da despesa não são marcadas.\"\n    ),\n    aplicar=aplicar,\n    modulo=__name__,\n)\n"
+ },
+ {
+  "id": "R05_fim_de_semana",
+  "nome": "Despesa de expediente em fim de semana ou feriado",
+  "descricao": "Marca despesas de categorias típicas de expediente de escritório (manutenção de escritório, aluguel, material de consumo, consultorias, divulgação, publicações e serviços postais) cujo documento foi emitido num sábado, domingo ou feriado nacional.",
+  "parametros": {
+   "peso": 0.4,
+   "valor_minimo": 100.0,
+   "categorias": [
+    "Manutenção de escritório de apoio à atividade parlamentar",
+    "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
+    "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
+    "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
+    "Consultorias, pesquisas e trabalhos técnicos",
+    "Divulgação da atividade parlamentar",
+    "Assinatura de publicações",
+    "Serviços postais"
+   ]
+  },
+  "arquivo": "pipeline/regras/r05_fim_de_semana.py",
+  "codigo_fonte": "from datetime import date\nfrom typing import Any\n\nimport polars as pl\n\nfrom pipeline import formatacao as fmt\nfrom pipeline.regras.base import Contexto, Regra, na_lista, resultado\nfrom pipeline.regras.feriados import feriado\n\n\ndef motivo(d: date) -> str | None:\n    \"\"\"'sábado', 'domingo', 'feriado nacional (Tiradentes)' ou None em dia útil.\"\"\"\n    if nome := feriado(d):\n        return f\"feriado nacional ({nome})\"\n    if d.weekday() >= 5:\n        return fmt.DIAS_DA_SEMANA[d.weekday()]\n    return None\n\n\ndef aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) -> pl.DataFrame:\n    df = despesas.filter(\n        pl.col(\"data\").is_not_null()\n        & (pl.col(\"valor\") >= params[\"valor_minimo\"])\n        & na_lista(\"categoria\", params[\"categorias\"])\n    ).with_columns(pl.col(\"data\").map_elements(motivo, pl.String).alias(\"motivo\"))\n    df = df.filter(pl.col(\"motivo\").is_not_null())\n    return resultado(\n        df.select(\n            pl.col(\"id\").alias(\"despesa_id\"),\n            pl.lit(1.0).alias(\"intensidade\"),\n            pl.struct(\"data\", \"motivo\")\n            .map_elements(\n                lambda s: (\n                    f\"Documento de despesa de expediente emitido em \"\n                    f\"{fmt.data_curta(s['data'])}, {s['motivo']}.\"\n                ),\n                pl.String,\n            )\n            .alias(\"detalhe\"),\n        )\n    )\n\n\nREGRA = Regra(\n    id=\"R05_fim_de_semana\",\n    nome=\"Despesa de expediente em fim de semana ou feriado\",\n    descricao=(\n        \"Marca despesas de categorias típicas de expediente de escritório (manutenção de \"\n        \"escritório, aluguel, material de consumo, consultorias, divulgação, publicações e \"\n        \"serviços postais) cujo documento foi emitido num sábado, domingo ou feriado \"\n        \"nacional.\"\n    ),\n    aplicar=aplicar,\n    modulo=__name__,\n)\n"
+ }
+]

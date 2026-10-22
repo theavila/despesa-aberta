@@ -31,7 +31,7 @@ def aplicar(despesas: pl.DataFrame, params: dict[str, Any], contexto: Contexto) 
                 lambda s: (
                     f"Valor de {fmt.reais(s['valor'])}, acima do {rotulo} da categoria em "
                     f"{s['ano']} ({fmt.reais(s['limiar'])}, calculado sobre "
-                    f"{s['amostra']} despesas)."
+                    f"{fmt.numero(s['amostra'], 0)} despesas)."
                 ),
                 pl.String,
             )

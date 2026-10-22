@@ -4,11 +4,14 @@ import argparse
 import logging
 import sys
 from datetime import date
+from pathlib import Path
 
 from pipeline import config as cfg
 from pipeline import db, publicacao
+from pipeline import respostas as resp
 from pipeline.analise import analisar
 from pipeline.coletores import camara, cnpj, senado
+from pipeline.exportar import exportar
 from pipeline.http import criar_cliente
 from pipeline.normalizacao.normalizar import normalizar
 
@@ -89,6 +92,33 @@ def cmd_publicar(args: argparse.Namespace) -> None:
         print(f"[{r.rede}] {r.codigo} ({situacao}) {r.url or ''}\n{r.texto}\n")
 
 
+def cmd_exportar(args: argparse.Namespace) -> None:
+    con = db.conectar(cfg.caminho_banco())
+    resumo = exportar(
+        con,
+        cfg.carregar_config(),
+        destino=Path(args.destino),
+        pasta_respostas=cfg.RAIZ / "respostas",
+    )
+    con.close()
+    log.info(
+        "Exportados: %(alertas)d alertas, %(parlamentares)d parlamentares, "
+        "%(fornecedores)d fornecedores",
+        resumo,
+    )
+
+
+def cmd_resposta(args: argparse.Namespace) -> None:
+    resposta = resp.Resposta(
+        alerta=args.alerta,
+        recebida_em=args.recebida_em or date.today(),
+        autor=args.autor,
+        texto=Path(args.arquivo).read_text(encoding="utf-8") if args.arquivo else args.texto,
+        documento=args.documento,
+    )
+    print(f"Resposta registrada em {resp.registrar(cfg.RAIZ / 'respostas', resposta)}")
+
+
 def criar_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="serenata", description=__doc__)
     parser.add_argument("-v", "--verbose", action="store_true", help="log detalhado")
@@ -112,6 +142,20 @@ def criar_parser() -> argparse.ArgumentParser:
     p.add_argument("--rede", choices=["x", "bluesky", "mastodon"], help="só esta rede")
     p.add_argument("--limite", type=int, help="máximo de posts por rede nesta execução")
     p.set_defaults(func=cmd_publicar)
+
+    p = sub.add_parser("exportar", help="gera os JSONs do site")
+    p.add_argument("--destino", default=str(cfg.RAIZ / "site" / "src" / "data"))
+    p.set_defaults(func=cmd_exportar)
+
+    p = sub.add_parser("resposta", help="registra uma justificativa recebida (direito de resposta)")
+    p.add_argument("--alerta", required=True, help="código, ex.: A-2026-00123")
+    p.add_argument("--autor", required=True, help="quem enviou, ex.: 'Gabinete do parlamentar'")
+    texto = p.add_mutually_exclusive_group(required=True)
+    texto.add_argument("--texto")
+    texto.add_argument("--arquivo", help="arquivo .txt com o texto da resposta")
+    p.add_argument("--documento", help="link para documento enviado junto")
+    p.add_argument("--recebida-em", type=date.fromisoformat, help="AAAA-MM-DD (padrão: hoje)")
+    p.set_defaults(func=cmd_resposta)
 
     p = sub.add_parser("normalizar", help="refaz a tabela de despesas a partir dos dados brutos")
     p.set_defaults(func=cmd_normalizar)

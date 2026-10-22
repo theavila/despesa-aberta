@@ -1,0 +1,38 @@
+---
+// Total por mês (uma série). Passe o mouse ou o foco do teclado para ver o valor;
+// a tabela em "Ver números" traz todos os valores.
+import { competenciaCurta, reais, reaisCompacto } from "../lib/dados";
+
+interface Props {
+  titulo: string;
+  meses: { competencia: string; total: number }[];
+}
+const { titulo, meses } = Astro.props;
+const maximo = Math.max(...meses.map((m) => m.total), 0);
+const altura = (v: number) => (maximo > 0 ? Math.max((Math.max(v, 0) / maximo) * 100, 0.5) : 0);
+---
+<figure class="grafico">
+  <figcaption><h3>{titulo}</h3><p class="dados">Maior mês: {reaisCompacto(maximo)}</p></figcaption>
+  <div class="colunas-mes" role="img" aria-label={`${titulo}. Valores na tabela a seguir.`}>
+    {meses.map((m) => (
+      <div class="colunas-mes__item" tabindex="0">
+        <span class="colunas-mes__dica">{competenciaCurta(m.competencia)}: {reais(m.total)}</span>
+        <span class="colunas-mes__col" style={`height:${altura(m.total)}%`}></span>
+      </div>
+    ))}
+  </div>
+  <div class="colunas-mes__eixo" aria-hidden="true">
+    {meses.map((m) => <span>{competenciaCurta(m.competencia)}</span>)}
+  </div>
+  <details>
+    <summary class="dados">Ver números</summary>
+    <table>
+      <thead><tr><th>Mês</th><th class="num">Total</th></tr></thead>
+      <tbody>
+        {meses.map((m) => (
+          <tr><td>{competenciaCurta(m.competencia)}</td><td class="num">{reais(m.total)}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+</figure>

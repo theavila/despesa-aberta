@@ -1,0 +1,72 @@
+---
+import Base from "../layouts/Base.astro";
+import { meta, numero, regras } from "../lib/dados";
+
+const lista = regras();
+const m = meta();
+const formatarParametro = (v: unknown) => (Array.isArray(v) ? v.join("; ") : String(v));
+---
+<Base titulo="Metodologia" atual="metodologia" descricao="Todas as regras de atipicidade, seus parâmetros e o código-fonte.">
+  <h1>Metodologia</h1>
+  <p class="linha-fina">
+    Como as despesas são coletadas, quais regras marcam um gasto como atípico e o código-fonte
+    de cada uma. As mesmas regras, os mesmos limites e o mesmo texto valem para todos os
+    parlamentares, partidos e estados.
+  </p>
+
+  <h2>De onde vêm os dados</h2>
+  <p>
+    Todos os dias o robô baixa os arquivos oficiais da Cota para o Exercício da Atividade
+    Parlamentar da <a href="https://www.camara.leg.br/transparencia/gastos-parlamentares">Câmara dos Deputados</a>
+    e do <a href="https://www12.senado.leg.br/transparencia/sen/">Senado Federal</a>. Cada linha recebe
+    uma impressão digital (hash), o que impede duplicar registros quando o mesmo arquivo é
+    baixado de novo. Deputados são identificados pelo número de cadastro da Câmara; senadores,
+    pelo nome, comparado à lista oficial do Senado sem acentos e sem diferenciar maiúsculas.
+  </p>
+  <p>
+    Despesas de lideranças partidárias e órgãos da Câmara (sem um deputado associado) não
+    entram na análise. No Senado, alimentação vem somada a locomoção e hospedagem, por isso a
+    regra de refeição só se aplica à Câmara. O partido mostrado é o informado pela Câmara na
+    própria despesa e, no Senado, o do cadastro oficial (quando disponível).
+  </p>
+  <p class="dados">
+    Período coberto: {m.periodo.inicio} a {m.periodo.fim} · {numero(m.despesas)} despesas analisadas.
+  </p>
+
+  <h2 id="pontuacao">Pontuação</h2>
+  <p>
+    Cada alerta tem uma pontuação de 0 a 100, usada só para ordenar a fila de publicação nas
+    redes sociais: <code>pontuação = 100 × peso da regra × intensidade</code>. A intensidade vai
+    de 0 a 1. Nas regras com limite, é o valor dividido pelo limite, com teto em 5 vezes,
+    dividido por 5; nas demais, é 1. A pontuação não é uma medida de gravidade.
+  </p>
+
+  <h2>Regras</h2>
+  {lista.map((r) => (
+    <section id={r.id} style="margin-bottom:2.5rem">
+      <hr class="filete" />
+      <p class="sobretitulo">{r.id}</p>
+      <h3>{r.nome}</h3>
+      <p>{r.descricao}</p>
+      <dl class="ficha">
+        {Object.entries(r.parametros).map(([k, v]) => (
+          <><dt>{k.replaceAll("_", " ")}</dt><dd>{formatarParametro(v)}</dd></>
+        ))}
+        <dt>alertas ativos</dt><dd>{numero(m.por_regra[r.id] ?? 0)}</dd>
+      </dl>
+      <details>
+        <summary>Código-fonte ({r.arquivo})</summary>
+        <pre><code>{r.codigo_fonte}</code></pre>
+      </details>
+    </section>
+  ))}
+
+  <h2>O que um alerta significa</h2>
+  <p>
+    Um alerta é um gasto atípico segundo uma regra estatística ou cadastral. Não é acusação.
+    Ele indica uma despesa que merece um segundo olhar e mostra o documento oficial para quem
+    quiser conferir. Os limites estão no arquivo
+    <a href="https://github.com/theavila/serenata/blob/main/config.toml">config.toml</a> e o
+    código completo está no <a href="https://github.com/theavila/serenata">repositório público</a>.
+  </p>
+</Base>

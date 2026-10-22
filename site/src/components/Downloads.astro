@@ -1,0 +1,13 @@
+---
+import { url } from "../lib/dados";
+
+interface Props {
+  base: string; // caminho sem extensão, ex.: "alerta/A-2026-00001"
+}
+const { base } = Astro.props;
+---
+<p class="downloads">
+  Dados abertos desta página:{" "}
+  <a href={url(`${base}.csv`)} download>CSV</a>{" · "}
+  <a href={url(`${base}.json`)} download>JSON</a>
+</p>
