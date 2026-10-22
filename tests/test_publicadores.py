@@ -134,6 +134,16 @@ def test_x_envia_post_assinado(monkeypatch):
     assert json.loads(pedidos[0].content) == {"text": px.texto(_alerta())}
 
 
+def test_x_erro_traz_o_motivo(monkeypatch):
+    for var in ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET"):
+        monkeypatch.setenv(var, "v")
+    cliente = httpx.Client(
+        transport=httpx.MockTransport(lambda r: httpx.Response(401, json={"title": "Unauthorized"}))
+    )
+    r = PublicadorX("Despesa Aberta", cliente=cliente).publicar(_alerta(), dry_run=False)
+    assert not r.sucesso and "401" in r.erro and "Unauthorized" in r.erro
+
+
 def test_cabecalho_oauth1_tem_todos_os_campos():
     cab = cabecalho_oauth1("POST", "https://api.x.com/2/tweets", "k", "s", "t", "ts", "n", "1")
     for campo in ("oauth_consumer_key", "oauth_nonce", "oauth_signature", "oauth_timestamp"):

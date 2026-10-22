@@ -88,6 +88,8 @@ class PublicadorX(Publicador):
         resposta = cliente.post(
             URL_TWEETS, json={"text": texto}, headers={"Authorization": cabecalho}
         )
-        resposta.raise_for_status()
+        if resposta.is_error:
+            # O corpo traz o motivo (ex.: "Unauthorized", permissão de escrita ausente).
+            raise RuntimeError(f"X respondeu HTTP {resposta.status_code}: {resposta.text[:500]}")
         id_post = resposta.json()["data"]["id"]
         return id_post, f"https://x.com/i/web/status/{id_post}"
