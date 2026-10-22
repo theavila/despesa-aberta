@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Projeto **Serenata**: coleta despesas da cota parlamentar (Câmara e Senado), marca gastos atípicos com regras públicas, publica nas redes e gera um site estático com cara de jornal. A especificação original está em `PROMPT.md`; o README descreve uso e configuração.
+Projeto **Serenata**: coleta despesas da cota parlamentar (Câmara e Senado), marca gastos atípicos com regras públicas, publica nas redes e gera um site estático com cara de jornal. A especificação original está em `PROMPT.md`; o README descreve uso e configuração; `docs/sistema.md` é a documentação técnica (mantenha-a atualizada ao mudar tabelas, comandos, rotas ou workflows).
 
 ## Comandos
 

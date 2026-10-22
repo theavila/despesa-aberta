@@ -41,7 +41,9 @@ Senado (CEAPS)─┘      │                        │
 | Exportação | `serenata exportar` | Gera `site/src/data/*.json`. |
 | Publicação | `serenata publicar` | Posta os alertas de maior pontuação, respeitando um limite diário por rede. **Dry-run por padrão.** |
 
-As regras estão resumidas em [docs/metodologia.md](docs/metodologia.md). Os limites e
+A documentação técnica completa (arquitetura, modelo de dados, ciclo de vida dos alertas,
+operação) está em [docs/sistema.md](docs/sistema.md). As regras estão resumidas em
+[docs/metodologia.md](docs/metodologia.md). Os limites e
 pesos ficam em [`config.toml`](config.toml).
 
 ## Como rodar localmente
