@@ -1,5 +1,28 @@
 [
  {
+  "codigo": "A-2026-04972",
+  "regra_id": "R04_cnpj_situacao",
+  "regra_nome": "Fornecedor com CNPJ irregular na data",
+  "score": 100,
+  "detalhe": "Segundo a Receita Federal, o CNPJ do fornecedor está com situação 'INAPTA' desde 27/05/2026, antes da data da despesa (03/06/2026).",
+  "criado_em": "2026-10-23T00:08:44",
+  "casa": "camara",
+  "parlamentar": "camara-178937",
+  "parlamentar_nome": "Altineu Côrtes",
+  "partido": "PL",
+  "uf": "RJ",
+  "data": "2026-06-03",
+  "competencia": "2026-05",
+  "categoria": "Divulgação da atividade parlamentar",
+  "fornecedor": "34338563000106",
+  "fornecedor_nome": "R A NASCIMENTO CONSULTORIA POLITICA",
+  "fornecedor_documento": "34.338.563/0001-06",
+  "valor": 5300.0,
+  "url_documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3005/2026/8110352.pdf",
+  "fonte": "https://www.camara.leg.br/cotas/Ano-2026.csv.zip",
+  "respostas": []
+ },
+ {
   "codigo": "A-2026-04971",
   "regra_id": "R04_cnpj_situacao",
   "regra_nome": "Fornecedor com CNPJ irregular na data",

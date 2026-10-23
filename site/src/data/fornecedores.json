@@ -12835,6 +12835,17 @@
   ]
  },
  {
+  "chave": "34338563000106",
+  "nome": "R A NASCIMENTO CONSULTORIA POLITICA",
+  "documento": "34.338.563/0001-06",
+  "despesas": 10,
+  "parlamentares": 2,
+  "total": 42500.0,
+  "alertas": [
+   "A-2026-04972"
+  ]
+ },
+ {
   "chave": "34476454000155",
   "nome": "MAURILIO FERNANDO RIBEIRO LEITE JUNIOR",
   "documento": "34.476.454/0001-55",
