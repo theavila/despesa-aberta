@@ -36,6 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
+      REDES_ATIVAS: ${{ vars.REDES_ATIVAS }}
       PUBLICAR: ${{ (github.event_name == 'workflow_dispatch' && !inputs.dry_run) && '1' || vars.PUBLICAR || '0' }}
       X_API_KEY: ${{ secrets.X_API_KEY }}
       X_API_SECRET: ${{ secrets.X_API_SECRET }}

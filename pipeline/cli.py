@@ -82,10 +82,12 @@ def cmd_analisar(args: argparse.Namespace) -> None:
 def cmd_publicar(args: argparse.Namespace) -> None:
     conf = cfg.carregar_config()
     dry_run = args.dry_run or not publicacao.publicacao_ativada()
+    # --rede tem precedência; sem ela, vale REDES_ATIVAS (todas, se não definida).
+    escolhidas = {args.rede} if args.rede else publicacao.redes_ativas()
     publicadores = [
         p
         for p in publicacao.criar_publicadores(conf["site"]["nome"])
-        if args.rede in (None, p.rede)
+        if escolhidas is None or p.rede in escolhidas
     ]
     con = db.conectar(cfg.caminho_banco())
     resultados = publicacao.publicar(con, publicadores, conf, dry_run=dry_run, limite=args.limite)

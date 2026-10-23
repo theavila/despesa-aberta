@@ -95,6 +95,7 @@ Copie `.env.example` para `.env` (que nunca vai para o git) e preencha só o que
 | Variável | Para quê |
 |---|---|
 | `PUBLICAR` | `1` publica de verdade; qualquer outro valor mantém o dry-run |
+| `REDES_ATIVAS` | Redes em que publicar, separadas por vírgula (ex.: `bluesky,x`); vazio = todas |
 | `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET` | X, API v2 com OAuth 1.0a (user context) |
 | `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD` | Bluesky (use uma senha de app) |
 | `MASTODON_API_BASE_URL`, `MASTODON_ACCESS_TOKEN` | Mastodon |
@@ -103,7 +104,7 @@ No GitHub, cadastre as credenciais em *Settings → Secrets and variables → Ac
 
 - **Secrets:** `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`,
   `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `MASTODON_ACCESS_TOKEN`.
-- **Variables:** `MASTODON_API_BASE_URL` e `PUBLICAR`. Deixe `PUBLICAR` sem valor até
+- **Variables:** `MASTODON_API_BASE_URL`, `PUBLICAR` e `REDES_ATIVAS`. Deixe `PUBLICAR` sem valor até
   conferir os posts no log do workflow; depois, defina `1`.
 
 Em *Settings → Pages*, escolha **GitHub Actions** como fonte.

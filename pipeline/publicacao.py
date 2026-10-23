@@ -23,6 +23,12 @@ def publicacao_ativada() -> bool:
     return os.environ.get("PUBLICAR") == "1"
 
 
+def redes_ativas() -> set[str] | None:
+    """Redes listadas em REDES_ATIVAS (ex.: "bluesky,x"); vazio ou ausente = todas."""
+    redes = {r.strip().lower() for r in os.environ.get("REDES_ATIVAS", "").split(",") if r.strip()}
+    return redes or None
+
+
 def criar_publicadores(nome_site: str) -> list[Publicador]:
     return [PublicadorX(nome_site), PublicadorBluesky(nome_site), PublicadorMastodon(nome_site)]
 

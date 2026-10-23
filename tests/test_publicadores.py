@@ -218,6 +218,13 @@ def test_dry_run_e_o_padrao(monkeypatch):
     assert publicacao.publicacao_ativada()
 
 
+def test_redes_ativas(monkeypatch):
+    monkeypatch.delenv("REDES_ATIVAS", raising=False)
+    assert publicacao.redes_ativas() is None
+    monkeypatch.setenv("REDES_ATIVAS", " Bluesky, x ,")
+    assert publicacao.redes_ativas() == {"bluesky", "x"}
+
+
 def test_fila_por_score_sem_inativos(con):
     codigos = [a.codigo for a in publicacao.fila(con, "x", 10, "https://despesa-aberta.test")]
     # score 90 (valor 400) > 90 (valor 200) > 50 > 10; A-2026-00005 está inativo

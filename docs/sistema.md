@@ -301,7 +301,14 @@ gh workflow run publicar.yml -f dry_run=false -f rede=bluesky -f limite=1
 ```
 
 **Ligar a publicação real.** No GitHub, cadastre os secrets e defina a variável de
-repositório `PUBLICAR=1`. Para desligar, apague a variável ou mude o valor.
+repositório `PUBLICAR=1`. A variável `REDES_ATIVAS` (ex.: `bluesky` ou `bluesky,x,mastodon`)
+limita em quais redes o agendamento publica; vazia, publica em todas as configuradas. Para
+desligar, apague `PUBLICAR` ou mude o valor.
+
+```bash
+gh variable set PUBLICAR --body 1
+gh variable set REDES_ATIVAS --body "bluesky,x"
+```
 
 **Recuperar o estado local a partir do branch `data`**
 
