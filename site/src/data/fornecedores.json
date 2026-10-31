@@ -8495,6 +8495,9 @@
   "parlamentares": 1,
   "total": 6150.98,
   "alertas": [
+   "A-2026-09022",
+   "A-2026-09021",
+   "A-2026-09020",
    "A-2026-04178"
   ]
  },
@@ -11329,6 +11332,17 @@
   "total": 2000.0,
   "alertas": [
    "A-2026-05689"
+  ]
+ },
+ {
+  "chave": "27937073000160",
+  "nome": "Q MARKETING SERVIÇOS DE MARKETING E TECNOLOGIAS DA INFORMAÇÃO S.A.",
+  "documento": "27.937.073/0001-60",
+  "despesas": 4,
+  "parlamentares": 1,
+  "total": 5596.0,
+  "alertas": [
+   "A-2026-09019"
   ]
  },
  {
