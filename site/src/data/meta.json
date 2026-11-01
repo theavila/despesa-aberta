@@ -3,7 +3,7 @@
   "nome": "Despesa Aberta",
   "url": "https://theavila.github.io/despesa-aberta"
  },
- "atualizado_em": "2026-10-31T12:17:11-03:00",
+ "atualizado_em": "2026-11-01T13:01:42-03:00",
  "aviso": "Atipicidade estatística não é prova de irregularidade. O parlamentar pode ter justificativa.",
  "despesas": 136122,
  "valor_total": 170608564.94,
@@ -12,7 +12,7 @@
   "fim": "2026-10"
  },
  "alertas_ativos": 5025,
- "alertas_hoje": 4,
+ "alertas_hoje": 0,
  "por_regra": {
   "R01_refeicao_alta": 90,
   "R02_duplicidade": 1501,
