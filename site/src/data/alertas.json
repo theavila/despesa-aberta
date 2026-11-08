@@ -1,5 +1,28 @@
 [
  {
+  "codigo": "A-2026-09229",
+  "regra_id": "R04_cnpj_situacao",
+  "regra_nome": "Fornecedor com CNPJ irregular na data",
+  "score": 100,
+  "detalhe": "Segundo a Receita Federal, o CNPJ do fornecedor está com situação 'INAPTA' desde 12/05/2026, antes da data da despesa (16/05/2026).",
+  "criado_em": "2026-11-08T15:57:15",
+  "casa": "camara",
+  "parlamentar": "camara-221329",
+  "parlamentar_nome": "Ricardo Abrão",
+  "partido": "PSDB",
+  "uf": "RJ",
+  "data": "2026-05-16",
+  "competencia": "2026-05",
+  "categoria": "Divulgação da atividade parlamentar",
+  "fornecedor": "02441744000177",
+  "fornecedor_nome": "O ITAPERUNENSE",
+  "fornecedor_documento": "02.441.744/0001-77",
+  "valor": 2000.0,
+  "url_documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3714/2026/8100056.pdf",
+  "fonte": "https://www.camara.leg.br/cotas/Ano-2026.csv.zip",
+  "respostas": []
+ },
+ {
   "codigo": "A-2026-09228",
   "regra_id": "R03_outlier_categoria",
   "regra_nome": "Valor muito acima do comum na categoria",
