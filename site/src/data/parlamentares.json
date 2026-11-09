@@ -260,8 +260,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/221328.jpg",
-  "despesas": 307,
-  "total": 338446.23,
+  "despesas": 308,
+  "total": 338789.7,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -273,7 +273,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 44747.28
+    "total": 45090.75
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -339,7 +339,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27221.48
+    "total": 27564.95
    }
   ],
   "alertas": [
@@ -442,12 +442,16 @@
   "partido": "NOVO",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
-  "despesas": 151,
-  "total": 42713.73,
+  "despesas": 152,
+  "total": 48134.24,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
     "total": 26529.32
+   },
+   {
+    "categoria": "Locação ou fretamento de veículos automotores",
+    "total": 7688.6
    },
    {
     "categoria": "Assinatura de publicações",
@@ -460,10 +464,6 @@
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
     "total": 3628.49
-   },
-   {
-    "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 2268.09
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -501,7 +501,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 1892.01
+    "total": 7312.52
    },
    {
     "competencia": "2026-09",
@@ -718,8 +718,8 @@
   "partido": "PP",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/136811.jpg",
-  "despesas": 702,
-  "total": 345811.23,
+  "despesas": 709,
+  "total": 347456.53,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -727,11 +727,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 64343.63
+    "total": 64953.63
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 61953.19
+    "total": 62939.06
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -747,7 +747,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 6660.36
+    "total": 6709.79
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -789,7 +789,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 20819.72
+    "total": 21771.05
    },
    {
     "competencia": "2026-09",
@@ -797,7 +797,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 4847.68
+    "total": 5048.51
+   },
+   {
+    "competencia": "2026-11",
+    "total": 493.14
    }
   ],
   "alertas": [
@@ -1254,8 +1258,8 @@
   "partido": "MDB",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160559.jpg",
-  "despesas": 876,
-  "total": 442507.17,
+  "despesas": 885,
+  "total": 446017.37,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -1267,7 +1271,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 86378.32
+    "total": 88157.23
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -1279,7 +1283,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 12190.31
+    "total": 13635.7
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -1287,7 +1291,7 @@
    },
    {
     "categoria": "Assinatura de publicações",
-    "total": 2511.1
+    "total": 2797.0
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -1333,14 +1337,15 @@
    },
    {
     "competencia": "2026-09",
-    "total": 38745.61
+    "total": 40191.0
    },
    {
     "competencia": "2026-10",
-    "total": 21788.0
+    "total": 23852.81
    }
   ],
   "alertas": [
+   "A-2026-09243",
    "A-2026-09187",
    "A-2026-08683",
    "A-2026-08675",
@@ -1743,12 +1748,12 @@
   "partido": "PT",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220554.jpg",
-  "despesas": 1086,
-  "total": 360319.53,
+  "despesas": 1088,
+  "total": 361248.53,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 98029.23
+    "total": 98915.23
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -1780,7 +1785,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 2571.97
+    "total": 2614.97
    }
   ],
   "por_mes": [
@@ -1814,7 +1819,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 29139.13
+    "total": 30068.13
    },
    {
     "competencia": "2026-09",
@@ -2098,8 +2103,8 @@
   "partido": "PV",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178927.jpg",
-  "despesas": 327,
-  "total": 323523.48,
+  "despesas": 328,
+  "total": 323806.39,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -2115,7 +2120,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 41633.27
+    "total": 41916.18
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -2169,7 +2174,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 200.0
+    "total": 482.91
    }
   ],
   "alertas": [
@@ -2345,8 +2350,8 @@
   "partido": "REPUBLICANOS",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178881.jpg",
-  "despesas": 278,
-  "total": 239346.85,
+  "despesas": 283,
+  "total": 240745.54,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -2354,11 +2359,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 64680.03
+    "total": 65818.69
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 54830.0
+    "total": 55090.03
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -2396,7 +2401,7 @@
    },
    {
     "competencia": "2026-05",
-    "total": 28833.42
+    "total": 29772.08
    },
    {
     "competencia": "2026-06",
@@ -2412,7 +2417,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 20273.73
+    "total": 20473.73
    },
    {
     "competencia": "2026-10",
@@ -2420,10 +2425,11 @@
    },
    {
     "competencia": "2026-11",
-    "total": 398.5
+    "total": 658.53
    }
   ],
   "alertas": [
+   "A-2026-09230",
    "A-2026-09178",
    "A-2026-08990",
    "A-2026-08646",
@@ -2604,8 +2610,8 @@
   "partido": "PP",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/107970.jpg",
-  "despesas": 425,
-  "total": 364690.32,
+  "despesas": 426,
+  "total": 365025.39,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -2617,7 +2623,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 56812.38
+    "total": 57147.45
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -2687,7 +2693,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 25081.2
+    "total": 25416.27
    },
    {
     "competencia": "2026-11",
@@ -2721,8 +2727,8 @@
   "partido": "PT",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
-  "despesas": 290,
-  "total": 308235.89,
+  "despesas": 291,
+  "total": 308520.33,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -2734,7 +2740,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 26890.81
+    "total": 27175.25
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -2796,7 +2802,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1315.24
+    "total": 1599.68
    }
   ],
   "alertas": [
@@ -3002,8 +3008,8 @@
   "partido": "PP",
   "uf": "AP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178831.jpg",
-  "despesas": 213,
-  "total": 368083.14,
+  "despesas": 217,
+  "total": 369335.29,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -3015,7 +3021,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 59792.5
+    "total": 61044.65
    },
    {
     "categoria": "Passagem aérea - RPA",
@@ -3077,11 +3083,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 3945.97
+    "total": 4445.97
    },
    {
     "competencia": "2026-11",
-    "total": 100.0
+    "total": 852.15
    }
   ],
   "alertas": [
@@ -3304,8 +3310,8 @@
   "partido": "PDT",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/133439.jpg",
-  "despesas": 154,
-  "total": 251809.4,
+  "despesas": 155,
+  "total": 252009.4,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -3321,7 +3327,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 45917.92
+    "total": 46117.92
    },
    {
     "categoria": "Telefonia",
@@ -3372,6 +3378,10 @@
    {
     "competencia": "2026-09",
     "total": 7065.05
+   },
+   {
+    "competencia": "2026-10",
+    "total": 200.0
    }
   ],
   "alertas": [
@@ -3447,8 +3457,8 @@
   "partido": "REDE",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204515.jpg",
-  "despesas": 138,
-  "total": 281216.04,
+  "despesas": 139,
+  "total": 281765.68,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -3468,7 +3478,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 2842.54
+    "total": 3392.18
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -3510,7 +3520,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 16258.88
+    "total": 16808.52
    },
    {
     "competencia": "2026-09",
@@ -3928,8 +3938,8 @@
   "partido": "MDB",
   "uf": "PA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220675.jpg",
-  "despesas": 116,
-  "total": 447162.54,
+  "despesas": 118,
+  "total": 447412.59,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de aeronaves",
@@ -3945,7 +3955,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 13935.44
+    "total": 14185.49
    },
    {
     "categoria": "Telefonia",
@@ -3995,7 +4005,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2527.09
+    "total": 2577.09
+   },
+   {
+    "competencia": "2026-11",
+    "total": 200.05
    }
   ],
   "alertas": [
@@ -4105,8 +4119,8 @@
   "partido": "PT",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73433.jpg",
-  "despesas": 376,
-  "total": 282711.24,
+  "despesas": 378,
+  "total": 282804.24,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -4122,7 +4136,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 31579.9
+    "total": 31629.9
    },
    {
     "categoria": "Telefonia",
@@ -4142,7 +4156,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 736.11
+    "total": 779.11
    },
    {
     "categoria": "Passagem aérea - RPA",
@@ -4189,6 +4203,10 @@
    {
     "competencia": "2026-10",
     "total": 6089.34
+   },
+   {
+    "competencia": "2026-11",
+    "total": 93.0
    }
   ],
   "alertas": [
@@ -4210,12 +4228,12 @@
   "partido": "CIDADANIA",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141391.jpg",
-  "despesas": 255,
-  "total": 330829.31,
+  "despesas": 260,
+  "total": 333591.02,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 192728.55
+    "total": 194889.83
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -4227,7 +4245,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 16202.58
+    "total": 16803.01
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -4281,7 +4299,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 34234.92
+    "total": 36396.2
    },
    {
     "competencia": "2026-09",
@@ -4289,7 +4307,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 25645.83
+    "total": 26246.26
    }
   ],
   "alertas": [
@@ -4323,12 +4341,12 @@
   "partido": "PP",
   "uf": "AL",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160541.jpg",
-  "despesas": 110,
-  "total": 81268.84,
+  "despesas": 111,
+  "total": 84268.84,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 31960.0
+    "total": 34960.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -4382,7 +4400,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1997.0
+    "total": 4997.0
    }
   ],
   "alertas": [
@@ -4510,12 +4528,12 @@
   "partido": "REPUBLICANOS",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160665.jpg",
-  "despesas": 385,
-  "total": 395178.61,
+  "despesas": 393,
+  "total": 400211.37,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 177759.49
+    "total": 182746.75
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -4555,7 +4573,7 @@
    },
    {
     "categoria": "Serviços postais",
-    "total": 134.75
+    "total": 180.25
    }
   ],
   "por_mes": [
@@ -4593,11 +4611,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 35285.39
+    "total": 38322.32
    },
    {
     "competencia": "2026-10",
-    "total": 22212.14
+    "total": 24207.97
    },
    {
     "competencia": "2026-11",
@@ -4605,6 +4623,8 @@
    }
   ],
   "alertas": [
+   "A-2026-09240",
+   "A-2026-09237",
    "A-2026-08543",
    "A-2026-08542",
    "A-2026-08262",
@@ -4632,12 +4652,12 @@
   "partido": "SOLIDARIEDADE",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160512.jpg",
-  "despesas": 60,
-  "total": 140004.17,
+  "despesas": 61,
+  "total": 147370.84,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 105748.15
+    "total": 113114.82
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -4687,7 +4707,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 12301.5
+    "total": 19668.17
    },
    {
     "competencia": "2026-11",
@@ -5176,8 +5196,8 @@
   "partido": "PT",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73701.jpg",
-  "despesas": 178,
-  "total": 210388.35,
+  "despesas": 179,
+  "total": 210547.15,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -5197,7 +5217,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 1103.16
+    "total": 1261.96
    },
    {
     "categoria": "Serviços postais",
@@ -5247,7 +5267,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 400.0
+    "total": 558.8
    }
   ],
   "alertas": [
@@ -5265,12 +5285,12 @@
   "partido": "UNIÃO",
   "uf": "RN",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/109429.jpg",
-  "despesas": 313,
-  "total": 358661.8,
+  "despesas": 314,
+  "total": 367561.8,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 118665.58
+    "total": 127565.58
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -5332,7 +5352,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6737.91
+    "total": 15637.91
    }
   ],
   "alertas": [
@@ -5353,12 +5373,12 @@
   "partido": "REPUBLICANOS",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204358.jpg",
-  "despesas": 115,
-  "total": 324338.97,
+  "despesas": 116,
+  "total": 354338.97,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 104473.34
+    "total": 134473.34
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -5432,7 +5452,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 22811.56
+    "total": 52811.56
    }
   ],
   "alertas": [
@@ -5456,8 +5476,8 @@
   "partido": "PSD",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220698.jpg",
-  "despesas": 371,
-  "total": 75507.35,
+  "despesas": 374,
+  "total": 76076.4,
   "por_categoria": [
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -5465,7 +5485,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 19626.25
+    "total": 20141.3
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -5473,7 +5493,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 8097.28
+    "total": 8151.28
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -5519,7 +5539,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2981.5
+    "total": 3035.5
+   },
+   {
+    "competencia": "2026-11",
+    "total": 515.05
    }
   ],
   "alertas": [
@@ -5535,8 +5559,8 @@
   "partido": "PSDB",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220683.jpg",
-  "despesas": 467,
-  "total": 236226.04,
+  "despesas": 470,
+  "total": 236678.54,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -5544,7 +5568,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 60394.79
+    "total": 60674.29
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -5572,7 +5596,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 163.0
+    "total": 336.0
    }
   ],
   "por_mes": [
@@ -5614,11 +5638,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5046.61
+    "total": 5326.11
    },
    {
     "competencia": "2026-11",
-    "total": 245.77
+    "total": 418.77
    }
   ],
   "alertas": []
@@ -5631,8 +5655,8 @@
   "partido": "PL",
   "uf": "DF",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204374.jpg",
-  "despesas": 279,
-  "total": 327396.03,
+  "despesas": 280,
+  "total": 327888.82,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -5648,7 +5672,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 47817.48
+    "total": 48310.27
    }
   ],
   "por_mes": [
@@ -5691,6 +5715,10 @@
    {
     "competencia": "2026-10",
     "total": 21112.29
+   },
+   {
+    "competencia": "2026-11",
+    "total": 492.79
    }
   ],
   "alertas": [
@@ -5707,8 +5735,8 @@
   "partido": "PL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204388.jpg",
-  "despesas": 641,
-  "total": 429808.39,
+  "despesas": 642,
+  "total": 429955.5,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -5724,7 +5752,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 56568.36
+    "total": 56715.47
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -5787,6 +5815,10 @@
    {
     "competencia": "2026-10",
     "total": 15883.22
+   },
+   {
+    "competencia": "2026-11",
+    "total": 147.11
    }
   ],
   "alertas": [
@@ -5939,8 +5971,8 @@
   "partido": "REPUBLICANOS",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/210989.jpg",
-  "despesas": 412,
-  "total": 415560.73,
+  "despesas": 413,
+  "total": 420060.73,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -5948,7 +5980,7 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 105632.0
+    "total": 110132.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -5994,7 +6026,7 @@
    },
    {
     "competencia": "2026-04",
-    "total": 53663.17
+    "total": 58163.17
    },
    {
     "competencia": "2026-05",
@@ -6036,8 +6068,8 @@
   "partido": "PODE",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220635.jpg",
-  "despesas": 96,
-  "total": 259842.4,
+  "despesas": 99,
+  "total": 273147.95,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -6049,7 +6081,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 20610.48
+    "total": 33916.03
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -6095,15 +6127,15 @@
    },
    {
     "competencia": "2026-07",
-    "total": 8621.37
+    "total": 12958.83
    },
    {
     "competencia": "2026-08",
-    "total": 8482.62
+    "total": 12913.76
    },
    {
     "competencia": "2026-09",
-    "total": 6891.81
+    "total": 11428.76
    }
   ],
   "alertas": [
@@ -6248,8 +6280,8 @@
   "partido": "PT",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220548.jpg",
-  "despesas": 349,
-  "total": 417611.94,
+  "despesas": 353,
+  "total": 422034.07,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -6257,7 +6289,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 122533.55
+    "total": 126333.55
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -6265,7 +6297,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 46165.44
+    "total": 46787.57
    },
    {
     "categoria": "Telefonia",
@@ -6315,7 +6347,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 77939.44
+    "total": 82361.57
    },
    {
     "competencia": "2026-11",
@@ -6421,12 +6453,12 @@
   "partido": "PL",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220690.jpg",
-  "despesas": 90,
-  "total": 254073.33,
+  "despesas": 91,
+  "total": 314073.33,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 190000.0
+    "total": 250000.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -6480,10 +6512,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5500.0
+    "total": 65500.0
    }
   ],
   "alertas": [
+   "A-2026-09252",
    "A-2026-08531",
    "A-2026-07364",
    "A-2026-06131",
@@ -6783,12 +6816,12 @@
   "partido": "REPUBLICANOS",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178962.jpg",
-  "despesas": 442,
-  "total": 206835.76,
+  "despesas": 445,
+  "total": 207110.66,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 76437.38
+    "total": 76627.28
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -6796,7 +6829,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 37617.06
+    "total": 37667.06
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -6812,7 +6845,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 4623.55
+    "total": 4658.55
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -6850,15 +6883,15 @@
    },
    {
     "competencia": "2026-09",
-    "total": 23242.12
+    "total": 23432.02
    },
    {
     "competencia": "2026-10",
-    "total": 17354.64
+    "total": 17389.64
    },
    {
     "competencia": "2026-11",
-    "total": 47.79
+    "total": 97.79
    }
   ],
   "alertas": [
@@ -6874,8 +6907,8 @@
   "partido": "UNIÃO",
   "uf": "TO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178993.jpg",
-  "despesas": 309,
-  "total": 360854.55,
+  "despesas": 310,
+  "total": 363397.55,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -6883,7 +6916,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 109165.33
+    "total": 111708.33
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -6941,7 +6974,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 530.0
+    "total": 3073.0
    }
   ],
   "alertas": [
@@ -6958,8 +6991,8 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204460.jpg",
-  "despesas": 378,
-  "total": 335632.58,
+  "despesas": 379,
+  "total": 339071.1,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -6980,6 +7013,10 @@
    {
     "categoria": "Telefonia",
     "total": 5154.75
+   },
+   {
+    "categoria": "Passagem aérea - reembolso",
+    "total": 3438.52
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -7025,7 +7062,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 12324.36
+    "total": 15762.88
    },
    {
     "competencia": "2026-11",
@@ -7048,8 +7085,8 @@
   "partido": "PSD",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74262.jpg",
-  "despesas": 92,
-  "total": 196295.71,
+  "despesas": 98,
+  "total": 199409.12,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -7064,12 +7101,12 @@
     "total": 11850.65
    },
    {
-    "categoria": "Serviço de segurança prestado por empresa especializada",
-    "total": 2147.95
+    "categoria": "Passagem aérea - RPA",
+    "total": 5140.87
    },
    {
-    "categoria": "Passagem aérea - RPA",
-    "total": 2027.46
+    "categoria": "Serviço de segurança prestado por empresa especializada",
+    "total": 2147.95
    }
   ],
   "por_mes": [
@@ -7103,7 +7140,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 13068.36
+    "total": 16181.77
    },
    {
     "competencia": "2026-09",
@@ -7115,6 +7152,8 @@
    }
   ],
   "alertas": [
+   "A-2026-09233",
+   "A-2026-09232",
    "A-2026-08469",
    "A-2026-08363",
    "A-2026-08345",
@@ -7364,8 +7403,8 @@
   "partido": "PT",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220704.jpg",
-  "despesas": 502,
-  "total": 356553.17,
+  "despesas": 504,
+  "total": 356988.67,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -7385,7 +7424,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 24638.59
+    "total": 25074.09
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -7448,6 +7487,10 @@
    {
     "competencia": "2026-10",
     "total": 19083.64
+   },
+   {
+    "competencia": "2026-11",
+    "total": 435.5
    }
   ],
   "alertas": [
@@ -7475,8 +7518,8 @@
   "partido": "PL",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204369.jpg",
-  "despesas": 208,
-  "total": 156307.31,
+  "despesas": 209,
+  "total": 156606.75,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -7488,7 +7531,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 25310.14
+    "total": 25609.58
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -7542,7 +7585,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10311.13
+    "total": 10610.57
    },
    {
     "competencia": "2026-11",
@@ -7823,8 +7866,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204504.jpg",
-  "despesas": 156,
-  "total": 347274.81,
+  "despesas": 157,
+  "total": 347538.13,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -7840,7 +7883,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 23489.84
+    "total": 23753.16
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -7894,7 +7937,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 597.14
+    "total": 860.46
    }
   ],
   "alertas": [
@@ -7910,12 +7953,12 @@
   "partido": "PSD",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/205476.jpg",
-  "despesas": 221,
-  "total": 219312.11,
+  "despesas": 222,
+  "total": 228712.11,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 123600.0
+    "total": 133000.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -7977,7 +8020,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 9964.5
+    "total": 19364.5
    },
    {
     "competencia": "2026-11",
@@ -7999,12 +8042,12 @@
   "partido": "PSOL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74171.jpg",
-  "despesas": 288,
-  "total": 248228.28,
+  "despesas": 293,
+  "total": 269950.42,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 144285.0
+    "total": 165725.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -8012,7 +8055,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 11632.45
+    "total": 11827.25
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -8028,7 +8071,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 2095.5
+    "total": 2182.84
    }
   ],
   "por_mes": [
@@ -8070,7 +8113,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5885.83
+    "total": 27325.83
+   },
+   {
+    "competencia": "2026-11",
+    "total": 282.14
    }
   ],
   "alertas": [
@@ -8257,8 +8304,8 @@
   "partido": "PP",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74537.jpg",
-  "despesas": 297,
-  "total": 291639.94,
+  "despesas": 301,
+  "total": 299534.9,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -8266,7 +8313,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 83919.11
+    "total": 91693.27
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -8286,7 +8333,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 5413.38
+    "total": 5534.18
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -8336,14 +8383,15 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5403.93
+    "total": 13216.89
    },
    {
     "competencia": "2026-11",
-    "total": 388.25
+    "total": 470.25
    }
   ],
   "alertas": [
+   "A-2026-09253",
    "A-2026-08640",
    "A-2026-08413",
    "A-2026-08323",
@@ -8368,8 +8416,8 @@
   "partido": "MDB",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141408.jpg",
-  "despesas": 46,
-  "total": 300450.35,
+  "despesas": 47,
+  "total": 300489.95,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -8377,7 +8425,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 58950.35
+    "total": 58989.95
    }
   ],
   "por_mes": [
@@ -8420,6 +8468,10 @@
    {
     "competencia": "2026-10",
     "total": 25067.8
+   },
+   {
+    "competencia": "2026-11",
+    "total": 39.6
    }
   ],
   "alertas": [
@@ -8522,8 +8574,8 @@
   "partido": "MDB",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/98148.jpg",
-  "despesas": 441,
-  "total": 347562.5,
+  "despesas": 446,
+  "total": 348510.28,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -8535,7 +8587,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 56668.83
+    "total": 57416.71
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -8555,7 +8607,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 2153.57
+    "total": 2353.47
    },
    {
     "categoria": "Telefonia",
@@ -8605,11 +8657,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 15796.93
+    "total": 15909.36
    },
    {
     "competencia": "2026-11",
-    "total": 575.51
+    "total": 1410.86
    }
   ],
   "alertas": [
@@ -8646,8 +8698,8 @@
   "partido": "PL",
   "uf": "MT",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220594.jpg",
-  "despesas": 287,
-  "total": 188623.38,
+  "despesas": 288,
+  "total": 189463.55,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -8655,7 +8707,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 43426.15
+    "total": 44266.32
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -8713,7 +8765,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6847.1
+    "total": 7687.27
    }
   ],
   "alertas": [
@@ -9089,8 +9141,8 @@
   "partido": "PP",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178963.jpg",
-  "despesas": 73,
-  "total": 142986.57,
+  "despesas": 74,
+  "total": 147986.57,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -9102,7 +9154,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 25770.96
+    "total": 30770.96
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -9144,7 +9196,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6553.29
+    "total": 11553.29
    }
   ],
   "alertas": [
@@ -9161,8 +9213,8 @@
   "partido": "PODE",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220608.jpg",
-  "despesas": 350,
-  "total": 345824.99,
+  "despesas": 359,
+  "total": 351724.99,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -9170,11 +9222,11 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 108553.89
+    "total": 114203.89
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 44648.82
+    "total": 44898.82
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -9232,11 +9284,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 18437.32
+    "total": 24087.32
    },
    {
     "competencia": "2026-11",
-    "total": 477.15
+    "total": 727.15
    }
   ],
   "alertas": [
@@ -9288,8 +9340,8 @@
   "partido": "PSOL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/206018.jpg",
-  "despesas": 888,
-  "total": 330426.96,
+  "despesas": 889,
+  "total": 330684.09,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -9301,7 +9353,7 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 54658.33
+    "total": 54915.46
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -9367,7 +9419,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 9401.26
+    "total": 9658.39
    }
   ],
   "alertas": [
@@ -9640,8 +9692,8 @@
   "partido": "PP",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141411.jpg",
-  "despesas": 171,
-  "total": 431968.51,
+  "despesas": 172,
+  "total": 434948.81,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -9657,7 +9709,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 58427.55
+    "total": 61407.85
    },
    {
     "categoria": "Telefonia",
@@ -9715,7 +9767,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 33990.07
+    "total": 36970.37
    }
   ],
   "alertas": [
@@ -9749,12 +9801,12 @@
   "partido": "PCdoB",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220555.jpg",
-  "despesas": 294,
-  "total": 257136.84,
+  "despesas": 297,
+  "total": 257641.18,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 156059.05
+    "total": 156239.05
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -9766,7 +9818,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 17185.54
+    "total": 17456.92
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -9790,7 +9842,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 1409.12
+    "total": 1462.08
    }
   ],
   "por_mes": [
@@ -9832,7 +9884,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 4016.65
+    "total": 4520.99
    }
   ],
   "alertas": [
@@ -10121,8 +10173,8 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220603.jpg",
-  "despesas": 453,
-  "total": 335544.31,
+  "despesas": 455,
+  "total": 339854.51,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -10134,7 +10186,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 76392.94
+    "total": 80703.14
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -10180,11 +10232,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 17692.0
+    "total": 19847.1
    },
    {
     "competencia": "2026-10",
-    "total": 11302.07
+    "total": 13457.17
    }
   ],
   "alertas": [
@@ -10275,8 +10327,8 @@
   "partido": "PCdoB",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74060.jpg",
-  "despesas": 85,
-  "total": 273925.28,
+  "despesas": 86,
+  "total": 279410.54,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -10284,7 +10336,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 69433.1
+    "total": 74918.36
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -10346,10 +10398,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1069.0
+    "total": 6554.26
    }
   ],
   "alertas": [
+   "A-2026-09254",
    "A-2026-08666",
    "A-2026-08431",
    "A-2026-08396",
@@ -10442,8 +10495,8 @@
   "partido": "PL",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204367.jpg",
-  "despesas": 398,
-  "total": 312141.36,
+  "despesas": 400,
+  "total": 312563.05,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -10455,7 +10508,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 53580.74
+    "total": 54002.43
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -10513,7 +10566,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6030.13
+    "total": 6308.71
+   },
+   {
+    "competencia": "2026-11",
+    "total": 143.11
    }
   ],
   "alertas": [
@@ -10646,7 +10703,6 @@
    "A-2026-08046",
    "A-2026-07948",
    "A-2026-07890",
-   "A-2026-07653",
    "A-2026-07584",
    "A-2026-07570",
    "A-2026-07531",
@@ -10857,12 +10913,12 @@
   "partido": "PP",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/62881.jpg",
-  "despesas": 242,
-  "total": 358593.31,
+  "despesas": 244,
+  "total": 369064.91,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 149870.48
+    "total": 160342.08
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -10932,11 +10988,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 22447.01
+    "total": 27656.5
    },
    {
     "competencia": "2026-10",
-    "total": 6674.0
+    "total": 11936.11
    }
   ],
   "alertas": [
@@ -10960,8 +11016,8 @@
   "partido": "PSD",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160552.jpg",
-  "despesas": 486,
-  "total": 283390.73,
+  "despesas": 498,
+  "total": 285531.03,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -10969,7 +11025,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 79322.9
+    "total": 81463.2
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -11031,7 +11087,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10862.29
+    "total": 12726.25
+   },
+   {
+    "competencia": "2026-11",
+    "total": 276.34
    }
   ],
   "alertas": []
@@ -11207,12 +11267,12 @@
   "partido": "UNIÃO",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220539.jpg",
-  "despesas": 76,
-  "total": 265487.3,
+  "despesas": 77,
+  "total": 267787.3,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 109200.0
+    "total": 111500.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -11270,7 +11330,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 46246.73
+    "total": 48546.73
    }
   ],
   "alertas": [
@@ -11370,8 +11430,8 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220625.jpg",
-  "despesas": 512,
-  "total": 389326.88,
+  "despesas": 515,
+  "total": 389727.44,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -11383,7 +11443,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 88272.36
+    "total": 88645.72
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -11391,7 +11451,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 6283.28
+    "total": 6310.48
    },
    {
     "categoria": "Telefonia",
@@ -11449,7 +11509,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 21830.36
+    "total": 22203.72
+   },
+   {
+    "competencia": "2026-11",
+    "total": 27.2
    }
   ],
   "alertas": [
@@ -11793,8 +11857,8 @@
   "partido": "UNIÃO",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204512.jpg",
-  "despesas": 395,
-  "total": 471182.6,
+  "despesas": 396,
+  "total": 483057.6,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -11802,7 +11866,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 133875.0
+    "total": 145750.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -11872,7 +11936,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 60473.21
+    "total": 72348.21
    }
   ],
   "alertas": [
@@ -11890,8 +11954,8 @@
   "partido": "UNIÃO",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220701.jpg",
-  "despesas": 280,
-  "total": 403896.14,
+  "despesas": 282,
+  "total": 412096.14,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -11899,7 +11963,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 79300.2
+    "total": 87300.2
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -11911,7 +11975,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 38863.06
+    "total": 39063.06
    },
    {
     "categoria": "Serviços postais",
@@ -11969,7 +12033,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 15629.46
+    "total": 23629.46
    },
    {
     "competencia": "2026-10",
@@ -11977,7 +12041,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 240.19
+    "total": 440.19
    }
   ],
   "alertas": [
@@ -12093,8 +12157,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220654.jpg",
-  "despesas": 407,
-  "total": 338200.55,
+  "despesas": 408,
+  "total": 338456.41,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -12106,7 +12170,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 57745.15
+    "total": 58001.01
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -12184,14 +12248,13 @@
    },
    {
     "competencia": "2026-10",
-    "total": 23885.52
+    "total": 24141.38
    }
   ],
   "alertas": [
    "A-2026-09201",
    "A-2026-08704",
    "A-2026-08384",
-   "A-2026-07944",
    "A-2026-07631",
    "A-2026-07452",
    "A-2026-07141",
@@ -12622,8 +12685,8 @@
   "partido": "REPUBLICANOS",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220691.jpg",
-  "despesas": 269,
-  "total": 334372.08,
+  "despesas": 272,
+  "total": 334622.08,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -12635,7 +12698,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 63701.52
+    "total": 63951.52
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -12689,11 +12752,15 @@
    },
    {
     "competencia": "2026-09",
-    "total": 22988.82
+    "total": 23038.82
    },
    {
     "competencia": "2026-10",
-    "total": 22176.32
+    "total": 22276.32
+   },
+   {
+    "competencia": "2026-11",
+    "total": 100.0
    }
   ],
   "alertas": [
@@ -12717,16 +12784,16 @@
   "partido": "UNIÃO",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178929.jpg",
-  "despesas": 909,
-  "total": 486153.55,
+  "despesas": 914,
+  "total": 490811.59,
   "por_categoria": [
    {
     "categoria": "Passagem aérea - reembolso",
-    "total": 174694.29
+    "total": 178031.74
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 72585.63
+    "total": 73326.33
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -12734,7 +12801,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 64763.6
+    "total": 65240.15
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -12758,7 +12825,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 1830.28
+    "total": 1933.62
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -12796,7 +12863,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 33275.34
+    "total": 34016.04
    },
    {
     "competencia": "2026-09",
@@ -12804,7 +12871,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 45776.21
+    "total": 49504.74
+   },
+   {
+    "competencia": "2026-11",
+    "total": 188.81
    }
   ],
   "alertas": [
@@ -12838,16 +12909,16 @@
   "partido": "PP",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73768.jpg",
-  "despesas": 333,
-  "total": 421102.72,
+  "despesas": 335,
+  "total": 427442.79,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 312500.0
+    "total": 318500.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 46022.71
+    "total": 46362.78
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -12905,7 +12976,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 104704.0
+    "total": 111044.07
    }
   ],
   "alertas": [
@@ -13003,8 +13074,8 @@
   "partido": "PP",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160599.jpg",
-  "despesas": 954,
-  "total": 279007.43,
+  "despesas": 955,
+  "total": 280007.33,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -13024,7 +13095,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 7724.9
+    "total": 8724.8
    },
    {
     "categoria": "Telefonia",
@@ -13086,10 +13157,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6229.31
+    "total": 7229.21
    }
   ],
   "alertas": [
+   "A-2026-09241",
    "A-2026-07500",
    "A-2026-06719",
    "A-2026-06338",
@@ -13269,8 +13341,8 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160758.jpg",
-  "despesas": 635,
-  "total": 316330.18,
+  "despesas": 636,
+  "total": 316623.18,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -13286,7 +13358,7 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 34588.31
+    "total": 34881.31
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -13348,7 +13420,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 3085.81
+    "total": 3378.81
    }
   ],
   "alertas": [
@@ -13602,8 +13674,8 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/227991.jpg",
-  "despesas": 170,
-  "total": 298560.98,
+  "despesas": 172,
+  "total": 299011.46,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -13619,7 +13691,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 32616.59
+    "total": 33067.07
    },
    {
     "categoria": "Telefonia",
@@ -13673,11 +13745,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 4491.11
+    "total": 4796.48
    },
    {
     "competencia": "2026-11",
-    "total": 967.79
+    "total": 1112.9
    }
   ],
   "alertas": [
@@ -13694,8 +13766,8 @@
   "partido": "PSD",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220614.jpg",
-  "despesas": 272,
-  "total": 225472.14,
+  "despesas": 274,
+  "total": 228480.97,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -13703,11 +13775,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 68014.17
+    "total": 70823.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 35214.87
+    "total": 35414.87
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -13758,6 +13830,10 @@
    {
     "competencia": "2026-10",
     "total": 6160.86
+   },
+   {
+    "competencia": "2026-11",
+    "total": 3008.83
    }
   ],
   "alertas": [
@@ -13774,8 +13850,8 @@
   "partido": "PL",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220610.jpg",
-  "despesas": 193,
-  "total": 278089.78,
+  "despesas": 203,
+  "total": 281717.21,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -13783,7 +13859,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 45067.59
+    "total": 48695.02
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -13841,7 +13917,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 8887.21
+    "total": 11163.5
+   },
+   {
+    "competencia": "2026-10",
+    "total": 1351.14
    }
   ],
   "alertas": [
@@ -13858,8 +13938,8 @@
   "partido": "PT",
   "uf": "PI",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220688.jpg",
-  "despesas": 175,
-  "total": 339087.09,
+  "despesas": 176,
+  "total": 339221.01,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -13887,7 +13967,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 2703.17
+    "total": 2837.09
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -13925,7 +14005,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 1421.0
+    "total": 1554.92
    }
   ],
   "alertas": [
@@ -14177,12 +14257,12 @@
   "partido": "PP",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204351.jpg",
-  "despesas": 331,
-  "total": 209815.78,
+  "despesas": 332,
+  "total": 209995.78,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 75827.12
+    "total": 76007.12
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -14252,7 +14332,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 6425.66
+    "total": 6605.66
    },
    {
     "competencia": "2026-10",
@@ -14361,8 +14441,8 @@
   "partido": "MDB",
   "uf": "GO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204412.jpg",
-  "despesas": 355,
-  "total": 282514.79,
+  "despesas": 359,
+  "total": 282763.63,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -14382,7 +14462,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 7034.09
+    "total": 7282.93
    },
    {
     "categoria": "Telefonia",
@@ -14436,11 +14516,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6897.12
+    "total": 7026.47
    },
    {
     "competencia": "2026-11",
-    "total": 262.24
+    "total": 381.73
    }
   ],
   "alertas": [
@@ -14527,8 +14607,8 @@
   "partido": "AVANTE",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220686.jpg",
-  "despesas": 54,
-  "total": 209016.62,
+  "despesas": 55,
+  "total": 209635.62,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -14536,7 +14616,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 63716.83
+    "total": 64335.83
    },
    {
     "categoria": "Telefonia",
@@ -14586,10 +14666,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 18139.3
+    "total": 18758.3
    }
   ],
   "alertas": [
+   "A-2026-09242",
    "A-2026-07447",
    "A-2026-07250",
    "A-2026-06900",
@@ -14783,20 +14864,20 @@
   "partido": "PV",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204541.jpg",
-  "despesas": 197,
-  "total": 192717.69,
+  "despesas": 200,
+  "total": 205612.69,
   "por_categoria": [
+   {
+    "categoria": "Locação ou fretamento de veículos automotores",
+    "total": 79916.67
+   },
    {
     "categoria": "Divulgação da atividade parlamentar",
     "total": 70000.0
    },
    {
-    "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 67416.67
-   },
-   {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 41023.5
+    "total": 41323.5
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -14812,7 +14893,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 879.59
+    "total": 974.59
    },
    {
     "categoria": "Aquisição de tokens e certificados digitais",
@@ -14850,7 +14931,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 12287.29
+    "total": 25182.29
    }
   ],
   "alertas": [
@@ -15051,8 +15132,8 @@
   "partido": "MDB",
   "uf": "PA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74075.jpg",
-  "despesas": 116,
-  "total": 95064.05,
+  "despesas": 118,
+  "total": 95166.61,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -15068,7 +15149,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 6153.09
+    "total": 6255.65
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -15115,6 +15196,10 @@
    {
     "competencia": "2026-10",
     "total": 2160.64
+   },
+   {
+    "competencia": "2026-11",
+    "total": 102.56
    }
   ],
   "alertas": [
@@ -15139,8 +15224,8 @@
   "partido": "REPUBLICANOS",
   "uf": "TO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204364.jpg",
-  "despesas": 390,
-  "total": 409683.53,
+  "despesas": 391,
+  "total": 410073.97,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -15152,7 +15237,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 90467.57
+    "total": 90858.01
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -15214,7 +15299,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 2140.3
+    "total": 2530.74
    }
   ],
   "alertas": [
@@ -15458,8 +15543,8 @@
   "partido": "PSD",
   "uf": "MT",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/198783.jpg",
-  "despesas": 370,
-  "total": 266941.38,
+  "despesas": 373,
+  "total": 267838.72,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -15471,7 +15556,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 57628.9
+    "total": 58526.24
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -15529,7 +15614,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 7350.37
+    "total": 8247.71
    }
   ],
   "alertas": [
@@ -15790,8 +15875,8 @@
   "partido": "PSB",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220663.jpg",
-  "despesas": 119,
-  "total": 389220.16,
+  "despesas": 122,
+  "total": 404800.7,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -15799,11 +15884,11 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 91030.99
+    "total": 99830.99
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 66489.07
+    "total": 73171.55
    },
    {
     "categoria": "Telefonia",
@@ -15811,7 +15896,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 3301.15
+    "total": 3399.21
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -15857,7 +15942,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 274.5
+    "total": 15756.98
+   },
+   {
+    "competencia": "2026-11",
+    "total": 98.06
    }
   ],
   "alertas": [
@@ -15963,8 +16052,8 @@
   "partido": "PT",
   "uf": "DF",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160575.jpg",
-  "despesas": 637,
-  "total": 223281.48,
+  "despesas": 641,
+  "total": 223551.3,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -15976,7 +16065,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 15021.73
+    "total": 15291.55
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -16026,7 +16115,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2038.97
+    "total": 2308.79
    }
   ],
   "alertas": []
@@ -16039,8 +16128,8 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160640.jpg",
-  "despesas": 351,
-  "total": 256152.27,
+  "despesas": 352,
+  "total": 256372.93,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -16056,7 +16145,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 37146.37
+    "total": 37367.03
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -16114,7 +16203,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2996.02
+    "total": 3216.68
    }
   ],
   "alertas": [
@@ -16475,8 +16564,8 @@
   "partido": "PSD",
   "uf": "SE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/171623.jpg",
-  "despesas": 139,
-  "total": 162723.67,
+  "despesas": 140,
+  "total": 163473.67,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -16488,7 +16577,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 40333.4
+    "total": 41083.4
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -16542,7 +16631,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 14015.03
+    "total": 14765.03
    },
    {
     "competencia": "2026-11",
@@ -17095,8 +17184,8 @@
   "partido": "PODE",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204398.jpg",
-  "despesas": 312,
-  "total": 362396.44,
+  "despesas": 313,
+  "total": 365842.8,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -17112,7 +17201,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 33028.94
+    "total": 36475.3
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -17162,7 +17251,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 9510.62
+    "total": 12956.98
    },
    {
     "competencia": "2026-11",
@@ -17181,8 +17270,8 @@
   "partido": "PSOL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204407.jpg",
-  "despesas": 340,
-  "total": 267132.7,
+  "despesas": 342,
+  "total": 269815.9,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -17190,7 +17279,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 68385.23
+    "total": 71068.43
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -17260,7 +17349,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 13349.75
+    "total": 16032.95
    },
    {
     "competencia": "2026-10",
@@ -17298,8 +17387,8 @@
   "partido": "PSD",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220656.jpg",
-  "despesas": 314,
-  "total": 193875.79,
+  "despesas": 315,
+  "total": 194375.79,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -17322,12 +17411,12 @@
     "total": 3898.53
    },
    {
-    "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 2042.99
+    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
+    "total": 2500.0
    },
    {
-    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 2000.0
+    "categoria": "Fornecimento de alimentação do parlamentar",
+    "total": 2042.99
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -17361,14 +17450,16 @@
    },
    {
     "competencia": "2026-09",
-    "total": 20038.09
+    "total": 20538.09
    },
    {
     "competencia": "2026-10",
     "total": 5532.43
    }
   ],
-  "alertas": []
+  "alertas": [
+   "A-2026-09239"
+  ]
  },
  {
   "chave": "camara-141431",
@@ -17378,8 +17469,8 @@
   "partido": "UNIÃO",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141431.jpg",
-  "despesas": 132,
-  "total": 255838.73,
+  "despesas": 133,
+  "total": 256005.9,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -17391,7 +17482,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 58843.27
+    "total": 59010.44
    },
    {
     "categoria": "Telefonia",
@@ -17441,7 +17532,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 7405.01
+    "total": 7572.18
    }
   ],
   "alertas": [
@@ -17559,8 +17650,8 @@
   "partido": "PSD",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/92699.jpg",
-  "despesas": 171,
-  "total": 282667.81,
+  "despesas": 174,
+  "total": 283583.98,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -17572,7 +17663,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 36706.34
+    "total": 37622.51
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -17630,7 +17721,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 249.02
+    "total": 865.19
+   },
+   {
+    "competencia": "2026-11",
+    "total": 300.0
    }
   ],
   "alertas": [
@@ -17725,8 +17820,8 @@
   "partido": "PL",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204411.jpg",
-  "despesas": 227,
-  "total": 201752.38,
+  "despesas": 228,
+  "total": 202964.83,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -17742,7 +17837,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 15587.93
+    "total": 16800.38
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -17804,7 +17899,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 570.05
+    "total": 1782.5
    }
   ],
   "alertas": [
@@ -17835,8 +17930,8 @@
   "partido": "PL",
   "uf": "TO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220545.jpg",
-  "despesas": 194,
-  "total": 176129.22,
+  "despesas": 197,
+  "total": 177603.22,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -17844,7 +17939,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 45090.52
+    "total": 46564.52
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -17914,10 +18009,11 @@
    },
    {
     "competencia": "2026-11",
-    "total": 100.0
+    "total": 1574.0
    }
   ],
   "alertas": [
+   "A-2026-09257",
    "A-2026-09224",
    "A-2026-08253",
    "A-2026-07497",
@@ -18187,8 +18283,8 @@
   "partido": "REPUBLICANOS",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220551.jpg",
-  "despesas": 678,
-  "total": 451207.14,
+  "despesas": 683,
+  "total": 452164.94,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -18200,7 +18296,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 70181.59
+    "total": 71122.03
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -18212,7 +18308,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 7490.56
+    "total": 7507.92
    },
    {
     "categoria": "Consultorias, pesquisas e trabalhos técnicos",
@@ -18262,7 +18358,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 32643.22
+    "total": 32909.42
    },
    {
     "competencia": "2026-09",
@@ -18270,7 +18366,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10945.69
+    "total": 11637.29
    }
   ],
   "alertas": [
@@ -18290,8 +18386,8 @@
   "partido": "PRD",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204494.jpg",
-  "despesas": 382,
-  "total": 279508.59,
+  "despesas": 388,
+  "total": 280732.7,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -18303,7 +18399,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 47405.22
+    "total": 48629.33
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -18369,7 +18465,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 17979.51
+    "total": 18449.85
+   },
+   {
+    "competencia": "2026-11",
+    "total": 753.77
    }
   ],
   "alertas": [
@@ -18579,16 +18679,16 @@
   "partido": "PDT",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160666.jpg",
-  "despesas": 245,
-  "total": 330001.87,
+  "despesas": 254,
+  "total": 341007.99,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 130615.0
+    "total": 134880.77
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 85500.0
+    "total": 91500.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -18596,7 +18696,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 27425.23
+    "total": 28165.58
    },
    {
     "categoria": "Telefonia",
@@ -18642,15 +18742,15 @@
    },
    {
     "competencia": "2026-08",
-    "total": 26146.35
+    "total": 26886.7
    },
    {
     "competencia": "2026-09",
-    "total": 19344.53
+    "total": 23610.3
    },
    {
     "competencia": "2026-10",
-    "total": 996.46
+    "total": 6996.46
    }
   ],
   "alertas": [
@@ -18670,16 +18770,16 @@
   "partido": "UNIÃO",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/224117.jpg",
-  "despesas": 46,
-  "total": 468514.57,
+  "despesas": 48,
+  "total": 558564.57,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 286850.0
+    "total": 316850.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 117500.0
+    "total": 177550.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -18729,10 +18829,12 @@
    },
    {
     "competencia": "2026-10",
-    "total": 14000.0
+    "total": 104050.0
    }
   ],
   "alertas": [
+   "A-2026-09246",
+   "A-2026-09245",
    "A-2026-09013",
    "A-2026-08604",
    "A-2026-08603",
@@ -18761,8 +18863,8 @@
   "partido": "PSD",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220708.jpg",
-  "despesas": 356,
-  "total": 408420.15,
+  "despesas": 357,
+  "total": 408720.15,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -18778,7 +18880,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 65127.36
+    "total": 65427.36
    },
    {
     "categoria": "Telefonia",
@@ -18829,6 +18931,10 @@
    {
     "competencia": "2026-10",
     "total": 21432.27
+   },
+   {
+    "competencia": "2026-11",
+    "total": 300.0
    }
   ],
   "alertas": [
@@ -19053,8 +19159,8 @@
   "partido": "REPUBLICANOS",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178966.jpg",
-  "despesas": 438,
-  "total": 319387.63,
+  "despesas": 440,
+  "total": 330387.63,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19062,11 +19168,11 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 75500.0
+    "total": 82000.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 73364.5
+    "total": 77864.5
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -19132,7 +19238,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5879.72
+    "total": 16879.72
    }
   ],
   "alertas": [
@@ -19249,8 +19355,8 @@
   "partido": "UNIÃO",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74374.jpg",
-  "despesas": 143,
-  "total": 496543.87,
+  "despesas": 144,
+  "total": 501673.87,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19258,7 +19364,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 106662.03
+    "total": 111792.03
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -19324,7 +19430,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 63399.8
+    "total": 68529.8
    },
    {
     "competencia": "2026-11",
@@ -19359,8 +19465,8 @@
   "partido": "PCdoB",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204394.jpg",
-  "despesas": 316,
-  "total": 300745.1,
+  "despesas": 319,
+  "total": 301540.39,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -19372,7 +19478,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 51913.5
+    "total": 52428.8
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19384,7 +19490,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 7795.82
+    "total": 8075.81
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -19430,11 +19536,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 11715.43
+    "total": 11995.42
    },
    {
     "competencia": "2026-11",
-    "total": 352.27
+    "total": 867.57
    }
   ],
   "alertas": [
@@ -19502,8 +19608,8 @@
   "partido": "REPUBLICANOS",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204491.jpg",
-  "despesas": 148,
-  "total": 248436.51,
+  "despesas": 160,
+  "total": 251126.43,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19515,7 +19621,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 20033.62
+    "total": 22723.54
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -19577,7 +19683,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 25758.0
+    "total": 28447.92
    }
   ],
   "alertas": [
@@ -19688,8 +19794,8 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74581.jpg",
-  "despesas": 14,
-  "total": 27397.93,
+  "despesas": 15,
+  "total": 27468.93,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19705,7 +19811,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 247.19
+    "total": 318.19
    }
   ],
   "por_mes": [
@@ -19715,7 +19821,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 220.1
+    "total": 291.1
    }
   ],
   "alertas": []
@@ -19728,8 +19834,8 @@
   "partido": "PODE",
   "uf": "ES",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
-  "despesas": 258,
-  "total": 282430.02,
+  "despesas": 260,
+  "total": 282568.94,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -19745,7 +19851,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 27684.5
+    "total": 27804.4
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -19753,7 +19859,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 967.4
+    "total": 986.42
    },
    {
     "categoria": "Aquisição de tokens e certificados digitais",
@@ -19791,7 +19897,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 15450.48
+    "total": 15570.38
    },
    {
     "competencia": "2026-09",
@@ -19803,7 +19909,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 257.03
+    "total": 276.05
    }
   ],
   "alertas": [
@@ -20007,8 +20113,8 @@
   "partido": "PL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160673.jpg",
-  "despesas": 528,
-  "total": 351561.39,
+  "despesas": 529,
+  "total": 351761.39,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -20020,7 +20126,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 55223.25
+    "total": 55423.25
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -20086,7 +20192,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 898.78
+    "total": 1098.78
    }
   ],
   "alertas": [
@@ -20275,7 +20381,6 @@
   ],
   "alertas": [
    "A-2026-09169",
-   "A-2026-09005",
    "A-2026-07185",
    "A-2026-06500",
    "A-2026-05949"
@@ -20596,8 +20701,8 @@
   "partido": "PP",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204531.jpg",
-  "despesas": 181,
-  "total": 178330.09,
+  "despesas": 183,
+  "total": 178675.8,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -20613,7 +20718,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 25040.94
+    "total": 25386.65
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -20663,7 +20768,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 660.92
+    "total": 1006.63
    }
   ],
   "alertas": [
@@ -20767,8 +20872,8 @@
   "partido": "PL",
   "uf": "GO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220568.jpg",
-  "despesas": 84,
-  "total": 247898.76,
+  "despesas": 85,
+  "total": 248044.54,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -20776,7 +20881,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 101934.07
+    "total": 102079.85
    },
    {
     "categoria": "Passagem aérea - RPA",
@@ -20838,7 +20943,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 25865.0
+    "total": 26010.78
    }
   ],
   "alertas": [
@@ -21123,8 +21228,8 @@
   "partido": "PT",
   "uf": "ES",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
-  "despesas": 462,
-  "total": 268106.89,
+  "despesas": 463,
+  "total": 274496.89,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -21132,7 +21237,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 72819.68
+    "total": 79209.68
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -21206,7 +21311,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 851.84
+    "total": 7241.84
    }
   ],
   "alertas": [
@@ -21228,16 +21333,16 @@
   "partido": "PSD",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220537.jpg",
-  "despesas": 294,
-  "total": 289168.73,
+  "despesas": 296,
+  "total": 292499.66,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 113500.0
+    "total": 116200.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 79004.03
+    "total": 79634.96
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -21299,7 +21404,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 21182.78
+    "total": 23882.78
+   },
+   {
+    "competencia": "2026-11",
+    "total": 630.93
    }
   ],
   "alertas": [
@@ -21458,9 +21567,7 @@
     "total": 2475.0
    }
   ],
-  "alertas": [
-   "A-2026-05776"
-  ]
+  "alertas": []
  },
  {
   "chave": "camara-220672",
@@ -21704,9 +21811,7 @@
     "total": 460.34
    }
   ],
-  "alertas": [
-   "A-2026-06479"
-  ]
+  "alertas": []
  },
  {
   "chave": "camara-141450",
@@ -21828,12 +21933,12 @@
   "partido": "REPUBLICANOS",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160674.jpg",
-  "despesas": 157,
-  "total": 308218.74,
+  "despesas": 159,
+  "total": 309468.74,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 165650.0
+    "total": 166650.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -21841,7 +21946,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 49284.2
+    "total": 49534.2
    },
    {
     "categoria": "Telefonia",
@@ -21899,7 +22004,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 39573.71
+    "total": 40573.71
+   },
+   {
+    "competencia": "2026-11",
+    "total": 250.0
    }
   ],
   "alertas": [
@@ -21924,12 +22033,12 @@
   "partido": "REPUBLICANOS",
   "uf": "SE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220563.jpg",
-  "despesas": 151,
-  "total": 196299.21,
+  "despesas": 154,
+  "total": 210387.75,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 103349.74
+    "total": 117149.74
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -21937,7 +22046,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 24602.69
+    "total": 24891.23
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -21983,7 +22092,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 10937.26
+    "total": 18737.26
    },
    {
     "competencia": "2026-09",
@@ -21991,7 +22100,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 3985.93
+    "total": 10274.47
    }
   ],
   "alertas": [
@@ -22070,8 +22179,8 @@
   "partido": "UNIÃO",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204508.jpg",
-  "despesas": 601,
-  "total": 406178.14,
+  "despesas": 604,
+  "total": 406659.76,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -22079,7 +22188,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 80836.84
+    "total": 81318.46
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -22141,7 +22250,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 8376.92
+    "total": 8858.54
    }
   ],
   "alertas": [
@@ -22230,12 +22339,12 @@
   "partido": "PCdoB",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74295.jpg",
-  "despesas": 117,
-  "total": 22784.32,
+  "despesas": 122,
+  "total": 24405.02,
   "por_categoria": [
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 11220.22
+    "total": 12840.92
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -22277,7 +22386,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 739.55
+    "total": 2360.25
    }
   ],
   "alertas": []
@@ -22290,12 +22399,12 @@
   "partido": "PL",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/98615.jpg",
-  "despesas": 311,
-  "total": 258946.03,
+  "despesas": 312,
+  "total": 267945.03,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 99111.0
+    "total": 108110.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -22361,7 +22470,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 3334.01
+    "total": 12333.01
    },
    {
     "competencia": "2026-11",
@@ -22792,8 +22901,8 @@
   "partido": "PT",
   "uf": "ES",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
-  "despesas": 247,
-  "total": 279817.14,
+  "despesas": 251,
+  "total": 280401.1,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -22809,7 +22918,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 23018.58
+    "total": 23602.54
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -22871,7 +22980,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 6306.65
+    "total": 6490.65
+   },
+   {
+    "competencia": "2026-11",
+    "total": 399.96
    }
   ],
   "alertas": [
@@ -22895,8 +23008,8 @@
   "partido": "REPUBLICANOS",
   "uf": "PI",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220697.jpg",
-  "despesas": 105,
-  "total": 123746.38,
+  "despesas": 108,
+  "total": 124051.88,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -22912,15 +23025,19 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 5521.95
+    "total": 5721.95
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 1470.48
+    "total": 1530.48
    },
    {
     "categoria": "Telefonia",
     "total": 136.8
+   },
+   {
+    "categoria": "Serviços postais",
+    "total": 45.5
    }
   ],
   "por_mes": [
@@ -22958,11 +23075,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 7787.18
+    "total": 7892.68
    },
    {
     "competencia": "2026-11",
-    "total": 324.17
+    "total": 524.17
    }
   ],
   "alertas": [
@@ -22978,8 +23095,8 @@
   "partido": "PCdoB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74848.jpg",
-  "despesas": 159,
-  "total": 288021.24,
+  "despesas": 160,
+  "total": 288264.84,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -22995,7 +23112,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 19761.71
+    "total": 20005.31
    },
    {
     "categoria": "Telefonia",
@@ -23049,7 +23166,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 20674.22
+    "total": 20917.82
    }
   ],
   "alertas": [
@@ -23403,8 +23520,8 @@
   "partido": "PSB",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160548.jpg",
-  "despesas": 526,
-  "total": 219588.0,
+  "despesas": 530,
+  "total": 220238.0,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -23420,7 +23537,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 33223.22
+    "total": 33873.22
    },
    {
     "categoria": "Assinatura de publicações",
@@ -23474,7 +23591,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2751.6
+    "total": 3001.6
+   },
+   {
+    "competencia": "2026-11",
+    "total": 400.0
    }
   ],
   "alertas": [
@@ -23565,8 +23686,8 @@
   "partido": "REPUBLICANOS",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/205550.jpg",
-  "despesas": 153,
-  "total": 326703.55,
+  "despesas": 154,
+  "total": 326876.55,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -23586,7 +23707,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 2543.71
+    "total": 2716.71
    },
    {
     "categoria": "Telefonia",
@@ -23636,7 +23757,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 815.21
+    "total": 988.21
    }
   ],
   "alertas": [
@@ -23754,8 +23875,8 @@
   "partido": "PT",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178857.jpg",
-  "despesas": 751,
-  "total": 319997.03,
+  "despesas": 753,
+  "total": 320962.04,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -23775,7 +23896,7 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 13200.14
+    "total": 13993.14
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -23787,7 +23908,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 2783.38
+    "total": 2955.39
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -23837,11 +23958,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 27125.3
+    "total": 27918.3
    },
    {
     "competencia": "2026-10",
-    "total": 11854.43
+    "total": 12026.44
    }
   ],
   "alertas": [
@@ -23874,8 +23995,8 @@
   "partido": "PT",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/209189.jpg",
-  "despesas": 366,
-  "total": 412596.23,
+  "despesas": 367,
+  "total": 412746.28,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -23891,7 +24012,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 48629.11
+    "total": 48779.16
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -23953,7 +24074,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 48663.18
+    "total": 48813.23
    },
    {
     "competencia": "2026-11",
@@ -24071,8 +24192,8 @@
   "partido": "PL",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204563.jpg",
-  "despesas": 13,
-  "total": 145231.85,
+  "despesas": 16,
+  "total": 146354.94,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -24084,7 +24205,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 14899.15
+    "total": 16022.24
    }
   ],
   "por_mes": [
@@ -24111,6 +24232,14 @@
    {
     "competencia": "2026-09",
     "total": 11500.0
+   },
+   {
+    "competencia": "2026-10",
+    "total": 693.86
+   },
+   {
+    "competencia": "2026-11",
+    "total": 429.23
    }
   ],
   "alertas": [
@@ -24127,8 +24256,8 @@
   "partido": "UNIÃO",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/215043.jpg",
-  "despesas": 23,
-  "total": 109403.87,
+  "despesas": 25,
+  "total": 125403.87,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -24136,7 +24265,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 25771.45
+    "total": 41771.45
    },
    {
     "categoria": "Telefonia",
@@ -24175,9 +24304,18 @@
    {
     "competencia": "2026-06",
     "total": 582.8
+   },
+   {
+    "competencia": "2026-08",
+    "total": 8000.0
+   },
+   {
+    "competencia": "2026-09",
+    "total": 8000.0
    }
   ],
   "alertas": [
+   "A-2026-09236",
    "A-2026-06092"
   ]
  },
@@ -24189,8 +24327,8 @@
   "partido": "PT",
   "uf": "CE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141464.jpg",
-  "despesas": 57,
-  "total": 246054.86,
+  "despesas": 58,
+  "total": 255446.86,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -24198,7 +24336,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 84526.0
+    "total": 93918.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -24260,10 +24398,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1500.0
+    "total": 10892.0
    }
   ],
   "alertas": [
+   "A-2026-09255",
    "A-2026-09043",
    "A-2026-09041",
    "A-2026-08680",
@@ -24410,8 +24549,8 @@
   "partido": "PL",
   "uf": "MT",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204472.jpg",
-  "despesas": 262,
-  "total": 309375.17,
+  "despesas": 263,
+  "total": 312825.53,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -24436,6 +24575,10 @@
    {
     "categoria": "Telefonia",
     "total": 8216.6
+   },
+   {
+    "categoria": "Passagem aérea - reembolso",
+    "total": 3450.36
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -24481,7 +24624,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 13587.81
+    "total": 17038.17
    }
   ],
   "alertas": [
@@ -24627,8 +24770,8 @@
   "partido": "UNIÃO",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74554.jpg",
-  "despesas": 211,
-  "total": 245721.18,
+  "despesas": 215,
+  "total": 246798.33,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -24636,7 +24779,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 57518.6
+    "total": 58595.75
    },
    {
     "categoria": "Locação ou fretamento de aeronaves",
@@ -24694,7 +24837,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 284.89
+    "total": 1161.99
+   },
+   {
+    "competencia": "2026-11",
+    "total": 200.05
    }
   ],
   "alertas": [
@@ -24842,8 +24989,8 @@
   "partido": "MDB",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/230957.jpg",
-  "despesas": 544,
-  "total": 428074.42,
+  "despesas": 545,
+  "total": 428203.68,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -24859,7 +25006,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 37085.65
+    "total": 37214.91
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -24930,6 +25077,10 @@
    {
     "competencia": "2026-10",
     "total": 25800.31
+   },
+   {
+    "competencia": "2026-11",
+    "total": 129.26
    }
   ],
   "alertas": [
@@ -25041,8 +25192,8 @@
   "partido": "PP",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74550.jpg",
-  "despesas": 104,
-  "total": 114533.74,
+  "despesas": 105,
+  "total": 117533.74,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -25050,7 +25201,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 28487.69
+    "total": 31487.69
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -25092,7 +25243,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2208.12
+    "total": 5208.12
    },
    {
     "competencia": "2026-11",
@@ -25100,11 +25251,9 @@
    }
   ],
   "alertas": [
-   "A-2026-05918",
+   "A-2026-09249",
    "A-2026-05485",
    "A-2026-05473",
-   "A-2026-05453",
-   "A-2026-05134",
    "A-2026-05081",
    "A-2026-05059",
    "A-2026-04975"
@@ -25118,8 +25267,8 @@
   "partido": "PP",
   "uf": "RN",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141459.jpg",
-  "despesas": 206,
-  "total": 375573.74,
+  "despesas": 207,
+  "total": 378073.74,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -25135,7 +25284,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 28979.8
+    "total": 31479.8
    },
    {
     "categoria": "Telefonia",
@@ -25181,7 +25330,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2557.0
+    "total": 5057.0
    },
    {
     "competencia": "2026-11",
@@ -25200,8 +25349,8 @@
   "partido": "REPUBLICANOS",
   "uf": "MT",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204474.jpg",
-  "despesas": 220,
-  "total": 309760.48,
+  "despesas": 223,
+  "total": 314264.68,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -25217,11 +25366,11 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 31381.8
+    "total": 35786.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 26721.93
+    "total": 26821.93
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -25267,7 +25416,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 19215.1
+    "total": 23719.3
    },
    {
     "competencia": "2026-09",
@@ -25279,6 +25428,7 @@
    }
   ],
   "alertas": [
+   "A-2026-09231",
    "A-2026-08489",
    "A-2026-08118",
    "A-2026-07481",
@@ -25386,8 +25536,8 @@
   "partido": "PT",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220640.jpg",
-  "despesas": 244,
-  "total": 328428.63,
+  "despesas": 245,
+  "total": 328818.53,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -25395,7 +25545,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 101019.62
+    "total": 101409.52
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -25461,7 +25611,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 23426.9
+    "total": 23816.8
    },
    {
     "competencia": "2026-10",
@@ -25469,6 +25619,7 @@
    }
   ],
   "alertas": [
+   "A-2026-09238",
    "A-2026-08597",
    "A-2026-08346",
    "A-2026-08190",
@@ -25503,8 +25654,8 @@
   "partido": "PP",
   "uf": "PI",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/66385.jpg",
-  "despesas": 133,
-  "total": 273634.41,
+  "despesas": 134,
+  "total": 287134.41,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -25515,12 +25666,12 @@
     "total": 68730.0
    },
    {
-    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 47437.99
+    "categoria": "Divulgação da atividade parlamentar",
+    "total": 51252.8
    },
    {
-    "categoria": "Divulgação da atividade parlamentar",
-    "total": 37752.8
+    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
+    "total": 47437.99
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -25562,7 +25713,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1931.26
+    "total": 15431.26
    }
   ],
   "alertas": [
@@ -25649,12 +25800,12 @@
   "partido": "PP",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74253.jpg",
-  "despesas": 128,
-  "total": 324976.47,
+  "despesas": 131,
+  "total": 328941.69,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 173481.03
+    "total": 177446.25
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -25712,11 +25863,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 26026.5
+    "total": 29244.11
    },
    {
     "competencia": "2026-10",
-    "total": 1391.5
+    "total": 2139.11
    }
   ],
   "alertas": [
@@ -25750,12 +25901,12 @@
   "partido": "PSDB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204457.jpg",
-  "despesas": 287,
-  "total": 439423.2,
+  "despesas": 288,
+  "total": 459023.2,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 132380.0
+    "total": 151980.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -25825,7 +25976,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 57409.19
+    "total": 77009.19
    }
   ],
   "alertas": [
@@ -26578,12 +26729,12 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/98057.jpg",
-  "despesas": 382,
-  "total": 394805.85,
+  "despesas": 386,
+  "total": 396179.87,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 158562.74
+    "total": 159210.96
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -26591,7 +26742,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 38228.74
+    "total": 38954.54
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -26649,11 +26800,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 32156.56
+    "total": 32804.78
    },
    {
     "competencia": "2026-10",
-    "total": 19800.57
+    "total": 20526.37
    }
   ],
   "alertas": [
@@ -26785,12 +26936,12 @@
   "partido": "PSD",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178832.jpg",
-  "despesas": 532,
-  "total": 189611.73,
+  "despesas": 534,
+  "total": 198721.73,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 50227.25
+    "total": 56727.25
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -26798,7 +26949,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 39439.38
+    "total": 42049.38
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -26848,7 +26999,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 15532.77
+    "total": 24642.77
    }
   ],
   "alertas": [
@@ -27006,8 +27157,8 @@
   "partido": "PODE",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/122195.jpg",
-  "despesas": 87,
-  "total": 151640.36,
+  "despesas": 93,
+  "total": 165366.43,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -27015,11 +27166,11 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 42000.0
+    "total": 55066.67
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 20795.81
+    "total": 21391.49
    },
    {
     "categoria": "Telefonia",
@@ -27031,7 +27182,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 777.95
+    "total": 841.67
    }
   ],
   "por_mes": [
@@ -27049,11 +27200,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 89600.33
+    "total": 102667.0
    },
    {
     "competencia": "2026-11",
-    "total": 619.0
+    "total": 1278.4
    }
   ],
   "alertas": [
@@ -27068,9 +27219,13 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74156.jpg",
-  "despesas": 149,
-  "total": 331297.4,
+  "despesas": 150,
+  "total": 344361.9,
   "por_categoria": [
+   {
+    "categoria": "Divulgação da atividade parlamentar",
+    "total": 96524.5
+   },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
     "total": 88067.97
@@ -27078,10 +27233,6 @@
    {
     "categoria": "Locação ou fretamento de veículos automotores",
     "total": 84960.0
-   },
-   {
-    "categoria": "Divulgação da atividade parlamentar",
-    "total": 83460.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -27135,7 +27286,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 25380.27
+    "total": 38444.77
    }
   ],
   "alertas": [
@@ -27315,8 +27466,8 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74585.jpg",
-  "despesas": 378,
-  "total": 319087.1,
+  "despesas": 380,
+  "total": 323303.55,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -27328,7 +27479,7 @@
    },
    {
     "categoria": "Passagem aérea - RPA",
-    "total": 46876.29
+    "total": 51092.74
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -27398,7 +27549,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2914.69
+    "total": 7131.14
    }
   ],
   "alertas": [
@@ -27610,12 +27761,12 @@
   "partido": "PSD",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204404.jpg",
-  "despesas": 589,
-  "total": 272073.45,
+  "despesas": 591,
+  "total": 272546.29,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 113195.19
+    "total": 113598.97
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -27643,7 +27794,7 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 279.12
+    "total": 348.18
    },
    {
     "categoria": "Aquisição de tokens e certificados digitais",
@@ -27685,11 +27836,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 10791.34
+    "total": 11195.12
    },
    {
     "competencia": "2026-10",
-    "total": 14914.25
+    "total": 14983.31
    }
   ],
   "alertas": [
@@ -27753,8 +27904,8 @@
   "partido": "PSD",
   "uf": "AL",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220581.jpg",
-  "despesas": 189,
-  "total": 321920.96,
+  "despesas": 192,
+  "total": 328520.96,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -27766,11 +27917,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 71226.55
+    "total": 77226.55
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 36366.49
+    "total": 36966.49
    },
    {
     "categoria": "Telefonia",
@@ -27816,11 +27967,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 15002.36
+    "total": 21002.36
    },
    {
     "competencia": "2026-11",
-    "total": 650.0
+    "total": 1250.0
    }
   ],
   "alertas": [
@@ -28025,8 +28176,8 @@
   "partido": "PSDB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220616.jpg",
-  "despesas": 76,
-  "total": 54325.34,
+  "despesas": 77,
+  "total": 54625.34,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -28034,7 +28185,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 15118.12
+    "total": 15418.12
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -28069,6 +28220,10 @@
    {
     "competencia": "2026-10",
     "total": 16635.0
+   },
+   {
+    "competencia": "2026-11",
+    "total": 300.0
    }
   ],
   "alertas": [
@@ -28083,12 +28238,12 @@
   "partido": "PL",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178954.jpg",
-  "despesas": 215,
-  "total": 320300.61,
+  "despesas": 217,
+  "total": 325300.61,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 129102.9
+    "total": 134102.9
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -28158,7 +28313,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 9275.28
+    "total": 14275.28
    }
   ],
   "alertas": [
@@ -28470,8 +28625,8 @@
   "partido": "UNIÃO",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141485.jpg",
-  "despesas": 931,
-  "total": 445817.02,
+  "despesas": 933,
+  "total": 446197.79,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -28491,7 +28646,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 34611.4
+    "total": 34992.17
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -28549,14 +28704,16 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27121.63
+    "total": 27411.83
    },
    {
     "competencia": "2026-11",
-    "total": 963.34
+    "total": 1053.91
    }
   ],
   "alertas": [
+   "A-2026-09251",
+   "A-2026-09250",
    "A-2026-08998",
    "A-2026-08992",
    "A-2026-08732",
@@ -28603,12 +28760,12 @@
   "partido": "PODE",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73778.jpg",
-  "despesas": 203,
-  "total": 294885.55,
+  "despesas": 205,
+  "total": 300185.46,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 202696.0
+    "total": 207696.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -28620,7 +28777,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 17547.68
+    "total": 17847.59
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -28674,7 +28831,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 48894.37
+    "total": 54194.28
    },
    {
     "competencia": "2026-10",
@@ -28698,12 +28855,12 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204485.jpg",
-  "despesas": 113,
-  "total": 203263.8,
+  "despesas": 116,
+  "total": 216093.8,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 106000.0
+    "total": 118000.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -28715,7 +28872,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 7949.5
+    "total": 8779.5
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -28769,7 +28926,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 764.57
+    "total": 13594.57
    },
    {
     "competencia": "2026-11",
@@ -28789,12 +28946,12 @@
   "partido": "PT",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74041.jpg",
-  "despesas": 261,
-  "total": 377498.48,
+  "despesas": 263,
+  "total": 380747.38,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 120300.0
+    "total": 123300.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -28802,7 +28959,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 91461.72
+    "total": 91710.62
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -28864,11 +29021,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 26857.71
+    "total": 29857.71
    },
    {
     "competencia": "2026-11",
-    "total": 242.04
+    "total": 490.94
    }
   ],
   "alertas": [
@@ -29211,8 +29368,8 @@
   "partido": "PSD",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/162332.jpg",
-  "despesas": 140,
-  "total": 313649.63,
+  "despesas": 141,
+  "total": 313969.99,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -29220,7 +29377,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 47936.95
+    "total": 48257.31
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -29270,7 +29427,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 9703.75
+    "total": 10024.11
    },
    {
     "competencia": "2026-10",
@@ -29626,8 +29783,8 @@
   "partido": "PP",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220669.jpg",
-  "despesas": 362,
-  "total": 421458.89,
+  "despesas": 366,
+  "total": 426374.19,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -29635,11 +29792,11 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 136761.26
+    "total": 140761.26
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 68281.09
+    "total": 69196.39
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -29693,7 +29850,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27345.97
+    "total": 31761.17
+   },
+   {
+    "competencia": "2026-11",
+    "total": 500.1
    }
   ],
   "alertas": [
@@ -29806,8 +29967,8 @@
   "partido": "PSB",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/139285.jpg",
-  "despesas": 737,
-  "total": 348961.42,
+  "despesas": 744,
+  "total": 350516.99,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -29818,12 +29979,12 @@
     "total": 84000.0
    },
    {
-    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 56784.75
+    "categoria": "Combustíveis e lubrificantes",
+    "total": 58126.41
    },
    {
-    "categoria": "Combustíveis e lubrificantes",
-    "total": 56570.84
+    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
+    "total": 56784.75
    },
    {
     "categoria": "Telefonia",
@@ -29881,11 +30042,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10253.96
+    "total": 11549.51
    },
    {
     "competencia": "2026-11",
-    "total": 691.8
+    "total": 951.82
    }
   ],
   "alertas": [
@@ -30003,20 +30164,20 @@
   "partido": "PODE",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220648.jpg",
-  "despesas": 144,
-  "total": 297534.75,
+  "despesas": 145,
+  "total": 322534.75,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
     "total": 140700.0
    },
    {
-    "categoria": "Combustíveis e lubrificantes",
-    "total": 57628.9
+    "categoria": "Divulgação da atividade parlamentar",
+    "total": 78784.0
    },
    {
-    "categoria": "Divulgação da atividade parlamentar",
-    "total": 53784.0
+    "categoria": "Combustíveis e lubrificantes",
+    "total": 57628.9
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -30070,7 +30231,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 20957.8
+    "total": 45957.8
    },
    {
     "competencia": "2026-11",
@@ -30400,16 +30561,16 @@
   "partido": "REPUBLICANOS",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204558.jpg",
-  "despesas": 182,
-  "total": 316735.11,
+  "despesas": 185,
+  "total": 370627.11,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 166800.0
+    "total": 211600.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 100110.0
+    "total": 109110.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -30421,7 +30582,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 5214.31
+    "total": 5306.31
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -30459,10 +30620,15 @@
    },
    {
     "competencia": "2026-10",
-    "total": 88580.11
+    "total": 97580.11
+   },
+   {
+    "competencia": "2026-11",
+    "total": 44892.0
    }
   ],
   "alertas": [
+   "A-2026-09258",
    "A-2026-08719",
    "A-2026-07207"
   ]
@@ -30475,8 +30641,8 @@
   "partido": "PSDB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160161.jpg",
-  "despesas": 157,
-  "total": 240554.9,
+  "despesas": 158,
+  "total": 240754.9,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -30488,7 +30654,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 25768.74
+    "total": 25968.74
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -30543,6 +30709,10 @@
    {
     "competencia": "2026-10",
     "total": 24769.11
+   },
+   {
+    "competencia": "2026-11",
+    "total": 200.0
    }
   ],
   "alertas": [
@@ -31050,8 +31220,8 @@
   "partido": "PL",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220547.jpg",
-  "despesas": 201,
-  "total": 216761.03,
+  "despesas": 203,
+  "total": 217347.92,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -31063,7 +31233,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 32482.28
+    "total": 33069.17
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -31121,7 +31291,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2084.45
+    "total": 2492.11
+   },
+   {
+    "competencia": "2026-11",
+    "total": 179.23
    }
   ],
   "alertas": [
@@ -31138,8 +31312,8 @@
   "partido": "PSDB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178943.jpg",
-  "despesas": 253,
-  "total": 199869.11,
+  "despesas": 254,
+  "total": 199970.81,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -31147,7 +31321,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 31614.29
+    "total": 31715.99
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -31213,7 +31387,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 21469.61
+    "total": 21571.31
    }
   ],
   "alertas": [
@@ -31416,8 +31590,8 @@
   "partido": "REPUBLICANOS",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204540.jpg",
-  "despesas": 408,
-  "total": 379546.06,
+  "despesas": 410,
+  "total": 394711.06,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -31425,7 +31599,7 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 93000.0
+    "total": 103500.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -31440,12 +31614,12 @@
     "total": 11521.7
    },
    {
-    "categoria": "Telefonia",
-    "total": 4465.33
+    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
+    "total": 8523.12
    },
    {
-    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 3858.12
+    "categoria": "Telefonia",
+    "total": 4465.33
    },
    {
     "categoria": "Serviços postais",
@@ -31483,7 +31657,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 36040.0
+    "total": 40705.0
    },
    {
     "competencia": "2026-09",
@@ -31491,10 +31665,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 22692.78
+    "total": 33192.78
    }
   ],
   "alertas": [
+   "A-2026-09234",
    "A-2026-08981",
    "A-2026-08618",
    "A-2026-08611",
@@ -31525,12 +31700,12 @@
   "partido": "PT",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74398.jpg",
-  "despesas": 690,
-  "total": 398122.86,
+  "despesas": 691,
+  "total": 398720.76,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 108547.22
+    "total": 109145.12
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -31600,7 +31775,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 11421.04
+    "total": 12018.94
    },
    {
     "competencia": "2026-10",
@@ -31789,8 +31964,8 @@
   "partido": "PRD",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204566.jpg",
-  "despesas": 126,
-  "total": 145426.09,
+  "despesas": 127,
+  "total": 145525.99,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -31806,7 +31981,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 19963.84
+    "total": 20063.74
    },
    {
     "categoria": "Telefonia",
@@ -31848,7 +32023,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 21733.55
+    "total": 21833.45
    },
    {
     "competencia": "2026-11",
@@ -31867,8 +32042,8 @@
   "partido": "REPUBLICANOS",
   "uf": "GO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220572.jpg",
-  "despesas": 258,
-  "total": 427178.64,
+  "despesas": 260,
+  "total": 427865.19,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -31880,7 +32055,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 61412.97
+    "total": 62099.52
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -31946,7 +32121,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5400.0
+    "total": 6086.55
    }
   ],
   "alertas": [
@@ -32099,8 +32274,8 @@
   "partido": "PL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220550.jpg",
-  "despesas": 165,
-  "total": 227714.71,
+  "despesas": 166,
+  "total": 227962.85,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -32116,7 +32291,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 19817.42
+    "total": 20065.56
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -32179,6 +32354,10 @@
    {
     "competencia": "2026-10",
     "total": 36899.54
+   },
+   {
+    "competencia": "2026-11",
+    "total": 248.14
    }
   ],
   "alertas": []
@@ -32489,8 +32668,8 @@
   "partido": "UNIÃO",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220607.jpg",
-  "despesas": 100,
-  "total": 366499.85,
+  "despesas": 106,
+  "total": 388939.82,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -32498,15 +32677,15 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 97000.0
+    "total": 110000.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 67315.61
+    "total": 76015.61
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 16934.24
+    "total": 17674.21
    }
   ],
   "por_mes": [
@@ -32544,11 +32723,15 @@
    },
    {
     "competencia": "2026-09",
-    "total": 17729.11
+    "total": 26429.11
    },
    {
     "competencia": "2026-10",
-    "total": 40493.39
+    "total": 53877.46
+   },
+   {
+    "competencia": "2026-11",
+    "total": 355.9
    }
   ],
   "alertas": [
@@ -32993,8 +33176,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178985.jpg",
-  "despesas": 287,
-  "total": 255273.27,
+  "despesas": 288,
+  "total": 255770.75,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -33010,7 +33193,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 24882.89
+    "total": 25380.37
    },
    {
     "categoria": "Telefonia",
@@ -33072,7 +33255,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 11255.89
+    "total": 11753.37
    }
   ],
   "alertas": [
@@ -33090,8 +33273,8 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/171786.jpg",
-  "despesas": 231,
-  "total": 240830.87,
+  "despesas": 238,
+  "total": 241926.08,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -33107,7 +33290,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 21505.58
+    "total": 22600.79
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -33158,6 +33341,10 @@
    {
     "competencia": "2026-09",
     "total": 3945.62
+   },
+   {
+    "competencia": "2026-10",
+    "total": 1095.21
    }
   ],
   "alertas": [
@@ -33191,8 +33378,8 @@
   "partido": "REPUBLICANOS",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/154178.jpg",
-  "despesas": 78,
-  "total": 111882.68,
+  "despesas": 79,
+  "total": 112091.95,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -33204,7 +33391,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 7985.3
+    "total": 8194.57
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -33242,7 +33429,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 16875.66
+    "total": 17084.93
    }
   ],
   "alertas": [
@@ -33515,8 +33702,8 @@
   "partido": "PSDB",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220617.jpg",
-  "despesas": 325,
-  "total": 325001.05,
+  "despesas": 326,
+  "total": 325350.23,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -33528,7 +33715,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 74746.56
+    "total": 75095.74
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -33586,7 +33773,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 648.01
+    "total": 997.19
    }
   ],
   "alertas": [
@@ -33604,8 +33791,8 @@
   "partido": "REPUBLICANOS",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220584.jpg",
-  "despesas": 75,
-  "total": 262773.77,
+  "despesas": 78,
+  "total": 275219.55,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -33613,11 +33800,11 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 74241.9
+    "total": 86241.9
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 17076.2
+    "total": 17521.98
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -33647,7 +33834,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 700.04
+    "total": 12700.04
+   },
+   {
+    "competencia": "2026-11",
+    "total": 445.78
    }
   ],
   "alertas": []
@@ -33660,8 +33851,8 @@
   "partido": "MDB",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/179001.jpg",
-  "despesas": 506,
-  "total": 367959.76,
+  "despesas": 513,
+  "total": 376589.64,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -33669,7 +33860,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 79421.77
+    "total": 87106.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -33677,7 +33868,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 52438.87
+    "total": 53124.82
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -33685,7 +33876,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 6809.93
+    "total": 7069.63
    },
    {
     "categoria": "Telefonia",
@@ -33743,7 +33934,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 26034.23
+    "total": 26720.18
    },
    {
     "competencia": "2026-09",
@@ -33751,7 +33942,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 12349.93
+    "total": 20034.16
+   },
+   {
+    "competencia": "2026-11",
+    "total": 259.7
    }
   ],
   "alertas": [
@@ -33775,16 +33970,16 @@
   "partido": "SOLIDARIEDADE",
   "uf": "MA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220687.jpg",
-  "despesas": 148,
-  "total": 136201.51,
+  "despesas": 150,
+  "total": 140601.51,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 53563.3
+    "total": 57563.3
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 37184.73
+    "total": 37584.73
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -33806,7 +34001,7 @@
    },
    {
     "competencia": "2026-02",
-    "total": 27797.86
+    "total": 31797.86
    },
    {
     "competencia": "2026-03",
@@ -33839,6 +34034,10 @@
    {
     "competencia": "2026-10",
     "total": 552.68
+   },
+   {
+    "competencia": "2026-11",
+    "total": 400.0
    }
   ],
   "alertas": [
@@ -33951,8 +34150,8 @@
   "partido": "REPUBLICANOS",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/150418.jpg",
-  "despesas": 132,
-  "total": 452671.76,
+  "despesas": 133,
+  "total": 452770.61,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -33968,7 +34167,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 43268.23
+    "total": 43367.08
    },
    {
     "categoria": "Telefonia",
@@ -34022,7 +34221,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 109961.88
+    "total": 110060.73
    }
   ],
   "alertas": [
@@ -34186,8 +34385,8 @@
   "partido": "PT",
   "uf": "RN",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204453.jpg",
-  "despesas": 571,
-  "total": 290018.15,
+  "despesas": 572,
+  "total": 295144.72,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -34203,7 +34402,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 32425.59
+    "total": 37552.16
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -34258,6 +34457,10 @@
    {
     "competencia": "2026-08",
     "total": 10225.17
+   },
+   {
+    "competencia": "2026-09",
+    "total": 5126.57
    },
    {
     "competencia": "2026-10",
@@ -34538,8 +34741,8 @@
   "partido": "MDB",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178896.jpg",
-  "despesas": 148,
-  "total": 241200.64,
+  "despesas": 149,
+  "total": 241237.9,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -34568,6 +34771,10 @@
    {
     "categoria": "Aquisição de tokens e certificados digitais",
     "total": 200.0
+   },
+   {
+    "categoria": "Fornecimento de alimentação do parlamentar",
+    "total": 37.26
    }
   ],
   "por_mes": [
@@ -34598,6 +34805,10 @@
    {
     "competencia": "2026-07",
     "total": 8423.59
+   },
+   {
+    "competencia": "2026-08",
+    "total": 37.26
    }
   ],
   "alertas": [
@@ -34615,12 +34826,12 @@
   "partido": "PL",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204479.jpg",
-  "despesas": 266,
-  "total": 322280.72,
+  "despesas": 267,
+  "total": 352280.72,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 180000.0
+    "total": 210000.0
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -34686,7 +34897,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 13431.02
+    "total": 43431.02
    }
   ],
   "alertas": [
@@ -34807,8 +35018,8 @@
   "partido": "PT",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178986.jpg",
-  "despesas": 438,
-  "total": 326094.04,
+  "despesas": 442,
+  "total": 326299.94,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -34832,7 +35043,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 11880.06
+    "total": 12085.96
    },
    {
     "categoria": "Telefonia",
@@ -34886,7 +35097,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 36932.21
+    "total": 37138.11
    },
    {
     "competencia": "2026-11",
@@ -35137,8 +35348,8 @@
   "partido": "PL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73692.jpg",
-  "despesas": 577,
-  "total": 345487.79,
+  "despesas": 578,
+  "total": 345556.79,
   "por_categoria": [
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -35166,7 +35377,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 10954.9
+    "total": 11023.9
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -35220,7 +35431,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 22416.25
+    "total": 22485.25
    }
   ],
   "alertas": [
@@ -35463,8 +35674,8 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160556.jpg",
-  "despesas": 501,
-  "total": 443980.51,
+  "despesas": 502,
+  "total": 444237.92,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -35480,7 +35691,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 62979.31
+    "total": 63236.72
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -35538,7 +35749,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10402.06
+    "total": 10659.47
    }
   ],
   "alertas": [
@@ -35560,16 +35771,16 @@
   "partido": "UNIÃO",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/180214.jpg",
-  "despesas": 65,
-  "total": 259676.85,
+  "despesas": 67,
+  "total": 270300.37,
   "por_categoria": [
+   {
+    "categoria": "Combustíveis e lubrificantes",
+    "total": 93257.57
+   },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
     "total": 88991.0
-   },
-   {
-    "categoria": "Combustíveis e lubrificantes",
-    "total": 83894.05
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -35581,7 +35792,7 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 11131.0
+    "total": 12391.0
    },
    {
     "categoria": "Telefonia",
@@ -35631,10 +35842,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 15501.0
+    "total": 26124.52
    }
   ],
   "alertas": [
+   "A-2026-09256",
    "A-2026-08993",
    "A-2026-08706",
    "A-2026-08705",
@@ -35660,8 +35872,8 @@
   "partido": "PSDB",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160642.jpg",
-  "despesas": 384,
-  "total": 213642.38,
+  "despesas": 387,
+  "total": 214002.7,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -35669,11 +35881,11 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 61226.8
+    "total": 61426.8
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 16444.6
+    "total": 16604.92
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -35739,7 +35951,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 50.0
+    "total": 410.32
    }
   ],
   "alertas": [
@@ -36115,8 +36327,8 @@
   "partido": "SOLIDARIEDADE",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141518.jpg",
-  "despesas": 69,
-  "total": 178809.68,
+  "despesas": 70,
+  "total": 178909.68,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -36128,7 +36340,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 10144.4
+    "total": 10244.4
    },
    {
     "categoria": "Telefonia",
@@ -36182,7 +36394,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 150.0
+    "total": 250.0
    }
   ],
   "alertas": []
@@ -36195,8 +36407,8 @@
   "partido": "PSDB",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141516.jpg",
-  "despesas": 400,
-  "total": 318328.75,
+  "despesas": 401,
+  "total": 318549.72,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de aeronaves",
@@ -36208,7 +36420,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 65045.23
+    "total": 65266.2
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -36279,6 +36491,10 @@
    {
     "competencia": "2026-10",
     "total": 12990.33
+   },
+   {
+    "competencia": "2026-11",
+    "total": 220.97
    }
   ],
   "alertas": [
@@ -36460,8 +36676,8 @@
   "partido": "PSB",
   "uf": "ES",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
-  "despesas": 156,
-  "total": 267787.14,
+  "despesas": 160,
+  "total": 271787.34,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -36469,11 +36685,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 85470.56
+    "total": 86150.56
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 40585.28
+    "total": 43905.48
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -36523,15 +36739,15 @@
    },
    {
     "competencia": "2026-08",
-    "total": 19743.89
+    "total": 20423.89
    },
    {
     "competencia": "2026-09",
-    "total": 15163.13
+    "total": 16027.81
    },
    {
     "competencia": "2026-10",
-    "total": 5595.48
+    "total": 8051.0
    }
   ],
   "alertas": [
@@ -36631,8 +36847,8 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204492.jpg",
-  "despesas": 213,
-  "total": 243781.94,
+  "despesas": 214,
+  "total": 244541.94,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -36648,7 +36864,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 6444.0
+    "total": 7204.0
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -36694,7 +36910,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 20629.48
+    "total": 21389.48
    },
    {
     "competencia": "2026-10",
@@ -37290,8 +37506,8 @@
   "partido": "PP",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220630.jpg",
-  "despesas": 474,
-  "total": 272231.38,
+  "despesas": 475,
+  "total": 272665.37,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -37319,7 +37535,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 3195.01
+    "total": 3629.0
    },
    {
     "categoria": "Passagem aérea - reembolso",
@@ -37361,7 +37577,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 24632.06
+    "total": 25066.05
    },
    {
     "competencia": "2026-10",
@@ -37661,8 +37877,8 @@
   "partido": "PSD",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/122158.jpg",
-  "despesas": 33,
-  "total": 353389.4,
+  "despesas": 34,
+  "total": 364892.4,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -37670,7 +37886,7 @@
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 103527.0
+    "total": 115030.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -37724,7 +37940,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 20580.5
+    "total": 32083.5
    }
   ],
   "alertas": [
@@ -37751,16 +37967,16 @@
   "partido": "PT",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160604.jpg",
-  "despesas": 642,
-  "total": 257974.4,
+  "despesas": 646,
+  "total": 263818.99,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 60540.23
+    "total": 65232.85
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 52706.18
+    "total": 53756.18
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -37784,7 +38000,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 2127.67
+    "total": 2229.64
    },
    {
     "categoria": "Assinatura de publicações",
@@ -37830,7 +38046,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 8019.77
+    "total": 13864.36
    }
   ],
   "alertas": [
@@ -37970,8 +38186,8 @@
   "partido": "MDB",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/161440.jpg",
-  "despesas": 266,
-  "total": 254353.14,
+  "despesas": 268,
+  "total": 255377.43,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -37979,11 +38195,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 60009.43
+    "total": 60614.83
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 53304.83
+    "total": 53723.72
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -38049,7 +38265,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 8726.96
+    "total": 9145.85
+   },
+   {
+    "competencia": "2026-11",
+    "total": 605.4
    }
   ],
   "alertas": [
@@ -38701,8 +38921,8 @@
   "partido": "MDB",
   "uf": "AL",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220586.jpg",
-  "despesas": 118,
-  "total": 277062.66,
+  "despesas": 120,
+  "total": 277268.23,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -38731,6 +38951,10 @@
    {
     "categoria": "Telefonia",
     "total": 857.09
+   },
+   {
+    "categoria": "Fornecimento de alimentação do parlamentar",
+    "total": 205.57
    }
   ],
   "por_mes": [
@@ -38772,7 +38996,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 34.5
+    "total": 137.84
+   },
+   {
+    "competencia": "2026-11",
+    "total": 102.23
    }
   ],
   "alertas": [
@@ -38794,12 +39022,12 @@
   "partido": "PODE",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/233594.jpg",
-  "despesas": 505,
-  "total": 436297.93,
+  "despesas": 508,
+  "total": 447098.77,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 194336.0
+    "total": 204336.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -38811,11 +39039,11 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 41271.55
+    "total": 41702.39
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 6901.6
+    "total": 7271.6
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -38877,7 +39105,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 80534.26
+    "total": 90904.26
+   },
+   {
+    "competencia": "2026-11",
+    "total": 430.84
    }
   ],
   "alertas": [
@@ -39090,12 +39322,12 @@
   "partido": "PSD",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204567.jpg",
-  "despesas": 529,
-  "total": 422856.31,
+  "despesas": 541,
+  "total": 434450.46,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 145000.0
+    "total": 155500.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -39103,7 +39335,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 60653.0
+    "total": 60853.0
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -39115,7 +39347,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 9777.56
+    "total": 10671.71
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -39161,15 +39393,19 @@
    },
    {
     "competencia": "2026-08",
-    "total": 39122.84
+    "total": 39221.59
    },
    {
     "competencia": "2026-09",
-    "total": 29485.95
+    "total": 29924.95
    },
    {
     "competencia": "2026-10",
-    "total": 12274.46
+    "total": 23130.86
+   },
+   {
+    "competencia": "2026-11",
+    "total": 200.0
    }
   ],
   "alertas": [
@@ -39607,8 +39843,8 @@
   "partido": "PODE",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178989.jpg",
-  "despesas": 75,
-  "total": 202365.94,
+  "despesas": 77,
+  "total": 203343.77,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -39616,11 +39852,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 47953.5
+    "total": 48642.7
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 21035.29
+    "total": 21323.92
    },
    {
     "categoria": "Telefonia",
@@ -39658,7 +39894,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 272.24
+    "total": 1250.07
    },
    {
     "competencia": "2026-11",
@@ -39751,16 +39987,16 @@
   "partido": "PCdoB",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73801.jpg",
-  "despesas": 285,
-  "total": 333521.24,
+  "despesas": 288,
+  "total": 349126.99,
   "por_categoria": [
+   {
+    "categoria": "Locação ou fretamento de veículos automotores",
+    "total": 116400.0
+   },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
     "total": 101537.9
-   },
-   {
-    "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 101500.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -39768,7 +40004,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 41519.22
+    "total": 42224.97
    },
    {
     "categoria": "Telefonia",
@@ -39818,7 +40054,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 14414.75
+    "total": 30020.5
    },
    {
     "competencia": "2026-11",
@@ -39840,8 +40076,8 @@
   "partido": "PODE",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/175765.jpg",
-  "despesas": 292,
-  "total": 288755.61,
+  "despesas": 293,
+  "total": 288966.01,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -39861,7 +40097,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 12032.65
+    "total": 12243.05
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -39915,7 +40151,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 20710.31
+    "total": 20920.71
    }
   ],
   "alertas": [
@@ -40471,8 +40707,8 @@
   "partido": "MDB",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220694.jpg",
-  "despesas": 143,
-  "total": 237313.53,
+  "despesas": 144,
+  "total": 237429.69,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -40492,7 +40728,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 1404.85
+    "total": 1521.01
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -40530,7 +40766,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 7001.88
+    "total": 7118.04
    },
    {
     "competencia": "2026-09",
@@ -40561,8 +40797,8 @@
   "partido": "NOVO",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220633.jpg",
-  "despesas": 327,
-  "total": 361069.92,
+  "despesas": 328,
+  "total": 361300.57,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -40574,7 +40810,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 74318.8
+    "total": 74549.45
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -40641,6 +40877,10 @@
    {
     "competencia": "2026-10",
     "total": 10796.4
+   },
+   {
+    "competencia": "2026-11",
+    "total": 230.65
    }
   ],
   "alertas": [
@@ -40840,8 +41080,8 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220613.jpg",
-  "despesas": 446,
-  "total": 275900.52,
+  "despesas": 453,
+  "total": 276100.05,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -40857,7 +41097,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 18659.62
+    "total": 18859.15
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -40919,11 +41159,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 9809.68
+    "total": 9901.16
    },
    {
     "competencia": "2026-11",
-    "total": 355.85
+    "total": 463.9
    }
   ],
   "alertas": [
@@ -41097,8 +41337,8 @@
   "partido": "PL",
   "uf": "MS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220546.jpg",
-  "despesas": 331,
-  "total": 408000.09,
+  "despesas": 332,
+  "total": 408703.41,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -41122,7 +41362,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 7309.18
+    "total": 8012.5
    }
   ],
   "por_mes": [
@@ -41164,7 +41404,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2616.35
+    "total": 3319.67
    }
   ],
   "alertas": [
@@ -41342,8 +41582,8 @@
   "partido": "PSB",
   "uf": "DF",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141533.jpg",
-  "despesas": 190,
-  "total": 192466.34,
+  "despesas": 195,
+  "total": 193847.76,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -41351,7 +41591,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 34607.85
+    "total": 35989.27
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -41409,7 +41649,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1467.79
+    "total": 2376.35
+   },
+   {
+    "competencia": "2026-11",
+    "total": 472.86
    }
   ],
   "alertas": [
@@ -41496,8 +41740,8 @@
   "partido": "PL",
   "uf": "MT",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/230767.jpg",
-  "despesas": 493,
-  "total": 379631.82,
+  "despesas": 495,
+  "total": 380294.87,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -41509,7 +41753,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 86276.0
+    "total": 86939.05
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -41579,7 +41823,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 260.83
+    "total": 923.88
    }
   ],
   "alertas": [
@@ -41595,8 +41839,8 @@
   "partido": "UNIÃO",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141531.jpg",
-  "despesas": 387,
-  "total": 248869.86,
+  "despesas": 388,
+  "total": 249160.71,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -41608,7 +41852,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 64803.87
+    "total": 65094.72
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -41679,6 +41923,10 @@
    {
     "competencia": "2026-10",
     "total": 3559.13
+   },
+   {
+    "competencia": "2026-11",
+    "total": 290.85
    }
   ],
   "alertas": [
@@ -41788,8 +42036,8 @@
   "partido": "PT",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204480.jpg",
-  "despesas": 511,
-  "total": 312068.86,
+  "despesas": 516,
+  "total": 313395.4,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -41801,7 +42049,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 55338.66
+    "total": 56570.54
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -41825,7 +42073,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 112.75
+    "total": 207.41
    }
   ],
   "por_mes": [
@@ -41867,7 +42115,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2435.54
+    "total": 3303.64
+   },
+   {
+    "competencia": "2026-11",
+    "total": 458.44
    }
   ],
   "alertas": [
@@ -42013,8 +42265,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204525.jpg",
-  "despesas": 404,
-  "total": 348146.44,
+  "despesas": 405,
+  "total": 349395.52,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -42034,7 +42286,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 11340.04
+    "total": 12589.12
    },
    {
     "categoria": "Telefonia",
@@ -42088,10 +42340,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 19428.23
+    "total": 20677.31
    }
   ],
   "alertas": [
+   "A-2026-09247",
    "A-2026-09192",
    "A-2026-09019",
    "A-2026-08606",
@@ -42316,12 +42569,12 @@
   "partido": "PL",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220620.jpg",
-  "despesas": 353,
-  "total": 400102.69,
+  "despesas": 355,
+  "total": 409602.69,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 130988.42
+    "total": 140488.42
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -42391,7 +42644,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 40686.81
+    "total": 50186.81
    }
   ],
   "alertas": [
@@ -42418,16 +42671,16 @@
   "partido": "PT",
   "uf": "GO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74371.jpg",
-  "despesas": 149,
-  "total": 323735.63,
+  "despesas": 151,
+  "total": 329935.63,
   "por_categoria": [
+   {
+    "categoria": "Divulgação da atividade parlamentar",
+    "total": 94840.0
+   },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
     "total": 89761.5
-   },
-   {
-    "categoria": "Divulgação da atividade parlamentar",
-    "total": 88640.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -42485,7 +42738,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 10700.0
+    "total": 16900.0
    }
   ],
   "alertas": [
@@ -42764,12 +43017,12 @@
   "partido": "UNIÃO",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220631.jpg",
-  "despesas": 526,
-  "total": 340425.44,
+  "despesas": 534,
+  "total": 344347.95,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 143453.14
+    "total": 146117.82
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -42777,7 +43030,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 53960.69
+    "total": 55115.42
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -42789,7 +43042,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 3211.92
+    "total": 3258.92
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -42797,7 +43050,7 @@
    },
    {
     "categoria": "Serviços postais",
-    "total": 1498.7
+    "total": 1554.8
    },
    {
     "categoria": "Passagens terrestres, marítimas ou fluviais",
@@ -42843,10 +43096,15 @@
    },
    {
     "competencia": "2026-10",
-    "total": 7548.41
+    "total": 11170.92
+   },
+   {
+    "competencia": "2026-11",
+    "total": 300.0
    }
   ],
   "alertas": [
+   "A-2026-09248",
    "A-2026-08541",
    "A-2026-08267",
    "A-2026-07852",
@@ -42867,8 +43125,8 @@
   "partido": "PL",
   "uf": "RS",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204416.jpg",
-  "despesas": 423,
-  "total": 279754.62,
+  "despesas": 426,
+  "total": 280664.19,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -42880,7 +43138,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 65481.87
+    "total": 66391.44
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -42947,6 +43205,10 @@
    {
     "competencia": "2026-10",
     "total": 20155.4
+   },
+   {
+    "competencia": "2026-11",
+    "total": 909.57
    }
   ],
   "alertas": [
@@ -43082,12 +43344,12 @@
   "partido": "PL",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204387.jpg",
-  "despesas": 483,
-  "total": 149282.5,
+  "despesas": 489,
+  "total": 150103.37,
   "por_categoria": [
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 54739.94
+    "total": 55039.94
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -43099,19 +43361,19 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 10135.48
+    "total": 10176.28
    },
    {
     "categoria": "Passagem aérea - reembolso",
     "total": 6595.84
    },
    {
-    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 5863.27
+    "categoria": "Telefonia",
+    "total": 5965.23
    },
    {
-    "categoria": "Telefonia",
-    "total": 5485.16
+    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
+    "total": 5863.27
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -43157,11 +43419,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 3197.24
+    "total": 3977.31
    },
    {
     "competencia": "2026-11",
-    "total": 126.9
+    "total": 167.7
    }
   ],
   "alertas": [
@@ -43581,8 +43843,8 @@
   "partido": "MDB",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178933.jpg",
-  "despesas": 304,
-  "total": 299798.93,
+  "despesas": 327,
+  "total": 308360.91,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -43590,7 +43852,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 99358.06
+    "total": 104829.51
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -43602,11 +43864,11 @@
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 20931.48
+    "total": 22501.48
    },
    {
     "categoria": "Telefonia",
-    "total": 5039.49
+    "total": 6560.02
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -43652,18 +43914,19 @@
    },
    {
     "competencia": "2026-08",
-    "total": 24608.89
+    "total": 28419.17
    },
    {
     "competencia": "2026-09",
-    "total": 18743.94
+    "total": 22449.12
    },
    {
     "competencia": "2026-10",
-    "total": 9434.4
+    "total": 10480.92
    }
   ],
   "alertas": [
+   "A-2026-09235",
    "A-2026-09209",
    "A-2026-08333",
    "A-2026-08270",
@@ -43704,8 +43967,8 @@
   "partido": "PSD",
   "uf": "AM",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204557.jpg",
-  "despesas": 60,
-  "total": 355853.34,
+  "despesas": 61,
+  "total": 356039.35,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de aeronaves",
@@ -43721,7 +43984,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 8005.31
+    "total": 8191.32
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -43767,7 +44030,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 8833.0
+    "total": 9019.01
    }
   ],
   "alertas": []
@@ -43831,8 +44094,8 @@
   "partido": "PP",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204360.jpg",
-  "despesas": 299,
-  "total": 379737.45,
+  "despesas": 300,
+  "total": 380021.08,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -43840,7 +44103,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 53373.86
+    "total": 53657.49
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -43899,6 +44162,10 @@
    {
     "competencia": "2026-10",
     "total": 92658.62
+   },
+   {
+    "competencia": "2026-11",
+    "total": 283.63
    }
   ],
   "alertas": [
@@ -44373,12 +44640,12 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178946.jpg",
-  "despesas": 38,
-  "total": 90195.15,
+  "despesas": 39,
+  "total": 100195.15,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 71180.0
+    "total": 81180.0
    },
    {
     "categoria": "Telefonia",
@@ -44436,7 +44703,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1200.0
+    "total": 11200.0
    }
   ],
   "alertas": []
@@ -44449,16 +44716,16 @@
   "partido": "PSD",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/92776.jpg",
-  "despesas": 316,
-  "total": 331595.4,
+  "despesas": 322,
+  "total": 344471.7,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 133560.28
+    "total": 145728.18
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 112013.4
+    "total": 112363.4
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -44478,7 +44745,7 @@
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
-    "total": 8458.33
+    "total": 8816.73
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -44516,7 +44783,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 16684.83
+    "total": 16967.4
    },
    {
     "competencia": "2026-09",
@@ -44524,10 +44791,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2811.81
+    "total": 15405.54
    }
   ],
   "alertas": [
+   "A-2026-09244",
    "A-2026-07692",
    "A-2026-07593",
    "A-2026-07377",
@@ -44628,8 +44896,8 @@
   "partido": "PSD",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/73808.jpg",
-  "despesas": 265,
-  "total": 239044.13,
+  "despesas": 270,
+  "total": 240145.64,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -44641,7 +44909,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 55867.9
+    "total": 56969.41
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -44711,7 +44979,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 16938.68
+    "total": 18040.19
    },
    {
     "competencia": "2026-11",
@@ -44795,12 +45063,12 @@
   "partido": "PL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178947.jpg",
-  "despesas": 215,
-  "total": 194112.39,
+  "despesas": 218,
+  "total": 206585.14,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 87500.0
+    "total": 99500.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -44808,7 +45076,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 43871.53
+    "total": 44344.28
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -44862,7 +45130,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 7340.59
+    "total": 19540.59
+   },
+   {
+    "competencia": "2026-11",
+    "total": 272.75
    }
   ],
   "alertas": []
@@ -44875,8 +45147,8 @@
   "partido": "PSOL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220643.jpg",
-  "despesas": 70,
-  "total": 120160.88,
+  "despesas": 74,
+  "total": 121444.78,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -44892,7 +45164,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 3778.96
+    "total": 5062.86
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -44942,7 +45214,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 1928.88
+    "total": 2854.28
+   },
+   {
+    "competencia": "2026-11",
+    "total": 358.5
    }
   ],
   "alertas": [
@@ -45175,8 +45451,8 @@
   "partido": "PSOL",
   "uf": "RJ",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204464.jpg",
-  "despesas": 340,
-  "total": 178061.83,
+  "despesas": 342,
+  "total": 182501.61,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -45184,11 +45460,11 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 41937.45
+    "total": 46127.23
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 13813.03
+    "total": 14063.03
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -45242,7 +45518,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 2445.81
+    "total": 6635.59
+   },
+   {
+    "competencia": "2026-11",
+    "total": 250.0
    }
   ],
   "alertas": [
@@ -45350,8 +45630,8 @@
   "partido": "UNIÃO",
   "uf": "RO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220597.jpg",
-  "despesas": 280,
-  "total": 283295.23,
+  "despesas": 284,
+  "total": 285721.87,
   "por_categoria": [
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -45362,12 +45642,12 @@
     "total": 86064.0
    },
    {
-    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 42103.65
+    "categoria": "Combustíveis e lubrificantes",
+    "total": 43482.27
    },
    {
-    "categoria": "Combustíveis e lubrificantes",
-    "total": 41055.63
+    "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
+    "total": 42103.65
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -45433,7 +45713,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 4579.72
+    "total": 6179.29
+   },
+   {
+    "competencia": "2026-11",
+    "total": 827.07
    }
   ],
   "alertas": [
@@ -45539,8 +45823,8 @@
   "partido": "PODE",
   "uf": "TO",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/143084.jpg",
-  "despesas": 262,
-  "total": 202598.58,
+  "despesas": 263,
+  "total": 202990.93,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -45548,7 +45832,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 50943.07
+    "total": 51335.42
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -45602,7 +45886,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 5663.78
+    "total": 6056.13
    }
   ],
   "alertas": [
@@ -45692,8 +45976,8 @@
   "partido": "PP",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220684.jpg",
-  "despesas": 280,
-  "total": 358663.43,
+  "despesas": 283,
+  "total": 359082.23,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -45713,11 +45997,11 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 30965.99
+    "total": 31124.99
    },
    {
     "categoria": "Telefonia",
-    "total": 4104.86
+    "total": 4364.66
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -45759,15 +46043,19 @@
    },
    {
     "competencia": "2026-08",
-    "total": 21329.63
+    "total": 21459.53
    },
    {
     "competencia": "2026-09",
-    "total": 25607.11
+    "total": 25737.01
    },
    {
     "competencia": "2026-10",
     "total": 9203.94
+   },
+   {
+    "competencia": "2026-11",
+    "total": 159.0
    }
   ],
   "alertas": [
@@ -45790,8 +46078,8 @@
   "partido": "PP",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/178934.jpg",
-  "despesas": 187,
-  "total": 381435.05,
+  "despesas": 189,
+  "total": 382435.43,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -45807,7 +46095,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 32565.9
+    "total": 33566.28
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -45861,7 +46149,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 54958.32
+    "total": 55474.23
+   },
+   {
+    "competencia": "2026-11",
+    "total": 484.47
    }
   ],
   "alertas": [
@@ -45878,8 +46170,8 @@
   "partido": "PSD",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/157130.jpg",
-  "despesas": 382,
-  "total": 392598.32,
+  "despesas": 383,
+  "total": 392954.41,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -45891,7 +46183,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 40147.97
+    "total": 40504.06
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -45957,7 +46249,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 21645.79
+    "total": 22001.88
    },
    {
     "competencia": "2026-11",
@@ -46360,12 +46652,12 @@
   "partido": "PL",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204396.jpg",
-  "despesas": 170,
-  "total": 303005.03,
+  "despesas": 171,
+  "total": 330264.33,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 216000.0
+    "total": 243259.3
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -46431,7 +46723,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 19441.44
+    "total": 46700.74
    }
   ],
   "alertas": [
@@ -46573,8 +46865,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/141555.jpg",
-  "despesas": 244,
-  "total": 265045.01,
+  "despesas": 245,
+  "total": 295045.01,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -46582,7 +46874,7 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 87138.49
+    "total": 117138.49
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -46640,7 +46932,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 8215.13
+    "total": 38215.13
    }
   ],
   "alertas": [
@@ -46886,8 +47178,8 @@
   "partido": "AVANTE",
   "uf": "PE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/91228.jpg",
-  "despesas": 208,
-  "total": 293702.17,
+  "despesas": 209,
+  "total": 295202.17,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -46903,7 +47195,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 13383.85
+    "total": 14883.85
    },
    {
     "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
@@ -46949,7 +47241,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 15134.43
+    "total": 16634.43
    }
   ],
   "alertas": [
@@ -47157,8 +47449,8 @@
   "partido": "PSD",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74043.jpg",
-  "despesas": 87,
-  "total": 356963.14,
+  "despesas": 91,
+  "total": 358736.02,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -47170,11 +47462,15 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 21374.44
+    "total": 22288.42
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
     "total": 5599.0
+   },
+   {
+    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
+    "total": 858.9
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
@@ -47212,7 +47508,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 8066.27
+    "total": 8925.17
    },
    {
     "competencia": "2026-09",
@@ -47220,7 +47516,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 48273.62
+    "total": 48673.14
+   },
+   {
+    "competencia": "2026-11",
+    "total": 514.46
    }
   ],
   "alertas": [
@@ -47237,8 +47537,8 @@
   "partido": "PT",
   "uf": "PR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/224333.jpg",
-  "despesas": 579,
-  "total": 381629.54,
+  "despesas": 588,
+  "total": 383923.83,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -47246,7 +47546,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 83284.08
+    "total": 85578.37
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -47312,11 +47612,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 23378.68
+    "total": 24860.88
    },
    {
     "competencia": "2026-11",
-    "total": 150.0
+    "total": 962.09
    }
   ],
   "alertas": [
@@ -47339,12 +47639,12 @@
   "partido": "REPUBLICANOS",
   "uf": "PB",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/74044.jpg",
-  "despesas": 179,
-  "total": 366835.02,
+  "despesas": 184,
+  "total": 371332.02,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 278000.0
+    "total": 281800.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -47352,7 +47652,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 24364.89
+    "total": 24964.89
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -47364,7 +47664,7 @@
    },
    {
     "categoria": "Fornecimento de alimentação do parlamentar",
-    "total": 1359.13
+    "total": 1456.13
    }
   ],
   "por_mes": [
@@ -47390,7 +47690,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 68058.59
+    "total": 72055.59
+   },
+   {
+    "competencia": "2026-11",
+    "total": 500.0
    }
   ],
   "alertas": [
@@ -47406,8 +47710,8 @@
   "partido": "UNIÃO",
   "uf": "SE",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220564.jpg",
-  "despesas": 43,
-  "total": 256380.18,
+  "despesas": 45,
+  "total": 256780.18,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -47419,7 +47723,7 @@
    },
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
-    "total": 6090.7
+    "total": 6490.7
    },
    {
     "categoria": "Telefonia",
@@ -47465,7 +47769,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 12100.0
+    "total": 12300.0
+   },
+   {
+    "competencia": "2026-10",
+    "total": 200.0
    }
   ],
   "alertas": []
@@ -47804,16 +48112,16 @@
   "partido": "PP",
   "uf": "AC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/230768.jpg",
-  "despesas": 130,
-  "total": 480950.4,
+  "despesas": 137,
+  "total": 525749.2,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 174250.0
+    "total": 202874.0
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
-    "total": 138500.0
+    "total": 154500.0
    },
    {
     "categoria": "Combustíveis e lubrificantes",
@@ -47825,7 +48133,7 @@
    },
    {
     "categoria": "Telefonia",
-    "total": 2630.81
+    "total": 2805.61
    },
    {
     "categoria": "Serviço de segurança prestado por empresa especializada",
@@ -47867,11 +48175,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 32471.66
+    "total": 32646.46
    },
    {
     "competencia": "2026-10",
-    "total": 16392.0
+    "total": 61016.0
    }
   ],
   "alertas": [
@@ -47903,8 +48211,8 @@
   "partido": "UNIÃO",
   "uf": "RR",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220536.jpg",
-  "despesas": 107,
-  "total": 479005.13,
+  "despesas": 109,
+  "total": 479460.22,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -47920,7 +48228,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 12938.64
+    "total": 13393.73
    },
    {
     "categoria": "Telefonia",
@@ -47966,7 +48274,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 126454.23
+    "total": 126645.14
+   },
+   {
+    "competencia": "2026-11",
+    "total": 264.18
    }
   ],
   "alertas": [
@@ -47986,8 +48298,8 @@
   "partido": "PT",
   "uf": "BA",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/204559.jpg",
-  "despesas": 220,
-  "total": 253555.7,
+  "despesas": 221,
+  "total": 253655.7,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -47999,7 +48311,7 @@
    },
    {
     "categoria": "Combustíveis e lubrificantes",
-    "total": 67396.6
+    "total": 67496.6
    },
    {
     "categoria": "Telefonia",
@@ -48057,7 +48369,7 @@
    },
    {
     "competencia": "2026-08",
-    "total": 15446.34
+    "total": 15546.34
    },
    {
     "competencia": "2026-09",
@@ -48103,12 +48415,12 @@
   "partido": "UNIÃO",
   "uf": "MG",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/160632.jpg",
-  "despesas": 186,
-  "total": 269689.23,
+  "despesas": 187,
+  "total": 272889.23,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 130829.2
+    "total": 134029.2
    },
    {
     "categoria": "Locação ou fretamento de veículos automotores",
@@ -48186,7 +48498,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 4664.43
+    "total": 7864.43
    }
   ],
   "alertas": [
@@ -48204,8 +48516,8 @@
   "partido": "PL",
   "uf": "SC",
   "url_foto": "https://www.camara.leg.br/internet/deputado/bandep/220558.jpg",
-  "despesas": 347,
-  "total": 354879.27,
+  "despesas": 349,
+  "total": 356452.6,
   "por_categoria": [
    {
     "categoria": "Manutenção de escritório de apoio à atividade parlamentar",
@@ -48224,16 +48536,16 @@
     "total": 56650.0
    },
    {
+    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
+    "total": 7540.75
+   },
+   {
     "categoria": "Serviço de segurança prestado por empresa especializada",
     "total": 7334.81
    },
    {
-    "categoria": "Hospedagem, exceto do parlamentar no Distrito Federal",
-    "total": 6157.3
-   },
-   {
     "categoria": "Telefonia",
-    "total": 4982.32
+    "total": 5172.2
    },
    {
     "categoria": "Serviço de táxi, pedágio e estacionamento",
@@ -48283,11 +48595,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 20107.68
+    "total": 20297.56
    },
    {
     "competencia": "2026-10",
-    "total": 35406.59
+    "total": 36790.04
    }
   ],
   "alertas": [
