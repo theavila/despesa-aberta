@@ -3,22 +3,22 @@
   "nome": "Despesa Aberta",
   "url": "https://theavila.github.io/despesa-aberta"
  },
- "atualizado_em": "2026-11-09T16:45:37-03:00",
+ "atualizado_em": "2026-11-11T14:03:35-03:00",
  "aviso": "Atipicidade estatística não é prova de irregularidade. O parlamentar pode ter justificativa.",
- "despesas": 138807,
- "valor_total": 175623590.67,
+ "despesas": 140002,
+ "valor_total": 178275090.04,
  "periodo": {
   "inicio": "2026-01",
   "fim": "2026-11"
  },
- "alertas_ativos": 5157,
- "alertas_hoje": 29,
+ "alertas_ativos": 5213,
+ "alertas_hoje": 78,
  "por_regra": {
-  "R01_refeicao_alta": 104,
-  "R02_duplicidade": 1535,
-  "R03_outlier_categoria": 1360,
-  "R04_cnpj_situacao": 34,
-  "R05_fim_de_semana": 2124
+  "R01_refeicao_alta": 107,
+  "R02_duplicidade": 1550,
+  "R03_outlier_categoria": 1372,
+  "R04_cnpj_situacao": 35,
+  "R05_fim_de_semana": 2149
  },
  "parlamentares": 655,
  "respostas": 0
