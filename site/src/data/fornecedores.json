@@ -3,10 +3,11 @@
   "chave": "00000000000010",
   "nome": "ADOBE SYSTEMS SOFTWARE IRELAND LTD",
   "documento": "00.000.000/0000-10",
-  "despesas": 436,
+  "despesas": 441,
   "parlamentares": 14,
-  "total": 246365.36,
+  "total": 247285.35,
   "alertas": [
+   "A-2026-09559",
    "A-2026-09479",
    "A-2026-09275",
    "A-2026-09241",
@@ -123,9 +124,9 @@
   "chave": "00097626000400",
   "nome": "BRASAL COMBUSTIVEIS LTDA",
   "documento": "00.097.626/0004-00",
-  "despesas": 202,
+  "despesas": 203,
   "parlamentares": 85,
-  "total": 47891.86,
+  "total": 48138.48,
   "alertas": [
    "A-2026-07553"
   ]
@@ -193,9 +194,9 @@
   "chave": "00306597003112",
   "nome": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0031-12",
-  "despesas": 718,
+  "despesas": 730,
   "parlamentares": 132,
-  "total": 163664.58,
+  "total": 166434.14,
   "alertas": [
    "A-2026-07819",
    "A-2026-07645"
@@ -216,9 +217,9 @@
   "chave": "00306597006308",
   "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0063-08",
-  "despesas": 579,
-  "parlamentares": 81,
-  "total": 126583.56,
+  "despesas": 594,
+  "parlamentares": 83,
+  "total": 129592.84,
   "alertas": [
    "A-2026-08746"
   ]
@@ -227,9 +228,9 @@
   "chave": "00306597006995",
   "nome": "069 - PENISULA - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0069-95",
-  "despesas": 123,
-  "parlamentares": 41,
-  "total": 25994.62,
+  "despesas": 124,
+  "parlamentares": 42,
+  "total": 26094.62,
   "alertas": [
    "A-2026-04431"
   ]
@@ -238,9 +239,9 @@
   "chave": "00306597007614",
   "nome": "076 - MELHOR 10 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
   "documento": "00.306.597/0076-14",
-  "despesas": 199,
+  "despesas": 201,
   "parlamentares": 57,
-  "total": 41054.0,
+  "total": 41415.81,
   "alertas": [
    "A-2026-02869"
   ]
@@ -309,12 +310,13 @@
  },
  {
   "chave": "00497373000110",
-  "nome": "Sky Serviços de Banda Larga Ltda",
+  "nome": "SKY SERVICOS DE BANDA LARGA LTDA.",
   "documento": "00.497.373/0001-10",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 3578.13,
+  "total": 4015.2,
   "alertas": [
+   "A-2026-09573",
    "A-2026-08317",
    "A-2026-07950",
    "A-2026-07148"
@@ -324,10 +326,11 @@
   "chave": "00529581000153",
   "nome": "AUTO POSTO AMAPA LTDA",
   "documento": "00.529.581/0001-53",
-  "despesas": 17,
+  "despesas": 18,
   "parlamentares": 4,
-  "total": 63184.19,
+  "total": 72379.19,
   "alertas": [
+   "A-2026-09597",
    "A-2026-08641",
    "A-2026-08483",
    "A-2026-08140",
@@ -352,9 +355,9 @@
   "chave": "00556066000162",
   "nome": "FIBRATUR TURISMO E VIAGENS LTDA",
   "documento": "00.556.066/0001-62",
-  "despesas": 38,
+  "despesas": 40,
   "parlamentares": 1,
-  "total": 92594.19,
+  "total": 100079.08,
   "alertas": [
    "A-2026-01765",
    "A-2026-00526"
@@ -375,9 +378,9 @@
   "chave": "00586176000177",
   "nome": "LOCARFLEX LOCACOES DE VEICULOS LTDA",
   "documento": "00.586.176/0001-77",
-  "despesas": 18,
+  "despesas": 20,
   "parlamentares": 2,
-  "total": 136805.0,
+  "total": 145086.0,
   "alertas": [
    "A-2026-08149",
    "A-2026-07746",
@@ -392,9 +395,9 @@
   "chave": "00595058000125",
   "nome": "POSTO 212 SUL LTDA",
   "documento": "00.595.058/0001-25",
-  "despesas": 15,
-  "parlamentares": 11,
-  "total": 3770.35,
+  "despesas": 16,
+  "parlamentares": 12,
+  "total": 3920.35,
   "alertas": [
    "A-2026-07183"
   ]
@@ -436,11 +439,11 @@
  },
  {
   "chave": "00758665000169",
-  "nome": "BIRO DE INFORMATICA NACIONAL EIRELI - EPP",
+  "nome": "BIRO DE INFORMATICA NACIONAL LTDA",
   "documento": "00.758.665/0001-69",
-  "despesas": 39,
+  "despesas": 40,
   "parlamentares": 4,
-  "total": 231342.0,
+  "total": 236582.0,
   "alertas": [
    "A-2026-09538",
    "A-2026-09482",
@@ -595,10 +598,11 @@
   "chave": "01135714000170",
   "nome": "POSTO T- SETE LTDA",
   "documento": "01.135.714/0001-70",
-  "despesas": 193,
+  "despesas": 208,
   "parlamentares": 2,
-  "total": 59657.74,
+  "total": 62697.38,
   "alertas": [
+   "A-2026-09584",
    "A-2026-08437",
    "A-2026-08436",
    "A-2026-08435",
@@ -650,9 +654,9 @@
   "chave": "01335342000125",
   "nome": "Barros Filhos Imóveis",
   "documento": "01.335.342/0001-25",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 54089.0,
+  "total": 60124.0,
   "alertas": [
    "A-2026-04590",
    "A-2026-00768",
@@ -812,9 +816,9 @@
   "chave": "01616929000102",
   "nome": "SANEAGO",
   "documento": "01.616.929/0001-02",
-  "despesas": 79,
+  "despesas": 82,
   "parlamentares": 8,
-  "total": 27127.69,
+  "total": 27442.34,
   "alertas": [
    "A-2026-08120"
   ]
@@ -987,10 +991,11 @@
   "chave": "01855960000104",
   "nome": "MEGA POSTO BERIMBAU LTDA",
   "documento": "01.855.960/0001-04",
-  "despesas": 21,
+  "despesas": 22,
   "parlamentares": 10,
-  "total": 37645.08,
+  "total": 43442.7,
   "alertas": [
+   "A-2026-09593",
    "A-2026-08091",
    "A-2026-07693",
    "A-2026-07353",
@@ -1087,9 +1092,9 @@
   "chave": "01982156000188",
   "nome": "PAIAGUAS HOTEIS LTDA",
   "documento": "01.982.156/0001-88",
-  "despesas": 56,
+  "despesas": 58,
   "parlamentares": 4,
-  "total": 85625.71,
+  "total": 87812.11,
   "alertas": [
    "A-2026-09231",
    "A-2026-07679",
@@ -1103,12 +1108,14 @@
  },
  {
   "chave": "02012862000160",
-  "nome": "Latam Linhas Aéreas S.A",
+  "nome": "Cia Aérea - TAM",
   "documento": "02.012.862/0001-60",
-  "despesas": 236,
+  "despesas": 252,
   "parlamentares": 27,
-  "total": 511116.95,
+  "total": 527773.22,
   "alertas": [
+   "A-2026-09565",
+   "A-2026-09564",
    "A-2026-09130",
    "A-2026-08576",
    "A-2026-06505",
@@ -1317,9 +1324,9 @@
   "chave": "02351877000152",
   "nome": "LWSA S/A",
   "documento": "02.351.877/0001-52",
-  "despesas": 59,
+  "despesas": 61,
   "parlamentares": 3,
-  "total": 8671.53,
+  "total": 8992.11,
   "alertas": [
    "A-2026-05860"
   ]
@@ -1351,9 +1358,9 @@
   "chave": "02394473000146",
   "nome": "POSTO LIBERDADE LOCATELLI LTDA.",
   "documento": "02.394.473/0001-46",
-  "despesas": 69,
+  "despesas": 71,
   "parlamentares": 2,
-  "total": 66370.11,
+  "total": 66600.13,
   "alertas": [
    "A-2026-08662",
    "A-2026-08420",
@@ -1385,9 +1392,9 @@
   "chave": "02421421000111",
   "nome": "TIM S A",
   "documento": "02.421.421/0001-11",
-  "despesas": 208,
+  "despesas": 210,
   "parlamentares": 27,
-  "total": 50769.92,
+  "total": 51084.9,
   "alertas": [
    "A-2026-09270",
    "A-2026-08221",
@@ -1527,9 +1534,9 @@
   "chave": "02558157000162",
   "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0001-62",
-  "despesas": 2028,
-  "parlamentares": 188,
-  "total": 1063850.96,
+  "despesas": 2044,
+  "parlamentares": 190,
+  "total": 1069967.15,
   "alertas": [
    "A-2026-09529",
    "A-2026-09192",
@@ -1621,6 +1628,7 @@
    "A-2026-05304",
    "A-2026-05243",
    "A-2026-05206",
+   "A-2026-05204",
    "A-2026-05181",
    "A-2026-05179",
    "A-2026-05131",
@@ -1839,9 +1847,9 @@
   "chave": "02644577000161",
   "nome": "AUTO POSTO CANADA LTDA EPP",
   "documento": "02.644.577/0001-61",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 27752.37,
+  "total": 29944.19,
   "alertas": [
    "A-2026-08035",
    "A-2026-07663",
@@ -1886,10 +1894,11 @@
   "chave": "02728914000107",
   "nome": "GADELHA RENT A CAR UNIPESSOAL LTDA",
   "documento": "02.728.914/0001-07",
-  "despesas": 12,
+  "despesas": 13,
   "parlamentares": 1,
-  "total": 140540.0,
+  "total": 154540.0,
   "alertas": [
+   "A-2026-09581",
    "A-2026-04832",
    "A-2026-04483",
    "A-2026-03970",
@@ -1953,9 +1962,9 @@
   "chave": "02818012000234",
   "nome": "HP COMERCIO E DERIVADOS DE PETROLEO LTDA",
   "documento": "02.818.012/0002-34",
-  "despesas": 107,
+  "despesas": 108,
   "parlamentares": 16,
-  "total": 28154.55,
+  "total": 28606.76,
   "alertas": [
    "A-2026-00632"
   ]
@@ -2153,6 +2162,17 @@
   ]
  },
  {
+  "chave": "03057349000158",
+  "nome": "EMPREENDIMENTO EDITORIAL CORREIO DOS MUNICIPIOS.",
+  "documento": "03.057.349/0001-58",
+  "despesas": 4,
+  "parlamentares": 1,
+  "total": 8000.0,
+  "alertas": [
+   "A-2026-09607"
+  ]
+ },
+ {
   "chave": "03069059000477",
   "nome": "BOURBON ADM COM E SERV HOTELEIROS LTDA",
   "documento": "03.069.059/0004-77",
@@ -2308,9 +2328,9 @@
   "chave": "03503522000102",
   "nome": "AMANDA LOCADORA DE VEICULOS LTDA",
   "documento": "03.503.522/0001-02",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 34800.0,
+  "total": 40600.0,
   "alertas": [
    "A-2026-01745"
   ]
@@ -2353,9 +2373,9 @@
   "chave": "03623191000136",
   "nome": "SOUZA &amp; MIRANDA LTDA",
   "documento": "03.623.191/0001-36",
-  "despesas": 21,
+  "despesas": 22,
   "parlamentares": 2,
-  "total": 5198.87,
+  "total": 5337.38,
   "alertas": [
    "A-2026-07922"
   ]
@@ -2533,9 +2553,9 @@
   "chave": "04065033000170",
   "nome": "ENERGISA ACRE - DISTRIBUIDORA DE ENERGIA S.A",
   "documento": "04.065.033/0001-70",
-  "despesas": 34,
+  "despesas": 35,
   "parlamentares": 4,
-  "total": 22207.35,
+  "total": 23432.92,
   "alertas": [
    "A-2026-02054"
   ]
@@ -2575,9 +2595,9 @@
   "chave": "04083083000180",
   "nome": "DIGITAL MÁQUINAS",
   "documento": "04.083.083/0001-80",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 4625.07,
+  "total": 5011.44,
   "alertas": [
    "A-2026-00047"
   ]
@@ -2586,10 +2606,11 @@
   "chave": "04088208000165",
   "nome": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA.",
   "documento": "04.088.208/0001-65",
-  "despesas": 577,
+  "despesas": 583,
   "parlamentares": 78,
-  "total": 359282.45,
+  "total": 362820.07,
   "alertas": [
+   "A-2026-09561",
    "A-2026-09481",
    "A-2026-09300",
    "A-2026-09247",
@@ -2708,10 +2729,11 @@
   "chave": "04131938000100",
   "nome": "SISTELCOM AUTOMOCAO E COMERCIO DE EQUIPAMENTOS ELETRONICOS LTDA",
   "documento": "04.131.938/0001-00",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 5835.6,
+  "total": 6484.0,
   "alertas": [
+   "A-2026-09588",
    "A-2026-04109"
   ]
  },
@@ -2789,9 +2811,9 @@
   "chave": "04309564000161",
   "nome": "ESTRELA LOGISTICA LTDA",
   "documento": "04.309.564/0001-61",
-  "despesas": 70,
+  "despesas": 73,
   "parlamentares": 7,
-  "total": 426203.76,
+  "total": 440983.76,
   "alertas": [
    "A-2026-05725",
    "A-2026-05300"
@@ -2860,9 +2882,9 @@
   "chave": "04368898000106",
   "nome": "COPEL DISTRIBUIÇÃO S.A.",
   "documento": "04.368.898/0001-06",
-  "despesas": 165,
+  "despesas": 166,
   "parlamentares": 19,
-  "total": 43459.13,
+  "total": 43635.29,
   "alertas": [
    "A-2026-09265",
    "A-2026-08598",
@@ -2950,10 +2972,11 @@
   "chave": "04489287000116",
   "nome": "JUSTINIANO & JUSTINIANO LTDA",
   "documento": "04.489.287/0001-16",
-  "despesas": 28,
+  "despesas": 29,
   "parlamentares": 1,
-  "total": 83451.97,
+  "total": 87347.01,
   "alertas": [
+   "A-2026-09617",
    "A-2026-08966",
    "A-2026-08714",
    "A-2026-08588",
@@ -3007,9 +3030,9 @@
   "chave": "04515963000189",
   "nome": "DALETH VEICULOS LTDA EPP",
   "documento": "04.515.963/0001-89",
-  "despesas": 109,
+  "despesas": 112,
   "parlamentares": 15,
-  "total": 592990.0,
+  "total": 615143.0,
   "alertas": [
    "A-2026-05911",
    "A-2026-05317"
@@ -3034,7 +3057,8 @@
   "parlamentares": 2,
   "total": 110381.6,
   "alertas": [
-   "A-2026-08615"
+   "A-2026-08615",
+   "A-2026-08466"
   ]
  },
  {
@@ -3080,6 +3104,17 @@
   "total": 16000.0,
   "alertas": [
    "A-2026-06325"
+  ]
+ },
+ {
+  "chave": "04629488000171",
+  "nome": "KHRONOS SEGURANÇA PRIVADA -LTDA",
+  "documento": "04.629.488/0001-71",
+  "despesas": 11,
+  "parlamentares": 1,
+  "total": 3709.89,
+  "alertas": [
+   "A-2026-09602"
   ]
  },
  {
@@ -3309,10 +3344,20 @@
   "chave": "05120923000109",
   "nome": "AEROTUR SERVIÇOS",
   "documento": "05.120.923/0001-09",
-  "despesas": 2162,
+  "despesas": 2238,
   "parlamentares": 44,
-  "total": 3238714.4,
+  "total": 3279030.13,
   "alertas": [
+   "A-2026-09556",
+   "A-2026-09555",
+   "A-2026-09554",
+   "A-2026-09553",
+   "A-2026-09552",
+   "A-2026-09550",
+   "A-2026-09549",
+   "A-2026-09548",
+   "A-2026-09547",
+   "A-2026-09546",
    "A-2026-08862",
    "A-2026-08861",
    "A-2026-08859",
@@ -3519,10 +3564,11 @@
   "chave": "05245502000104",
   "nome": "MHNET TELECOMUNICACOES LTDA",
   "documento": "05.245.502/0001-04",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 1547.11,
+  "total": 1722.3,
   "alertas": [
+   "A-2026-09572",
    "A-2026-07956",
    "A-2026-07146",
    "A-2026-06047"
@@ -3589,9 +3635,9 @@
   "chave": "05454390000193",
   "nome": "GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA",
   "documento": "05.454.390/0001-93",
-  "despesas": 112,
+  "despesas": 114,
   "parlamentares": 24,
-  "total": 45178.72,
+  "total": 45814.56,
   "alertas": [
    "A-2026-06639"
   ]
@@ -4090,10 +4136,11 @@
   "chave": "06321359000147",
   "nome": "AUTO POSTO CIDADE - EIRELI",
   "documento": "06.321.359/0001-47",
-  "despesas": 17,
+  "despesas": 18,
   "parlamentares": 3,
-  "total": 43961.75,
+  "total": 48841.09,
   "alertas": [
+   "A-2026-09608",
    "A-2026-08712",
    "A-2026-08506",
    "A-2026-07871",
@@ -4108,9 +4155,9 @@
   "chave": "06348525000107",
   "nome": "GIOVANI FONTANA E OUTROS PRESTACAO DE SERVICOS LTDA",
   "documento": "06.348.525/0001-07",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 25553.86,
+  "total": 29553.86,
   "alertas": [
    "A-2026-08151"
   ]
@@ -4180,9 +4227,9 @@
   "chave": "06981180000116",
   "nome": "CEMIG DISTRIBUIÇÃO S.A.",
   "documento": "06.981.180/0001-16",
-  "despesas": 405,
+  "despesas": 406,
   "parlamentares": 37,
-  "total": 131917.9,
+  "total": 132686.63,
   "alertas": [
    "A-2026-08392",
    "A-2026-08385",
@@ -4409,13 +4456,25 @@
   ]
  },
  {
+  "chave": "07287832000180",
+  "nome": "J C M IMOVEIS LTDA",
+  "documento": "07.287.832/0001-80",
+  "despesas": 3,
+  "parlamentares": 1,
+  "total": 18000.0,
+  "alertas": [
+   "A-2026-09568"
+  ]
+ },
+ {
   "chave": "07295702000199",
   "nome": "Servi 100 comercio de combustíveis LTDA",
   "documento": "07.295.702/0001-99",
-  "despesas": 19,
+  "despesas": 20,
   "parlamentares": 2,
-  "total": 66087.17,
+  "total": 75192.83,
   "alertas": [
+   "A-2026-09594",
    "A-2026-08741",
    "A-2026-08739",
    "A-2026-08094",
@@ -4446,10 +4505,12 @@
   "chave": "07319323000191",
   "nome": "PANTANAL-VEICULOS LTDA",
   "documento": "07.319.323/0001-91",
-  "despesas": 614,
+  "despesas": 621,
   "parlamentares": 58,
-  "total": 2929521.6,
+  "total": 2967121.6,
   "alertas": [
+   "A-2026-09596",
+   "A-2026-09595",
    "A-2026-09298",
    "A-2026-08665",
    "A-2026-08663",
@@ -4530,9 +4591,9 @@
   "chave": "07447405000111",
   "nome": "ELF Locadora de Veículos Ltda",
   "documento": "07.447.405/0001-11",
-  "despesas": 29,
+  "despesas": 31,
   "parlamentares": 4,
-  "total": 130968.71,
+  "total": 140968.71,
   "alertas": [
    "A-2026-08759"
   ]
@@ -4564,9 +4625,9 @@
   "chave": "07475524000188",
   "nome": "VALOR LOCACOES LTDA",
   "documento": "07.475.524/0001-88",
-  "despesas": 44,
+  "despesas": 46,
   "parlamentares": 4,
-  "total": 122260.67,
+  "total": 128940.67,
   "alertas": [
    "A-2026-09516",
    "A-2026-09514",
@@ -4587,10 +4648,11 @@
   "chave": "07510879000160",
   "nome": "AGILIZA LOCADORA DE EQUEPAMENTOS LTDA ME",
   "documento": "07.510.879/0001-60",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 2430.0,
+  "total": 2700.0,
   "alertas": [
+   "A-2026-09586",
    "A-2026-04594",
    "A-2026-04026",
    "A-2026-02281",
@@ -4652,9 +4714,9 @@
   "chave": "07575651000159",
   "nome": "GOL",
   "documento": "07.575.651/0001-59",
-  "despesas": 113,
+  "despesas": 118,
   "parlamentares": 16,
-  "total": 265014.84,
+  "total": 273841.34,
   "alertas": [
    "A-2026-09124",
    "A-2026-08754",
@@ -4694,9 +4756,9 @@
   "chave": "07671854000149",
   "nome": "MACAL - Empreendimentos Imobiliários LTDA ME",
   "documento": "07.671.854/0001-49",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 60000.0,
+  "total": 67500.0,
   "alertas": [
    "A-2026-03042"
   ]
@@ -4771,9 +4833,9 @@
   "chave": "07783446000189",
   "nome": "MULTICOPIAS - COMÉRCIO, LOCAÇÃO E SERVIÇOS DE MÁQUINAS LTDA",
   "documento": "07.783.446/0001-89",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 1442.7,
+  "total": 1606.36,
   "alertas": [
    "A-2026-00979",
    "A-2026-00393"
@@ -4965,23 +5027,6 @@
   ]
  },
  {
-  "chave": "08221693000154",
-  "nome": "Locauto Rent a Car Locação de Veículos Ltda",
-  "documento": "08.221.693/0001-54",
-  "despesas": 8,
-  "parlamentares": 1,
-  "total": 107564.4,
-  "alertas": [
-   "A-2026-04554",
-   "A-2026-04030",
-   "A-2026-03568",
-   "A-2026-02212",
-   "A-2026-01581",
-   "A-2026-00931",
-   "A-2026-00070"
-  ]
- },
- {
   "chave": "08302719000199",
   "nome": "XIMENES NEGÓCIOS IMOBILIÁRIOS",
   "documento": "08.302.719/0001-99",
@@ -4996,10 +5041,11 @@
   "chave": "08324196000181",
   "nome": "COSERN",
   "documento": "08.324.196/0001-81",
-  "despesas": 74,
+  "despesas": 78,
   "parlamentares": 5,
-  "total": 25085.34,
+  "total": 26806.26,
   "alertas": [
+   "A-2026-09566",
    "A-2026-08556",
    "A-2026-07881",
    "A-2026-07510",
@@ -5027,9 +5073,9 @@
   "chave": "08467115000100",
   "nome": "CEEE - Companhia Estadual de Distribuição de Energia Elétrica",
   "documento": "08.467.115/0001-00",
-  "despesas": 254,
+  "despesas": 256,
   "parlamentares": 25,
-  "total": 122559.59,
+  "total": 122948.45,
   "alertas": [
    "A-2026-08973",
    "A-2026-07914",
@@ -5049,9 +5095,9 @@
   "chave": "08532429000131",
   "nome": "AMORETTO CAFES EXPRESSO LTDA",
   "documento": "08.532.429/0001-31",
-  "despesas": 402,
+  "despesas": 407,
   "parlamentares": 55,
-  "total": 329915.4,
+  "total": 333699.4,
   "alertas": [
    "A-2026-05446"
   ]
@@ -5260,9 +5306,9 @@
   "chave": "08865615000192",
   "nome": "WORKING ASSOCIAÇÃO DE INTEGRAÇÃO PROFISSIONAL",
   "documento": "08.865.615/0001-92",
-  "despesas": 32,
+  "despesas": 33,
   "parlamentares": 7,
-  "total": 246980.8,
+  "total": 276980.8,
   "alertas": [
    "A-2026-07250",
    "A-2026-06900"
@@ -5294,21 +5340,22 @@
   "chave": "08902203000185",
   "nome": "BALDUSSI SOLUÇÕES CALLCENTER LTDA",
   "documento": "08.902.203/0001-85",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 2889.46,
+  "total": 3184.41,
   "alertas": [
    "A-2026-01811"
   ]
  },
  {
   "chave": "08913224000104",
-  "nome": "Instituto Ertnest Mandel",
+  "nome": "INSTITUTO ERNEST MANDEL",
   "documento": "08.913.224/0001-04",
-  "despesas": 5,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 52500.0,
+  "total": 73500.0,
   "alertas": [
+   "A-2026-09542",
    "A-2026-06615"
   ]
  },
@@ -5349,10 +5396,11 @@
   "chave": "09023546000132",
   "nome": "MCL CONSULTORIA IMOBILIARIA LTDA",
   "documento": "09.023.546/0001-32",
-  "despesas": 43,
+  "despesas": 44,
   "parlamentares": 1,
-  "total": 74678.5,
+  "total": 76583.96,
   "alertas": [
+   "A-2026-09557",
    "A-2026-09182",
    "A-2026-08478",
    "A-2026-08477",
@@ -5459,11 +5507,11 @@
  },
  {
   "chave": "09126594000156",
-  "nome": "VERTIA EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+  "nome": "VERTIA EMPREENDIMENTOS IMOBILIARIOS S.A.",
   "documento": "09.126.594/0001-56",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 53346.78,
+  "total": 59274.2,
   "alertas": [
    "A-2026-08305",
    "A-2026-05997",
@@ -5507,6 +5555,17 @@
    "A-2026-06356",
    "A-2026-05966",
    "A-2026-02673"
+  ]
+ },
+ {
+  "chave": "09168383000186",
+  "nome": "F. RICIERI PARTICIPACOES LTDA",
+  "documento": "09.168.383/0001-86",
+  "despesas": 1,
+  "parlamentares": 1,
+  "total": 44050.0,
+  "alertas": [
+   "A-2026-09592"
   ]
  },
  {
@@ -5561,10 +5620,11 @@
   "chave": "09315090000184",
   "nome": "Visualiza Aluguel de Carros",
   "documento": "09.315.090/0001-84",
-  "despesas": 25,
+  "despesas": 26,
   "parlamentares": 1,
-  "total": 178000.0,
+  "total": 182000.0,
   "alertas": [
+   "A-2026-09576",
    "A-2026-08602",
    "A-2026-08334",
    "A-2026-07927",
@@ -5631,9 +5691,9 @@
   "chave": "09399877000171",
   "nome": "LEVARE TRANSPORTES LTDA",
   "documento": "09.399.877/0001-71",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 3078.18,
+  "total": 3389.53,
   "alertas": [
    "A-2026-08704",
    "A-2026-07452",
@@ -5656,9 +5716,9 @@
   "chave": "09425942000196",
   "nome": "GOLDEN PLAZA HOTEL",
   "documento": "09.425.942/0001-96",
-  "despesas": 36,
-  "parlamentares": 4,
-  "total": 21539.7,
+  "despesas": 37,
+  "parlamentares": 5,
+  "total": 21862.7,
   "alertas": [
    "A-2026-04927",
    "A-2026-04879"
@@ -5723,6 +5783,17 @@
    "A-2026-08135",
    "A-2026-08134",
    "A-2026-07742"
+  ]
+ },
+ {
+  "chave": "09643897000146",
+  "nome": "ERO LOCACOES LTDA",
+  "documento": "09.643.897/0001-46",
+  "despesas": 9,
+  "parlamentares": 1,
+  "total": 72000.0,
+  "alertas": [
+   "A-2026-09567"
   ]
  },
  {
@@ -5893,9 +5964,9 @@
   "chave": "10326078000154",
   "nome": "CARLA ANDREA FIAMINI DE BARROS",
   "documento": "10.326.078/0001-54",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 61750.0,
+  "total": 70090.0,
   "alertas": [
    "A-2026-05041"
   ]
@@ -6124,11 +6195,11 @@
  },
  {
   "chave": "10604155000190",
-  "nome": "L. PRIORI INDUSTRIA E COMÉRCIO",
+  "nome": "L PRIORI INDUSTRIA E COMERCIO LTDA",
   "documento": "10.604.155/0001-90",
-  "despesas": 19,
+  "despesas": 21,
   "parlamentares": 1,
-  "total": 70285.11,
+  "total": 77785.11,
   "alertas": [
    "A-2026-07861",
    "A-2026-07849",
@@ -6235,9 +6306,9 @@
   "chave": "10835932000108",
   "nome": "COMPANHIA ENERGETICA DE PERNAMBUCO",
   "documento": "10.835.932/0001-08",
-  "despesas": 285,
-  "parlamentares": 14,
-  "total": 120261.86,
+  "despesas": 286,
+  "parlamentares": 15,
+  "total": 120415.27,
   "alertas": [
    "A-2026-07996",
    "A-2026-07991",
@@ -6292,10 +6363,11 @@
   "chave": "10916727000177",
   "nome": "CONTATO SEGURO PREVENÇÃO DE RISCOS EMPRESARIAIS LTDA",
   "documento": "10.916.727/0001-77",
-  "despesas": 11,
+  "despesas": 12,
   "parlamentares": 1,
-  "total": 7166.39,
+  "total": 7817.88,
   "alertas": [
+   "A-2026-09605",
    "A-2026-09094",
    "A-2026-04235",
    "A-2026-02574",
@@ -6328,9 +6400,9 @@
   "chave": "10997526000141",
   "nome": "POSTO LETICIA PEREIRA E SANTOS LTDA",
   "documento": "10.997.526/0001-41",
-  "despesas": 12,
+  "despesas": 13,
   "parlamentares": 5,
-  "total": 21511.72,
+  "total": 22549.21,
   "alertas": [
    "A-2026-08082",
    "A-2026-05752"
@@ -6822,9 +6894,9 @@
   "chave": "12146589000110",
   "nome": "SIGGO TECNOLOGIA LTDA",
   "documento": "12.146.589/0001-10",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 77476.0,
+  "total": 88940.0,
   "alertas": [
    "A-2026-06258"
   ]
@@ -6873,9 +6945,9 @@
   "chave": "12305622000107",
   "nome": "PONTUAL LOC CAR LTDA",
   "documento": "12.305.622/0001-07",
-  "despesas": 103,
+  "despesas": 105,
   "parlamentares": 10,
-  "total": 551659.65,
+  "total": 565654.65,
   "alertas": [
    "A-2026-07669",
    "A-2026-07263",
@@ -6914,9 +6986,9 @@
   "chave": "12455190000110",
   "nome": "AUTO POSTO TOP GLORIA LTDA.",
   "documento": "12.455.190/0001-10",
-  "despesas": 130,
+  "despesas": 131,
   "parlamentares": 7,
-  "total": 27240.78,
+  "total": 27440.78,
   "alertas": [
    "A-2026-07612"
   ]
@@ -7060,9 +7132,9 @@
   "chave": "12781233000662",
   "nome": "PETROCAL PETROLEO CAVALCANTI LTDA",
   "documento": "12.781.233/0006-62",
-  "despesas": 87,
+  "despesas": 88,
   "parlamentares": 10,
-  "total": 23747.88,
+  "total": 24147.88,
   "alertas": [
    "A-2026-08972",
    "A-2026-08361",
@@ -7199,9 +7271,9 @@
   "chave": "13179247000169",
   "nome": "COMERCIAL MARIVAN LTDA",
   "documento": "13.179.247/0001-69",
-  "despesas": 301,
+  "despesas": 302,
   "parlamentares": 2,
-  "total": 134515.99,
+  "total": 139515.99,
   "alertas": [
    "A-2026-08512"
   ]
@@ -7670,10 +7742,11 @@
   "chave": "14047235000143",
   "nome": "CATAVENTO DERIVADOS DE PETROLEO LTDA - ME",
   "documento": "14.047.235/0001-43",
-  "despesas": 7,
+  "despesas": 8,
   "parlamentares": 1,
-  "total": 34396.97,
+  "total": 42379.3,
   "alertas": [
+   "A-2026-09591",
    "A-2026-08085",
    "A-2026-07689",
    "A-2026-07369",
@@ -7825,12 +7898,13 @@
  },
  {
   "chave": "14374741000147",
-  "nome": "AM EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+  "nome": "AM EMPREENDIMENTOS IMOBILIARIOS LTDA",
   "documento": "14.374.741/0001-47",
-  "despesas": 6,
+  "despesas": 8,
   "parlamentares": 1,
-  "total": 37200.0,
+  "total": 49600.0,
   "alertas": [
+   "A-2026-09543",
    "A-2026-06944",
    "A-2026-05866",
    "A-2026-05433",
@@ -8209,9 +8283,9 @@
   "chave": "15139629000194",
   "nome": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
   "documento": "15.139.629/0001-94",
-  "despesas": 212,
+  "despesas": 213,
   "parlamentares": 20,
-  "total": 88999.53,
+  "total": 89405.65,
   "alertas": [
    "A-2026-07911",
    "A-2026-07908",
@@ -8408,13 +8482,24 @@
   "chave": "15685550000169",
   "nome": "JNCN ADMINISTRADORA DE BENS LTDA",
   "documento": "15.685.550/0001-69",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 70480.0,
+  "total": 77528.0,
   "alertas": [
    "A-2026-04400",
    "A-2026-01341",
    "A-2026-00711"
+  ]
+ },
+ {
+  "chave": "15695357000109",
+  "nome": "ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL",
+  "documento": "15.695.357/0001-09",
+  "despesas": 462,
+  "parlamentares": 26,
+  "total": 24015.92,
+  "alertas": [
+   "A-2026-09618"
   ]
  },
  {
@@ -8605,9 +8690,9 @@
   "chave": "16670085009705",
   "nome": "LOCALIZA RENT A CAR SA",
   "documento": "16.670.085/0097-05",
-  "despesas": 21,
+  "despesas": 23,
   "parlamentares": 3,
-  "total": 83953.79,
+  "total": 88483.34,
   "alertas": [
    "A-2026-08605"
   ]
@@ -8656,9 +8741,9 @@
   "chave": "16805309000199",
   "nome": "AUTO POSTO DO LAGO LTDA",
   "documento": "16.805.309/0001-99",
-  "despesas": 32,
+  "despesas": 36,
   "parlamentares": 5,
-  "total": 34373.93,
+  "total": 35169.33,
   "alertas": [
    "A-2026-08429",
    "A-2026-08058",
@@ -8807,9 +8892,9 @@
   "chave": "17281106000103",
   "nome": "COPASA",
   "documento": "17.281.106/0001-03",
-  "despesas": 109,
+  "despesas": 110,
   "parlamentares": 14,
-  "total": 14463.49,
+  "total": 14556.81,
   "alertas": [
    "A-2026-09168",
    "A-2026-07619",
@@ -8845,9 +8930,9 @@
   "chave": "17414189000161",
   "nome": "Valberlino Mota ME",
   "documento": "17.414.189/0001-61",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 28006.02,
+  "total": 32906.02,
   "alertas": [
    "A-2026-07836"
   ]
@@ -8909,9 +8994,9 @@
   "chave": "17577449000110",
   "nome": "MY CAR LOCAÇÃO DE VEICULOS LTDA",
   "documento": "17.577.449/0001-10",
-  "despesas": 27,
+  "despesas": 31,
   "parlamentares": 1,
-  "total": 119220.0,
+  "total": 138120.0,
   "alertas": [
    "A-2026-05605",
    "A-2026-05143"
@@ -8921,9 +9006,9 @@
   "chave": "17611876000177",
   "nome": "POSTO PETRAMAR LTDA",
   "documento": "17.611.876/0001-77",
-  "despesas": 72,
+  "despesas": 74,
   "parlamentares": 2,
-  "total": 18913.35,
+  "total": 19513.35,
   "alertas": [
    "A-2026-06473"
   ]
@@ -8985,9 +9070,9 @@
   "chave": "17895646000187",
   "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
   "documento": "17.895.646/0001-87",
-  "despesas": 5808,
+  "despesas": 5866,
   "parlamentares": 116,
-  "total": 216901.92,
+  "total": 219066.08,
   "alertas": [
    "A-2026-07807",
    "A-2026-05956"
@@ -9112,9 +9197,9 @@
   "chave": "18302933000107",
   "nome": "THIAGO VASCONCELOS MORAIS ME",
   "documento": "18.302.933/0001-07",
-  "despesas": 25,
+  "despesas": 27,
   "parlamentares": 3,
-  "total": 72250.0,
+  "total": 76750.0,
   "alertas": [
    "A-2026-07212",
    "A-2026-04502",
@@ -9401,9 +9486,9 @@
   "chave": "19257042000130",
   "nome": "DRA4 DERIVADOS DE PETROLEO LTDA",
   "documento": "19.257.042/0001-30",
-  "despesas": 286,
+  "despesas": 290,
   "parlamentares": 69,
-  "total": 66332.95,
+  "total": 66945.37,
   "alertas": [
    "A-2026-07648"
   ]
@@ -9482,9 +9567,9 @@
   "chave": "19374791000148",
   "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
   "documento": "19.374.791/0001-48",
-  "despesas": 199,
+  "despesas": 200,
   "parlamentares": 23,
-  "total": 1223269.9,
+  "total": 1226149.9,
   "alertas": [
    "A-2026-08289",
    "A-2026-07824",
@@ -9651,9 +9736,9 @@
   "chave": "20280417000162",
   "nome": "CONDOMINIO CENTRO COMERCIAL FELIPE PACCELI",
   "documento": "20.280.417/0001-62",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 1223.82,
+  "total": 1444.73,
   "alertas": [
    "A-2026-08684"
   ]
@@ -10001,9 +10086,9 @@
   "chave": "21691199000111",
   "nome": "C D P JORGE TEIXEIRA LTDA",
   "documento": "21.691.199/0001-11",
-  "despesas": 12,
+  "despesas": 14,
   "parlamentares": 2,
-  "total": 3882.22,
+  "total": 4449.3,
   "alertas": [
    "A-2026-08247"
   ]
@@ -10097,9 +10182,9 @@
   "chave": "21897609000185",
   "nome": "MAISA FERRAZ PORTO OLIVEIRA LTDA",
   "documento": "21.897.609/0001-85",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 21000.0,
+  "total": 27000.0,
   "alertas": [
    "A-2026-05720"
   ]
@@ -10139,9 +10224,9 @@
   "chave": "22052777000132",
   "nome": "Exceller Tour",
   "documento": "22.052.777/0001-32",
-  "despesas": 56,
+  "despesas": 59,
   "parlamentares": 1,
-  "total": 124424.61,
+  "total": 130940.34,
   "alertas": [
    "A-2026-04366",
    "A-2026-03923",
@@ -10249,17 +10334,6 @@
   ]
  },
  {
-  "chave": "22424987000104",
-  "nome": "MOBILE AUTOMOTIVA EIRELI",
-  "documento": "22.424.987/0001-04",
-  "despesas": 1,
-  "parlamentares": 1,
-  "total": 13500.0,
-  "alertas": [
-   "A-2026-08758"
-  ]
- },
- {
   "chave": "22486173000102",
   "nome": "AUTO POSTO PICA PAU",
   "documento": "22.486.173/0001-02",
@@ -10333,9 +10407,9 @@
   "chave": "22755782000101",
   "nome": "JD2 SERVIÇOS E LOCAÇÕES EIRELI",
   "documento": "22.755.782/0001-01",
-  "despesas": 16,
+  "despesas": 17,
   "parlamentares": 2,
-  "total": 183260.0,
+  "total": 191900.0,
   "alertas": [
    "A-2026-05355"
   ]
@@ -10490,9 +10564,9 @@
   "chave": "23509441000119",
   "nome": "J W SARAIVA E CIA LTDA",
   "documento": "23.509.441/0001-19",
-  "despesas": 14,
+  "despesas": 15,
   "parlamentares": 2,
-  "total": 78831.6,
+  "total": 84026.0,
   "alertas": [
    "A-2026-04918",
    "A-2026-03731"
@@ -10625,6 +10699,18 @@
   ]
  },
  {
+  "chave": "23750665000118",
+  "nome": "CB PORTO ALEGRE COMERCIO DE ALIMENTOS LTDA.",
+  "documento": "23.750.665/0001-18",
+  "despesas": 2,
+  "parlamentares": 2,
+  "total": 454.54,
+  "alertas": [
+   "A-2026-09575",
+   "A-2026-09574"
+  ]
+ },
+ {
   "chave": "23768930000195",
   "nome": "SIND. DAS INDUSTRIAS SIDERÚGICAS DO OESTE DE MINAS - SINDIGUSA",
   "documento": "23.768.930/0001-95",
@@ -10680,9 +10766,9 @@
   "chave": "23788744000118",
   "nome": "TROCAUTO VEICULOS",
   "documento": "23.788.744/0001-18",
-  "despesas": 20,
+  "despesas": 22,
   "parlamentares": 1,
-  "total": 78000.0,
+  "total": 86000.0,
   "alertas": [
    "A-2026-07982",
    "A-2026-07978",
@@ -10760,6 +10846,17 @@
   "total": 1800.96,
   "alertas": [
    "A-2026-03837"
+  ]
+ },
+ {
+  "chave": "23937500000150",
+  "nome": "TOLOSA VIAGENS E TURISMO LTDA",
+  "documento": "23.937.500/0001-50",
+  "despesas": 32,
+  "parlamentares": 1,
+  "total": 94813.02,
+  "alertas": [
+   "A-2026-09609"
   ]
  },
  {
@@ -10852,9 +10949,9 @@
   "chave": "24206617000800",
   "nome": "PARELHAS GAS LTDA",
   "documento": "24.206.617/0008-00",
-  "despesas": 20,
-  "parlamentares": 3,
-  "total": 49590.84,
+  "despesas": 22,
+  "parlamentares": 4,
+  "total": 49940.76,
   "alertas": [
    "A-2026-09520",
    "A-2026-08060",
@@ -10997,9 +11094,9 @@
   "chave": "24894397000170",
   "nome": "SUPREMA MOBILIDADE LTDA",
   "documento": "24.894.397/0001-70",
-  "despesas": 180,
+  "despesas": 186,
   "parlamentares": 20,
-  "total": 1138357.67,
+  "total": 1174827.67,
   "alertas": [
    "A-2026-09519",
    "A-2026-08661",
@@ -11044,10 +11141,11 @@
   "chave": "25012398000107",
   "nome": "GOOGLE CLOUD BRASIL COMPUTAÇÃO E SERVIÇOS DE DADOS LTDA",
   "documento": "25.012.398/0001-07",
-  "despesas": 36,
+  "despesas": 37,
   "parlamentares": 7,
-  "total": 18716.04,
+  "total": 19029.64,
   "alertas": [
+   "A-2026-09587",
    "A-2026-09290",
    "A-2026-08219",
    "A-2026-07330",
@@ -11060,6 +11158,17 @@
    "A-2026-05269",
    "A-2026-05008",
    "A-2026-04241"
+  ]
+ },
+ {
+  "chave": "25066806000103",
+  "nome": "VED Imóveis LTDA - EPP",
+  "documento": "25.066.806/0001-03",
+  "despesas": 11,
+  "parlamentares": 1,
+  "total": 38187.6,
+  "alertas": [
+   "A-2026-09579"
   ]
  },
  {
@@ -11299,10 +11408,12 @@
   "chave": "26452091000190",
   "nome": "Condomínio Tech Office",
   "documento": "26.452.091/0001-90",
-  "despesas": 27,
+  "despesas": 30,
   "parlamentares": 1,
-  "total": 12435.0,
+  "total": 13830.0,
   "alertas": [
+   "A-2026-09563",
+   "A-2026-09562",
    "A-2026-08756",
    "A-2026-08755",
    "A-2026-04186",
@@ -11327,9 +11438,9 @@
   "chave": "26480780000108",
   "nome": "LM TURISMO LTDA",
   "documento": "26.480.780/0001-08",
-  "despesas": 100,
+  "despesas": 103,
   "parlamentares": 2,
-  "total": 287198.6,
+  "total": 297759.38,
   "alertas": [
    "A-2026-04374",
    "A-2026-03141",
@@ -11437,9 +11548,9 @@
   "chave": "26786885000190",
   "nome": "GUARDA SERVIÇOS DE MONITORAMENTO E SEGURANÇA ELETRONICA LTDA",
   "documento": "26.786.885/0001-90",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 1521.63,
+  "total": 1690.7,
   "alertas": [
    "A-2026-04792",
    "A-2026-03430"
@@ -11557,7 +11668,6 @@
   "total": 33229.13,
   "alertas": [
    "A-2026-08619",
-   "A-2026-08366",
    "A-2026-08008",
    "A-2026-06636",
    "A-2026-06134"
@@ -11735,7 +11845,6 @@
   "parlamentares": 1,
   "total": 19389.2,
   "alertas": [
-   "A-2026-07610",
    "A-2026-06622",
    "A-2026-05611",
    "A-2026-05184"
@@ -11761,6 +11870,17 @@
   "total": 65000.0,
   "alertas": [
    "A-2026-05595"
+  ]
+ },
+ {
+  "chave": "28350338000192",
+  "nome": "APSA - ADMINISTRACAO PREDIAL E NEGOCIOS IMOBILIARIOS S/A",
+  "documento": "28.350.338/0001-92",
+  "despesas": 10,
+  "parlamentares": 1,
+  "total": 13418.84,
+  "alertas": [
+   "A-2026-09599"
   ]
  },
  {
@@ -11823,9 +11943,9 @@
   "chave": "28715126000161",
   "nome": "CONDOMINIO DO EDIFICIO RODOLPHO DE PAOLI",
   "documento": "28.715.126/0001-61",
-  "despesas": 8,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 75159.71,
+  "total": 94996.13,
   "alertas": [
    "A-2026-09489",
    "A-2026-05076"
@@ -11885,9 +12005,9 @@
   "chave": "29032820000147",
   "nome": "BELIZE COMPANY AUTO POSTO LTDA.",
   "documento": "29.032.820/0001-47",
-  "despesas": 202,
+  "despesas": 203,
   "parlamentares": 46,
-  "total": 53266.79,
+  "total": 53646.41,
   "alertas": [
    "A-2026-07594"
   ]
@@ -12099,10 +12219,13 @@
   "chave": "29781642000157",
   "nome": "MAXIMA IMPRESSAO RAPIDO, MARKETING DIGITAL & DIVULGACAO LT",
   "documento": "29.781.642/0001-57",
-  "despesas": 5,
+  "despesas": 6,
   "parlamentares": 2,
-  "total": 160128.0,
+  "total": 214127.4,
   "alertas": [
+   "A-2026-09613",
+   "A-2026-09612",
+   "A-2026-09611",
    "A-2026-05907"
   ]
  },
@@ -12158,9 +12281,9 @@
   "chave": "30083123000102",
   "nome": "NOVA OPCAO LOCADORA DE VEICULOS LTDA",
   "documento": "30.083.123/0001-02",
-  "despesas": 35,
+  "despesas": 36,
   "parlamentares": 3,
-  "total": 338435.1,
+  "total": 343635.1,
   "alertas": [
    "A-2026-08657",
    "A-2026-08419",
@@ -12355,8 +12478,7 @@
   "parlamentares": 2,
   "total": 143600.0,
   "alertas": [
-   "A-2026-07273",
-   "A-2026-05790"
+   "A-2026-07273"
   ]
  },
  {
@@ -12392,9 +12514,9 @@
   "chave": "31602730000196",
   "nome": "PARLANET WEB E TECNOLOGIA LTDA",
   "documento": "31.602.730/0001-96",
-  "despesas": 283,
+  "despesas": 285,
   "parlamentares": 35,
-  "total": 238155.0,
+  "total": 239455.0,
   "alertas": [
    "A-2026-09492",
    "A-2026-09280",
@@ -12547,9 +12669,9 @@
   "chave": "32245102000163",
   "nome": "G M P EMPREENDIMENTOS E PARTICIPACOES LTDA",
   "documento": "32.245.102/0001-63",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 71015.61,
+  "total": 79715.61,
   "alertas": [
    "A-2026-07275",
    "A-2026-05695"
@@ -12697,9 +12819,9 @@
   "chave": "32748487000181",
   "nome": "POLITICA ALAGOANA LTDA",
   "documento": "32.748.487/0001-81",
-  "despesas": 20,
+  "despesas": 21,
   "parlamentares": 4,
-  "total": 42000.0,
+  "total": 48933.34,
   "alertas": [
    "A-2026-07179"
   ]
@@ -12855,9 +12977,9 @@
   "chave": "33150138000126",
   "nome": "TRIANGULLO SERVICES LIMPEZA, CONSERVACAO E SEGURANCA PRIVADA LTDA",
   "documento": "33.150.138/0001-26",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 68000.0,
+  "total": 69620.0,
   "alertas": [
    "A-2026-07776",
    "A-2026-07425"
@@ -12935,9 +13057,9 @@
   "chave": "33354439000171",
   "nome": "N N Y MARKETING DIRETO E SOLUÇÕES INTELIGENTES LTDA",
   "documento": "33.354.439/0001-71",
-  "despesas": 17,
+  "despesas": 18,
   "parlamentares": 2,
-  "total": 416000.0,
+  "total": 440000.0,
   "alertas": [
    "A-2026-09003"
   ]
@@ -13102,9 +13224,9 @@
   "chave": "33937681000178",
   "nome": "LATAM",
   "documento": "33.937.681/0001-78",
-  "despesas": 201,
+  "despesas": 214,
   "parlamentares": 16,
-  "total": 578480.78,
+  "total": 611829.06,
   "alertas": [
    "A-2026-08821",
    "A-2026-08767",
@@ -13171,9 +13293,9 @@
   "chave": "34028316499744",
   "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
   "documento": "34.028.316/4997-44",
-  "despesas": 132,
+  "despesas": 133,
   "parlamentares": 46,
-  "total": 40066.91,
+  "total": 40143.01,
   "alertas": [
    "A-2026-05195"
   ]
@@ -13311,9 +13433,9 @@
   "chave": "34300771000116",
   "nome": "SHEKINAH LOCACAO DE VEICULOS LTDA",
   "documento": "34.300.771/0001-16",
-  "despesas": 70,
+  "despesas": 72,
   "parlamentares": 11,
-  "total": 514830.0,
+  "total": 517830.0,
   "alertas": [
    "A-2026-07788"
   ]
@@ -13504,11 +13626,11 @@
  },
  {
   "chave": "35265998000130",
-  "nome": "CARVALHO & CARVALHO POSTO DE GASOLINA LTDA",
+  "nome": "POSTO PARENTE GARRA LTDA",
   "documento": "35.265.998/0001-30",
-  "despesas": 16,
+  "despesas": 17,
   "parlamentares": 3,
-  "total": 77784.19,
+  "total": 86632.21,
   "alertas": [
    "A-2026-09227",
    "A-2026-08116",
@@ -13689,11 +13811,11 @@
  },
  {
   "chave": "36319891000190",
-  "nome": "Romario Santos de Queiroz",
+  "nome": "ROMARIO SANTOS DE QUEIROZ",
   "documento": "36.319.891/0001-90",
-  "despesas": 3,
+  "despesas": 4,
   "parlamentares": 1,
-  "total": 9540.0,
+  "total": 14840.0,
   "alertas": [
    "A-2026-05880"
   ]
@@ -13726,9 +13848,9 @@
   "chave": "36670025000140",
   "nome": "LUIS AUGUSTO DE SA BRITTO SOARES",
   "documento": "36.670.025/0001-40",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 40800.0,
+  "total": 47600.0,
   "alertas": [
    "A-2026-07150",
    "A-2026-06987"
@@ -13817,9 +13939,9 @@
   "chave": "37063328001058",
   "nome": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
   "documento": "37.063.328/0010-58",
-  "despesas": 168,
-  "parlamentares": 47,
-  "total": 31525.48,
+  "despesas": 171,
+  "parlamentares": 48,
+  "total": 32000.85,
   "alertas": [
    "A-2026-05547"
   ]
@@ -14072,9 +14194,9 @@
   "chave": "37894749000130",
   "nome": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
   "documento": "37.894.749/0001-30",
-  "despesas": 78,
+  "despesas": 79,
   "parlamentares": 17,
-  "total": 586600.0,
+  "total": 587600.0,
   "alertas": [
    "A-2026-08717",
    "A-2026-07256",
@@ -14164,10 +14286,11 @@
   "chave": "38069159000135",
   "nome": "COOPERTAXI - COOPERATIVA DOS TAXISTAS AUTONOMOS DO DISTRITO FEDERAL LTDA.",
   "documento": "38.069.159/0001-35",
-  "despesas": 60,
-  "parlamentares": 6,
-  "total": 6490.24,
+  "despesas": 62,
+  "parlamentares": 7,
+  "total": 9210.24,
   "alertas": [
+   "A-2026-09558",
    "A-2026-08428"
   ]
  },
@@ -14512,10 +14635,12 @@
   "chave": "40154884000153",
   "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA.",
   "documento": "40.154.884/0001-53",
-  "despesas": 590,
+  "despesas": 594,
   "parlamentares": 84,
-  "total": 335561.85,
+  "total": 338376.85,
   "alertas": [
+   "A-2026-09560",
+   "A-2026-09544",
    "A-2026-09278",
    "A-2026-09263",
    "A-2026-09242",
@@ -14664,9 +14789,9 @@
   "chave": "40432544000147",
   "nome": "CLARO S.A.",
   "documento": "40.432.544/0001-47",
-  "despesas": 119,
+  "despesas": 120,
   "parlamentares": 19,
-  "total": 25169.27,
+  "total": 25185.66,
   "alertas": [
    "A-2026-09491",
    "A-2026-08981",
@@ -14698,9 +14823,9 @@
   "chave": "40432544010100",
   "nome": "CLARO  S/A",
   "documento": "40.432.544/0101-00",
-  "despesas": 37,
+  "despesas": 38,
   "parlamentares": 8,
-  "total": 9967.63,
+  "total": 10307.46,
   "alertas": [
    "A-2026-08975"
   ]
@@ -14734,9 +14859,9 @@
   "chave": "40432544044004",
   "nome": "CLARO S.A.",
   "documento": "40.432.544/0440-04",
-  "despesas": 133,
+  "despesas": 134,
   "parlamentares": 25,
-  "total": 36795.7,
+  "total": 36952.59,
   "alertas": [
    "A-2026-09276",
    "A-2026-03833"
@@ -14900,17 +15025,6 @@
   ]
  },
  {
-  "chave": "41173339000177",
-  "nome": "JERSON OLIVEIRA DA SILVA",
-  "documento": "41.173.339/0001-77",
-  "despesas": 1,
-  "parlamentares": 1,
-  "total": 42000.0,
-  "alertas": [
-   "A-2026-05063"
-  ]
- },
- {
   "chave": "41190520000191",
   "nome": "VG APOIO ADMINISTRATIVO LTDA",
   "documento": "41.190.520/0001-91",
@@ -15025,9 +15139,9 @@
   "chave": "41770319000183",
   "nome": "LUANA  P DE QUEIROZ FIGUEIREDO",
   "documento": "41.770.319/0001-83",
-  "despesas": 15,
+  "despesas": 16,
   "parlamentares": 2,
-  "total": 116228.0,
+  "total": 119228.0,
   "alertas": [
    "A-2026-08038"
   ]
@@ -15102,9 +15216,9 @@
   "chave": "42498733000148",
   "nome": "Prefeitura da Cidade do Rio de Janeiro",
   "documento": "42.498.733/0001-48",
-  "despesas": 70,
+  "despesas": 71,
   "parlamentares": 4,
-  "total": 56068.2,
+  "total": 56416.3,
   "alertas": [
    "A-2026-09321",
    "A-2026-08485",
@@ -15130,9 +15244,9 @@
   "chave": "42761872000112",
   "nome": "PONTA LOCAÇÃO DE VEÍCULOS LTDA",
   "documento": "42.761.872/0001-12",
-  "despesas": 83,
+  "despesas": 85,
   "parlamentares": 8,
-  "total": 693750.0,
+  "total": 709150.0,
   "alertas": [
    "A-2026-09523",
    "A-2026-08655",
@@ -15186,10 +15300,11 @@
   "chave": "43001508000117",
   "nome": "MAXIMA ADMINISTRACAO DE HOTEIS LTDA",
   "documento": "43.001.508/0001-17",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 3,
-  "total": 40489.5,
+  "total": 44521.5,
   "alertas": [
+   "A-2026-09577",
    "A-2026-08723",
    "A-2026-08639",
    "A-2026-08578",
@@ -15260,10 +15375,11 @@
   "chave": "43329954000155",
   "nome": "Centro Empresarial Hercules Penna",
   "documento": "43.329.954/0001-55",
-  "despesas": 29,
+  "despesas": 32,
   "parlamentares": 1,
-  "total": 9783.05,
+  "total": 10767.35,
   "alertas": [
+   "A-2026-09610",
    "A-2026-04938",
    "A-2026-04665",
    "A-2026-04315",
@@ -15303,10 +15419,11 @@
   "chave": "43513001000142",
   "nome": "AUTO POSTO MONTANA LTDA",
   "documento": "43.513.001/0001-42",
-  "despesas": 11,
+  "despesas": 12,
   "parlamentares": 2,
-  "total": 39345.89,
+  "total": 43505.1,
   "alertas": [
+   "A-2026-09585",
    "A-2026-08406",
    "A-2026-08086",
    "A-2026-07666",
@@ -15687,9 +15804,9 @@
   "chave": "45542078000176",
   "nome": "POSTO SAO BENEDITO PETROLEO LTDA",
   "documento": "45.542.078/0001-76",
-  "despesas": 174,
+  "despesas": 175,
   "parlamentares": 3,
-  "total": 95497.4,
+  "total": 101168.06,
   "alertas": [
    "A-2026-08268"
   ]
@@ -16100,12 +16217,13 @@
  },
  {
   "chave": "47406151000108",
-  "nome": "JRCA Locações",
+  "nome": "JRCA LOCACOES LTDA",
   "documento": "47.406.151/0001-08",
-  "despesas": 18,
+  "despesas": 20,
   "parlamentares": 1,
-  "total": 113400.0,
+  "total": 126000.0,
   "alertas": [
+   "A-2026-09582",
    "A-2026-08645",
    "A-2026-08408",
    "A-2026-08029",
@@ -16299,9 +16417,9 @@
   "chave": "48676882000136",
   "nome": "48.676.882 LUIS FERNANDO RAMOS DA SILVA",
   "documento": "48.676.882/0001-36",
-  "despesas": 7,
+  "despesas": 8,
   "parlamentares": 1,
-  "total": 16000.0,
+  "total": 18000.0,
   "alertas": [
    "A-2026-01808"
   ]
@@ -16350,9 +16468,9 @@
   "chave": "48949641000113",
   "nome": "BROAD BRASIL LTDA",
   "documento": "48.949.641/0001-13",
-  "despesas": 347,
+  "despesas": 352,
   "parlamentares": 39,
-  "total": 325475.6,
+  "total": 329725.6,
   "alertas": [
    "A-2026-06042"
   ]
@@ -16372,9 +16490,9 @@
   "chave": "48992562000195",
   "nome": "OFFICE SOLUCOES",
   "documento": "48.992.562/0001-95",
-  "despesas": 26,
+  "despesas": 27,
   "parlamentares": 2,
-  "total": 84634.6,
+  "total": 90028.5,
   "alertas": [
    "A-2026-08454",
    "A-2026-07750",
@@ -16420,10 +16538,11 @@
   "chave": "49399261000115",
   "nome": "LMMMO COMUNICACAO LTDA",
   "documento": "49.399.261/0001-15",
-  "despesas": 1,
+  "despesas": 2,
   "parlamentares": 1,
-  "total": 50000.0,
+  "total": 95000.0,
   "alertas": [
+   "A-2026-09598",
    "A-2026-09535"
   ]
  },
@@ -16442,9 +16561,9 @@
   "chave": "49603746000189",
   "nome": "MARIA DE FATIMA SOUZA DE QUEIROZ",
   "documento": "49.603.746/0001-89",
-  "despesas": 5,
+  "despesas": 6,
   "parlamentares": 1,
-  "total": 25000.0,
+  "total": 29167.0,
   "alertas": [
    "A-2026-06229"
   ]
@@ -16804,9 +16923,9 @@
   "chave": "51206262000148",
   "nome": "LDS LOCADORA DE VEICULOS LTDA",
   "documento": "51.206.262/0001-48",
-  "despesas": 17,
+  "despesas": 18,
   "parlamentares": 2,
-  "total": 132418.83,
+  "total": 144318.83,
   "alertas": [
    "A-2026-07886"
   ]
@@ -16921,9 +17040,9 @@
   "chave": "52345676000110",
   "nome": "FLOR COMERCIO DE COMBUSTIVEIS LTDA",
   "documento": "52.345.676/0001-10",
-  "despesas": 44,
+  "despesas": 45,
   "parlamentares": 3,
-  "total": 9247.0,
+  "total": 9347.0,
   "alertas": [
    "A-2026-05189",
    "A-2026-05183"
@@ -17121,9 +17240,9 @@
   "chave": "53420564000140",
   "nome": "CLIENT CO SERVICOS DE REDE NORDESTE S.A.",
   "documento": "53.420.564/0001-40",
-  "despesas": 72,
+  "despesas": 73,
   "parlamentares": 6,
-  "total": 11263.54,
+  "total": 11393.51,
   "alertas": [
    "A-2026-08518",
    "A-2026-08070",
@@ -17287,9 +17406,9 @@
   "chave": "55077411000177",
   "nome": "DUODRIVE 2 COMERCIO DE COMBUSTIVEIS LTDA",
   "documento": "55.077.411/0001-77",
-  "despesas": 13,
+  "despesas": 14,
   "parlamentares": 2,
-  "total": 2977.73,
+  "total": 3077.73,
   "alertas": [
    "A-2026-06140"
   ]
@@ -17314,6 +17433,17 @@
   "total": 1284.0,
   "alertas": [
    "A-2026-07960"
+  ]
+ },
+ {
+  "chave": "55267649000165",
+  "nome": "LMS CONSULTORIA E MARKETING LTDA",
+  "documento": "55.267.649/0001-65",
+  "despesas": 1,
+  "parlamentares": 1,
+  "total": 50000.0,
+  "alertas": [
+   "A-2026-09580"
   ]
  },
  {
@@ -17411,10 +17541,11 @@
   "chave": "55964649000114",
   "nome": "RIO BRASA BRASILIA ALIMENTOS LTDA",
   "documento": "55.964.649/0001-14",
-  "despesas": 2,
-  "parlamentares": 2,
-  "total": 400.4,
+  "despesas": 3,
+  "parlamentares": 3,
+  "total": 664.3,
   "alertas": [
+   "A-2026-09619",
    "A-2026-07671",
    "A-2026-07670"
   ]
@@ -17591,9 +17722,9 @@
   "chave": "58396238000168",
   "nome": "CONNECTVIEW LTDA",
   "documento": "58.396.238/0001-68",
-  "despesas": 5,
+  "despesas": 6,
   "parlamentares": 1,
-  "total": 36200.0,
+  "total": 41400.0,
   "alertas": [
    "A-2026-06186"
   ]
@@ -17602,9 +17733,9 @@
   "chave": "58450817000141",
   "nome": "J. BATISTA DOS SANTOS SB NOGUEIRA",
   "documento": "58.450.817/0001-41",
-  "despesas": 4,
+  "despesas": 5,
   "parlamentares": 1,
-  "total": 85000.0,
+  "total": 125000.0,
   "alertas": [
    "A-2026-05624"
   ]
@@ -17812,9 +17943,9 @@
   "chave": "59711657000100",
   "nome": "AKE LIMPEZAS LTDA",
   "documento": "59.711.657/0001-00",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 9680.0,
+  "total": 10560.0,
   "alertas": [
    "A-2026-08768",
    "A-2026-00508"
@@ -17868,10 +17999,13 @@
   "chave": "60171522000188",
   "nome": "Moratta imóveis LTDA.",
   "documento": "60.171.522/0001-88",
-  "despesas": 4,
+  "despesas": 6,
   "parlamentares": 1,
-  "total": 20000.0,
+  "total": 30000.0,
   "alertas": [
+   "A-2026-09604",
+   "A-2026-09603",
+   "A-2026-09601",
    "A-2026-04903",
    "A-2026-04659"
   ]
@@ -17962,9 +18096,9 @@
   "chave": "60444437000146",
   "nome": "LIGHT SERVICOS DE ELETRICIDADE S A",
   "documento": "60.444.437/0001-46",
-  "despesas": 170,
+  "despesas": 171,
   "parlamentares": 15,
-  "total": 85346.81,
+  "total": 88844.5,
   "alertas": [
    "A-2026-08620",
    "A-2026-07993",
@@ -17988,9 +18122,9 @@
   "chave": "60577959000116",
   "nome": "INGRID RIBEIRO CORREA",
   "documento": "60.577.959/0001-16",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 10000.0,
+  "total": 11000.0,
   "alertas": [
    "A-2026-02584"
   ]
@@ -18087,10 +18221,11 @@
   "chave": "61325294000116",
   "nome": "LIVRARIA DO PROFESSOR COMERCIO DE PRODUTOS DE PAPELARIA LTDA",
   "documento": "61.325.294/0001-16",
-  "despesas": 4,
+  "despesas": 5,
   "parlamentares": 1,
-  "total": 46428.23,
+  "total": 64938.53,
   "alertas": [
+   "A-2026-09606",
    "A-2026-08727",
    "A-2026-08295"
   ]
@@ -18110,10 +18245,11 @@
   "chave": "61533949000141",
   "nome": "S.A O ESTADO DE S.PAULO",
   "documento": "61.533.949/0001-41",
-  "despesas": 13,
+  "despesas": 15,
   "parlamentares": 4,
-  "total": 5875.36,
+  "total": 6321.16,
   "alertas": [
+   "A-2026-09551",
    "A-2026-08181",
    "A-2026-07949",
    "A-2026-06531"
@@ -18439,11 +18575,11 @@
  },
  {
   "chave": "63649616000108",
-  "nome": "Vertice Hotel LTDA",
+  "nome": "VERTICE HOTEL LTDA",
   "documento": "63.649.616/0001-08",
-  "despesas": 5,
-  "parlamentares": 1,
-  "total": 5613.48,
+  "despesas": 6,
+  "parlamentares": 2,
+  "total": 6505.36,
   "alertas": [
    "A-2026-02863"
   ]
@@ -18766,10 +18902,11 @@
   "chave": "66970229000167",
   "nome": "CLARO NXT TELECOMUNICAÇÕES S.A",
   "documento": "66.970.229/0001-67",
-  "despesas": 182,
+  "despesas": 184,
   "parlamentares": 23,
-  "total": 57192.81,
+  "total": 57768.87,
   "alertas": [
+   "A-2026-09571",
    "A-2026-09288",
    "A-2026-09286",
    "A-2026-08980",
@@ -18813,9 +18950,9 @@
   "chave": "66970229000671",
   "nome": "CLARO NXT TELECOMUNICAÇÕES S.A",
   "documento": "66.970.229/0006-71",
-  "despesas": 77,
+  "despesas": 78,
   "parlamentares": 11,
-  "total": 24102.31,
+  "total": 25138.0,
   "alertas": [
    "A-2026-08449",
    "A-2026-07835",
@@ -18881,10 +19018,11 @@
   "chave": "66970229001724",
   "nome": "CLARO NEXTEL TELECOMUNICAÇÕES LTDA.",
   "documento": "66.970.229/0017-24",
-  "despesas": 51,
+  "despesas": 53,
   "parlamentares": 6,
-  "total": 8895.41,
+  "total": 9213.51,
   "alertas": [
+   "A-2026-09570",
    "A-2026-09235",
    "A-2026-07710",
    "A-2026-07208",
@@ -18901,9 +19039,9 @@
   "chave": "66970229001805",
   "nome": "CLARO NXT TELECOMUNICACOES S/A",
   "documento": "66.970.229/0018-05",
-  "despesas": 755,
+  "despesas": 760,
   "parlamentares": 109,
-  "total": 140545.03,
+  "total": 141338.71,
   "alertas": [
    "A-2026-08967",
    "A-2026-06058",
@@ -18916,10 +19054,11 @@
   "chave": "66970229002100",
   "nome": "CLARO NEXTEL TELECOMUNICAÇÕES S.A",
   "documento": "66.970.229/0021-00",
-  "despesas": 123,
+  "despesas": 126,
   "parlamentares": 17,
-  "total": 41718.25,
+  "total": 43099.07,
   "alertas": [
+   "A-2026-09545",
    "A-2026-08358",
    "A-2026-08355",
    "A-2026-08354",
@@ -18940,12 +19079,13 @@
  },
  {
   "chave": "66970229003930",
-  "nome": "NET Claro NXT",
+  "nome": "Claro NXT",
   "documento": "66.970.229/0039-30",
-  "despesas": 39,
+  "despesas": 40,
   "parlamentares": 3,
-  "total": 11674.23,
+  "total": 11809.13,
   "alertas": [
+   "A-2026-09600",
    "A-2026-06291",
    "A-2026-05590",
    "A-2026-03239",
@@ -18971,10 +19111,11 @@
   "chave": "66970229010472",
   "nome": "Claro NXT Telecomunicações S.A",
   "documento": "66.970.229/0104-72",
-  "despesas": 30,
+  "despesas": 31,
   "parlamentares": 3,
-  "total": 7872.74,
+  "total": 8102.28,
   "alertas": [
+   "A-2026-09578",
    "A-2026-08191",
    "A-2026-06864",
    "A-2026-05582",
@@ -19151,17 +19292,6 @@
   ]
  },
  {
-  "chave": "68915005000188",
-  "nome": "68.915.005 ROBERT ALVES REBELO",
-  "documento": "68.915.005/0001-88",
-  "despesas": 1,
-  "parlamentares": 1,
-  "total": 42000.0,
-  "alertas": [
-   "A-2026-08729"
-  ]
- },
- {
   "chave": "68917061000151",
   "nome": "GRAFFIT LIMEIRA PAPELARIA LTDA",
   "documento": "68.917.061/0001-51",
@@ -19255,9 +19385,9 @@
   "chave": "72500069000195",
   "nome": "AUTO POSTO DE COMBUSTIVEIS RENASCENCA LTDA",
   "documento": "72.500.069/0001-95",
-  "despesas": 142,
+  "despesas": 148,
   "parlamentares": 6,
-  "total": 31590.55,
+  "total": 33160.65,
   "alertas": [
    "A-2026-05110"
   ]
@@ -19403,10 +19533,11 @@
   "chave": "76189406008372",
   "nome": "CONDOR SUPER CENTER LTDA.",
   "documento": "76.189.406/0083-72",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 2203.9,
+  "total": 2441.86,
   "alertas": [
+   "A-2026-09569",
    "A-2026-04762",
    "A-2026-03314",
    "A-2026-02109"
@@ -19447,9 +19578,9 @@
   "chave": "76484013000145",
   "nome": "SANEPAR",
   "documento": "76.484.013/0001-45",
-  "despesas": 69,
+  "despesas": 70,
   "parlamentares": 11,
-  "total": 13762.24,
+  "total": 13923.42,
   "alertas": [
    "A-2026-07440",
    "A-2026-05520",
@@ -19532,9 +19663,9 @@
   "chave": "78901915000912",
   "nome": "POSTOS PELANDA ESTRELA GUIA",
   "documento": "78.901.915/0009-12",
-  "despesas": 45,
+  "despesas": 46,
   "parlamentares": 1,
-  "total": 8916.51,
+  "total": 9159.32,
   "alertas": [
    "A-2026-05638"
   ]
@@ -19554,9 +19685,9 @@
   "chave": "80227796000159",
   "nome": "EXPRESSO PRINCESA DOS CAMPOS SA",
   "documento": "80.227.796/0001-59",
-  "despesas": 10,
+  "despesas": 12,
   "parlamentares": 4,
-  "total": 3010.41,
+  "total": 3443.88,
   "alertas": [
    "A-2026-06496"
   ]
@@ -19641,9 +19772,9 @@
   "chave": "81071623000823",
   "nome": "DEVILLE HOTEIS E TURISMO LTDA",
   "documento": "81.071.623/0008-23",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 5028.64,
+  "total": 5543.92,
   "alertas": [
    "A-2026-03389"
   ]
@@ -19749,9 +19880,9 @@
   "chave": "83169623000110",
   "nome": "PREEITURA DE JOINVILLE - SC IPTU",
   "documento": "83.169.623/0001-10",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 3665.52,
+  "total": 4035.71,
   "alertas": [
    "A-2026-04393",
    "A-2026-01357",
@@ -20184,10 +20315,13 @@
   "chave": "95592077000104",
   "nome": "PLANALTO TRANSPORTES LTDA",
   "documento": "95.592.077/0001-04",
-  "despesas": 53,
+  "despesas": 57,
   "parlamentares": 7,
-  "total": 11040.2,
+  "total": 11888.8,
   "alertas": [
+   "A-2026-09616",
+   "A-2026-09615",
+   "A-2026-09614",
    "A-2026-09530",
    "A-2026-07544",
    "A-2026-07004",
@@ -20593,10 +20727,11 @@
   "chave": "f4712d17448bc",
   "nome": "Izilda Marques do Nascimento Neves",
   "documento": "***.440.608-**",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 56417.95,
+  "total": 63084.8,
   "alertas": [
+   "A-2026-09583",
    "A-2026-08313",
    "A-2026-07294",
    "A-2026-05694",
@@ -20632,9 +20767,9 @@
   "chave": "f4dc115943692",
   "nome": "HELDER ROCHA LEÃO",
   "documento": "***.246.501-**",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 59920.0,
+  "total": 67410.0,
   "alertas": [
    "A-2026-08308",
    "A-2026-06012",
@@ -20719,9 +20854,9 @@
   "chave": "f5e20743aabcb",
   "nome": "David Granja",
   "documento": "***.095.218-**",
-  "despesas": 10,
+  "despesas": 11,
   "parlamentares": 1,
-  "total": 38772.91,
+  "total": 42975.49,
   "alertas": [
    "A-2026-01862",
    "A-2026-01177"
@@ -20743,9 +20878,9 @@
   "chave": "f643f11226ff1",
   "nome": "LINA RIBEIRO FERRO",
   "documento": "***.722.308-**",
-  "despesas": 12,
+  "despesas": 13,
   "parlamentares": 1,
-  "total": 17313.03,
+  "total": 19023.03,
   "alertas": [
    "A-2026-07839",
    "A-2026-07834"
@@ -20779,9 +20914,9 @@
   "chave": "f6be98ee1662c",
   "nome": "WILKER CAMPOS CHAGAS",
   "documento": "***.451.275-**",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 60815.65,
+  "total": 67627.51,
   "alertas": [
    "A-2026-08443",
    "A-2026-07714",
@@ -21224,10 +21359,11 @@
   "chave": "fa14d71192f62",
   "nome": "Wellington Farias Liniere Fonseca",
   "documento": "***.942.357-**",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 27000.0,
+  "total": 30000.0,
   "alertas": [
+   "A-2026-09590",
    "A-2026-08042",
    "A-2026-07343",
    "A-2026-06676",
@@ -21284,10 +21420,11 @@
   "chave": "fac84c415d9b7",
   "nome": "JAIR VIANA DE ALVARENGA",
   "documento": "***.539.436-**",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 48750.0,
+  "total": 55250.0,
   "alertas": [
+   "A-2026-09589",
    "A-2026-08052",
    "A-2026-06706",
    "A-2026-05729",
@@ -21344,9 +21481,9 @@
   "chave": "fbfa818e726a0",
   "nome": "Leonardo Augusto de Queiroz Machado",
   "documento": "***.382.006-**",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 37050.0,
+  "total": 41200.0,
   "alertas": [
    "A-2026-08047",
    "A-2026-06743",
