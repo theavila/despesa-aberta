@@ -359,9 +359,9 @@
   "chave": "00556066000162",
   "nome": "FIBRATUR TURISMO E VIAGENS LTDA",
   "documento": "00.556.066/0001-62",
-  "despesas": 42,
+  "despesas": 43,
   "parlamentares": 1,
-  "total": 106170.32,
+  "total": 109563.83,
   "alertas": [
    "A-2026-01765",
    "A-2026-00526"
@@ -1117,10 +1117,13 @@
   "chave": "02012862000160",
   "nome": "Cia Aérea - TAM",
   "documento": "02.012.862/0001-60",
-  "despesas": 254,
+  "despesas": 274,
   "parlamentares": 27,
-  "total": 532037.18,
+  "total": 552918.98,
   "alertas": [
+   "A-2026-09779",
+   "A-2026-09778",
+   "A-2026-09776",
    "A-2026-09565",
    "A-2026-09564",
    "A-2026-09130",
@@ -1399,10 +1402,11 @@
   "chave": "02421421000111",
   "nome": "TIM S A",
   "documento": "02.421.421/0001-11",
-  "despesas": 214,
+  "despesas": 215,
   "parlamentares": 27,
-  "total": 51746.85,
+  "total": 51956.84,
   "alertas": [
+   "A-2026-09775",
    "A-2026-09270",
    "A-2026-08221",
    "A-2026-07216",
@@ -1541,9 +1545,9 @@
   "chave": "02558157000162",
   "nome": "TELEFONICA BRASIL S.A.",
   "documento": "02.558.157/0001-62",
-  "despesas": 2079,
+  "despesas": 2080,
   "parlamentares": 191,
-  "total": 1087506.64,
+  "total": 1087905.85,
   "alertas": [
    "A-2026-09745",
    "A-2026-09715",
@@ -1950,10 +1954,12 @@
   "chave": "02763143000180",
   "nome": "GORILA CRIAÇÃO & POS PROPAGANDA LTDA",
   "documento": "02.763.143/0001-80",
-  "despesas": 3,
+  "despesas": 6,
   "parlamentares": 1,
-  "total": 93000.0,
+  "total": 186000.0,
   "alertas": [
+   "A-2026-09770",
+   "A-2026-09768",
    "A-2026-03217"
   ]
  },
@@ -2618,9 +2624,9 @@
   "chave": "04088208000165",
   "nome": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA.",
   "documento": "04.088.208/0001-65",
-  "despesas": 589,
+  "despesas": 590,
   "parlamentares": 78,
-  "total": 364643.14,
+  "total": 364834.93,
   "alertas": [
    "A-2026-09561",
    "A-2026-09481",
@@ -4267,9 +4273,9 @@
   "chave": "06981180000116",
   "nome": "CEMIG DISTRIBUIÇÃO S.A.",
   "documento": "06.981.180/0001-16",
-  "despesas": 415,
+  "despesas": 416,
   "parlamentares": 37,
-  "total": 134103.97,
+  "total": 134269.35,
   "alertas": [
    "A-2026-08392",
    "A-2026-08385",
@@ -4908,9 +4914,9 @@
   "chave": "07850246000100",
   "nome": "MAXIMUS HOTEIS",
   "documento": "07.850.246/0001-00",
-  "despesas": 6,
+  "despesas": 8,
   "parlamentares": 1,
-  "total": 2361.0,
+  "total": 3055.0,
   "alertas": [
    "A-2026-04813"
   ]
@@ -5626,9 +5632,9 @@
   "chave": "09146749000116",
   "nome": "AUTOLOCADORA LINCK & MELLO LTDA",
   "documento": "09.146.749/0001-16",
-  "despesas": 112,
+  "despesas": 113,
   "parlamentares": 10,
-  "total": 446343.73,
+  "total": 448666.73,
   "alertas": [
    "A-2026-07831",
    "A-2026-07464",
@@ -5881,9 +5887,9 @@
   "chave": "09798307000154",
   "nome": "SERVICAR S/A",
   "documento": "09.798.307/0001-54",
-  "despesas": 293,
+  "despesas": 304,
   "parlamentares": 5,
-  "total": 110444.31,
+  "total": 113350.48,
   "alertas": [
    "A-2026-03495",
    "A-2026-02764"
@@ -6405,9 +6411,9 @@
   "chave": "10835932000108",
   "nome": "COMPANHIA ENERGETICA DE PERNAMBUCO",
   "documento": "10.835.932/0001-08",
-  "despesas": 290,
+  "despesas": 294,
   "parlamentares": 15,
-  "total": 121921.95,
+  "total": 123132.24,
   "alertas": [
    "A-2026-07996",
    "A-2026-07991",
@@ -7742,10 +7748,11 @@
   "chave": "13927801000149",
   "nome": "MUNICIPIO DE SALVADOR",
   "documento": "13.927.801/0001-49",
-  "despesas": 26,
+  "despesas": 27,
   "parlamentares": 2,
-  "total": 12277.59,
+  "total": 12752.59,
   "alertas": [
+   "A-2026-09774",
    "A-2026-07234",
    "A-2026-05840",
    "A-2026-05645",
@@ -8010,9 +8017,9 @@
   "chave": "14294443000147",
   "nome": "A. CAMACHO TORRES - ME",
   "documento": "14.294.443/0001-47",
-  "despesas": 48,
+  "despesas": 50,
   "parlamentares": 1,
-  "total": 160610.15,
+  "total": 170583.12,
   "alertas": [
    "A-2026-04892",
    "A-2026-04635"
@@ -9634,9 +9641,9 @@
   "chave": "19191476000185",
   "nome": "BDV CONSULTORIA EMPRESARIAL E PARTICIPACOES IMOBILIARIAS LTDA",
   "documento": "19.191.476/0001-85",
-  "despesas": 8,
+  "despesas": 9,
   "parlamentares": 1,
-  "total": 16736.0,
+  "total": 18828.0,
   "alertas": [
    "A-2026-03200",
    "A-2026-02506",
@@ -9765,9 +9772,9 @@
   "chave": "19364317000135",
   "nome": "MAXCIMIANO DA SILVA/MX SERVIÇOS E CONSULTORIA",
   "documento": "19.364.317/0001-35",
-  "despesas": 12,
+  "despesas": 13,
   "parlamentares": 1,
-  "total": 11700.0,
+  "total": 12600.0,
   "alertas": [
    "A-2026-01076",
    "A-2026-00917"
@@ -10738,9 +10745,9 @@
   "chave": "23328781000143",
   "nome": "Ecliton da Silva Monteiro ME",
   "documento": "23.328.781/0001-43",
-  "despesas": 16,
+  "despesas": 17,
   "parlamentares": 1,
-  "total": 22000.0,
+  "total": 23500.0,
   "alertas": [
    "A-2026-04057"
   ]
@@ -10962,10 +10969,13 @@
   "chave": "23770217000186",
   "nome": "Condomínio do Edifício Costa Rangel",
   "documento": "23.770.217/0001-86",
-  "despesas": 40,
+  "despesas": 43,
   "parlamentares": 1,
-  "total": 13505.97,
+  "total": 14540.97,
   "alertas": [
+   "A-2026-09773",
+   "A-2026-09772",
+   "A-2026-09771",
    "A-2026-08866",
    "A-2026-07071",
    "A-2026-06336",
@@ -12163,6 +12173,17 @@
   ]
  },
  {
+  "chave": "28410074000115",
+  "nome": "ATACADO SAO PAULO",
+  "documento": "28.410.074/0001-15",
+  "despesas": 13,
+  "parlamentares": 1,
+  "total": 2602.74,
+  "alertas": [
+   "A-2026-09777"
+  ]
+ },
+ {
   "chave": "28455080000199",
   "nome": "AUTO POSTO MASP JARDIM LTDA",
   "documento": "28.455.080/0001-99",
@@ -13168,9 +13189,9 @@
   "chave": "32864795000504",
   "nome": "REDE DE POSTOS PRESIDENTE LTDA",
   "documento": "32.864.795/0005-04",
-  "despesas": 18,
+  "despesas": 19,
   "parlamentares": 2,
-  "total": 48967.81,
+  "total": 50219.64,
   "alertas": [
    "A-2026-07376",
    "A-2026-06825"
@@ -13359,9 +13380,9 @@
   "chave": "33381286002367",
   "nome": "supermercado zona sul sa",
   "documento": "33.381.286/0023-67",
-  "despesas": 6,
+  "despesas": 7,
   "parlamentares": 1,
-  "total": 2171.18,
+  "total": 2683.89,
   "alertas": [
    "A-2026-02702"
   ]
@@ -13370,9 +13391,9 @@
   "chave": "33469172002292",
   "nome": "Serviço Nacional de Aprendizagem Com. Senac",
   "documento": "33.469.172/0022-92",
-  "despesas": 84,
+  "despesas": 85,
   "parlamentares": 6,
-  "total": 15156.3,
+  "total": 15656.3,
   "alertas": [
    "A-2026-09140"
   ]
@@ -13515,10 +13536,11 @@
   "chave": "33937681000178",
   "nome": "LATAM",
   "documento": "33.937.681/0001-78",
-  "despesas": 216,
+  "despesas": 218,
   "parlamentares": 16,
-  "total": 617007.28,
+  "total": 622785.31,
   "alertas": [
+   "A-2026-09767",
    "A-2026-08821",
    "A-2026-08767",
    "A-2026-04947",
@@ -14321,9 +14343,9 @@
   "chave": "37175551000104",
   "nome": "Britânica Viagens e Turismo",
   "documento": "37.175.551/0001-04",
-  "despesas": 52,
+  "despesas": 53,
   "parlamentares": 1,
-  "total": 200870.31,
+  "total": 203228.71,
   "alertas": [
    "A-2026-08798",
    "A-2026-04764",
@@ -14938,9 +14960,9 @@
   "chave": "40154884000153",
   "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA.",
   "documento": "40.154.884/0001-53",
-  "despesas": 603,
+  "despesas": 604,
   "parlamentares": 84,
-  "total": 345293.85,
+  "total": 345912.85,
   "alertas": [
    "A-2026-09706",
    "A-2026-09621",
@@ -16760,9 +16782,9 @@
   "chave": "48699702000131",
   "nome": "MB CONSULTORIA E ASSESSORIA POLÍTICA LTDA",
   "documento": "48.699.702/0001-31",
-  "despesas": 9,
+  "despesas": 10,
   "parlamentares": 1,
-  "total": 91000.0,
+  "total": 103500.0,
   "alertas": [
    "A-2026-06252"
   ]
@@ -17809,6 +17831,17 @@
    "A-2026-00683",
    "A-2026-00242",
    "A-2026-00215"
+  ]
+ },
+ {
+  "chave": "55563413000176",
+  "nome": "C B MARTINS DOS SANTOS LTDA",
+  "documento": "55.563.413/0001-76",
+  "despesas": 1,
+  "parlamentares": 1,
+  "total": 42500.0,
+  "alertas": [
+   "A-2026-02112"
   ]
  },
  {
@@ -19321,10 +19354,11 @@
   "chave": "66970229000914",
   "nome": "NEXTEL TELECOMUNICAÇÕES LTDA",
   "documento": "66.970.229/0009-14",
-  "despesas": 78,
+  "despesas": 79,
   "parlamentares": 7,
-  "total": 23128.03,
+  "total": 23394.33,
   "alertas": [
+   "A-2026-09769",
    "A-2026-09728",
    "A-2026-09267",
    "A-2026-09091",
@@ -19713,9 +19747,9 @@
   "chave": "71208516000174",
   "nome": "ALGAR TELECOM S/A",
   "documento": "71.208.516/0001-74",
-  "despesas": 43,
+  "despesas": 44,
   "parlamentares": 5,
-  "total": 11199.72,
+  "total": 11432.8,
   "alertas": [
    "A-2026-07583",
    "A-2026-06806",
