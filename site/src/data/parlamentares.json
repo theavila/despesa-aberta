@@ -50842,8 +50842,8 @@
   "partido": "REPUBLICANOS",
   "uf": "BA",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5967.jpg",
-  "despesas": 65,
-  "total": 398694.85,
+  "despesas": 66,
+  "total": 412626.88,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
@@ -50851,7 +50851,7 @@
    },
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 126274.79
+    "total": 140206.82
    },
    {
     "categoria": "Não informada",
@@ -50909,7 +50909,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27900.0
+    "total": 41832.03
    },
    {
     "competencia": "2026-11",
@@ -50934,8 +50934,8 @@
   "partido": "PL",
   "uf": "SP",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6009.jpg",
-  "despesas": 294,
-  "total": 414491.6,
+  "despesas": 296,
+  "total": 421491.6,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -50951,7 +50951,7 @@
    },
    {
     "categoria": "Não informada",
-    "total": 28000.0
+    "total": 35000.0
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
@@ -51001,11 +51001,11 @@
    },
    {
     "competencia": "2026-09",
-    "total": 41271.66
+    "total": 44771.66
    },
    {
     "competencia": "2026-10",
-    "total": 44057.82
+    "total": 47557.82
    },
    {
     "competencia": "2026-11",
@@ -51268,8 +51268,8 @@
   "partido": "PT",
   "uf": "CE",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6336.jpg",
-  "despesas": 159,
-  "total": 121623.83,
+  "despesas": 162,
+  "total": 122831.33,
   "por_categoria": [
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -51277,7 +51277,7 @@
    },
    {
     "categoria": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
-    "total": 31227.22
+    "total": 31557.02
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -51285,7 +51285,7 @@
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 3528.74
+    "total": 4406.44
    }
   ],
   "por_mes": [
@@ -51315,11 +51315,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27316.31
+    "total": 27959.58
    },
    {
     "competencia": "2026-11",
-    "total": 16448.55
+    "total": 17012.78
    }
   ],
   "alertas": [
@@ -51660,20 +51660,20 @@
   "partido": "PSB",
   "uf": "RR",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador470.jpg",
-  "despesas": 54,
-  "total": 281392.68,
+  "despesas": 55,
+  "total": 305692.68,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
     "total": 122808.88
    },
    {
-    "categoria": "Divulgação da atividade parlamentar",
-    "total": 58152.3
+    "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
+    "total": 80940.0
    },
    {
-    "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 56640.0
+    "categoria": "Divulgação da atividade parlamentar",
+    "total": 58152.3
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -51727,7 +51727,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 40794.91
+    "total": 65094.91
    }
   ],
   "alertas": [
@@ -52024,12 +52024,12 @@
   "partido": "MDB",
   "uf": "RO",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador475.jpg",
-  "despesas": 334,
-  "total": 274957.41,
+  "despesas": 335,
+  "total": 275211.73,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 93982.26
+    "total": 94236.58
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -52087,7 +52087,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 17297.85
+    "total": 17552.17
    },
    {
     "competencia": "2026-10",
@@ -52126,8 +52126,8 @@
   "partido": "REPUBLICANOS",
   "uf": "DF",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6335.jpg",
-  "despesas": 442,
-  "total": 371887.35,
+  "despesas": 450,
+  "total": 374091.68,
   "por_categoria": [
    {
     "categoria": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
@@ -52135,15 +52135,15 @@
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 99196.25
+    "total": 99425.65
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 96118.03
+    "total": 97095.96
    },
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 26940.72
+    "total": 27937.72
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -52197,7 +52197,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 15394.75
+    "total": 17599.08
    }
   ],
   "alertas": [
@@ -52499,12 +52499,12 @@
   "partido": "PSDB",
   "uf": "AL",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5906.jpg",
-  "despesas": 151,
-  "total": 363383.31,
+  "despesas": 156,
+  "total": 381683.31,
   "por_categoria": [
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 216075.0
+    "total": 234375.0
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -52566,10 +52566,11 @@
    },
    {
     "competencia": "2026-11",
-    "total": 2000.0
+    "total": 20300.0
    }
   ],
   "alertas": [
+   "A-2026-10135",
    "A-2026-01827",
    "A-2026-01808",
    "A-2026-01538",
@@ -52586,12 +52587,12 @@
   "partido": "MDB",
   "uf": "AM",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4994.jpg",
-  "despesas": 69,
-  "total": 440028.65,
+  "despesas": 73,
+  "total": 470525.65,
   "por_categoria": [
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 332982.0
+    "total": 363479.0
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -52646,6 +52647,10 @@
    {
     "competencia": "2026-10",
     "total": 46670.22
+   },
+   {
+    "competencia": "2026-11",
+    "total": 30497.0
    }
   ],
   "alertas": [
@@ -52725,8 +52730,8 @@
   "partido": "PL",
   "uf": "TO",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador3777.jpg",
-  "despesas": 101,
-  "total": 228638.98,
+  "despesas": 104,
+  "total": 231627.89,
   "por_categoria": [
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -52734,11 +52739,11 @@
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 96917.54
+    "total": 97595.0
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
-    "total": 12505.17
+    "total": 14816.62
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -52792,7 +52797,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 9198.79
+    "total": 12187.7
    }
   ],
   "alertas": [
@@ -53879,16 +53884,16 @@
   "partido": "PT",
   "uf": "PE",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5008.jpg",
-  "despesas": 702,
-  "total": 479573.82,
+  "despesas": 737,
+  "total": 489005.48,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 267719.5
+    "total": 275831.94
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 90758.2
+    "total": 91513.42
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -53896,7 +53901,7 @@
    },
    {
     "categoria": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
-    "total": 36591.0
+    "total": 37155.0
    },
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
@@ -53942,7 +53947,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 27870.44
+    "total": 35322.81
+   },
+   {
+    "competencia": "2026-11",
+    "total": 1979.29
    }
   ],
   "alertas": [
@@ -54077,8 +54086,8 @@
   "partido": "MDB",
   "uf": "SC",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6010.jpg",
-  "despesas": 408,
-  "total": 299629.45,
+  "despesas": 415,
+  "total": 300584.62,
   "por_categoria": [
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -54090,7 +54099,7 @@
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 84545.2
+    "total": 85500.37
    },
    {
     "categoria": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
@@ -54140,11 +54149,11 @@
    },
    {
     "competencia": "2026-10",
-    "total": 16870.57
+    "total": 17054.35
    },
    {
     "competencia": "2026-11",
-    "total": 14489.42
+    "total": 15260.81
    }
   ],
   "alertas": [
@@ -54262,12 +54271,12 @@
   "partido": "MDB",
   "uf": "PA",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador35.jpg",
-  "despesas": 13,
-  "total": 149629.17,
+  "despesas": 14,
+  "total": 162629.17,
   "por_categoria": [
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-    "total": 108000.0
+    "total": 121000.0
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -54310,9 +54319,14 @@
    {
     "competencia": "2026-10",
     "total": 11320.0
+   },
+   {
+    "competencia": "2026-11",
+    "total": 13000.0
    }
   ],
   "alertas": [
+   "A-2026-10134",
    "A-2026-07223",
    "A-2026-07100",
    "A-2026-06568",
@@ -54441,8 +54455,8 @@
   "partido": "PT",
   "uf": "BA",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador581.jpg",
-  "despesas": 314,
-  "total": 413019.54,
+  "despesas": 317,
+  "total": 414338.01,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
@@ -54450,7 +54464,7 @@
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 128546.06
+    "total": 129864.53
    },
    {
     "categoria": "Não informada",
@@ -54504,7 +54518,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 39905.0
+    "total": 41223.47
    },
    {
     "competencia": "2026-11",
@@ -54569,12 +54583,12 @@
   "partido": "UNIÃO",
   "uf": "MT",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador4531.jpg",
-  "despesas": 195,
-  "total": 450785.55,
+  "despesas": 223,
+  "total": 464242.4,
   "por_categoria": [
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 240210.0
+    "total": 243710.0
    },
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
@@ -54590,11 +54604,11 @@
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 6296.04
+    "total": 11156.89
    },
    {
     "categoria": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
-    "total": 4529.0
+    "total": 9625.0
    }
   ],
   "por_mes": [
@@ -54616,30 +54630,37 @@
    },
    {
     "competencia": "2026-05",
-    "total": 92041.91
+    "total": 92541.91
    },
    {
     "competencia": "2026-06",
-    "total": 43670.55
+    "total": 44524.55
    },
    {
     "competencia": "2026-07",
-    "total": 39597.06
+    "total": 41371.23
    },
    {
     "competencia": "2026-08",
-    "total": 14957.3
+    "total": 16901.47
    },
    {
     "competencia": "2026-09",
-    "total": 14021.0
+    "total": 15826.17
    },
    {
     "competencia": "2026-10",
-    "total": 26089.18
+    "total": 28163.35
+   },
+   {
+    "competencia": "2026-11",
+    "total": 4505.17
    }
   ],
   "alertas": [
+   "A-2026-10133",
+   "A-2026-10131",
+   "A-2026-10130",
    "A-2026-04808",
    "A-2026-04106",
    "A-2026-03300",
@@ -55202,16 +55223,16 @@
   "partido": "PP",
   "uf": "RS",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador1186.jpg",
-  "despesas": 289,
-  "total": 329564.44,
+  "despesas": 293,
+  "total": 333797.39,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 163376.99
+    "total": 164154.72
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
-    "total": 111973.06
+    "total": 115428.28
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -55273,7 +55294,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 23628.8
+    "total": 27861.75
    }
   ],
   "alertas": [
@@ -55500,12 +55521,12 @@
   "partido": "MDB",
   "uf": "PI",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador742.jpg",
-  "despesas": 100,
-  "total": 391650.36,
+  "despesas": 104,
+  "total": 403676.23,
   "por_categoria": [
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 304076.22
+    "total": 314102.09
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -55517,7 +55538,7 @@
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
-    "total": 10500.0
+    "total": 12500.0
    },
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
@@ -55567,7 +55588,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 17171.67
+    "total": 29197.54
    }
   ],
   "alertas": [
@@ -56600,12 +56621,12 @@
   "partido": "PT",
   "uf": "AP",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5012.jpg",
-  "despesas": 138,
-  "total": 500225.16,
+  "despesas": 149,
+  "total": 537390.42,
   "por_categoria": [
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
-    "total": 296300.17
+    "total": 333465.43
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
@@ -56663,7 +56684,7 @@
    },
    {
     "competencia": "2026-10",
-    "total": 56631.83
+    "total": 93797.09
    },
    {
     "competencia": "2026-11",
@@ -56771,8 +56792,8 @@
   "partido": "MDB",
   "uf": "AL",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5207.jpg",
-  "despesas": 112,
-  "total": 201790.0,
+  "despesas": 113,
+  "total": 207290.0,
   "por_categoria": [
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -56780,7 +56801,7 @@
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 27500.0
+    "total": 33000.0
    },
    {
     "categoria": "Divulgação da atividade parlamentar",
@@ -56810,7 +56831,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 1701.39
+    "total": 7201.39
    },
    {
     "competencia": "2026-10",
@@ -56868,8 +56889,8 @@
   "partido": "REPUBLICANOS",
   "uf": "RR",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6025.jpg",
-  "despesas": 42,
-  "total": 319855.88,
+  "despesas": 43,
+  "total": 320466.78,
   "por_categoria": [
    {
     "categoria": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
@@ -56877,7 +56898,7 @@
    },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-    "total": 106503.28
+    "total": 107114.18
    },
    {
     "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -56919,7 +56940,7 @@
    },
    {
     "competencia": "2026-11",
-    "total": 6500.0
+    "total": 7110.9
    }
   ],
   "alertas": [
@@ -57301,16 +57322,16 @@
   "partido": "PSDB",
   "uf": "CE",
   "url_foto": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5974.jpg",
-  "despesas": 51,
-  "total": 18354.08,
+  "despesas": 54,
+  "total": 21208.92,
   "por_categoria": [
+   {
+    "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
+    "total": 9047.93
+   },
    {
     "categoria": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
     "total": 7042.24
-   },
-   {
-    "categoria": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-    "total": 6193.09
    },
    {
     "categoria": "Passagens aéreas, aquáticas e terrestres nacionais",
@@ -57324,7 +57345,7 @@
    },
    {
     "competencia": "2026-09",
-    "total": 2662.79
+    "total": 5517.63
    },
    {
     "competencia": "2026-10",
@@ -57332,6 +57353,7 @@
    }
   ],
   "alertas": [
+   "A-2026-10132",
    "A-2026-04480",
    "A-2026-04436"
   ]
@@ -58290,6 +58312,7 @@
    "A-2026-03246",
    "A-2026-03245",
    "A-2026-03102",
+   "A-2026-03086",
    "A-2026-03042",
    "A-2026-02526",
    "A-2026-02525",
